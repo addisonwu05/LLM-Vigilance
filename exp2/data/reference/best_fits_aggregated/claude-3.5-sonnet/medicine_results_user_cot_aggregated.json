@@ -1,0 +1,146 @@
+[
+  {
+    "character": "a recommended doctor",
+    "money": 100,
+    "value": 4.2325,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 1.0501,
+    "params.dist.X..a0..1..a1..0..prob": 0.4972
+  },
+  {
+    "character": "a recommended doctor",
+    "money": 1000,
+    "value": 3.1945,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 1.0501,
+    "params.dist.X..a0..1..a1..0..prob": 0.4264
+  },
+  {
+    "character": "my doctor mother",
+    "money": 1000,
+    "value": 3.955,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 1.0501,
+    "params.dist.X..a0..1..a1..0..prob": 0.5567
+  },
+  {
+    "character": "my doctor mother",
+    "money": 100,
+    "value": 4.8175,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 1.0501,
+    "params.dist.X..a0..1..a1..0..prob": 0.5676
+  },
+  {
+    "character": "my doctor mother",
+    "money": 0,
+    "value": 5.59,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 1.0501,
+    "params.dist.X..a0..1..a1..0..prob": 0.5688
+  },
+  {
+    "character": "a doctor I found online",
+    "money": 10000,
+    "value": 1.6885,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 1.0501,
+    "params.dist.X..a0..1..a1..0..prob": 0.2751
+  },
+  {
+    "character": "my doctor friend",
+    "money": 10000,
+    "value": 2.2405,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 1.0501,
+    "params.dist.X..a0..1..a1..0..prob": 0.467
+  },
+  {
+    "character": "a doctor I found online",
+    "money": 0,
+    "value": 4.0675,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 1.0501,
+    "params.dist.X..a0..1..a1..0..prob": 0.4285
+  },
+  {
+    "character": "a recommended doctor",
+    "money": 10000,
+    "value": 2.1925,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 1.0501,
+    "params.dist.X..a0..1..a1..0..prob": 0.3672
+  },
+  {
+    "character": "my doctor mother",
+    "money": 10000,
+    "value": 2.9275,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 1.0501,
+    "params.dist.X..a0..1..a1..0..prob": 0.5453
+  },
+  {
+    "character": "my doctor friend",
+    "money": 100,
+    "value": 4.042,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 1.0501,
+    "params.dist.X..a0..1..a1..0..prob": 0.5409
+  },
+  {
+    "character": "my doctor friend",
+    "money": 0,
+    "value": 5.0125,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 1.0501,
+    "params.dist.X..a0..1..a1..0..prob": 0.5509
+  },
+  {
+    "character": "a doctor I found online",
+    "money": 100,
+    "value": 3.0775,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 1.0501,
+    "params.dist.X..a0..1..a1..0..prob": 0.3816
+  },
+  {
+    "character": "a doctor I found online",
+    "money": 1000,
+    "value": 2.353,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 1.0501,
+    "params.dist.X..a0..1..a1..0..prob": 0.3177
+  },
+  {
+    "character": "a recommended doctor",
+    "money": 0,
+    "value": 5.053,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 1.0501,
+    "params.dist.X..a0..1..a1..0..prob": 0.5258
+  },
+  {
+    "character": "my doctor friend",
+    "money": 1000,
+    "value": 3.1825,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 1.0501,
+    "params.dist.X..a0..1..a1..0..prob": 0.5025
+  }
+]

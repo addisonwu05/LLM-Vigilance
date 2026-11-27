@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vigilance"
+version = "1.0.0"
+description = "Code and data for 'Are Large Language Models Sensitive to the Motives Behind Communication?'"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scipy>=1.10",
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+# Only needed to collect NEW model responses (the paper's responses are in data/).
+collect = [
+    "openai>=1.40",
+    "anthropic>=0.30",
+    "together>=1.2",
+    "pillow>=10.0",
+    "google-api-python-client>=2.0",
+    "youtube-transcript-api>=0.6",
+]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+vigilance = "common.cli:main"
+
+# One folder per experiment, plus the code they share. The package is meant to be used from the
+# repository (pip install -e .), because the experiments' data/ folders live next to their code.
+[tool.setuptools]
+packages = ["common", "exp1", "exp2", "exp3"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = ["slow: fits every Experiment 2 condition (about 10 s)"]

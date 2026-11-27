@@ -1,0 +1,5122 @@
+[
+    {
+        "Subject": 0,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.6,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 0,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 0,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.4,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 0,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.300000000000001,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 0,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 3.88,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 0,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.4,
+        "val_vr": 0
+    },
+    {
+        "Subject": 0,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 3.7,
+        "rec_vr": 0.7,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 0,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 1.9,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 0,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.6,
+        "val_vr": 0
+    },
+    {
+        "Subject": 0,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 0,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 2.5,
+        "rec_vr": 0.7,
+        "val_vr": 1
+    },
+    {
+        "Subject": 0,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 3.88,
+        "rec_vr": 0.6,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 0,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.18,
+        "rec_vr": 0.7,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 0,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 2.2,
+        "rec_vr": 0.6,
+        "val_vr": 1
+    },
+    {
+        "Subject": 0,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 3.88,
+        "rec_vr": 0.4,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 0,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 2.08,
+        "rec_vr": 0.4,
+        "val_vr": 1
+    },
+    {
+        "Subject": 1,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 4.0,
+        "rec_vr": 0.6,
+        "val_vr": 1
+    },
+    {
+        "Subject": 1,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 1.9,
+        "rec_vr": 0.1,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 1,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 2.2,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 1,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.3,
+        "val_vr": 1
+    },
+    {
+        "Subject": 1,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.6,
+        "val_vr": 0
+    },
+    {
+        "Subject": 1,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.5,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 1,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.6,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 1,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 2.5,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 1,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 1.6,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 1,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 3.7,
+        "rec_vr": 0.6,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 1,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 2.8,
+        "rec_vr": 0.3,
+        "val_vr": 0
+    },
+    {
+        "Subject": 1,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.5,
+        "val_vr": 1
+    },
+    {
+        "Subject": 1,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 2.8,
+        "rec_vr": 0.3,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 1,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.5,
+        "val_vr": 0
+    },
+    {
+        "Subject": 1,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 2.8,
+        "rec_vr": 0.3,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 1,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.5,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 2,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 2.8,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 2,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 2,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 5.800000000000001,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 2,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 5.199999999999999,
+        "rec_vr": 0.7,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 2,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 2,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 1.6,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 2,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 5.5,
+        "rec_vr": 0.6,
+        "val_vr": 0
+    },
+    {
+        "Subject": 2,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 4.300000000000001,
+        "rec_vr": 0.7,
+        "val_vr": 1
+    },
+    {
+        "Subject": 2,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 4.9,
+        "rec_vr": 0.6,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 2,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 4.6,
+        "rec_vr": 0.1,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 2,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 5.199999999999999,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 2,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 2,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 3.7,
+        "rec_vr": 0.6,
+        "val_vr": 1
+    },
+    {
+        "Subject": 2,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 5.199999999999999,
+        "rec_vr": 0.6,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 2,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.1,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 2,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 5.5,
+        "rec_vr": 0.7,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 3,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 2.5,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 3,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 5.800000000000001,
+        "rec_vr": 0.8,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 3,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 4.6,
+        "rec_vr": 0.4,
+        "val_vr": 1
+    },
+    {
+        "Subject": 3,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.4,
+        "val_vr": 0
+    },
+    {
+        "Subject": 3,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.300000000000001,
+        "rec_vr": 0.7,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 3,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 3,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 1.9,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 3,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 3,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.4,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 3,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 3,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 4.9,
+        "rec_vr": 0.7,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 3,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 4.300000000000001,
+        "rec_vr": 0.4,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 3,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 5.5,
+        "rec_vr": 0.7,
+        "val_vr": 1
+    },
+    {
+        "Subject": 3,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 5.199999999999999,
+        "rec_vr": 0.8,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 3,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 3,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.300000000000001,
+        "rec_vr": 0.8,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 4,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 4,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.6,
+        "rec_vr": 0.2,
+        "val_vr": 0
+    },
+    {
+        "Subject": 4,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 4,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 2.2,
+        "rec_vr": 0.2,
+        "val_vr": 1
+    },
+    {
+        "Subject": 4,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 4.300000000000001,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 4,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.4,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 4,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 4.6,
+        "rec_vr": 0.4,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 4,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 1.9,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 4,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 4,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 4.300000000000001,
+        "rec_vr": 0.2,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 4,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.4,
+        "val_vr": 0
+    },
+    {
+        "Subject": 4,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 4,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.6,
+        "rec_vr": 0.2,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 4,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 2.5,
+        "rec_vr": 0.4,
+        "val_vr": 1
+    },
+    {
+        "Subject": 4,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 1.6,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 4,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.300000000000001,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 5,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 5.199999999999999,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 5,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 2.8,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 5,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 5,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.3,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 5,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 5,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 1.9,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 5,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 5.08,
+        "rec_vr": 0.8,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 5,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 4.6,
+        "rec_vr": 0.8,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 5,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 3.7,
+        "rec_vr": 0.8,
+        "val_vr": 1
+    },
+    {
+        "Subject": 5,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 4.300000000000001,
+        "rec_vr": 0.7,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 5,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.7,
+        "val_vr": 1
+    },
+    {
+        "Subject": 5,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.78,
+        "rec_vr": 0.7,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 5,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 5,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 2.2,
+        "rec_vr": 0.3,
+        "val_vr": 1
+    },
+    {
+        "Subject": 5,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 3.88,
+        "rec_vr": 0.3,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 5,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.300000000000001,
+        "rec_vr": 0.3,
+        "val_vr": 0
+    },
+    {
+        "Subject": 6,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 2.8,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 6,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 5.5,
+        "rec_vr": 0.6,
+        "val_vr": 1
+    },
+    {
+        "Subject": 6,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.6,
+        "rec_vr": 0.6,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 6,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 4.300000000000001,
+        "rec_vr": 0.3,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 6,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 4.9,
+        "rec_vr": 0.4,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 6,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.300000000000001,
+        "rec_vr": 0.6,
+        "val_vr": 0
+    },
+    {
+        "Subject": 6,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.1,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 6,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 6,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 4.6,
+        "rec_vr": 0.3,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 6,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 5.199999999999999,
+        "rec_vr": 0.4,
+        "val_vr": 1
+    },
+    {
+        "Subject": 6,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.3,
+        "val_vr": 0
+    },
+    {
+        "Subject": 6,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 4.9,
+        "rec_vr": 0.3,
+        "val_vr": 1
+    },
+    {
+        "Subject": 6,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.300000000000001,
+        "rec_vr": 0.4,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 6,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 6,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 5.199999999999999,
+        "rec_vr": 0.6,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 6,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.4,
+        "val_vr": 0
+    },
+    {
+        "Subject": 7,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.0,
+        "rec_vr": 0.8,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 7,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 2.8,
+        "rec_vr": 0.5,
+        "val_vr": 1
+    },
+    {
+        "Subject": 7,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.0,
+        "rec_vr": 0.8,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 7,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.6,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 7,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 1.6,
+        "rec_vr": 0.5,
+        "val_vr": 1
+    },
+    {
+        "Subject": 7,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.5,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 7,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.1,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 7,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 1.3,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 7,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 2.2,
+        "rec_vr": 0.8,
+        "val_vr": 1
+    },
+    {
+        "Subject": 7,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.300000000000001,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 7,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.8,
+        "val_vr": 1
+    },
+    {
+        "Subject": 7,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 2.5,
+        "rec_vr": 0.8,
+        "val_vr": 1
+    },
+    {
+        "Subject": 7,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.6,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 7,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.300000000000001,
+        "rec_vr": 0.5,
+        "val_vr": 0
+    },
+    {
+        "Subject": 7,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.8,
+        "val_vr": 1
+    },
+    {
+        "Subject": 7,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 2.5,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 8,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.0,
+        "rec_vr": 0.6,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 8,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.0,
+        "rec_vr": 0.8,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 8,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 1.6,
+        "rec_vr": 0.6,
+        "val_vr": 1
+    },
+    {
+        "Subject": 8,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 2.5,
+        "rec_vr": 0.8,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 8,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.2,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 8,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 2.5,
+        "rec_vr": 0.6,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 8,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.2,
+        "val_vr": 0
+    },
+    {
+        "Subject": 8,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 2.2,
+        "rec_vr": 0.1,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 8,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 8,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 1.3,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 8,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 8,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 8,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.6,
+        "val_vr": 0
+    },
+    {
+        "Subject": 8,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 1.6,
+        "rec_vr": 0.8,
+        "val_vr": 1
+    },
+    {
+        "Subject": 8,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 1.6,
+        "rec_vr": 0.2,
+        "val_vr": 1
+    },
+    {
+        "Subject": 8,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 2.5,
+        "rec_vr": 0.2,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 9,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 9,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 4.300000000000001,
+        "rec_vr": 0.1,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 9,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.6,
+        "rec_vr": 0.4,
+        "val_vr": 0
+    },
+    {
+        "Subject": 9,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 5.5,
+        "rec_vr": 0.7,
+        "val_vr": 1
+    },
+    {
+        "Subject": 9,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 4.4799999999999995,
+        "rec_vr": 0.4,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 9,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 3.7,
+        "rec_vr": 0.4,
+        "val_vr": 1
+    },
+    {
+        "Subject": 9,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 6.1,
+        "rec_vr": 0.8,
+        "val_vr": 1
+    },
+    {
+        "Subject": 9,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 9,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 4.12,
+        "rec_vr": 0.4,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 9,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 5.5,
+        "rec_vr": 0.8,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 9,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.6,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 9,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.78,
+        "rec_vr": 0.7,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 9,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 5.199999999999999,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 9,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 5.32,
+        "rec_vr": 0.8,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 9,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 3.7,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 9,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 5.199999999999999,
+        "rec_vr": 0.7,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 10,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 4.9,
+        "rec_vr": 0.8,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 10,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 10,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 2.8,
+        "rec_vr": 0.2,
+        "val_vr": 1
+    },
+    {
+        "Subject": 10,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 4.300000000000001,
+        "rec_vr": 0.5,
+        "val_vr": 0
+    },
+    {
+        "Subject": 10,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.2,
+        "val_vr": 0
+    },
+    {
+        "Subject": 10,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 3.7,
+        "rec_vr": 0.5,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 10,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 10,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.5,
+        "val_vr": 1
+    },
+    {
+        "Subject": 10,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 4.6,
+        "rec_vr": 0.2,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 10,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.2,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 10,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 10,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 4.300000000000001,
+        "rec_vr": 0.8,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 10,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 3.7,
+        "rec_vr": 0.8,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 10,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.8,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 10,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 10,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.5,
+        "val_vr": 0
+    },
+    {
+        "Subject": 11,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 2.2,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 11,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.1,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 11,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 4.300000000000001,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 11,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 4.0,
+        "rec_vr": 0.4,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 11,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 3.7,
+        "rec_vr": 0.2,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 11,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.5,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 11,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 4.6,
+        "rec_vr": 0.5,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 11,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 4.9,
+        "rec_vr": 0.5,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 11,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.6,
+        "rec_vr": 0.4,
+        "val_vr": 0
+    },
+    {
+        "Subject": 11,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.4,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 11,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 4.6,
+        "rec_vr": 0.4,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 11,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.300000000000001,
+        "rec_vr": 0.2,
+        "val_vr": 0
+    },
+    {
+        "Subject": 11,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.6,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 11,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.2,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 11,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 4.300000000000001,
+        "rec_vr": 0.2,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 11,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.5,
+        "val_vr": 0
+    },
+    {
+        "Subject": 12,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.2,
+        "val_vr": 0
+    },
+    {
+        "Subject": 12,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.8,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 12,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.2,
+        "val_vr": 1
+    },
+    {
+        "Subject": 12,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.7,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 12,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.7,
+        "val_vr": 1
+    },
+    {
+        "Subject": 12,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 3.7,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 12,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.2,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 12,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 12,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 12,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 4.300000000000001,
+        "rec_vr": 0.8,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 12,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 4.300000000000001,
+        "rec_vr": 0.2,
+        "val_vr": 1
+    },
+    {
+        "Subject": 12,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 4.300000000000001,
+        "rec_vr": 0.7,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 12,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 12,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.8,
+        "val_vr": 1
+    },
+    {
+        "Subject": 12,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 12,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 13,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.2,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 13,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.7,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 13,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 4.300000000000001,
+        "rec_vr": 0.2,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 13,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 13,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 3.7,
+        "rec_vr": 0.2,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 13,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.2,
+        "val_vr": 0
+    },
+    {
+        "Subject": 13,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 13,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 3.7,
+        "rec_vr": 0.4,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 13,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 4.9,
+        "rec_vr": 0.8,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 13,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 4.6,
+        "rec_vr": 0.8,
+        "val_vr": 1
+    },
+    {
+        "Subject": 13,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.4,
+        "val_vr": 0
+    },
+    {
+        "Subject": 13,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 4.300000000000001,
+        "rec_vr": 0.7,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 13,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.4,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 13,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 4.6,
+        "rec_vr": 0.4,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 13,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 4.9,
+        "rec_vr": 0.7,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 13,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.8,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 14,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 4.9,
+        "rec_vr": 0.4,
+        "val_vr": 1
+    },
+    {
+        "Subject": 14,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 4.9,
+        "rec_vr": 0.4,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 14,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.6,
+        "val_vr": 0
+    },
+    {
+        "Subject": 14,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.3,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 14,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 4.9,
+        "rec_vr": 0.6,
+        "val_vr": 1
+    },
+    {
+        "Subject": 14,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 4.9,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 14,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 4.9,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 14,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 14,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 4.9,
+        "rec_vr": 0.3,
+        "val_vr": 1
+    },
+    {
+        "Subject": 14,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 4.9,
+        "rec_vr": 0.3,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 14,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 14,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.4,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 14,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 4.9,
+        "rec_vr": 0.6,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 14,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.4,
+        "val_vr": 0
+    },
+    {
+        "Subject": 14,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.6,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 14,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.3,
+        "val_vr": 0
+    },
+    {
+        "Subject": 15,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.7,
+        "val_vr": 1
+    },
+    {
+        "Subject": 15,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 4.300000000000001,
+        "rec_vr": 0.1,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 15,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 3.7,
+        "rec_vr": 0.8,
+        "val_vr": 1
+    },
+    {
+        "Subject": 15,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.6,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 15,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 15,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 4.300000000000001,
+        "rec_vr": 0.3,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 15,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 4.300000000000001,
+        "rec_vr": 0.7,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 15,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.6,
+        "rec_vr": 0.7,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 15,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 15,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.3,
+        "val_vr": 1
+    },
+    {
+        "Subject": 15,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 15,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 2.8,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 15,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 4.6,
+        "rec_vr": 0.3,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 15,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.3,
+        "val_vr": 0
+    },
+    {
+        "Subject": 15,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.6,
+        "rec_vr": 0.8,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 15,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 4.300000000000001,
+        "rec_vr": 0.8,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 16,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 4.9,
+        "rec_vr": 0.2,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 16,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 4.6,
+        "rec_vr": 0.4,
+        "val_vr": 1
+    },
+    {
+        "Subject": 16,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 5.199999999999999,
+        "rec_vr": 0.7,
+        "val_vr": 1
+    },
+    {
+        "Subject": 16,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.2,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 16,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 4.300000000000001,
+        "rec_vr": 0.2,
+        "val_vr": 1
+    },
+    {
+        "Subject": 16,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 5.199999999999999,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 16,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 3.7,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 16,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.2,
+        "val_vr": 0
+    },
+    {
+        "Subject": 16,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 5.199999999999999,
+        "rec_vr": 0.7,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 16,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 4.6,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 16,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.4,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 16,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.4,
+        "val_vr": 0
+    },
+    {
+        "Subject": 16,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.6,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 16,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 5.199999999999999,
+        "rec_vr": 0.7,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 16,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 4.9,
+        "rec_vr": 0.4,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 16,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 4.300000000000001,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 17,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 1.9,
+        "rec_vr": 0.5,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 17,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 1.3,
+        "rec_vr": 0.3,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 17,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.5,
+        "val_vr": 0
+    },
+    {
+        "Subject": 17,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.5,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 17,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.300000000000001,
+        "rec_vr": 0.7,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 17,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.6,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 17,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 1.6,
+        "rec_vr": 0.7,
+        "val_vr": 1
+    },
+    {
+        "Subject": 17,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.3,
+        "val_vr": 0
+    },
+    {
+        "Subject": 17,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 2.5,
+        "rec_vr": 0.7,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 17,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 1.9,
+        "rec_vr": 0.8,
+        "val_vr": 1
+    },
+    {
+        "Subject": 17,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 1.12,
+        "rec_vr": 0.3,
+        "val_vr": 1
+    },
+    {
+        "Subject": 17,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.3,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 17,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 2.8,
+        "rec_vr": 0.8,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 17,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 17,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 1.3,
+        "rec_vr": 0.5,
+        "val_vr": 1
+    },
+    {
+        "Subject": 17,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.6,
+        "rec_vr": 0.8,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 18,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.3,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 18,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 5.199999999999999,
+        "rec_vr": 0.7,
+        "val_vr": 1
+    },
+    {
+        "Subject": 18,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.6,
+        "rec_vr": 0.3,
+        "val_vr": 0
+    },
+    {
+        "Subject": 18,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 18,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 4.9,
+        "rec_vr": 0.7,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 18,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.6,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 18,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.7,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 18,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 4.9,
+        "rec_vr": 0.3,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 18,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 4.9,
+        "rec_vr": 0.7,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 18,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 4.9,
+        "rec_vr": 0.3,
+        "val_vr": 1
+    },
+    {
+        "Subject": 18,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 4.300000000000001,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 18,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 18,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.7,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 18,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 5.199999999999999,
+        "rec_vr": 0.7,
+        "val_vr": 1
+    },
+    {
+        "Subject": 18,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 18,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.6,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 19,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 19,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 19,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 5.800000000000001,
+        "rec_vr": 0.8,
+        "val_vr": 1
+    },
+    {
+        "Subject": 19,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.300000000000001,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 19,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.3,
+        "val_vr": 0
+    },
+    {
+        "Subject": 19,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.300000000000001,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 19,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 5.5,
+        "rec_vr": 0.7,
+        "val_vr": 1
+    },
+    {
+        "Subject": 19,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.1,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 19,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 4.6,
+        "rec_vr": 0.7,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 19,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 19,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 3.7,
+        "rec_vr": 0.3,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 19,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 19,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 3.88,
+        "rec_vr": 0.3,
+        "val_vr": 0
+    },
+    {
+        "Subject": 19,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 4.9,
+        "rec_vr": 0.3,
+        "val_vr": 1
+    },
+    {
+        "Subject": 19,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 2.5,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 19,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 4.9,
+        "rec_vr": 0.8,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 20,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.3,
+        "val_vr": 0
+    },
+    {
+        "Subject": 20,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 20,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 4.300000000000001,
+        "rec_vr": 0.3,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 20,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 2.5,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 20,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 1.6,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 20,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.6,
+        "val_vr": 0
+    },
+    {
+        "Subject": 20,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 4.6,
+        "rec_vr": 0.6,
+        "val_vr": 1
+    },
+    {
+        "Subject": 20,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 1.9,
+        "rec_vr": 0.2,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 20,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 20,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.2,
+        "val_vr": 0
+    },
+    {
+        "Subject": 20,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 4.300000000000001,
+        "rec_vr": 0.6,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 20,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.2,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 20,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 2.8,
+        "rec_vr": 0.2,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 20,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.12,
+        "rec_vr": 0.6,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 20,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.12,
+        "rec_vr": 0.3,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 20,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 4.6,
+        "rec_vr": 0.3,
+        "val_vr": 1
+    },
+    {
+        "Subject": 21,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.3,
+        "val_vr": 0
+    },
+    {
+        "Subject": 21,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 2.5,
+        "rec_vr": 0.1,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 21,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 5.199999999999999,
+        "rec_vr": 0.8,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 21,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.3,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 21,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 1.9,
+        "rec_vr": 0.3,
+        "val_vr": 1
+    },
+    {
+        "Subject": 21,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.3,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 21,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 2.5,
+        "rec_vr": 0.7,
+        "val_vr": 1
+    },
+    {
+        "Subject": 21,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 21,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.300000000000001,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 21,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 1.6,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 21,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 4.6,
+        "rec_vr": 0.8,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 21,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 5.5,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 21,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 3.7,
+        "rec_vr": 0.7,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 21,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.300000000000001,
+        "rec_vr": 0.7,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 21,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 3.7,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 21,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.8,
+        "val_vr": 1
+    },
+    {
+        "Subject": 22,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 2.8,
+        "rec_vr": 0.6,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 22,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 5.199999999999999,
+        "rec_vr": 0.3,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 22,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 1.9,
+        "rec_vr": 0.7,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 22,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 1.6,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 22,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 2.5,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 22,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 5.800000000000001,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 22,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 3.7,
+        "rec_vr": 0.3,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 22,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 4.300000000000001,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 22,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 5.5,
+        "rec_vr": 0.3,
+        "val_vr": 0
+    },
+    {
+        "Subject": 22,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 5.199999999999999,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 22,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 5.5,
+        "rec_vr": 0.7,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 22,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.6,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 22,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 5.800000000000001,
+        "rec_vr": 0.6,
+        "val_vr": 0
+    },
+    {
+        "Subject": 22,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 2.2,
+        "rec_vr": 0.6,
+        "val_vr": 1
+    },
+    {
+        "Subject": 22,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.7,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 22,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 1.9,
+        "rec_vr": 0.3,
+        "val_vr": 1
+    },
+    {
+        "Subject": 23,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.2,
+        "val_vr": 0
+    },
+    {
+        "Subject": 23,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 1.9,
+        "rec_vr": 0.2,
+        "val_vr": 1
+    },
+    {
+        "Subject": 23,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 23,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 1.6,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 23,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 2.2,
+        "rec_vr": 0.7,
+        "val_vr": 1
+    },
+    {
+        "Subject": 23,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 23,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.8,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 23,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.8,
+        "val_vr": 1
+    },
+    {
+        "Subject": 23,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.7,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 23,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.2,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 23,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 2.5,
+        "rec_vr": 0.8,
+        "val_vr": 1
+    },
+    {
+        "Subject": 23,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 2.5,
+        "rec_vr": 0.2,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 23,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 23,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 23,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 2.8,
+        "rec_vr": 0.7,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 23,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 2.2,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 24,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.3,
+        "val_vr": 0
+    },
+    {
+        "Subject": 24,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.7,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 24,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 24,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 2.2,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 24,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 2.2,
+        "rec_vr": 0.3,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 24,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 24,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 2.8,
+        "rec_vr": 0.8,
+        "val_vr": 1
+    },
+    {
+        "Subject": 24,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.8,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 24,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.3,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 24,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.8,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 24,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 2.2,
+        "rec_vr": 0.7,
+        "val_vr": 1
+    },
+    {
+        "Subject": 24,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.7,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 24,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.3,
+        "val_vr": 0
+    },
+    {
+        "Subject": 24,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 24,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 24,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 25,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.7,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 25,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 1.3,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 25,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 1.6,
+        "rec_vr": 0.2,
+        "val_vr": 1
+    },
+    {
+        "Subject": 25,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 2.8,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 25,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.6,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 25,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.2,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 25,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.300000000000001,
+        "rec_vr": 0.6,
+        "val_vr": 0
+    },
+    {
+        "Subject": 25,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 2.5,
+        "rec_vr": 0.2,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 25,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 1.9,
+        "rec_vr": 0.6,
+        "val_vr": 1
+    },
+    {
+        "Subject": 25,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.6,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 25,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.6,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 25,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 2.2,
+        "rec_vr": 0.7,
+        "val_vr": 1
+    },
+    {
+        "Subject": 25,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.2,
+        "val_vr": 0
+    },
+    {
+        "Subject": 25,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 3.7,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 25,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.0,
+        "rec_vr": 0.7,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 25,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 2.2,
+        "rec_vr": 0.1,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 26,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.6,
+        "rec_vr": 0.6,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 26,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 2.8,
+        "rec_vr": 0.7,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 26,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 26,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 2.5,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 26,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 26,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 3.7,
+        "rec_vr": 0.1,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 26,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 26,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 2.8,
+        "rec_vr": 0.6,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 26,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.6,
+        "val_vr": 0
+    },
+    {
+        "Subject": 26,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 3.7,
+        "rec_vr": 0.7,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 26,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.6,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 26,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 3.7,
+        "rec_vr": 0.6,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 26,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.1,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 26,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 2.2,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 26,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 4.300000000000001,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 26,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 4.300000000000001,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 27,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.4,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 27,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 27,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.6,
+        "rec_vr": 0.6,
+        "val_vr": 0
+    },
+    {
+        "Subject": 27,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 3.7,
+        "rec_vr": 0.5,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 27,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 3.88,
+        "rec_vr": 0.5,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 27,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 2.8,
+        "rec_vr": 0.5,
+        "val_vr": 1
+    },
+    {
+        "Subject": 27,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 3.88,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 27,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.300000000000001,
+        "rec_vr": 0.6,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 27,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.5,
+        "val_vr": 0
+    },
+    {
+        "Subject": 27,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.4,
+        "val_vr": 0
+    },
+    {
+        "Subject": 27,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 3.7,
+        "rec_vr": 0.6,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 27,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.6,
+        "val_vr": 1
+    },
+    {
+        "Subject": 27,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 3.88,
+        "rec_vr": 0.4,
+        "val_vr": 0
+    },
+    {
+        "Subject": 27,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 2.5,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 27,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 2.8,
+        "rec_vr": 0.4,
+        "val_vr": 1
+    },
+    {
+        "Subject": 27,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 28,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 2.8,
+        "rec_vr": 0.7,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 28,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 28,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.7,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 28,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 28,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 28,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 2.5,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 28,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 5.199999999999999,
+        "rec_vr": 0.8,
+        "val_vr": 1
+    },
+    {
+        "Subject": 28,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.7,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 28,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 28,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 28,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.1,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 28,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.1,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 28,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.300000000000001,
+        "rec_vr": 0.8,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 28,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 4.6,
+        "rec_vr": 0.8,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 28,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 28,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 2.2,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 29,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.0,
+        "rec_vr": 0.8,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 29,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.4,
+        "val_vr": 0
+    },
+    {
+        "Subject": 29,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 29,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.4,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 29,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 1.9,
+        "rec_vr": 0.4,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 29,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.0,
+        "rec_vr": 0.7,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 29,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 2.5,
+        "rec_vr": 0.7,
+        "val_vr": 1
+    },
+    {
+        "Subject": 29,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.2,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 29,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 3.88,
+        "rec_vr": 0.4,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 29,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.2,
+        "val_vr": 0
+    },
+    {
+        "Subject": 29,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.8,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 29,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 29,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 2.8,
+        "rec_vr": 0.8,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 29,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.7,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 29,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 2.8,
+        "rec_vr": 0.2,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 29,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 1.6,
+        "rec_vr": 0.2,
+        "val_vr": 1
+    },
+    {
+        "Subject": 30,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 30,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 30,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.6,
+        "val_vr": 0
+    },
+    {
+        "Subject": 30,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 2.2,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 30,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 1.9,
+        "rec_vr": 0.6,
+        "val_vr": 1
+    },
+    {
+        "Subject": 30,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.6,
+        "rec_vr": 0.7,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 30,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 30,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 1.3,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 30,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 3.7,
+        "rec_vr": 0.7,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 30,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.6,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 30,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.300000000000001,
+        "rec_vr": 0.6,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 30,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 2.5,
+        "rec_vr": 0.7,
+        "val_vr": 1
+    },
+    {
+        "Subject": 30,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 5.199999999999999,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 30,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 30,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.300000000000001,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 30,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 1.6,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 31,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 5.199999999999999,
+        "rec_vr": 0.8,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 31,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 5.199999999999999,
+        "rec_vr": 0.8,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 31,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 31,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 4.9,
+        "rec_vr": 0.8,
+        "val_vr": 1
+    },
+    {
+        "Subject": 31,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.7,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 31,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 4.9,
+        "rec_vr": 0.7,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 31,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 4.6,
+        "rec_vr": 0.7,
+        "val_vr": 1
+    },
+    {
+        "Subject": 31,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 31,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.3,
+        "val_vr": 0
+    },
+    {
+        "Subject": 31,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 31,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 3.7,
+        "rec_vr": 0.3,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 31,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.3,
+        "val_vr": 1
+    },
+    {
+        "Subject": 31,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 5.199999999999999,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 31,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 31,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 31,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.3,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 32,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 2.2,
+        "rec_vr": 0.3,
+        "val_vr": 1
+    },
+    {
+        "Subject": 32,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.3,
+        "val_vr": 0
+    },
+    {
+        "Subject": 32,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 32,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.2,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 32,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 2.5,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 32,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.2,
+        "val_vr": 0
+    },
+    {
+        "Subject": 32,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.3,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 32,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.6,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 32,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.6,
+        "val_vr": 1
+    },
+    {
+        "Subject": 32,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 2.5,
+        "rec_vr": 0.2,
+        "val_vr": 1
+    },
+    {
+        "Subject": 32,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 32,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 2.8,
+        "rec_vr": 0.3,
+        "val_vr": 1
+    },
+    {
+        "Subject": 32,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 1.9,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 32,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 2.5,
+        "rec_vr": 0.6,
+        "val_vr": 1
+    },
+    {
+        "Subject": 32,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.6,
+        "val_vr": 0
+    },
+    {
+        "Subject": 32,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.2,
+        "val_vr": 1
+    },
+    {
+        "Subject": 33,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 33,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 2.8,
+        "rec_vr": 0.3,
+        "val_vr": 1
+    },
+    {
+        "Subject": 33,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 5.5,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 33,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 5.199999999999999,
+        "rec_vr": 0.7,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 33,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 3.7,
+        "rec_vr": 0.7,
+        "val_vr": 1
+    },
+    {
+        "Subject": 33,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 4.300000000000001,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 33,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 5.5,
+        "rec_vr": 0.6,
+        "val_vr": 0
+    },
+    {
+        "Subject": 33,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 5.199999999999999,
+        "rec_vr": 0.6,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 33,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 5.5,
+        "rec_vr": 0.3,
+        "val_vr": 0
+    },
+    {
+        "Subject": 33,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 4.9,
+        "rec_vr": 0.3,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 33,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 5.5,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 33,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.6,
+        "val_vr": 1
+    },
+    {
+        "Subject": 33,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 5.199999999999999,
+        "rec_vr": 0.3,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 33,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 5.32,
+        "rec_vr": 0.6,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 33,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 2.5,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 33,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 5.38,
+        "rec_vr": 0.7,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 34,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.3,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 34,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.3,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 34,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.3,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 34,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 1.9,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 34,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 2.8,
+        "rec_vr": 0.1,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 34,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.3,
+        "val_vr": 0
+    },
+    {
+        "Subject": 34,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 34,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 2.5,
+        "rec_vr": 0.3,
+        "val_vr": 1
+    },
+    {
+        "Subject": 34,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 2.8,
+        "rec_vr": 0.3,
+        "val_vr": 1
+    },
+    {
+        "Subject": 34,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 34,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 34,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 34,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.3,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 34,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.3,
+        "val_vr": 0
+    },
+    {
+        "Subject": 34,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 2.2,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 34,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 2.5,
+        "rec_vr": 0.1,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 35,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 2.8,
+        "rec_vr": 0.7,
+        "val_vr": 1
+    },
+    {
+        "Subject": 35,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.8,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 35,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 35,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.6,
+        "rec_vr": 0.3,
+        "val_vr": 0
+    },
+    {
+        "Subject": 35,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 4.300000000000001,
+        "rec_vr": 0.3,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 35,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 3.7,
+        "rec_vr": 0.7,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 35,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 4.6,
+        "rec_vr": 0.8,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 35,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 35,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.8,
+        "val_vr": 1
+    },
+    {
+        "Subject": 35,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 1.9,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 35,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 35,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 2.5,
+        "rec_vr": 0.3,
+        "val_vr": 1
+    },
+    {
+        "Subject": 35,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 3.7,
+        "rec_vr": 0.3,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 35,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.300000000000001,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 35,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 35,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.6,
+        "rec_vr": 0.7,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 36,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 36,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 1.6,
+        "rec_vr": 0.2,
+        "val_vr": 1
+    },
+    {
+        "Subject": 36,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 1.3,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 36,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 36,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 36,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 3.7,
+        "rec_vr": 0.2,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 36,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.6,
+        "rec_vr": 0.7,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 36,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.8,
+        "val_vr": 1
+    },
+    {
+        "Subject": 36,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 4.0,
+        "rec_vr": 0.2,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 36,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 4.300000000000001,
+        "rec_vr": 0.7,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 36,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.300000000000001,
+        "rec_vr": 0.8,
+        "val_vr": 0.5
+    },
+    {
+        "Subject": 36,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.2,
+        "val_vr": 0
+    },
+    {
+        "Subject": 36,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 2.5,
+        "rec_vr": 0.7,
+        "val_vr": 1
+    },
+    {
+        "Subject": 36,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 4.0,
+        "rec_vr": 0.8,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 36,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 36,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 37,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 5.199999999999999,
+        "rec_vr": 0.6,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 37,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 2.8,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 37,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.3,
+        "val_vr": 1
+    },
+    {
+        "Subject": 37,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.6,
+        "val_vr": 0
+    },
+    {
+        "Subject": 37,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 3.7,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 37,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.300000000000001,
+        "rec_vr": 0.3,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 37,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 4.0,
+        "rec_vr": 0.2,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 37,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.6,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 37,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 37,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 3.7,
+        "rec_vr": 0.6,
+        "val_vr": 1
+    },
+    {
+        "Subject": 37,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 37,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.6,
+        "rec_vr": 0.3,
+        "val_vr": 0
+    },
+    {
+        "Subject": 37,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 4.0,
+        "rec_vr": 0.2,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 37,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.300000000000001,
+        "rec_vr": 0.2,
+        "val_vr": 0
+    },
+    {
+        "Subject": 37,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 4.6,
+        "rec_vr": 0.3,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 37,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.2,
+        "val_vr": 1
+    },
+    {
+        "Subject": 38,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 3.7,
+        "rec_vr": 0.6,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 38,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 4.6,
+        "rec_vr": 0.3,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 38,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.3,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 38,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 4.300000000000001,
+        "rec_vr": 0.7,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 38,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.6,
+        "val_vr": 0
+    },
+    {
+        "Subject": 38,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.6,
+        "rec_vr": 0.6,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 38,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 1.9,
+        "rec_vr": 0.3,
+        "val_vr": 1
+    },
+    {
+        "Subject": 38,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 4.300000000000001,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 38,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.9,
+        "rec_vr": 0.3,
+        "val_vr": 0
+    },
+    {
+        "Subject": 38,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.7,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 38,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 5.199999999999999,
+        "rec_vr": 0.7,
+        "val_vr": 0
+    },
+    {
+        "Subject": 38,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 1.6,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 38,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 2.8,
+        "rec_vr": 0.7,
+        "val_vr": 1
+    },
+    {
+        "Subject": 38,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 2.8,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 38,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.6,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 38,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 2.2,
+        "rec_vr": 0.6,
+        "val_vr": 1
+    },
+    {
+        "Subject": 39,
+        "rec": "my neighbor",
+        "val": 0,
+        "value": 4.6,
+        "rec_vr": 0.2,
+        "val_vr": 0
+    },
+    {
+        "Subject": 39,
+        "rec": "my close friend",
+        "val": 0,
+        "value": 5.199999999999999,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 39,
+        "rec": "my close friend",
+        "val": 10,
+        "value": 4.6,
+        "rec_vr": 0.8,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 39,
+        "rec": "my romantic partner",
+        "val": 0,
+        "value": 5.5,
+        "rec_vr": 0.8,
+        "val_vr": 0
+    },
+    {
+        "Subject": 39,
+        "rec": "my neighbor",
+        "val": 100,
+        "value": 3.4000000000000004,
+        "rec_vr": 0.2,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 39,
+        "rec": "my romantic partner",
+        "val": 1000,
+        "value": 2.8,
+        "rec_vr": 0.8,
+        "val_vr": 1
+    },
+    {
+        "Subject": 39,
+        "rec": "my close friend",
+        "val": 1000,
+        "value": 3.0999999999999996,
+        "rec_vr": 0.8,
+        "val_vr": 1
+    },
+    {
+        "Subject": 39,
+        "rec": "my romantic partner",
+        "val": 10,
+        "value": 4.9,
+        "rec_vr": 0.8,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 39,
+        "rec": "a stranger",
+        "val": 100,
+        "value": 2.8,
+        "rec_vr": 0.1,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 39,
+        "rec": "a stranger",
+        "val": 0,
+        "value": 4.300000000000001,
+        "rec_vr": 0.1,
+        "val_vr": 0
+    },
+    {
+        "Subject": 39,
+        "rec": "my neighbor",
+        "val": 10,
+        "value": 4.300000000000001,
+        "rec_vr": 0.2,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 39,
+        "rec": "a stranger",
+        "val": 10,
+        "value": 4.0,
+        "rec_vr": 0.1,
+        "val_vr": 0.25
+    },
+    {
+        "Subject": 39,
+        "rec": "my romantic partner",
+        "val": 100,
+        "value": 3.7,
+        "rec_vr": 0.8,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 39,
+        "rec": "my close friend",
+        "val": 100,
+        "value": 3.7,
+        "rec_vr": 0.8,
+        "val_vr": 0.75
+    },
+    {
+        "Subject": 39,
+        "rec": "a stranger",
+        "val": 1000,
+        "value": 2.2,
+        "rec_vr": 0.1,
+        "val_vr": 1
+    },
+    {
+        "Subject": 39,
+        "rec": "my neighbor",
+        "val": 1000,
+        "value": 2.5,
+        "rec_vr": 0.2,
+        "val_vr": 1
+    }
+]

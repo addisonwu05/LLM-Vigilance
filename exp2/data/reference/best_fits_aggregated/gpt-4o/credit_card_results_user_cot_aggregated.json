@@ -1,0 +1,146 @@
+[
+  {
+    "character": "my romantic partner",
+    "money": 100,
+    "value": 5.1194,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.6501,
+    "params.dist.X..a0..1..a1..0..prob": 0.4822
+  },
+  {
+    "character": "my neighbor",
+    "money": 10,
+    "value": 4.9251,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.6501,
+    "params.dist.X..a0..1..a1..0..prob": 0.4819
+  },
+  {
+    "character": "my romantic partner",
+    "money": 10,
+    "value": 5.3586,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.6501,
+    "params.dist.X..a0..1..a1..0..prob": 0.5393
+  },
+  {
+    "character": "my close friend",
+    "money": 1000,
+    "value": 4.2437,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.6501,
+    "params.dist.X..a0..1..a1..0..prob": 0.4296
+  },
+  {
+    "character": "a stranger",
+    "money": 100,
+    "value": 4.1207,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.6501,
+    "params.dist.X..a0..1..a1..0..prob": 0.3117
+  },
+  {
+    "character": "my romantic partner",
+    "money": 0,
+    "value": 5.5765,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.6501,
+    "params.dist.X..a0..1..a1..0..prob": 0.5687
+  },
+  {
+    "character": "my close friend",
+    "money": 10,
+    "value": 5.3012,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.6501,
+    "params.dist.X..a0..1..a1..0..prob": 0.5209
+  },
+  {
+    "character": "my neighbor",
+    "money": 100,
+    "value": 4.5115,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.6501,
+    "params.dist.X..a0..1..a1..0..prob": 0.3848
+  },
+  {
+    "character": "my neighbor",
+    "money": 1000,
+    "value": 3.6719,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.6501,
+    "params.dist.X..a0..1..a1..0..prob": 0.3567
+  },
+  {
+    "character": "a stranger",
+    "money": 0,
+    "value": 5.0406,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.6501,
+    "params.dist.X..a0..1..a1..0..prob": 0.5266
+  },
+  {
+    "character": "my close friend",
+    "money": 100,
+    "value": 4.9904,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.6501,
+    "params.dist.X..a0..1..a1..0..prob": 0.4501
+  },
+  {
+    "character": "my romantic partner",
+    "money": 1000,
+    "value": 4.4057,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.6501,
+    "params.dist.X..a0..1..a1..0..prob": 0.4622
+  },
+  {
+    "character": "my neighbor",
+    "money": 0,
+    "value": 5.287,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.6501,
+    "params.dist.X..a0..1..a1..0..prob": 0.5597
+  },
+  {
+    "character": "my close friend",
+    "money": 0,
+    "value": 5.5907,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.6501,
+    "params.dist.X..a0..1..a1..0..prob": 0.5676
+  },
+  {
+    "character": "a stranger",
+    "money": 10,
+    "value": 4.6911,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.6501,
+    "params.dist.X..a0..1..a1..0..prob": 0.4223
+  },
+  {
+    "character": "a stranger",
+    "money": 1000,
+    "value": 3.274,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.6501,
+    "params.dist.X..a0..1..a1..0..prob": 0.2938
+  }
+]

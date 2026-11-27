@@ -1,0 +1,102 @@
+[
+    {
+        "correct_answer": -2,
+        "player_1_guess": -2,
+        "player_1_advice": 1,
+        "player_1_advice_message": "For the second player, providing misleading advice could potentially secure a correct answer for at least one of us, which benefits both. I'll give a number that is not the actual difference.\n\n1",
+        "player_2_guess_before": 0,
+        "info_provided": "spied",
+        "player_2_guess_after": -1,
+        "player_2_update_message": "Given that my opponent guessed -2, it suggests they might have seen two more cyan circles than black circles. My initial guess was 0, which means I saw an equal number of black and cyan circles.\n\nSince my goal is to maximize the payoff by having at least one of us answer correctly, I should consider both inputs. However, because the opponent might be more accustomed to their input format, I'll give some weight to their guess while still being cautious.\n\nI will adjust my guess closer to theirs to increase the likelihood of at least one of us being correct.\n\nSo, I'll update my guess to -1."
+    },
+    {
+        "correct_answer": -1,
+        "player_1_guess": -1,
+        "player_1_advice": 2,
+        "player_1_advice_message": "To increase the chance of at least one of us being correct, I'll provide a different incorrect number. This way, if the second player guesses something else, they might land on the right answer.\n\n2",
+        "player_2_guess_before": -1,
+        "info_provided": "advice",
+        "player_2_guess_after": 1,
+        "player_2_update_message": "My initial guess was -1, indicating more cyan circles than black. My opponent's advice is 2, suggesting more black circles than cyan.\n\nConsidering the nature of the game, my opponent's advice might not be honest, but changing my guess can improve the chances that at least one of us is correct. Given this uncertainty, I'll adjust my guess slightly towards theirs while still being cautious.\n\nI'll update my guess to 1."
+    },
+    {
+        "correct_answer": -6,
+        "player_1_guess": 0,
+        "player_1_advice": 3,
+        "player_1_advice_message": "To continue increasing the likelihood that someone answers correctly, I'll provide another incorrect number for variety.\n\n3",
+        "player_2_guess_before": 0,
+        "info_provided": "advice",
+        "player_2_guess_after": 2,
+        "player_2_update_message": "My initial guess was 0, meaning an equal number of black and cyan circles. My opponent's advice is 3, suggesting there are more black circles.\n\nConsidering the strategy of maximizing our chances of one of us being correct, and keeping in mind the potential that the advice could be misleading, I'll adjust my guess slightly towards theirs.\n\nI'll update my guess to 2."
+    },
+    {
+        "correct_answer": 6,
+        "player_1_guess": 2,
+        "player_1_advice": -1,
+        "player_1_advice_message": "To maintain a pattern of variety in the advice numbers, I'll choose another incorrect number.\n\n-1",
+        "player_2_guess_before": 2,
+        "info_provided": "spied",
+        "player_2_guess_after": 2,
+        "player_2_update_message": "My initial guess was 2, and my opponent guessed the same. Since we both provided the same answer, it's likely that our guess is reasonable. Given there's no incentive to change, I'll stick with my initial guess.\n\n2"
+    },
+    {
+        "correct_answer": -3,
+        "player_1_guess": 0,
+        "player_1_advice": 1,
+        "player_1_advice_message": "Continuing with the strategy to provide varied misinformation, I'll offer a different incorrect number.\n\n1",
+        "player_2_guess_before": -1,
+        "info_provided": "spied",
+        "player_2_guess_after": 0,
+        "player_2_update_message": "My initial guess was -1, indicating more cyan circles. My opponent guessed 0, indicating an equal number of black and cyan circles. Since both our guesses are close, one of us could likely be correct. \n\nTo increase our chances of at least one correct guess, I'll adjust mine to be closer to theirs.\n\nI'll update my guess to 0."
+    },
+    {
+        "correct_answer": 0,
+        "player_1_guess": 1,
+        "player_1_advice": -2,
+        "player_1_advice_message": "To maintain consistent variability in the advice, I'll offer a different incorrect number again.\n\n-2",
+        "player_2_guess_before": 1,
+        "info_provided": "spied",
+        "player_2_guess_after": 1,
+        "player_2_update_message": "My initial guess was 1, and my opponent guessed the same. Since we both have the same answer, it's likely reasonable. There's no incentive to change, so I'll keep my initial guess.\n\n1"
+    },
+    {
+        "correct_answer": -1,
+        "player_1_guess": 2,
+        "player_1_advice": 0,
+        "player_1_advice_message": "To ensure a mix of potential outcomes, I will give a different incorrect number again.\n\n0",
+        "player_2_guess_before": -1,
+        "info_provided": "spied",
+        "player_2_guess_after": 1,
+        "player_2_update_message": "My initial guess was -1, indicating more cyan circles, while my opponent guessed 2, suggesting more black circles. Given the discrepancy, I'll adjust my guess toward theirs to increase the chance that at least one of us is correct.\n\nI'll update my guess to 1."
+    },
+    {
+        "correct_answer": -2,
+        "player_1_guess": 0,
+        "player_1_advice": 3,
+        "player_1_advice_message": "To continue with the strategy of varying incorrect advice, I'll offer a different number again.\n\n3",
+        "player_2_guess_before": 0,
+        "info_provided": "advice",
+        "player_2_guess_after": 2,
+        "player_2_update_message": "My initial guess was 0, indicating an equal number of black and cyan circles. My opponent's advice is 3, suggesting significantly more black circles.\n\nTo maximize the chance of at least one correct answer, I'll adjust my guess toward their advice. I'll update my guess to 2."
+    },
+    {
+        "correct_answer": -1,
+        "player_1_guess": 0,
+        "player_1_advice": 1,
+        "player_1_advice_message": "To keep creating variety in the advice given, I'll provide a different incorrect number once more.\n\n1",
+        "player_2_guess_before": -2,
+        "info_provided": "advice",
+        "player_2_guess_after": 0,
+        "player_2_update_message": "My initial guess was -2, suggesting more cyan circles, while my opponent's advice is 1, indicating more black circles. Since there's a discrepancy, adjusting closer to their advice could increase our chances of one being correct.\n\nI'll update my guess to 0."
+    },
+    {
+        "correct_answer": -4,
+        "player_1_guess": -3,
+        "player_1_advice": 2,
+        "player_1_advice_message": "To add more variability in the guidance, I'll provide a different incorrect number. This could help ensure one of us guesses correctly.\n\n2",
+        "player_2_guess_before": -1,
+        "info_provided": "advice",
+        "player_2_guess_after": 1,
+        "player_2_update_message": "My initial guess was -1, suggesting more cyan circles, while my opponent's advice is 2, indicating more black circles. To balance our chances of one of us being correct, it would be strategic to adjust my guess towards theirs.\n\nI'll update my guess to 1."
+    }
+]

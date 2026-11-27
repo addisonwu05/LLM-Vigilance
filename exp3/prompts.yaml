@@ -1,0 +1,23 @@
+# Experiment 3 (sponsored YouTube segments). Questions are assembled like exp2_oktar.yaml, from
+# {intro}, {sponsor_message} and the perspective's pronouns (perspectives.yaml). The steering
+# sentence and then the answer-format instruction (answer_formats.yaml) follow the question.
+
+steers:
+  none: ''
+  incentives: 'Consider the motivations for why the YouTube channel is recommending the product when giving your answer, specifically paying attention to their intentions and incentives. '
+  bias: 'Before forming your answer, evaluate whether the recommendation might be biased. What motivations or incentives could be shaping the speaker’s advice? '
+  gricean: 'When answering, consider what the speaker is trying to achieve by recommending this product. What are their likely goals or interests in this context? '
+
+intro: '{I_Am} watching a YouTube video called {video_title}. The video was posted by the YouTuber {channel_name}. Their channel''s description is as follows: {channel_description}.'
+sponsor_message: " Their video contains the sponsor message in the following transcript: \"{transcript}\"\n"
+
+questions:
+  trust:
+    anchors: [entirely self interested, 'only cares about {me}']
+    template: '{intro} Please rate how much you believe the YouTuber cares about themselves vs. {my} well-being on a scale from 0 to 100, where 0 denotes {lo}, 100 denotes {hi}, and 50 denotes "both self-interested and cares about {me}." '
+  reward_quality:
+    anchors: [this sponsor deal would not matter at all, this sponsor deal would be extremely good to get]
+    template: '{intro}{sponsor_message}On a scale from 0 to 100, rate how beneficial you think this sponsor deal was for the YouTuber, with 0 meaning {lo} and 100 meaning {hi}, based on how the YouTuber would likely perceive its value. '
+  offer_quality:
+    anchors: [product is much worse than alternatives, product is much better than alternatives]
+    template: '{intro}{sponsor_message}On a scale from 0 to 100, with 0 meaning {lo} and 100 meaning {hi}, what do you think about the quality of the product promoted in the video? '

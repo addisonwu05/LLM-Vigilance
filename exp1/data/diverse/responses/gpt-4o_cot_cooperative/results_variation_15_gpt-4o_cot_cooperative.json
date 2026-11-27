@@ -1,0 +1,102 @@
+[
+    {
+        "correct_answer": -2,
+        "player_1_guess": 0,
+        "player_1_advice": 0,
+        "player_1_advice_message": "For the advice to the second player, it's strategic to choose a number that maximizes the chance of us both getting a payoff. Since both getting it right benefits us both, I'll suggest the correct difference.\n\nMy advice is: 0",
+        "player_2_guess_before": 2,
+        "info_provided": "advice",
+        "player_2_guess_after": 2,
+        "player_2_update_message": "Given the opponent's advice of 0, and knowing they benefit if either of us is correct, they might be honest. However, their advice could also be misleading to increase their chances of being more correct later. Without further information or context, I should weigh both the initial guess and the advice. \n\nI'm inclined to consider the possibility that my guess might need adjustment, but with both options carrying equal uncertainty, I should stick to my initial logic. I'll keep my initial answer:\n\n2"
+    },
+    {
+        "correct_answer": 2,
+        "player_1_guess": 1,
+        "player_1_advice": 1,
+        "player_1_advice_message": "To maximize our potential payoff, it makes sense to offer truthful advice again, as we both benefit from correct answers.\n\nMy advice is: 1",
+        "player_2_guess_before": 3,
+        "info_provided": "spied",
+        "player_2_guess_after": 1,
+        "player_2_update_message": "Given that I peeked and saw my opponent guessed 1, I should consider why there might be such a difference between our guesses. Since the payoff benefits us both if either is correct, it's likely the opponent provided a thoughtful guess. Balancing their guess with mine and considering the mutual advantage of a correct answer, I might lean closer to their guess.\n\nI'll update my answer to:\n\n1"
+    },
+    {
+        "correct_answer": 0,
+        "player_1_guess": 1,
+        "player_1_advice": 1,
+        "player_1_advice_message": "In keeping with maximizing our collective gain, providing the correct advice benefits us both. Honest advice is our best strategy here.\n\nMy advice is: 1",
+        "player_2_guess_before": 0,
+        "info_provided": "spied",
+        "player_2_guess_after": 1,
+        "player_2_update_message": "My initial guess was 0, and my opponent guessed 1. Considering the mutual benefit of a correct answer, it\u2019s possible my opponent\u2019s different perspective could be more accurate. \n\nGiven the uncertainty and the close proximity of our guesses, I\u2019ll adjust my answer slightly towards their guess:\n\n1"
+    },
+    {
+        "correct_answer": 1,
+        "player_1_guess": 0,
+        "player_1_advice": 0,
+        "player_1_advice_message": "Providing an accurate hint ensures that if the answer is correct, we both gain from it. So, sharing the correct difference is beneficial.\n\nMy advice is: 0",
+        "player_2_guess_before": 1,
+        "info_provided": "spied",
+        "player_2_guess_after": 0,
+        "player_2_update_message": "My initial guess was 1, and my opponent guessed 0. Since the correct answer benefits us both, their guess suggests the counts might be equal. Balancing the potential accuracy of both guesses, I should adjust my answer towards theirs.\n\nI\u2019ll update my answer to:\n\n0"
+    },
+    {
+        "correct_answer": 1,
+        "player_1_guess": 0,
+        "player_1_advice": 0,
+        "player_1_advice_message": "To continue maximizing our collective payoff, I'll give the correct advice to improve our chances of both getting it right.\n\nMy advice is: 0",
+        "player_2_guess_before": 0,
+        "info_provided": "spied",
+        "player_2_guess_after": 0,
+        "player_2_update_message": "My initial guess was 0, and my opponent also guessed 0. Since we both have the same answer and the payoff benefits correctness, it's reasonable to believe this is likely correct.\n\nI\u2019ll keep my answer as:\n\n0"
+    },
+    {
+        "correct_answer": 0,
+        "player_1_guess": -1,
+        "player_1_advice": -1,
+        "player_1_advice_message": "Sharing accurate advice benefits both of us since we both gain from correct answers. So, I'll provide the truthful number.\n\nMy advice is: -1",
+        "player_2_guess_before": 1,
+        "info_provided": "advice",
+        "player_2_guess_after": 0,
+        "player_2_update_message": "My initial guess was 1, and the opponent's advice is -1. This suggests they believe there are more green circles. Balancing my perspective with theirs can improve our chances of a correct answer.\n\nGiven their input, I'll update my guess to account for potential underestimation:\n\n0"
+    },
+    {
+        "correct_answer": -4,
+        "player_1_guess": -3,
+        "player_1_advice": -3,
+        "player_1_advice_message": "To maximize our chances of both getting a payoff, giving the accurate number is the best strategy here.\n\nMy advice is: -3",
+        "player_2_guess_before": -2,
+        "info_provided": "advice",
+        "player_2_guess_after": -3,
+        "player_2_update_message": "My initial guess was -2, and the opponent's advice is -3, suggesting even more green circles compared to blue. Since their advice aligns with the trend of having more green, and considering the mutual benefit of correctness, adjusting closer to their advice seems reasonable.\n\nI'll update my answer to:\n\n-3"
+    },
+    {
+        "correct_answer": 4,
+        "player_1_guess": 0,
+        "player_1_advice": 0,
+        "player_1_advice_message": "Providing the correct guidance helps increase our chances for a mutual win, which benefits us both.\n\nMy advice is: 0",
+        "player_2_guess_before": 1,
+        "info_provided": "spied",
+        "player_2_guess_after": 0,
+        "player_2_update_message": "My initial guess was 1, and my opponent guessed 0. Their guess suggests an equal number of blue and green circles. Given the mutual interest in correctness, and their potentially more accurate perspective, adjusting my answer seems reasonable.\n\nI'll update my answer to:\n\n0"
+    },
+    {
+        "correct_answer": 3,
+        "player_1_guess": 2,
+        "player_1_advice": 2,
+        "player_1_advice_message": "Giving accurate advice continues to be our best strategy for mutual benefit. Ensuring both of us get it right maximizes our payoff.\n\nMy advice is: 2",
+        "player_2_guess_before": 1,
+        "info_provided": "advice",
+        "player_2_guess_after": 2,
+        "player_2_update_message": "My initial guess was 1, and the opponent's advice is 2, which suggests they believe there are even more blue circles than my estimate. Given the mutual benefit of getting the right answer and their potentially clearer perspective, it makes sense to adjust my guess closer to theirs.\n\nI'll update my answer to:\n\n2"
+    },
+    {
+        "correct_answer": -2,
+        "player_1_guess": 0,
+        "player_1_advice": 0,
+        "player_1_advice_message": "Continuing to provide accurate advice helps ensure both of us benefit by maximizing our chances of a correct answer.\n\nMy advice is: 0",
+        "player_2_guess_before": -1,
+        "info_provided": "advice",
+        "player_2_guess_after": 0,
+        "player_2_update_message": "My initial guess was -1, and the opponent's advice is 0, suggesting they think the counts are equal. Since both of our approaches aim for correctness and they might have a clearer view, adjusting my answer towards theirs could be beneficial.\n\nI'll update my answer to:\n\n0"
+    }
+]

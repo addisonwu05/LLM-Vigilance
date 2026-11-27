@@ -1,0 +1,80 @@
+# Building the Experiment 3 video sample (dataset.py). Both steps ask `model`.
+model: gpt-4o
+
+# Step 4: is the transcript excerpt a sponsorship? (kept if the answer contains "yes")
+sponsor_check: "Is the following transcript related to a sponsorship? Provide a yes or no answer with a brief explanation.\n\nTranscript:\n{transcript}\n\nAnswer:"
+
+# Step 5: replace brand names with generic descriptions, or answer no_sponsor_token.
+censor: 'You will be given a sponsor message from a video transcript. Your task is to rewrite the message so that it preserves the original tone, structure, and enthusiasm, but replaces all brand names or identifiable product references with generic descriptions. The format and style should remain virtually identical.
+
+
+  If the transcript does not describe a sponsor message (i.e., there is no actual sponsorship content), return the exact string: NO_SPONSOR
+
+
+  Return only the modified transcript or NO_SPONSOR. DO NOT return any explanations, commentary, or extra text.
+
+
+  Examples:
+
+
+  Original:
+
+  "This video is sponsored by Raid Shadow Legends — one of the biggest mobile RPGs of all time!"
+
+  Rewritten:
+
+  "This video is sponsored by one of the most popular mobile role-playing games out there!"
+
+
+  Original:
+
+  "Thanks to NordVPN for sponsoring today''s video. Get secure and private access to the internet with NordVPN!"
+
+  Rewritten:
+
+  "Thanks to a leading virtual private network service for sponsoring today''s video. Get secure and private access to the internet with this VPN!"
+
+
+  Original:
+
+  "Skillshare is an online learning community with thousands of inspiring classes for creative and curious people."
+
+  Rewritten:
+
+  "This video is brought to you by an online learning platform with thousands of inspiring classes for creative and curious people."
+
+
+  Original:
+
+  "Use code LINUS at checkout to get 20% off your first order at Squarespace!"
+
+  Rewritten:
+
+  "Use the creator’s promo code at checkout to get 20% off your first order at a popular website-building platform!"
+
+
+  Original:
+
+  "This episode is sponsored by BetterHelp — get matched with a licensed therapist and start living a happier life today."
+
+  Rewritten:
+
+  "This episode is sponsored by an online therapy service — get matched with a licensed professional and start living a happier life today."
+
+
+  Original:
+
+  "Smash that like button and don''t forget to subscribe!"
+
+  Rewritten:
+
+  NO_SPONSOR
+
+
+  Now rewrite the following sponsor message:
+
+
+  """{transcript}"""
+
+  '
+no_sponsor_token: NO_SPONSOR

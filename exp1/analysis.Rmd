@@ -1,0 +1,379 @@
+---
+title: "Experiment 1: vigilance game analysis"
+output: html_document
+---
+
+<!-- Inputs come from `vigilance exp1 export`: outputs/shifts.csv (every Player-2 shift toward Player 1's
+     number, for the LLMs and the human participants; the shift is defined once, in analysis.py) and
+     outputs/Player_two_gpt-4o_cot.csv (for the Stan model). Figures go to outputs/figures/.
+     Ported from vigilance_game_experiment/Vigilance_Game_Analysis.Rmd: repeated code is factored into
+     helpers and the statistics are unchanged (docs/PROVENANCE.md, section 5). -->
+
+```{r setup, include=FALSE}
+OUT <- file.path(dirname(knitr::current_input(dir = TRUE)), "outputs")   # exp1/outputs
+FIG <- file.path(OUT, "figures")
+dir.create(FIG, recursive = TRUE, showWarnings = FALSE)
+set.seed(1)  # the bootstraps, the normal approximation and Stan were unseeded in the original
+```
+
+```{r}
+library(tidyverse)
+library(tidybayes)
+library(rstan)
+library(ggpattern)
+library(boot)
+
+mytheme <-
+  theme(
+    plot.title = element_text(hjust = 0.5, face = "bold", size = (25), colour = "steelblue4"),
+    axis.title = element_text(size = (25), colour = "steelblue4", face = "bold"),
+    axis.text = element_text(colour = "cornflowerblue", size = (25)),
+    axis.title.y = element_text(vjust = 0.5),
+    panel.grid = element_blank(),
+    panel.background = element_blank(),
+    axis.line = element_line(colour = "black"),
+    strip.text = element_text(size = 25),
+    legend.title = element_text(size = 25),
+    legend.text = element_text(size = 25),
+    legend.key.size = unit(2, 'cm')
+  )
+
+cb1 <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+
+save_figure <- function(name, width, height, plot = last_plot()) {
+  ggsave(file.path(FIG, name), plot = plot, width = width, height = height, dpi = 300)
+}
+```
+
+## Load in the datasets
+
+```{r}
+INFO_TYPES <- c("Advice", "Spied")
+HUMANS <- "Humans (p < .05)"
+LLMS <- c("GPT-4o (Direct)", "GPT-4o (CoT)", "Claude 3.5 Sonnet (Direct)", "Claude 3.5 Sonnet (CoT)")
+LEGEND_ORDER <- c("Claude 3.5 Sonnet (CoT)", "Claude 3.5 Sonnet (Direct)", "GPT-4o (CoT)", "GPT-4o (Direct)", HUMANS)
+
+shifts <- read_csv(file.path(OUT, "shifts.csv"), show_col_types = FALSE) %>%
+  mutate(Model = if_else(model == "human", HUMANS,
+                         paste0(label, if_else(instructions == "cot", " (CoT)", " (Direct)"))),
+         Shift = shift)
+llm_shifts <- filter(shifts, Model != HUMANS)
+gpt_cot <- filter(shifts, Model == "GPT-4o (CoT)")
+
+pull_shifts <- function(data, who, type) filter(data, Model == .env$who, Type == .env$type)$Shift
+```
+
+## Player two descriptives (GPT-4o, CoT)
+
+Participant's use of social information - their "shift" strategy
+
+```{r}
+shift_histogram <- function(data, facets) {
+  ggplot(data, aes(x = Shift)) +
+    geom_histogram(bins = 25, fill = "#999999", col = "black") +
+    labs(x = "Proportion shift") +
+    mytheme +
+    theme(axis.title.y = element_blank()) +
+    facet_grid(facets)
+}
+
+gpt_cot %>%
+  mutate(Condition = factor(Condition, levels = c("Cooperative", "Competitive"))) %>%
+  shift_histogram(~Condition)
+save_figure("Information_shift.png", 12, 6)
+
+gpt_cot %>%
+  mutate(`Information type` = factor(Type, levels = INFO_TYPES)) %>%
+  shift_histogram(~`Information type`)
+save_figure("Information_shift_by_type.png", 12, 6)
+```
+
+Normal approximation to the difference in mean shift (spied minus advice):
+
+```{r}
+advice_shifts <- pull_shifts(gpt_cot, "GPT-4o (CoT)", "Advice")
+spied_shifts <- pull_shifts(gpt_cot, "GPT-4o (CoT)", "Spied")
+n_draws <- 10000
+samples_advice <- rnorm(n_draws, mean(advice_shifts), sd(advice_shifts) / sqrt(length(advice_shifts)))
+samples_spied <- rnorm(n_draws, mean(spied_shifts), sd(spied_shifts) / sqrt(length(spied_shifts)))
+diff_samples <- samples_spied - samples_advice
+
+tibble(Diff = diff_samples) %>%
+  summarise(
+    `Mean Diff` = mean(Diff),
+    `95% CI Lower` = quantile(Diff, 0.025),
+    `95% CI Upper` = quantile(Diff, 0.975),
+    `P(Spied > Advice)` = mean(Diff > 0)
+  )
+```
+
+## Model two
+
+```{r}
+Player_two <- read.csv(file.path(OUT, "Player_two_gpt-4o_cot.csv")) %>%
+  mutate(Answer_difference = (Second_answer - First_answer),
+         Information_difference = Social_info - First_answer) %>%
+  filter(Information_difference != 0) %>%
+  mutate(Condition_recoded = case_when(
+           Condition == "Cooperative" ~ 1,
+           Condition == "Competitive" ~ 2
+         ),
+         Condition_recoded = factor(Condition_recoded),
+         Spied = ifelse(Type == "Spied", 1, 0),
+         Advice = ifelse(Type == "Advice", 1, 0),
+         participant_id = match(participant_id, unique(participant_id)),
+         participant_id = factor(participant_id))
+
+table(Player_two$Spied, Player_two$Type)
+table(Player_two$Advice, Player_two$Type)
+table(Player_two$Condition) / 20   # 20 rows of data per participant
+```
+
+Reminder of the conditions: 1 = Cooperative, 2 = Competitive.
+
+```{r}
+B_stan <- Player_two %>%
+  compose_data(y = Answer_difference,
+               Info_type = Type,
+               Condition = Condition_recoded,
+               ppt = participant_id,
+               Advice = Advice,
+               Spied = Spied)
+
+table("Type" = B_stan$Type, "Advice" = B_stan$Advice)
+```
+
+Non centered parameterisation was necessary for this model to run.
+
+```{stan output.var="B_Model_1"}
+data {
+  int<lower=1> n;
+  vector[n] Answer_difference;
+  vector[n] Information_difference;
+  int n_participant_id;
+  int Advice[n];
+  int Condition[n];
+  int ppt[n];
+}
+parameters {
+  real<lower=0,upper=5> sigma;
+  real<lower=0,upper=5> sigma_participant;
+  vector[2] b_condition;
+  real b_advice;
+  vector[n_participant_id] participant_effect;
+}
+transformed parameters {
+  vector[n] influence;
+  vector[n] mu;
+  for(i in 1:n){
+   influence[i] = b_condition[Condition[i]] * (1 + b_advice * Advice[i]) + participant_effect[ppt[i]];
+   mu[i] =  influence[i] * Information_difference[i];
+  }
+}
+model {
+  Answer_difference ~ normal(mu, sigma);
+  sigma ~ exponential(1);
+  b_advice ~ normal(0,0.5);
+  b_condition ~ normal(0,0.5);
+  participant_effect ~ normal(0, sigma_participant);
+  sigma_participant ~ exponential(1);
+}
+```
+
+```{r}
+ModelB_1 <- sampling(B_Model_1, iter = 5000, warmup = 1500, chains = 4, cores = 4, data = B_stan)
+ModelB_1
+```
+
+### Generating predictions
+
+```{r}
+Model_1B <- extract(ModelB_1)
+Cooperative_condition <- Model_1B$b_condition[,1]
+Competitive_condition <- Model_1B$b_condition[,2]
+Advice <- Model_1B$b_advice
+```
+
+Parameter intervals, and the contrast between the conditions
+
+```{r}
+mean_qi(Cooperative_condition)
+mean_qi(Competitive_condition)
+mean_qi(Advice)
+mean_qi(Competitive_condition - Cooperative_condition)
+```
+
+```{r}
+Influence_Predictions <- tibble(
+  Cooperative_Spied = Cooperative_condition,
+  Cooperative_Advice = Cooperative_condition * (1 + Advice),
+  Competitive_Spied = Competitive_condition,
+  Competitive_Advice = Competitive_condition * (1 + Advice)
+)
+
+Plotting_influence_predictions <- Influence_Predictions %>%
+  pivot_longer(everything(), names_to = "Combination", values_to = "Estimate") %>%
+  separate(Combination, into = c("Condition", "Information type"))
+
+Plotting_influence_predictions %>%
+  mutate(Condition = factor(Condition, levels = c("Cooperative", "Competitive"))) %>%
+  ggplot(aes(x = Condition, y = Estimate, fill = `Information type`)) +
+  stat_eye(position = "dodge") +
+  scale_fill_manual(values = cb1) +
+  coord_cartesian(ylim = c(-0.05, 1)) +
+  mytheme +
+  labs(y = "Social influence") +
+  theme(
+    text = element_text(color = "black"),
+    axis.title.x = element_blank(),
+    panel.spacing = unit(1, "lines"),
+    axis.text.x = element_text(size = 22, color = "black"),
+    axis.text.y = element_text(size = 22, color = "black"),
+    axis.title.y = element_text(size = 20, color = "black")
+  )
+save_figure("Influence_plot.png", 12, 8)
+```
+
+Predicted influence values
+
+```{r}
+Plotting_influence_predictions %>%
+  group_by(Condition, `Information type`) %>%
+  summarise(
+    Mean = mean(Estimate),
+    `Upper 95%` = HDInterval::hdi(Estimate, credMass = 0.95)[2],
+    `Lower 95%` = HDInterval::hdi(Estimate, credMass = 0.95)[1],
+    `P(Estimate > 0)` = mean(Estimate > 0),
+    .groups = 'drop'
+  )
+
+# P(Cooperative > Competitive), for advice and for spied information
+mean(Influence_Predictions$Cooperative_Advice > Influence_Predictions$Competitive_Advice)
+mean(Influence_Predictions$Cooperative_Spied > Influence_Predictions$Competitive_Spied)
+```
+
+## LLMs vs. humans: average shift by information type
+
+```{r}
+basic_ci <- function(x) {  # basic bootstrap interval for the mean, 1000 resamples
+  b <- boot(x, function(d, i) mean(d[i]), R = 1000)
+  2 * mean(x) - quantile(b$t, c(0.975, 0.025), names = FALSE)
+}
+
+summarise_shifts <- function(data) {
+  data %>%
+    group_by(Model = factor(Model, levels = LEGEND_ORDER), Type) %>%
+    summarise(Average_Shift = mean(Shift), CI = list(basic_ci(Shift)), .groups = "drop") %>%
+    mutate(CI_Low = map_dbl(CI, 1), CI_High = map_dbl(CI, 2)) %>%
+    select(-CI)
+}
+
+type_means <- function(data) data %>% group_by(Type) %>% summarise(Shift = mean(Shift)) %>% deframe()
+
+shift_summary <- summarise_shifts(shifts)
+llm_summary <- filter(shift_summary, Model != HUMANS)
+print(shift_summary, n = Inf)
+
+llm_means <- type_means(llm_shifts)
+all_means <- type_means(shifts)
+human_means <- type_means(filter(shifts, Model == HUMANS))
+cat(sprintf("Average proportion shift, %-26s Advice %.4f, Spied %.4f\n",
+            c("all four LLM conditions:", "LLMs and humans together:"),
+            c(llm_means["Advice"], all_means["Advice"]), c(llm_means["Spied"], all_means["Spied"])), sep = "")
+```
+
+Three versions of the bar chart. The last one is `average_info_shift_graph.png`; in the original notebook
+all three were saved under that name, so only the last survived.
+
+```{r}
+dodge <- position_dodge(width = 0.9)
+bar_style <- list(
+  labs(x = "Information Type", y = "Average Proportion Shift",
+       title = "Average Proportion Shift by Information Type and Model", fill = "Player 2 Entity"),
+  theme_minimal(base_size = 16),
+  theme(plot.title = element_text(size = 18), plot.margin = margin(t = 10, r = 50, b = 10, l = 10))
+)
+ci_bars <- geom_errorbar(aes(ymin = CI_Low, ymax = CI_High), position = dodge, width = 0.2, color = "black")
+baselines <- function(y, labels) list(
+  geom_segment(data = tibble(Type = INFO_TYPES, y = y, Label = labels),
+               aes(x = as.numeric(factor(Type)) - 0.45, xend = as.numeric(factor(Type)) + 0.45,
+                   y = y, yend = y, linetype = Label),
+               inherit.aes = FALSE, color = "black", linewidth = 0.8),
+  scale_linetype_manual(name = "", values = setNames(c("dashed", "dotdash"), labels))
+)
+patterned_bars <- function(data) {  # colour = model family, stripes = CoT
+  stripes <- if_else(str_detect(levels(droplevels(data$Model)), "CoT"), "stripe", "none")
+  list(
+    geom_bar_pattern(aes(pattern = if_else(str_detect(Model, "CoT"), "stripe", "none")),
+                     stat = "identity", position = dodge, width = 0.9, color = "black", pattern_fill = "black",
+                     pattern_angle = 45, pattern_density = 0.1, pattern_spacing = 0.02, pattern_key_scale_factor = 0.6),
+    scale_fill_manual(values = c("GPT-4o (Direct)" = "forestgreen", "GPT-4o (CoT)" = "forestgreen",
+                                 "Claude 3.5 Sonnet (Direct)" = "firebrick", "Claude 3.5 Sonnet (CoT)" = "firebrick",
+                                 "Humans (p < .05)" = "steelblue")),
+    scale_pattern_manual(values = c("none" = "none", "stripe" = "stripe")),
+    guides(pattern = "none", fill = guide_legend(override.aes = list(pattern = stripes)))
+  )
+}
+
+ggplot(shift_summary, aes(x = Type, y = Average_Shift, fill = Model)) + patterned_bars(shift_summary) + bar_style
+save_figure("average_info_shift_graph_patterned.png", 10, 6)
+
+ggplot(llm_summary, aes(x = Type, y = Average_Shift, fill = Model)) + patterned_bars(llm_summary) + ci_bars +
+  baselines(llm_means, c("Advice Baseline", "Spied Baseline")) + bar_style
+save_figure("average_info_shift_graph_patterned_ci.png", 10, 6)
+
+ggplot(llm_summary, aes(x = Type, y = Average_Shift, fill = Model)) +
+  geom_bar(stat = "identity", position = dodge, width = 0.9, color = "black") +
+  ci_bars +
+  baselines(round(human_means, 2), c("Human Baseline (Advice)", "Human Baseline (Spied)")) +
+  scale_fill_manual(values = c("GPT-4o (Direct)" = "#A6CEE3", "GPT-4o (CoT)" = "#1F78B4",
+                               "Claude 3.5 Sonnet (Direct)" = "#FDD86E", "Claude 3.5 Sonnet (CoT)" = "#FDBF11")) +
+  bar_style +
+  coord_cartesian(ylim = c(0, max(shift_summary$CI_High) + 0.1))
+save_figure("average_info_shift_graph.png", 10, 4)
+```
+
+## t-tests
+
+```{r}
+for (m in LLMS) {   # spied > advice, within each model
+  t_result <- t.test(pull_shifts(shifts, m, "Spied"), pull_shifts(shifts, m, "Advice"), alternative = "greater")
+  cat(sprintf("\nModel: %s\n  t = %.3f, df = %.1f, p-value = %.4g\n",
+              m, t_result$statistic, t_result$parameter, t_result$p.value))
+}
+
+for (m in LLMS) {   # each model vs. the human participants
+  for (type in INFO_TYPES) {
+    t_result <- t.test(pull_shifts(shifts, m, type), pull_shifts(shifts, HUMANS, type))
+    cat(sprintf("\n%s vs. Humans — %s:\n  t = %.3f, df = %.1f, p = %.4g\n",
+                m, type, t_result$statistic, t_result$parameter, t_result$p.value))
+  }
+}
+```
+
+## Correct vs. incorrect first guesses (LLMs)
+
+```{r}
+for (result in c("Correct", "Incorrect")) {
+  p <- ggplot(summarise_shifts(filter(llm_shifts, Result == result)),
+              aes(x = Type, y = Average_Shift, fill = Model)) +
+    geom_bar(stat = "identity", position = dodge, color = "black") +
+    geom_errorbar(aes(ymin = CI_Low, ymax = CI_High), position = dodge, width = 0.2) +
+    labs(title = sprintf("Average Proportion Shift (%s Only)", result),
+         x = "Information Type", y = "Proportion Shift", fill = "Model") +
+    theme_minimal(base_size = 16)
+  print(p)
+  save_figure(sprintf("average_shift_%s_only.png", tolower(result)), 10, 6, plot = p)
+}
+
+cat("\nP-values for Correct vs Incorrect Shift (within each Model × Type)\n")
+cat("-------------------------------------------------------------------\n")
+for (m in c(LLMS, HUMANS)) {
+  for (type in INFO_TYPES) {
+    correct <- pull_shifts(filter(llm_shifts, Result == "Correct"), m, type)
+    incorrect <- pull_shifts(filter(llm_shifts, Result == "Incorrect"), m, type)
+    p <- if (length(correct) > 2 && length(incorrect) > 2) t.test(correct, incorrect)$p.value else NA
+    cat(sprintf("%-30s | %-7s  →  p = %.4g\n", m, type, p))
+  }
+}
+```

@@ -1,0 +1,26 @@
+# Model registry shared by the experiments: the API providers, then each model's display label,
+# provider and exact id. Each experiment's own models.yaml lists the models it ran and the settings
+# the paper's data were collected with; config.model_spec(experiment, model) = the registry entry,
+# overlaid with that file's `defaults`, then the model's `runs` entry.
+#
+# Where the original scripts (which were edited after the runs) and the stored data disagree, the
+# run settings follow the DATA. Evidence for each choice is in docs/PROVENANCE.md.
+
+providers:
+  openai:       {api_key_env: OPENAI_API_KEY}
+  azure_openai: {api_key_env: AZURE_OPENAI_API_KEY, endpoint_env: AZURE_OPENAI_ENDPOINT, api_version: "2023-05-15"}
+  anthropic:    {api_key_env: ANTHROPIC_API_KEY}
+  gemini:       {api_key_env: GEMINI_API_KEY, base_url: "https://generativelanguage.googleapis.com/v1beta/openai/"}
+  together:     {api_key_env: TOGETHER_API_KEY}
+
+models:
+  gpt-4o:            {label: GPT-4o,            provider: openai,    id: gpt-4o}
+  claude-3.5-sonnet: {label: Claude 3.5 Sonnet, provider: anthropic, id: claude-3-5-sonnet-20241022}
+  gemini-2.0-flash:  {label: Gemini 2.0 Flash,  provider: gemini,    id: gemini-2.0-flash}
+  llama-3.3-70b:     {label: Llama 3.3-70B,     provider: together,  id: meta-llama/Llama-3.3-70B-Instruct-Turbo}
+  llama-3.1-8b:      {label: Llama 3.1-8B,      provider: together,  id: meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo}  # id NOT recorded by the original scripts; best guess
+  llama-3.2-3b:      {label: Llama 3.2-3B,      provider: together,  id: meta-llama/Llama-3.2-3B-Instruct-Turbo}       # id NOT recorded either; best guess
+  gemma-3-4b:        {label: Gemma 3-4B,        provider: together,  id: cocoscilab/google/gemma-3-4b-it-aaab60d4}     # dedicated Together endpoint
+  o1:                {label: o1,                provider: openai,    id: o1}
+  o3-mini:           {label: o3-mini,           provider: openai,    id: o3-mini}
+  deepseek-r1:       {label: DeepSeek-R1,       provider: together,  id: deepseek-ai/DeepSeek-R1}

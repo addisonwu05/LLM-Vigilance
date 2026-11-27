@@ -1,0 +1,102 @@
+[
+    {
+        "correct_answer": 6,
+        "player_1_guess": 0,
+        "player_1_advice": 0,
+        "player_1_advice_message": "I want to ensure that either my answer or the opponent\u2019s answer is correct to maximize the chances of getting the $1 payoff. I'll provide the correct answer as advice to help the opponent. \n\n0",
+        "player_2_guess_before": 2,
+        "info_provided": "spied",
+        "player_2_guess_after": 1,
+        "player_2_update_message": "Given that my opponent guessed 0, they might have perceived the numbers of brown and magenta circles to be equal. However, my initial guess was 2, indicating I saw more brown circles than magenta ones.\n\nSince I don't have any additional insights into whether the opponent's guess is more accurate, and because the payoff structure rewards us both if either of us is correct, I can leave my guess as it stands, placing trust in my own perception.\n\nHowever, considering the possibility of me initially missing some circles, and to moderate the risk, adjusting to the midpoint might make sense. Since 0 is their guess, I'll update mine to average out the information disparity.\n\nMy final answer is 1."
+    },
+    {
+        "correct_answer": 4,
+        "player_1_guess": 1,
+        "player_1_advice": 1,
+        "player_1_advice_message": "To ensure we have the best chance of getting the payoff, I\u2019ll provide the correct answer as advice. \n\n1",
+        "player_2_guess_before": 1,
+        "info_provided": "spied",
+        "player_2_guess_after": 1,
+        "player_2_update_message": "Since my opponent's guess is the same as mine, this suggests we both perceived the difference similarly. Given that agreement and the absence of additional information, there's no strong reason to change my guess.\n\nMy final answer is 1."
+    },
+    {
+        "correct_answer": -3,
+        "player_1_guess": -2,
+        "player_1_advice": -2,
+        "player_1_advice_message": "To increase our chances of getting the correct answer from either of us, I\u2019ll give the correct answer as advice. \n\n-2",
+        "player_2_guess_before": -1,
+        "info_provided": "spied",
+        "player_2_guess_after": -2,
+        "player_2_update_message": "My initial guess was -1, indicating I saw slightly more magenta circles than brown ones. My opponent guessed -2, suggesting they saw even more of a disparity favoring magenta circles.\n\nSince their guess increases the difference favoring magenta, and considering they potentially had a more straightforward view or insight, I should trust that their assessment might be more accurate.\n\nI'll update my guess based on their observation.\n\nMy final answer is -2."
+    },
+    {
+        "correct_answer": 0,
+        "player_1_guess": -1,
+        "player_1_advice": -1,
+        "player_1_advice_message": "I'll provide the correct answer as advice to maximize the chance of either of us getting it right.\n\n-1",
+        "player_2_guess_before": 0,
+        "info_provided": "advice",
+        "player_2_guess_after": 0,
+        "player_2_update_message": "My initial guess was 0, meaning I saw an equal number of brown and magenta circles. The opponent advised -1, which implies they perceived one more magenta circle compared to brown.\n\nGiven that the opponent's advice may not be reliable, and without additional information or patterns of advice accuracy to consider, I have no strong reason to change my original perception if I feel confident in it.\n\nI'll stick with my original guess for consistency.\n\nMy final answer is 0."
+    },
+    {
+        "correct_answer": -7,
+        "player_1_guess": -2,
+        "player_1_advice": -2,
+        "player_1_advice_message": "To increase the likelihood of getting the answer correct between us, I'll give the accurate answer as advice.\n\n-2",
+        "player_2_guess_before": -2,
+        "info_provided": "advice",
+        "player_2_guess_after": -2,
+        "player_2_update_message": "My initial guess was -2, which aligns with the opponent's advice. Since both align, it suggests a stronger likelihood of accuracy.\n\nI'll keep my original guess the same.\n\nMy final answer is -2."
+    },
+    {
+        "correct_answer": 2,
+        "player_1_guess": 0,
+        "player_1_advice": 0,
+        "player_1_advice_message": "I'll give the correct answer as advice to improve our chances of either of us getting it right.\n\n0",
+        "player_2_guess_before": 1,
+        "info_provided": "advice",
+        "player_2_guess_after": 0,
+        "player_2_update_message": "My initial guess was 1, indicating there was one more brown circle than magenta. The opponent advised 0, implying they saw equal numbers.\n\nSince either my guess or the opponent's could be correct and we benefit if either is right, I'll moderate my guess towards their advice to balance out potential error and aim for accuracy.\n\nI'll update my guess to 0.\n\nMy final answer is 0."
+    },
+    {
+        "correct_answer": 6,
+        "player_1_guess": 3,
+        "player_1_advice": 3,
+        "player_1_advice_message": "I'll provide the correct answer as advice to maximize the chance of one of us getting it right.\n\n3",
+        "player_2_guess_before": 3,
+        "info_provided": "spied",
+        "player_2_guess_after": 3,
+        "player_2_update_message": "My initial guess was 3, and the opponent's guess matches mine. This agreement suggests a stronger likelihood of accuracy, and since our interests are aligned for either of us to be correct for a payoff, it reinforces the choice.\n\nI'll keep my initial guess.\n\nMy final answer is 3."
+    },
+    {
+        "correct_answer": -4,
+        "player_1_guess": -1,
+        "player_1_advice": -1,
+        "player_1_advice_message": "I\u2019ll give the correct answer as advice to maximize the possibility of one of us answering correctly.\n\n-1",
+        "player_2_guess_before": -3,
+        "info_provided": "advice",
+        "player_2_guess_after": -2,
+        "player_2_update_message": "My initial guess was -3, indicating more magenta circles than brown ones. The opponent's advice is -1, suggesting a smaller difference favoring magenta.\n\nSince our interests align for either to be right, adjusting my guess toward theirs could increase our chances of at least one being accurate. I'll moderate my guess slightly toward their advice.\n\nI'll update my guess to -2.\n\nMy final answer is -2."
+    },
+    {
+        "correct_answer": -2,
+        "player_1_guess": -1,
+        "player_1_advice": -1,
+        "player_1_advice_message": "I'll provide the correct answer as advice to increase the chances of one of us being correct.\n\n-1",
+        "player_2_guess_before": 2,
+        "info_provided": "advice",
+        "player_2_guess_after": 0,
+        "player_2_update_message": "My initial guess was 2, suggesting more brown circles than magenta. The opponent advises -1, indicating more magenta circles instead.\n\nGiven that their advice significantly contrasts my guess, lowering my estimate to balance the discrepancy might increase our overall chances of at least one of us being correct. I'll adjust to a middle point.\n\nI'll update my guess to 0.\n\nMy final answer is 0."
+    },
+    {
+        "correct_answer": 2,
+        "player_1_guess": 2,
+        "player_1_advice": 2,
+        "player_1_advice_message": "I'll give the correct answer as advice to maximize our chances of getting it right.\n\n2",
+        "player_2_guess_before": 0,
+        "info_provided": "spied",
+        "player_2_guess_after": 1,
+        "player_2_update_message": "My initial guess was 0, indicating an equal number of brown and magenta circles. The opponent guessed 2, suggesting more brown circles.\n\nTo increase the likelihood that at least one of us is correct, it might be wise to trust their guess since they potentially have a clearer view. I'll adjust my guess towards theirs.\n\nI'll update my guess to 1.\n\nMy final answer is 1."
+    }
+]

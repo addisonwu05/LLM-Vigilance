@@ -1,0 +1,2252 @@
+[
+  {
+    "val_vr": 1,
+    "rec_vr": 0.7,
+    "value": 2.98,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3127
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2952
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.4,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2952
+  },
+  {
+    "val_vr": 0.5,
+    "rec_vr": 0.1,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2728
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3024
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2884
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.7,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3127
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.3,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2884
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.5,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3015
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.1,
+    "value": 4.6,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2719
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4.6,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3024
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 2.2,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.7,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3127
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2884
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.4,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2952
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2884
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.2,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2806
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 0,
+    "rec_vr": 0.6,
+    "value": 1,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3105
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.3,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2884
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3024
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.6,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3073
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.5,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3015
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.2,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2806
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 4.6,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3024
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.2,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2806
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 6.4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.5,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3015
+  },
+  {
+    "val_vr": 0,
+    "rec_vr": 0.2,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.285
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 6.4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.6,
+    "value": 6.1,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3073
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 1,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.3,
+    "value": 2.2,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2884
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.6,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3073
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.6,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3073
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.4,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2952
+  },
+  {
+    "val_vr": 0.5,
+    "rec_vr": 0.2,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2828
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3024
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.7,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3134
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.1,
+    "value": 4.6,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2719
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3024
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.6,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3073
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3024
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.6,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3073
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.4,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2952
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2507
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4.6,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 0.5,
+    "rec_vr": 0.3,
+    "value": 4.6,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2906
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 6.4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 3.4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 3.4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4.6,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3024
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 6.4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.7,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3134
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.4,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2952
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.6,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3073
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.4,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2952
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.6,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3073
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4.6,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2952
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.7,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3134
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0,
+    "rec_vr": 0.2,
+    "value": 1,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.285
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 3.4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.5,
+    "rec_vr": 0.6,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3089
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3024
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.3,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2884
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 2.2,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.4,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2952
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.1,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2719
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.2,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2806
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.2,
+    "value": 3.4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2806
+  },
+  {
+    "val_vr": 0.5,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2906
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2884
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.1,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2719
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.3,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2884
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.3,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2884
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3024
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.3,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2884
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.6,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3073
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.2,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2806
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3024
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.6,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3073
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.4,
+    "value": 6.4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2952
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.3,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2884
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 0.5,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2906
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.4,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2952
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.3,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2884
+  },
+  {
+    "val_vr": 0,
+    "rec_vr": 0.6,
+    "value": 1.6,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3105
+  },
+  {
+    "val_vr": 0.5,
+    "rec_vr": 0.2,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2828
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 1.6,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2952
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.4,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2952
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 3.4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.1,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2709
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.2,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2806
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.2,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2806
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.2,
+    "value": 4.6,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2806
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 3.4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2952
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.6,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3073
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3024
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.6,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3073
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2507
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.1,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2719
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3024
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.6,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3073
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.2,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2806
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.1,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2709
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 2.2,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3024
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.1,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2719
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.1,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2709
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4.6,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.3,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2884
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.3,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2884
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.1,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2719
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.1,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2719
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.7,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3127
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 2.2,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.3,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2884
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.5,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3015
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.3,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2884
+  },
+  {
+    "val_vr": 0.5,
+    "rec_vr": 0.3,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2906
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2895
+  },
+  {
+    "val_vr": 0.5,
+    "rec_vr": 0.6,
+    "value": 1,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3089
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.4,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2952
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.3,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2884
+  },
+  {
+    "val_vr": 1,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3073
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2963
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.3081
+  },
+  {
+    "val_vr": 0.75,
+    "rec_vr": 0.2,
+    "value": 6.4,
+    "alphaL0": 1,
+    "alphaS": 1,
+    "w": 0.5001,
+    "params.dist.X..a0..1..a1..0..prob": 0.2817
+  }
+]

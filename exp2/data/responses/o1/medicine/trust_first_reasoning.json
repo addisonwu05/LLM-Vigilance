@@ -1,0 +1,1302 @@
+[
+    [
+        {
+            "person": "a doctor you found online",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to know exactly how much your online doctor cares about your well-being versus their own self-interest without more direct insight into their practice, motivations, or the specifics of your case. In general, any healthcare professional should have your health as a primary concern. However, there may also be incentives\u2014financial or otherwise\u2014tied to prescribing newer or more expensive treatments. Since the information provided is very limited and relies on assumptions, a reasonable estimate might be that your online doctor both cares for your health but also has some self-interested motivations (for example, professional or financial). \n\nBased on the scenario alone, a balanced estimate could be a rating around 50, meaning the doctor likely cares about you but is also influenced to some degree by self-interested factors. \n\n50"
+                }
+            ],
+            "score": 50,
+            "flipped_score": 50
+        },
+        {
+            "person": "your doctor mother",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to know exactly how much your online doctor cares about your well-being versus their own self-interest without more direct insight into their practice, motivations, or the specifics of your case. In general, any healthcare professional should have your health as a primary concern. However, there may also be incentives\u2014financial or otherwise\u2014tied to prescribing newer or more expensive treatments. Since the information provided is very limited and relies on assumptions, a reasonable estimate might be that your online doctor both cares for your health but also has some self-interested motivations (for example, professional or financial). \n\nBased on the scenario alone, a balanced estimate could be a rating around 50, meaning the doctor likely cares about you but is also influenced to some degree by self-interested factors. \n\n50"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because your mother is both a parent and a medical professional, she is very likely to have your best interests at heart, given the familial bond and her commitment to your well-being. While everyone has a degree of self-interest, in this scenario, it\u2019s reasonable to believe that her primary motivation is taking the best possible care of you. \n\nBased on the unique combination of her role as both your mother and your doctor, a fair estimate might be that she leans heavily toward caring about you over herself. \n\n90"
+                }
+            ],
+            "score": 90,
+            "flipped_score": 90
+        },
+        {
+            "person": "your doctor friend",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to know exactly how much your online doctor cares about your well-being versus their own self-interest without more direct insight into their practice, motivations, or the specifics of your case. In general, any healthcare professional should have your health as a primary concern. However, there may also be incentives\u2014financial or otherwise\u2014tied to prescribing newer or more expensive treatments. Since the information provided is very limited and relies on assumptions, a reasonable estimate might be that your online doctor both cares for your health but also has some self-interested motivations (for example, professional or financial). \n\nBased on the scenario alone, a balanced estimate could be a rating around 50, meaning the doctor likely cares about you but is also influenced to some degree by self-interested factors. \n\n50"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because your mother is both a parent and a medical professional, she is very likely to have your best interests at heart, given the familial bond and her commitment to your well-being. While everyone has a degree of self-interest, in this scenario, it\u2019s reasonable to believe that her primary motivation is taking the best possible care of you. \n\nBased on the unique combination of her role as both your mother and your doctor, a fair estimate might be that she leans heavily toward caring about you over herself. \n\n90"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor friend. Please rate how much your doctor friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because your friend is both a personal acquaintance and a medical professional, they likely have a heightened concern for your well-being compared to a purely professional relationship. While some degree of self-interest typically still exists, the friendship bond would likely tilt their motivation more in your favor.\n\n75"
+                }
+            ],
+            "score": 75,
+            "flipped_score": 75
+        },
+        {
+            "person": "a recommended doctor",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to know exactly how much your online doctor cares about your well-being versus their own self-interest without more direct insight into their practice, motivations, or the specifics of your case. In general, any healthcare professional should have your health as a primary concern. However, there may also be incentives\u2014financial or otherwise\u2014tied to prescribing newer or more expensive treatments. Since the information provided is very limited and relies on assumptions, a reasonable estimate might be that your online doctor both cares for your health but also has some self-interested motivations (for example, professional or financial). \n\nBased on the scenario alone, a balanced estimate could be a rating around 50, meaning the doctor likely cares about you but is also influenced to some degree by self-interested factors. \n\n50"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because your mother is both a parent and a medical professional, she is very likely to have your best interests at heart, given the familial bond and her commitment to your well-being. While everyone has a degree of self-interest, in this scenario, it\u2019s reasonable to believe that her primary motivation is taking the best possible care of you. \n\nBased on the unique combination of her role as both your mother and your doctor, a fair estimate might be that she leans heavily toward caring about you over herself. \n\n90"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor friend. Please rate how much your doctor friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because your friend is both a personal acquaintance and a medical professional, they likely have a heightened concern for your well-being compared to a purely professional relationship. While some degree of self-interest typically still exists, the friendship bond would likely tilt their motivation more in your favor.\n\n75"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A recommended doctor likely comes with some level of endorsement, suggesting others have had positive experiences that inspire trust. As a professional, they will also have their own considerations (such as financial or reputational interests). Given these factors, a reasonable estimate might place their motivation above neutral, though not entirely selfless.\n\n70"
+                }
+            ],
+            "score": 70,
+            "flipped_score": 70
+        }
+    ],
+    [
+        {
+            "person": "your doctor mother",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s reasonable to assume that, as your mother, she deeply values your health and well-being. At the same time, even doctors who are family members have some degree of self-interest, in terms of professionalism (e.g., maintaining a reputation for good patient care), personal satisfaction, and possibly financial considerations (though that might be quite minimal in the context of treating their own child). Still, the strong parental bond typically indicates that her concern for you outweighs most self-oriented motives. \n\nGiven these factors, a plausible estimate of how much your doctor mother cares about her own interests vs. yours might lean heavily toward your well-being, but remember this is only a rough estimate and will vary depending on individual circumstances.\n\nFinal rating: 10"
+                }
+            ],
+            "score": 10,
+            "flipped_score": 90
+        },
+        {
+            "person": "your doctor friend",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s reasonable to assume that, as your mother, she deeply values your health and well-being. At the same time, even doctors who are family members have some degree of self-interest, in terms of professionalism (e.g., maintaining a reputation for good patient care), personal satisfaction, and possibly financial considerations (though that might be quite minimal in the context of treating their own child). Still, the strong parental bond typically indicates that her concern for you outweighs most self-oriented motives. \n\nGiven these factors, a plausible estimate of how much your doctor mother cares about her own interests vs. yours might lean heavily toward your well-being, but remember this is only a rough estimate and will vary depending on individual circumstances.\n\nFinal rating: 10"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor friend. Please rate how much your doctor friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When a friend is also acting as your doctor, there\u2019s typically a blend of genuine concern for your well-being (due to the personal connection) and understandable self-interest (such as maintaining high professional standards, reputation, and employing medical expertise in practice). Compared to a purely professional relationship, a doctor friend may be more motivated by personal care, but some degree of self-interest persists\u2014albeit outweighed by friendship-based concern.\n\nFinal rating: 30"
+                }
+            ],
+            "score": 30,
+            "flipped_score": 70
+        },
+        {
+            "person": "a recommended doctor",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s reasonable to assume that, as your mother, she deeply values your health and well-being. At the same time, even doctors who are family members have some degree of self-interest, in terms of professionalism (e.g., maintaining a reputation for good patient care), personal satisfaction, and possibly financial considerations (though that might be quite minimal in the context of treating their own child). Still, the strong parental bond typically indicates that her concern for you outweighs most self-oriented motives. \n\nGiven these factors, a plausible estimate of how much your doctor mother cares about her own interests vs. yours might lean heavily toward your well-being, but remember this is only a rough estimate and will vary depending on individual circumstances.\n\nFinal rating: 10"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor friend. Please rate how much your doctor friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When a friend is also acting as your doctor, there\u2019s typically a blend of genuine concern for your well-being (due to the personal connection) and understandable self-interest (such as maintaining high professional standards, reputation, and employing medical expertise in practice). Compared to a purely professional relationship, a doctor friend may be more motivated by personal care, but some degree of self-interest persists\u2014albeit outweighed by friendship-based concern.\n\nFinal rating: 30"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A recommended doctor typically has a strong professional incentive to maintain a good reputation by providing quality care, thus balancing self-interest (business, reputation) and the ethical commitment to your health. Since they were recommended, there\u2019s some implied trust that they genuinely care for patients\u2019 well-being. However, unlike a close personal connection (e.g., friend or family), the relationship is more formal and entails a greater degree of professional self-interest.\n\nFinal rating: 40"
+                }
+            ],
+            "score": 40,
+            "flipped_score": 60
+        },
+        {
+            "person": "a doctor you found online",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s reasonable to assume that, as your mother, she deeply values your health and well-being. At the same time, even doctors who are family members have some degree of self-interest, in terms of professionalism (e.g., maintaining a reputation for good patient care), personal satisfaction, and possibly financial considerations (though that might be quite minimal in the context of treating their own child). Still, the strong parental bond typically indicates that her concern for you outweighs most self-oriented motives. \n\nGiven these factors, a plausible estimate of how much your doctor mother cares about her own interests vs. yours might lean heavily toward your well-being, but remember this is only a rough estimate and will vary depending on individual circumstances.\n\nFinal rating: 10"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor friend. Please rate how much your doctor friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When a friend is also acting as your doctor, there\u2019s typically a blend of genuine concern for your well-being (due to the personal connection) and understandable self-interest (such as maintaining high professional standards, reputation, and employing medical expertise in practice). Compared to a purely professional relationship, a doctor friend may be more motivated by personal care, but some degree of self-interest persists\u2014albeit outweighed by friendship-based concern.\n\nFinal rating: 30"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A recommended doctor typically has a strong professional incentive to maintain a good reputation by providing quality care, thus balancing self-interest (business, reputation) and the ethical commitment to your health. Since they were recommended, there\u2019s some implied trust that they genuinely care for patients\u2019 well-being. However, unlike a close personal connection (e.g., friend or family), the relationship is more formal and entails a greater degree of professional self-interest.\n\nFinal rating: 40"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because you have no prior relationship and have located them online\u2014with less personal context or recommended trust\u2014it can be more challenging to assess their true motives. Professional ethics require doctors to prioritize patient welfare, but someone found online will also have a keen interest in attracting and keeping customers. In this case, the balance of duty and self-interest is likely more neutral compared to a friend or a recommended doctor.  \n\nFinal rating: 50"
+                }
+            ],
+            "score": 50,
+            "flipped_score": 50
+        }
+    ],
+    [
+        {
+            "person": "a doctor you found online",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to evaluate an online doctor\u2019s motives without knowing factors such as their track record, reviews from other patients, or whether they have a financial stake in recommending certain drugs. Typically, an initial assessment might lean slightly toward self-interest because the doctor\u2019s income depends on paid consultations or potential affiliations with pharmaceutical products. However, many online doctors also rely on positive patient outcomes and ratings for their reputation, so they have reasons to care about the patient\u2019s well-being as well.\n\nBased on these considerations, I would place the care ratio at around 60\u2014meaning there is a moderate inclination toward self-interest, but still a substantial concern for patient welfare.\n\n60"
+                }
+            ],
+            "score": 60,
+            "flipped_score": 40
+        },
+        {
+            "person": "a recommended doctor",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to evaluate an online doctor\u2019s motives without knowing factors such as their track record, reviews from other patients, or whether they have a financial stake in recommending certain drugs. Typically, an initial assessment might lean slightly toward self-interest because the doctor\u2019s income depends on paid consultations or potential affiliations with pharmaceutical products. However, many online doctors also rely on positive patient outcomes and ratings for their reputation, so they have reasons to care about the patient\u2019s well-being as well.\n\nBased on these considerations, I would place the care ratio at around 60\u2014meaning there is a moderate inclination toward self-interest, but still a substantial concern for patient welfare.\n\n60"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A recommended doctor is likely to have a solid reputation based on patient feedback and professional endorsements, suggesting they genuinely care about patient outcomes. However, like all professionals, they have some inherent self-interest (e.g., maintaining their practice, earning an income). Balancing both considerations, I would rate their care ratio at 30, indicating they lean more toward patient well-being but still retain some self-interest.\n\n30"
+                }
+            ],
+            "score": 30,
+            "flipped_score": 70
+        },
+        {
+            "person": "your doctor mother",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to evaluate an online doctor\u2019s motives without knowing factors such as their track record, reviews from other patients, or whether they have a financial stake in recommending certain drugs. Typically, an initial assessment might lean slightly toward self-interest because the doctor\u2019s income depends on paid consultations or potential affiliations with pharmaceutical products. However, many online doctors also rely on positive patient outcomes and ratings for their reputation, so they have reasons to care about the patient\u2019s well-being as well.\n\nBased on these considerations, I would place the care ratio at around 60\u2014meaning there is a moderate inclination toward self-interest, but still a substantial concern for patient welfare.\n\n60"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A recommended doctor is likely to have a solid reputation based on patient feedback and professional endorsements, suggesting they genuinely care about patient outcomes. However, like all professionals, they have some inherent self-interest (e.g., maintaining their practice, earning an income). Balancing both considerations, I would rate their care ratio at 30, indicating they lean more toward patient well-being but still retain some self-interest.\n\n30"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A mother\u2019s concern for her child is typically very high, often surpassing her own self-interest. While any individual has some level of self-regard, a doctor mother\u2019s professional knowledge meets a strong maternal instinct to provide the best possible care. Therefore, I would place her at about 10 on the scale, indicating a strong emphasis on your well-being, while acknowledging a small element of self-interest.\n\n10"
+                }
+            ],
+            "score": 10,
+            "flipped_score": 90
+        },
+        {
+            "person": "your doctor friend",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to evaluate an online doctor\u2019s motives without knowing factors such as their track record, reviews from other patients, or whether they have a financial stake in recommending certain drugs. Typically, an initial assessment might lean slightly toward self-interest because the doctor\u2019s income depends on paid consultations or potential affiliations with pharmaceutical products. However, many online doctors also rely on positive patient outcomes and ratings for their reputation, so they have reasons to care about the patient\u2019s well-being as well.\n\nBased on these considerations, I would place the care ratio at around 60\u2014meaning there is a moderate inclination toward self-interest, but still a substantial concern for patient welfare.\n\n60"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A recommended doctor is likely to have a solid reputation based on patient feedback and professional endorsements, suggesting they genuinely care about patient outcomes. However, like all professionals, they have some inherent self-interest (e.g., maintaining their practice, earning an income). Balancing both considerations, I would rate their care ratio at 30, indicating they lean more toward patient well-being but still retain some self-interest.\n\n30"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A mother\u2019s concern for her child is typically very high, often surpassing her own self-interest. While any individual has some level of self-regard, a doctor mother\u2019s professional knowledge meets a strong maternal instinct to provide the best possible care. Therefore, I would place her at about 10 on the scale, indicating a strong emphasis on your well-being, while acknowledging a small element of self-interest.\n\n10"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor friend. Please rate how much your doctor friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A friend who is also your doctor likely has a genuine personal concern for you beyond the typical doctor-patient relation. Nonetheless, some self-interest remains\u2014professionally and personally. Balancing these factors, I'd rate their care at around 20, suggesting a strong focus on your well-being with some normal self-regard.\n\n20"
+                }
+            ],
+            "score": 20,
+            "flipped_score": 80
+        }
+    ],
+    [
+        {
+            "person": "a doctor you found online",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It can be challenging to accurately gauge a practitioner\u2019s exact balance between self-interest and patient-centered care\u2014particularly if you only found them online. Typically, indicators of patient-centered care include transparent communication (e.g., explaining diagnoses, discussing treatment options and their risks/benefits), willingness to answer questions, and providing ways for you to get additional support if needed. Indicators of self-interest might be pushing treatments without thorough discussion, dismissing your concerns, or pressuring you for unnecessary follow-ups or expensive procedures.\n\nBecause this is hypothetical and general (with no specific evidence about this particular doctor\u2019s practice), a reasonable estimation might tilt slightly toward them having a balanced concern but also harboring self-interest (due to financial motives and limited knowledge of your personal history). Thus, a modest guess, absent any direct negative signals, might be slightly below the halfway mark.\n\nFinal rating: 45"
+                }
+            ],
+            "score": 45,
+            "flipped_score": 55
+        },
+        {
+            "person": "a recommended doctor",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It can be challenging to accurately gauge a practitioner\u2019s exact balance between self-interest and patient-centered care\u2014particularly if you only found them online. Typically, indicators of patient-centered care include transparent communication (e.g., explaining diagnoses, discussing treatment options and their risks/benefits), willingness to answer questions, and providing ways for you to get additional support if needed. Indicators of self-interest might be pushing treatments without thorough discussion, dismissing your concerns, or pressuring you for unnecessary follow-ups or expensive procedures.\n\nBecause this is hypothetical and general (with no specific evidence about this particular doctor\u2019s practice), a reasonable estimation might tilt slightly toward them having a balanced concern but also harboring self-interest (due to financial motives and limited knowledge of your personal history). Thus, a modest guess, absent any direct negative signals, might be slightly below the halfway mark.\n\nFinal rating: 45"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Being \u201crecommended\u201d suggests that others had positive experiences with this doctor\u2014possibly citing compassionate care, clear communication, and a genuine interest in their patients\u2019 well-being. Of course, no situation is purely altruistic; there are always practical and financial considerations. However, the fact that the doctor comes with good endorsements nudges the balance toward patient-centered care over self-interest. \n\nFinal rating: 20"
+                }
+            ],
+            "score": 20,
+            "flipped_score": 80
+        },
+        {
+            "person": "your doctor friend",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It can be challenging to accurately gauge a practitioner\u2019s exact balance between self-interest and patient-centered care\u2014particularly if you only found them online. Typically, indicators of patient-centered care include transparent communication (e.g., explaining diagnoses, discussing treatment options and their risks/benefits), willingness to answer questions, and providing ways for you to get additional support if needed. Indicators of self-interest might be pushing treatments without thorough discussion, dismissing your concerns, or pressuring you for unnecessary follow-ups or expensive procedures.\n\nBecause this is hypothetical and general (with no specific evidence about this particular doctor\u2019s practice), a reasonable estimation might tilt slightly toward them having a balanced concern but also harboring self-interest (due to financial motives and limited knowledge of your personal history). Thus, a modest guess, absent any direct negative signals, might be slightly below the halfway mark.\n\nFinal rating: 45"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Being \u201crecommended\u201d suggests that others had positive experiences with this doctor\u2014possibly citing compassionate care, clear communication, and a genuine interest in their patients\u2019 well-being. Of course, no situation is purely altruistic; there are always practical and financial considerations. However, the fact that the doctor comes with good endorsements nudges the balance toward patient-centered care over self-interest. \n\nFinal rating: 20"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor friend. Please rate how much your doctor friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because this physician is your friend, you might expect a stronger sense of personal concern for your well-being\u2014beyond typical professional obligations. They may also consider how you perceive them or want to maintain a good personal relationship, which generally promotes trust and empathy. Although practicalities and self-interest (like income and scheduling) can still play a role, the friendship factor likely reduces the degree of self-interest compared to a standard doctor-patient relationship.\n\nFinal rating: 10"
+                }
+            ],
+            "score": 10,
+            "flipped_score": 90
+        },
+        {
+            "person": "your doctor mother",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It can be challenging to accurately gauge a practitioner\u2019s exact balance between self-interest and patient-centered care\u2014particularly if you only found them online. Typically, indicators of patient-centered care include transparent communication (e.g., explaining diagnoses, discussing treatment options and their risks/benefits), willingness to answer questions, and providing ways for you to get additional support if needed. Indicators of self-interest might be pushing treatments without thorough discussion, dismissing your concerns, or pressuring you for unnecessary follow-ups or expensive procedures.\n\nBecause this is hypothetical and general (with no specific evidence about this particular doctor\u2019s practice), a reasonable estimation might tilt slightly toward them having a balanced concern but also harboring self-interest (due to financial motives and limited knowledge of your personal history). Thus, a modest guess, absent any direct negative signals, might be slightly below the halfway mark.\n\nFinal rating: 45"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Being \u201crecommended\u201d suggests that others had positive experiences with this doctor\u2014possibly citing compassionate care, clear communication, and a genuine interest in their patients\u2019 well-being. Of course, no situation is purely altruistic; there are always practical and financial considerations. However, the fact that the doctor comes with good endorsements nudges the balance toward patient-centered care over self-interest. \n\nFinal rating: 20"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor friend. Please rate how much your doctor friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because this physician is your friend, you might expect a stronger sense of personal concern for your well-being\u2014beyond typical professional obligations. They may also consider how you perceive them or want to maintain a good personal relationship, which generally promotes trust and empathy. Although practicalities and self-interest (like income and scheduling) can still play a role, the friendship factor likely reduces the degree of self-interest compared to a standard doctor-patient relationship.\n\nFinal rating: 10"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When your doctor is also your mother, her sense of responsibility and love toward you will likely outweigh any professional self-interest. While every individual has some concern for themselves, a mother\u2019s instinct to protect and care for her child typically makes self-interest quite minimal in this scenario. \n\nFinal rating: 2"
+                }
+            ],
+            "score": 2,
+            "flipped_score": 98
+        }
+    ],
+    [
+        {
+            "person": "your doctor friend",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor friend. Please rate how much your doctor friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It seems reasonable to expect that a doctor friend, who has a personal relationship with you, would care about both their own professional reputation and your well-being. Friends typically have genuine concern, but they also need to consider financial realities, time constraints, and professional obligations. This balanced scenario might lean more toward caring about you versus purely self-interest. Therefore, a plausible rating might be around 80, indicating a stronger focus on your health than on self-interest (though not exclusively selfless).\n\n80"
+                }
+            ],
+            "score": 80,
+            "flipped_score": 80
+        },
+        {
+            "person": "a recommended doctor",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor friend. Please rate how much your doctor friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It seems reasonable to expect that a doctor friend, who has a personal relationship with you, would care about both their own professional reputation and your well-being. Friends typically have genuine concern, but they also need to consider financial realities, time constraints, and professional obligations. This balanced scenario might lean more toward caring about you versus purely self-interest. Therefore, a plausible rating might be around 80, indicating a stronger focus on your health than on self-interest (though not exclusively selfless).\n\n80"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Being a recommended doctor implies a degree of trustworthiness and competence, as they have come through patient endorsements or professional referrals. This generally suggests they care about positive patient outcomes (and thus your well-being), while also valuing their reputation, professional success, and financial viability. Given those factors, this doctor is likely to be invested in both your well-being and their self-interest. Therefore, a plausible rating might be around 70, indicating a moderate balance skewed towards caring about you more than purely self-interest.\n\n70"
+                }
+            ],
+            "score": 70,
+            "flipped_score": 70
+        },
+        {
+            "person": "your doctor mother",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor friend. Please rate how much your doctor friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It seems reasonable to expect that a doctor friend, who has a personal relationship with you, would care about both their own professional reputation and your well-being. Friends typically have genuine concern, but they also need to consider financial realities, time constraints, and professional obligations. This balanced scenario might lean more toward caring about you versus purely self-interest. Therefore, a plausible rating might be around 80, indicating a stronger focus on your health than on self-interest (though not exclusively selfless).\n\n80"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Being a recommended doctor implies a degree of trustworthiness and competence, as they have come through patient endorsements or professional referrals. This generally suggests they care about positive patient outcomes (and thus your well-being), while also valuing their reputation, professional success, and financial viability. Given those factors, this doctor is likely to be invested in both your well-being and their self-interest. Therefore, a plausible rating might be around 70, indicating a moderate balance skewed towards caring about you more than purely self-interest.\n\n70"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When considering a mother-child relationship, the emotional bond typically goes beyond normal doctor-patient obligations, suggesting her primary concern is your well-being. However, as a medical professional, she also needs to balance her own responsibilities, her time, and professional commitments. Therefore, a plausible rating might be around 95, reflecting that while she mostly cares for you, she also maintains some necessary self-interest.\n\n95"
+                }
+            ],
+            "score": 95,
+            "flipped_score": 95
+        },
+        {
+            "person": "a doctor you found online",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor friend. Please rate how much your doctor friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It seems reasonable to expect that a doctor friend, who has a personal relationship with you, would care about both their own professional reputation and your well-being. Friends typically have genuine concern, but they also need to consider financial realities, time constraints, and professional obligations. This balanced scenario might lean more toward caring about you versus purely self-interest. Therefore, a plausible rating might be around 80, indicating a stronger focus on your health than on self-interest (though not exclusively selfless).\n\n80"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Being a recommended doctor implies a degree of trustworthiness and competence, as they have come through patient endorsements or professional referrals. This generally suggests they care about positive patient outcomes (and thus your well-being), while also valuing their reputation, professional success, and financial viability. Given those factors, this doctor is likely to be invested in both your well-being and their self-interest. Therefore, a plausible rating might be around 70, indicating a moderate balance skewed towards caring about you more than purely self-interest.\n\n70"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When considering a mother-child relationship, the emotional bond typically goes beyond normal doctor-patient obligations, suggesting her primary concern is your well-being. However, as a medical professional, she also needs to balance her own responsibilities, her time, and professional commitments. Therefore, a plausible rating might be around 95, reflecting that while she mostly cares for you, she also maintains some necessary self-interest.\n\n95"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Finding a doctor online often involves a more transactional, less personal interaction compared to other scenarios. Without an established relationship, the doctor may still care about your well-being\u2014due to professional ethics and desire to build a good reputation\u2014but there is also likely a stronger personal or business interest element at play. Thus, a reasonable rating might be around 60, suggesting a balance that slightly favors self-interest but still accounts for patient care obligations.\n\n60"
+                }
+            ],
+            "score": 60,
+            "flipped_score": 60
+        }
+    ],
+    [
+        {
+            "person": "your doctor friend",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor friend. Please rate how much your doctor friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It can be tricky to gauge a friend\u2019s motivations, especially when they\u2019re also your doctor. As a friend, they likely have your best interest at heart and genuinely want to help you overcome your illness. However, doctors also have professional obligations and can be influenced by personal interests\u2014such as expertise with a certain treatment, reputation, or even financial benefit if they are closely associated with the drug or the clinic.\n\nGiven that this person is both a friend and a doctor, it seems reasonable to assume they predominantly care about your well-being, but there may still be a mild degree of self-interest or professional benefit involved. Therefore, I would estimate they lean significantly more toward caring about you than being self-interested.\n\nFinal rating: 20"
+                }
+            ],
+            "score": 20,
+            "flipped_score": 80
+        },
+        {
+            "person": "your doctor mother",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor friend. Please rate how much your doctor friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It can be tricky to gauge a friend\u2019s motivations, especially when they\u2019re also your doctor. As a friend, they likely have your best interest at heart and genuinely want to help you overcome your illness. However, doctors also have professional obligations and can be influenced by personal interests\u2014such as expertise with a certain treatment, reputation, or even financial benefit if they are closely associated with the drug or the clinic.\n\nGiven that this person is both a friend and a doctor, it seems reasonable to assume they predominantly care about your well-being, but there may still be a mild degree of self-interest or professional benefit involved. Therefore, I would estimate they lean significantly more toward caring about you than being self-interested.\n\nFinal rating: 20"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A mother who is also a doctor likely prioritizes your health and well-being above all else, given both her maternal instincts and professional obligations. While there can still be some degree of self-interest (e.g., professional pride or personal relief at successfully treating her child), it\u2019s reasonable to assume this influence is minimal in comparison to her deep care for you.\n\nFinal rating: 10"
+                }
+            ],
+            "score": 10,
+            "flipped_score": 90
+        },
+        {
+            "person": "a recommended doctor",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor friend. Please rate how much your doctor friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It can be tricky to gauge a friend\u2019s motivations, especially when they\u2019re also your doctor. As a friend, they likely have your best interest at heart and genuinely want to help you overcome your illness. However, doctors also have professional obligations and can be influenced by personal interests\u2014such as expertise with a certain treatment, reputation, or even financial benefit if they are closely associated with the drug or the clinic.\n\nGiven that this person is both a friend and a doctor, it seems reasonable to assume they predominantly care about your well-being, but there may still be a mild degree of self-interest or professional benefit involved. Therefore, I would estimate they lean significantly more toward caring about you than being self-interested.\n\nFinal rating: 20"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A mother who is also a doctor likely prioritizes your health and well-being above all else, given both her maternal instincts and professional obligations. While there can still be some degree of self-interest (e.g., professional pride or personal relief at successfully treating her child), it\u2019s reasonable to assume this influence is minimal in comparison to her deep care for you.\n\nFinal rating: 10"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A recommended doctor typically has a professional reputation to uphold, suggesting they likely do care about their patients\u2019 well-being while also having a desire to maintain or enhance their status in the medical community. They might not have the personal attachment that a friend or family member would, but they still have a strong incentive to provide good care and positive outcomes. Thus, there is a balance between wanting to help you and maintaining their own professional interests or financial considerations.\n\nFinal rating: 40"
+                }
+            ],
+            "score": 40,
+            "flipped_score": 60
+        },
+        {
+            "person": "a doctor you found online",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor friend. Please rate how much your doctor friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It can be tricky to gauge a friend\u2019s motivations, especially when they\u2019re also your doctor. As a friend, they likely have your best interest at heart and genuinely want to help you overcome your illness. However, doctors also have professional obligations and can be influenced by personal interests\u2014such as expertise with a certain treatment, reputation, or even financial benefit if they are closely associated with the drug or the clinic.\n\nGiven that this person is both a friend and a doctor, it seems reasonable to assume they predominantly care about your well-being, but there may still be a mild degree of self-interest or professional benefit involved. Therefore, I would estimate they lean significantly more toward caring about you than being self-interested.\n\nFinal rating: 20"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A mother who is also a doctor likely prioritizes your health and well-being above all else, given both her maternal instincts and professional obligations. While there can still be some degree of self-interest (e.g., professional pride or personal relief at successfully treating her child), it\u2019s reasonable to assume this influence is minimal in comparison to her deep care for you.\n\nFinal rating: 10"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A recommended doctor typically has a professional reputation to uphold, suggesting they likely do care about their patients\u2019 well-being while also having a desire to maintain or enhance their status in the medical community. They might not have the personal attachment that a friend or family member would, but they still have a strong incentive to provide good care and positive outcomes. Thus, there is a balance between wanting to help you and maintaining their own professional interests or financial considerations.\n\nFinal rating: 40"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A doctor you find online does not usually have an existing personal relationship or a direct reputation with you aside from whatever information you might glean from reviews or professional credentials. While a professional code of ethics typically compels doctors to prioritize patient health, there could also be added commercial or marketing motivations at play (e.g., seeking to expand clientele, financial influences). Consequently, they may balance genuine care for your well-being with broader self-interests or practice-building goals.\n\nFinal rating: 60"
+                }
+            ],
+            "score": 60,
+            "flipped_score": 40
+        }
+    ],
+    [
+        {
+            "person": "your doctor mother",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A mother who is also your doctor would very likely have a strong desire to ensure your health and well-being. At the same time, as a professional, she might also be mindful of her own reputation, her responsibilities, and any potential financial or professional considerations (though these are probably overshadowed by her care for you as her child). Overall, she would be highly focused on your best interests, with only a small portion of her motivation tied to self-interest. \n\n95"
+                }
+            ],
+            "score": 95,
+            "flipped_score": 95
+        },
+        {
+            "person": "a recommended doctor",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A mother who is also your doctor would very likely have a strong desire to ensure your health and well-being. At the same time, as a professional, she might also be mindful of her own reputation, her responsibilities, and any potential financial or professional considerations (though these are probably overshadowed by her care for you as her child). Overall, she would be highly focused on your best interests, with only a small portion of her motivation tied to self-interest. \n\n95"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A recommended doctor typically has a good reputation and would generally prioritize patient care, though they may still be influenced by professional ambitions, reputation, or financial incentives. Overall, they are likely to care significantly about your well-being, but with a moderate component of self-interest.\n\n80"
+                }
+            ],
+            "score": 80,
+            "flipped_score": 80
+        },
+        {
+            "person": "a doctor you found online",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A mother who is also your doctor would very likely have a strong desire to ensure your health and well-being. At the same time, as a professional, she might also be mindful of her own reputation, her responsibilities, and any potential financial or professional considerations (though these are probably overshadowed by her care for you as her child). Overall, she would be highly focused on your best interests, with only a small portion of her motivation tied to self-interest. \n\n95"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A recommended doctor typically has a good reputation and would generally prioritize patient care, though they may still be influenced by professional ambitions, reputation, or financial incentives. Overall, they are likely to care significantly about your well-being, but with a moderate component of self-interest.\n\n80"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A doctor you find online could be knowledgeable and genuinely concerned for your health, but since your connection is primarily through an online discovery (rather than personal referrals or an in-depth relationship), there may be a bit more uncertainty about their level of personal investment in your care. They may still prioritize patient well-being, but with a moderate to significant degree of self-interest driven by business or financial motivations.\n\n70"
+                }
+            ],
+            "score": 70,
+            "flipped_score": 70
+        },
+        {
+            "person": "your doctor friend",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A mother who is also your doctor would very likely have a strong desire to ensure your health and well-being. At the same time, as a professional, she might also be mindful of her own reputation, her responsibilities, and any potential financial or professional considerations (though these are probably overshadowed by her care for you as her child). Overall, she would be highly focused on your best interests, with only a small portion of her motivation tied to self-interest. \n\n95"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A recommended doctor typically has a good reputation and would generally prioritize patient care, though they may still be influenced by professional ambitions, reputation, or financial incentives. Overall, they are likely to care significantly about your well-being, but with a moderate component of self-interest.\n\n80"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A doctor you find online could be knowledgeable and genuinely concerned for your health, but since your connection is primarily through an online discovery (rather than personal referrals or an in-depth relationship), there may be a bit more uncertainty about their level of personal investment in your care. They may still prioritize patient well-being, but with a moderate to significant degree of self-interest driven by business or financial motivations.\n\n70"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor friend. Please rate how much your doctor friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A doctor who is also your friend is likely to care greatly about your well-being due to both professional ethics and personal attachment. While some degree of self-interest remains (e.g., maintaining a good reputation, fulfilling job duties), the personal relationship tends to focus the doctor\u2019s attention on what\u2019s best for you.\n\n90"
+                }
+            ],
+            "score": 90,
+            "flipped_score": 90
+        }
+    ],
+    [
+        {
+            "person": "a doctor you found online",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to know exactly how any particular doctor balances self-interest with patient care, especially if you\u2019ve never interacted with them face-to-face and only found them online. Some doctors may genuinely have your best interests at heart, whereas others might be more motivated by profit or the desire to prescribe certain products. A new or lesser-known treatment, like \u201cZorcidac,\u201d raises questions about whether the recommendation is purely based on medical necessity or if incentives (e.g., monetary gain, sponsorship, etc.) could play a role.\n\nFactors to consider:\n\u2022 Professional background and reviews: An online doctor with extensive positive patient testimonials may be more trustworthy than one you know little about.  \n\u2022 Transparency: If the doctor clearly explains why Zorcidac is needed, possible downsides, and alternatives, that\u2019s a good sign they care about your well-being.  \n\u2022 Follow-up care: A provider who schedules follow-up appointments or remains reachable for questions often demonstrates concern for your outcomes.  \n\u2022 Conflicts of interest: Doctors who are transparent about their ties to pharmaceutical companies or who mention cost-effective alternatives may show a balanced sense of responsibility to both patient and practice.\n\nBalancing the possibility of a legitimate prescription for a serious fungal infection with the fact that the doctor is someone you just found online\u2014who may also be motivated by personal gain\u2014I would estimate their level of concern for your well-being versus self-interest at around 60 on the 0 to 100 scale.\n\n60"
+                }
+            ],
+            "score": 60,
+            "flipped_score": 60
+        },
+        {
+            "person": "a recommended doctor",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to know exactly how any particular doctor balances self-interest with patient care, especially if you\u2019ve never interacted with them face-to-face and only found them online. Some doctors may genuinely have your best interests at heart, whereas others might be more motivated by profit or the desire to prescribe certain products. A new or lesser-known treatment, like \u201cZorcidac,\u201d raises questions about whether the recommendation is purely based on medical necessity or if incentives (e.g., monetary gain, sponsorship, etc.) could play a role.\n\nFactors to consider:\n\u2022 Professional background and reviews: An online doctor with extensive positive patient testimonials may be more trustworthy than one you know little about.  \n\u2022 Transparency: If the doctor clearly explains why Zorcidac is needed, possible downsides, and alternatives, that\u2019s a good sign they care about your well-being.  \n\u2022 Follow-up care: A provider who schedules follow-up appointments or remains reachable for questions often demonstrates concern for your outcomes.  \n\u2022 Conflicts of interest: Doctors who are transparent about their ties to pharmaceutical companies or who mention cost-effective alternatives may show a balanced sense of responsibility to both patient and practice.\n\nBalancing the possibility of a legitimate prescription for a serious fungal infection with the fact that the doctor is someone you just found online\u2014who may also be motivated by personal gain\u2014I would estimate their level of concern for your well-being versus self-interest at around 60 on the 0 to 100 scale.\n\n60"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When a doctor comes highly recommended\u2014whether by another medical professional, friends, or family\u2014it generally indicates that they have provided quality care in the past and likely prioritize patient outcomes. Recommended doctors often have an established reputation to uphold, which can align their interests with ensuring patient satisfaction and well-being. Nevertheless, it is rare for any individual to be wholly altruistic; there may still be elements of personal gain (e.g., income, reputation, professional advancement) that drive their behavior. Given these considerations, I would offer an overall estimate that such a recommended doctor rates at around 80 on the 0\u2013100 scale.\n\n80"
+                }
+            ],
+            "score": 80,
+            "flipped_score": 80
+        },
+        {
+            "person": "your doctor mother",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to know exactly how any particular doctor balances self-interest with patient care, especially if you\u2019ve never interacted with them face-to-face and only found them online. Some doctors may genuinely have your best interests at heart, whereas others might be more motivated by profit or the desire to prescribe certain products. A new or lesser-known treatment, like \u201cZorcidac,\u201d raises questions about whether the recommendation is purely based on medical necessity or if incentives (e.g., monetary gain, sponsorship, etc.) could play a role.\n\nFactors to consider:\n\u2022 Professional background and reviews: An online doctor with extensive positive patient testimonials may be more trustworthy than one you know little about.  \n\u2022 Transparency: If the doctor clearly explains why Zorcidac is needed, possible downsides, and alternatives, that\u2019s a good sign they care about your well-being.  \n\u2022 Follow-up care: A provider who schedules follow-up appointments or remains reachable for questions often demonstrates concern for your outcomes.  \n\u2022 Conflicts of interest: Doctors who are transparent about their ties to pharmaceutical companies or who mention cost-effective alternatives may show a balanced sense of responsibility to both patient and practice.\n\nBalancing the possibility of a legitimate prescription for a serious fungal infection with the fact that the doctor is someone you just found online\u2014who may also be motivated by personal gain\u2014I would estimate their level of concern for your well-being versus self-interest at around 60 on the 0 to 100 scale.\n\n60"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When a doctor comes highly recommended\u2014whether by another medical professional, friends, or family\u2014it generally indicates that they have provided quality care in the past and likely prioritize patient outcomes. Recommended doctors often have an established reputation to uphold, which can align their interests with ensuring patient satisfaction and well-being. Nevertheless, it is rare for any individual to be wholly altruistic; there may still be elements of personal gain (e.g., income, reputation, professional advancement) that drive their behavior. Given these considerations, I would offer an overall estimate that such a recommended doctor rates at around 80 on the 0\u2013100 scale.\n\n80"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When your mother is also your doctor, the level of trust and care is typically very high. She has a strong emotional connection and personal investment in your well-being, and she\u2019s likely to do everything within her professional capacity to help. Still, it\u2019s rare for anyone to have absolutely no self-interest at all, even if it\u2019s simply to maintain her well-being so she can continue taking care of you. \n\nTaking these factors into account, I would estimate her level of concern for your well-being versus self-interest at approximately 95 on the 0 to 100 scale.\n\n95"
+                }
+            ],
+            "score": 95,
+            "flipped_score": 95
+        },
+        {
+            "person": "your doctor friend",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to know exactly how any particular doctor balances self-interest with patient care, especially if you\u2019ve never interacted with them face-to-face and only found them online. Some doctors may genuinely have your best interests at heart, whereas others might be more motivated by profit or the desire to prescribe certain products. A new or lesser-known treatment, like \u201cZorcidac,\u201d raises questions about whether the recommendation is purely based on medical necessity or if incentives (e.g., monetary gain, sponsorship, etc.) could play a role.\n\nFactors to consider:\n\u2022 Professional background and reviews: An online doctor with extensive positive patient testimonials may be more trustworthy than one you know little about.  \n\u2022 Transparency: If the doctor clearly explains why Zorcidac is needed, possible downsides, and alternatives, that\u2019s a good sign they care about your well-being.  \n\u2022 Follow-up care: A provider who schedules follow-up appointments or remains reachable for questions often demonstrates concern for your outcomes.  \n\u2022 Conflicts of interest: Doctors who are transparent about their ties to pharmaceutical companies or who mention cost-effective alternatives may show a balanced sense of responsibility to both patient and practice.\n\nBalancing the possibility of a legitimate prescription for a serious fungal infection with the fact that the doctor is someone you just found online\u2014who may also be motivated by personal gain\u2014I would estimate their level of concern for your well-being versus self-interest at around 60 on the 0 to 100 scale.\n\n60"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When a doctor comes highly recommended\u2014whether by another medical professional, friends, or family\u2014it generally indicates that they have provided quality care in the past and likely prioritize patient outcomes. Recommended doctors often have an established reputation to uphold, which can align their interests with ensuring patient satisfaction and well-being. Nevertheless, it is rare for any individual to be wholly altruistic; there may still be elements of personal gain (e.g., income, reputation, professional advancement) that drive their behavior. Given these considerations, I would offer an overall estimate that such a recommended doctor rates at around 80 on the 0\u2013100 scale.\n\n80"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When your mother is also your doctor, the level of trust and care is typically very high. She has a strong emotional connection and personal investment in your well-being, and she\u2019s likely to do everything within her professional capacity to help. Still, it\u2019s rare for anyone to have absolutely no self-interest at all, even if it\u2019s simply to maintain her well-being so she can continue taking care of you. \n\nTaking these factors into account, I would estimate her level of concern for your well-being versus self-interest at approximately 95 on the 0 to 100 scale.\n\n95"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor friend. Please rate how much your doctor friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When a friend is also your doctor, there\u2019s a personal bond in addition to the professional duty of care. This generally means there\u2019s a strong inclination to look out for your best interests, not only for professionalism\u2019s sake but also due to the genuine affection and concern inherent in friendship. However, self-interest\u2014a desire to maintain their own well-being and career\u2014will still factor in to some degree, as it would for anyone.\n\nGiven these considerations, I would estimate your doctor friend\u2019s concern for your well-being versus self-interest at around 85 on the 0\u2013100 scale.\n\n85"
+                }
+            ],
+            "score": 85,
+            "flipped_score": 85
+        }
+    ],
+    [
+        {
+            "person": "a recommended doctor",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to pin down any person\u2019s true motivations, because they likely have a mix of professional duty, personal ethics, and self-interest. A recommended doctor, especially one who is well-regarded by peers or patients, is likely to put patient care first in most situations. However, professional reputation, financial considerations, or simply wanting to excel in their practice can also contribute to self-interest. \n\nGiven this balance, a rough estimate might lean more toward patient welfare than personal gain, while acknowledging some self-interested motives. On a scale of 0 (pure concern for you) to 100 (completely self-interested), a plausible estimate could be around 25.\n\n25"
+                }
+            ],
+            "score": 25,
+            "flipped_score": 75
+        },
+        {
+            "person": "your doctor mother",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to pin down any person\u2019s true motivations, because they likely have a mix of professional duty, personal ethics, and self-interest. A recommended doctor, especially one who is well-regarded by peers or patients, is likely to put patient care first in most situations. However, professional reputation, financial considerations, or simply wanting to excel in their practice can also contribute to self-interest. \n\nGiven this balance, a rough estimate might lean more toward patient welfare than personal gain, while acknowledging some self-interested motives. On a scale of 0 (pure concern for you) to 100 (completely self-interested), a plausible estimate could be around 25.\n\n25"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When a doctor is also your mother, her sense of responsibility and love for you are likely far stronger than typical professional duty. She might still have some self-interest, such as maintaining professional pride or avoiding guilt. However, the overall motivation is probably driven much more by genuine care for your wellbeing. On a scale where 0 is total concern for you and 100 is total self-interest, a reasonable estimate would be around 10.\n\n10"
+                }
+            ],
+            "score": 10,
+            "flipped_score": 90
+        },
+        {
+            "person": "your doctor friend",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to pin down any person\u2019s true motivations, because they likely have a mix of professional duty, personal ethics, and self-interest. A recommended doctor, especially one who is well-regarded by peers or patients, is likely to put patient care first in most situations. However, professional reputation, financial considerations, or simply wanting to excel in their practice can also contribute to self-interest. \n\nGiven this balance, a rough estimate might lean more toward patient welfare than personal gain, while acknowledging some self-interested motives. On a scale of 0 (pure concern for you) to 100 (completely self-interested), a plausible estimate could be around 25.\n\n25"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When a doctor is also your mother, her sense of responsibility and love for you are likely far stronger than typical professional duty. She might still have some self-interest, such as maintaining professional pride or avoiding guilt. However, the overall motivation is probably driven much more by genuine care for your wellbeing. On a scale where 0 is total concern for you and 100 is total self-interest, a reasonable estimate would be around 10.\n\n10"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor friend. Please rate how much your doctor friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A close friendship typically brings with it a genuine desire to help and support you. However, as a professional, your doctor friend might still have some personal interests (reputation, professional pride, etc.) in the care they provide. Overall, their care for your wellbeing would likely outweigh any self-interest, but not to the same degree as a parent. On a scale where 0 is total concern for you and 100 is total self-interest, a reasonable estimate could be around 20.\n\n20"
+                }
+            ],
+            "score": 20,
+            "flipped_score": 80
+        },
+        {
+            "person": "a doctor you found online",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to pin down any person\u2019s true motivations, because they likely have a mix of professional duty, personal ethics, and self-interest. A recommended doctor, especially one who is well-regarded by peers or patients, is likely to put patient care first in most situations. However, professional reputation, financial considerations, or simply wanting to excel in their practice can also contribute to self-interest. \n\nGiven this balance, a rough estimate might lean more toward patient welfare than personal gain, while acknowledging some self-interested motives. On a scale of 0 (pure concern for you) to 100 (completely self-interested), a plausible estimate could be around 25.\n\n25"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When a doctor is also your mother, her sense of responsibility and love for you are likely far stronger than typical professional duty. She might still have some self-interest, such as maintaining professional pride or avoiding guilt. However, the overall motivation is probably driven much more by genuine care for your wellbeing. On a scale where 0 is total concern for you and 100 is total self-interest, a reasonable estimate would be around 10.\n\n10"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor friend. Please rate how much your doctor friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A close friendship typically brings with it a genuine desire to help and support you. However, as a professional, your doctor friend might still have some personal interests (reputation, professional pride, etc.) in the care they provide. Overall, their care for your wellbeing would likely outweigh any self-interest, but not to the same degree as a parent. On a scale where 0 is total concern for you and 100 is total self-interest, a reasonable estimate could be around 20.\n\n20"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A doctor you find online might still have a commitment to care for their patients, yet without prior personal recommendations or personal relationships, you may perceive less assurance of a strong patient-first orientation. While reputable online platforms can vet doctors, some degree of caution is natural since their motives might include building an online reputation, securing clients, or financial gain. On a scale from 0 (pure care for you) to 100 (completely self-interested), a reasonable estimate might be around 35.\n\n35"
+                }
+            ],
+            "score": 35,
+            "flipped_score": 65
+        }
+    ],
+    [
+        {
+            "person": "a doctor you found online",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It can be difficult to accurately gauge someone\u2019s level of self-interest versus genuine care based on limited information alone. In general, any new interaction\u2014even with a professional found online\u2014deserves a degree of caution until trust is established. On one hand, it\u2019s a doctor\u2019s role (and professional obligation) to act in a patient\u2019s best interest; on the other hand, personal interests (such as financial gain or professional reputation) can sometimes influence their recommendations.\n\nIf you\u2019re unsure about your doctor\u2019s motives, you might consider:\n\u2022 Seeking a second opinion (from another online physician or an in-person visit) to confirm the diagnosis and treatment.  \n\u2022 Reviewing the doctor\u2019s credentials, patient reviews, or the platform\u2019s reputation.  \n\u2022 Asking detailed questions about why Zorcidac is recommended and how it compares to other treatment options.  \n\nWithout concrete indicators one way or the other, a neutral midpoint might be the most reasonable guess, reflecting that many professionals both care about their patients and have personal considerations.  \n\n50"
+                }
+            ],
+            "score": 50,
+            "flipped_score": 50
+        },
+        {
+            "person": "your doctor friend",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It can be difficult to accurately gauge someone\u2019s level of self-interest versus genuine care based on limited information alone. In general, any new interaction\u2014even with a professional found online\u2014deserves a degree of caution until trust is established. On one hand, it\u2019s a doctor\u2019s role (and professional obligation) to act in a patient\u2019s best interest; on the other hand, personal interests (such as financial gain or professional reputation) can sometimes influence their recommendations.\n\nIf you\u2019re unsure about your doctor\u2019s motives, you might consider:\n\u2022 Seeking a second opinion (from another online physician or an in-person visit) to confirm the diagnosis and treatment.  \n\u2022 Reviewing the doctor\u2019s credentials, patient reviews, or the platform\u2019s reputation.  \n\u2022 Asking detailed questions about why Zorcidac is recommended and how it compares to other treatment options.  \n\nWithout concrete indicators one way or the other, a neutral midpoint might be the most reasonable guess, reflecting that many professionals both care about their patients and have personal considerations.  \n\n50"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor friend. Please rate how much your doctor friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When a close friend also serves as your doctor, there is naturally a higher degree of trust and mutual care in the relationship. Generally, friends are more inclined to look out for each other\u2019s well-being before personal gain compared to a purely professional acquaintance. However, even in friendships, self-interest can sometimes play a role (for instance, someone might still want to enhance their professional reputation, receive compensation, or feel validated in their expertise). Nevertheless, compared to the average patient-doctor dynamic, a friend is likely to lean more heavily toward prioritizing your welfare.\n\nBased on these considerations, a reasonable estimate might tilt toward caring more about you than themselves, while still acknowledging that all individuals have some degree of self-interest.\n\n25"
+                }
+            ],
+            "score": 25,
+            "flipped_score": 75
+        },
+        {
+            "person": "a recommended doctor",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It can be difficult to accurately gauge someone\u2019s level of self-interest versus genuine care based on limited information alone. In general, any new interaction\u2014even with a professional found online\u2014deserves a degree of caution until trust is established. On one hand, it\u2019s a doctor\u2019s role (and professional obligation) to act in a patient\u2019s best interest; on the other hand, personal interests (such as financial gain or professional reputation) can sometimes influence their recommendations.\n\nIf you\u2019re unsure about your doctor\u2019s motives, you might consider:\n\u2022 Seeking a second opinion (from another online physician or an in-person visit) to confirm the diagnosis and treatment.  \n\u2022 Reviewing the doctor\u2019s credentials, patient reviews, or the platform\u2019s reputation.  \n\u2022 Asking detailed questions about why Zorcidac is recommended and how it compares to other treatment options.  \n\nWithout concrete indicators one way or the other, a neutral midpoint might be the most reasonable guess, reflecting that many professionals both care about their patients and have personal considerations.  \n\n50"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor friend. Please rate how much your doctor friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When a close friend also serves as your doctor, there is naturally a higher degree of trust and mutual care in the relationship. Generally, friends are more inclined to look out for each other\u2019s well-being before personal gain compared to a purely professional acquaintance. However, even in friendships, self-interest can sometimes play a role (for instance, someone might still want to enhance their professional reputation, receive compensation, or feel validated in their expertise). Nevertheless, compared to the average patient-doctor dynamic, a friend is likely to lean more heavily toward prioritizing your welfare.\n\nBased on these considerations, a reasonable estimate might tilt toward caring more about you than themselves, while still acknowledging that all individuals have some degree of self-interest.\n\n25"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A doctor who comes recommended (such as from a friend, a colleague, or a trusted source) generally carries an added layer of credibility, since someone you trust has had a positive experience and is vouching for the doctor\u2019s competence or integrity. This does not entirely eliminate the potential for self-interest (e.g., the recommended doctor might foster a good reputation to attract more patients or build their practice), but it does reduce the likelihood that they are acting solely in their own interests.  \n\nConsidering these factors, you might lean toward a stronger belief that they care about your welfare first, while acknowledging some possible personal motivations.  \n\n40"
+                }
+            ],
+            "score": 40,
+            "flipped_score": 60
+        },
+        {
+            "person": "your doctor mother",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a doctor you found online. Please rate how much the doctor you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It can be difficult to accurately gauge someone\u2019s level of self-interest versus genuine care based on limited information alone. In general, any new interaction\u2014even with a professional found online\u2014deserves a degree of caution until trust is established. On one hand, it\u2019s a doctor\u2019s role (and professional obligation) to act in a patient\u2019s best interest; on the other hand, personal interests (such as financial gain or professional reputation) can sometimes influence their recommendations.\n\nIf you\u2019re unsure about your doctor\u2019s motives, you might consider:\n\u2022 Seeking a second opinion (from another online physician or an in-person visit) to confirm the diagnosis and treatment.  \n\u2022 Reviewing the doctor\u2019s credentials, patient reviews, or the platform\u2019s reputation.  \n\u2022 Asking detailed questions about why Zorcidac is recommended and how it compares to other treatment options.  \n\nWithout concrete indicators one way or the other, a neutral midpoint might be the most reasonable guess, reflecting that many professionals both care about their patients and have personal considerations.  \n\n50"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor friend. Please rate how much your doctor friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When a close friend also serves as your doctor, there is naturally a higher degree of trust and mutual care in the relationship. Generally, friends are more inclined to look out for each other\u2019s well-being before personal gain compared to a purely professional acquaintance. However, even in friendships, self-interest can sometimes play a role (for instance, someone might still want to enhance their professional reputation, receive compensation, or feel validated in their expertise). Nevertheless, compared to the average patient-doctor dynamic, a friend is likely to lean more heavily toward prioritizing your welfare.\n\nBased on these considerations, a reasonable estimate might tilt toward caring more about you than themselves, while still acknowledging that all individuals have some degree of self-interest.\n\n25"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is a recommended doctor. Please rate how much the recommended doctor cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A doctor who comes recommended (such as from a friend, a colleague, or a trusted source) generally carries an added layer of credibility, since someone you trust has had a positive experience and is vouching for the doctor\u2019s competence or integrity. This does not entirely eliminate the potential for self-interest (e.g., the recommended doctor might foster a good reputation to attract more patients or build their practice), but it does reduce the likelihood that they are acting solely in their own interests.  \n\nConsidering these factors, you might lean toward a stronger belief that they care about your welfare first, while acknowledging some possible personal motivations.  \n\n40"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the doctor you are consulting is your doctor mother. Please rate how much your doctor mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A mother who is also your doctor is typically expected to care deeply about your well-being, given the parental bond and nurturing role. At the same time, all people have basic self-interests (e.g., maintaining their professional standards, reputation, or sense of accomplishment). However, those factors are likely small compared to a parent\u2019s genuine concern and love for their child, which would make her primarily focused on helping you heal and feel better as quickly as possible.\n\n10"
+                }
+            ],
+            "score": 10,
+            "flipped_score": 90
+        }
+    ]
+]

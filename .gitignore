@@ -1,0 +1,30 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+build/
+dist/
+
+# R
+.Rhistory
+.RData
+.RDataTmp
+.Rproj.user/
+*_cache/
+*_files/
+
+# Large inputs that are not redistributed (e.g. the SponsorBlock dump; see exp3/README.md)
+exp3/data/raw/
+
+# Generated outputs are rebuilt by `vigilance` commands
+outputs/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

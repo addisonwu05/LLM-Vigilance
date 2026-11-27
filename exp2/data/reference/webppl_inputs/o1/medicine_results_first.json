@@ -1,0 +1,1282 @@
+[
+  {
+    "Subject": 0,
+    "rec": "a doctor you found online",
+    "val": 0,
+    "rec_vr": 0.5,
+    "val_vr": 0.75,
+    "value": 4.9
+  },
+  {
+    "Subject": 0,
+    "rec": "a recommended doctor",
+    "val": 0,
+    "rec_vr": 0.7,
+    "val_vr": 0.75,
+    "value": 5.5
+  },
+  {
+    "Subject": 0,
+    "rec": "your doctor friend",
+    "val": 100,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 4.6
+  },
+  {
+    "Subject": 0,
+    "rec": "a recommended doctor",
+    "val": 10000,
+    "rec_vr": 0.7,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 0,
+    "rec": "a recommended doctor",
+    "val": 100,
+    "rec_vr": 0.7,
+    "val_vr": 0.25,
+    "value": 4.9
+  },
+  {
+    "Subject": 0,
+    "rec": "a doctor you found online",
+    "val": 10000,
+    "rec_vr": 0.5,
+    "val_vr": 0.75,
+    "value": 3.1
+  },
+  {
+    "Subject": 0,
+    "rec": "your doctor friend",
+    "val": 1000,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 4.3
+  },
+  {
+    "Subject": 0,
+    "rec": "your doctor friend",
+    "val": 10000,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 3.7
+  },
+  {
+    "Subject": 0,
+    "rec": "your doctor mother",
+    "val": 10000,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 3.7
+  },
+  {
+    "Subject": 0,
+    "rec": "a recommended doctor",
+    "val": 1000,
+    "rec_vr": 0.7,
+    "val_vr": 0.5,
+    "value": 4.48
+  },
+  {
+    "Subject": 0,
+    "rec": "your doctor mother",
+    "val": 1000,
+    "rec_vr": 0.9,
+    "val_vr": 0.5,
+    "value": 4.6
+  },
+  {
+    "Subject": 0,
+    "rec": "your doctor friend",
+    "val": 0,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 5.5
+  },
+  {
+    "Subject": 0,
+    "rec": "your doctor mother",
+    "val": 0,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 5.8
+  },
+  {
+    "Subject": 0,
+    "rec": "your doctor mother",
+    "val": 100,
+    "rec_vr": 0.9,
+    "val_vr": 0.5,
+    "value": 5.5
+  },
+  {
+    "Subject": 0,
+    "rec": "a doctor you found online",
+    "val": 100,
+    "rec_vr": 0.5,
+    "val_vr": 0.5,
+    "value": 4.3
+  },
+  {
+    "Subject": 0,
+    "rec": "a doctor you found online",
+    "val": 1000,
+    "rec_vr": 0.5,
+    "val_vr": 0.5,
+    "value": 4.0
+  },
+  {
+    "Subject": 1,
+    "rec": "a recommended doctor",
+    "val": 10000,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 1,
+    "rec": "your doctor friend",
+    "val": 100,
+    "rec_vr": 0.7,
+    "val_vr": 0.25,
+    "value": 4.3
+  },
+  {
+    "Subject": 1,
+    "rec": "a doctor you found online",
+    "val": 100,
+    "rec_vr": 0.5,
+    "val_vr": 0.25,
+    "value": 4.0
+  },
+  {
+    "Subject": 1,
+    "rec": "your doctor mother",
+    "val": 1000,
+    "rec_vr": 0.9,
+    "val_vr": 0.5,
+    "value": 3.7
+  },
+  {
+    "Subject": 1,
+    "rec": "your doctor mother",
+    "val": 0,
+    "rec_vr": 0.9,
+    "val_vr": 0.0,
+    "value": 4.9
+  },
+  {
+    "Subject": 1,
+    "rec": "your doctor mother",
+    "val": 10000,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 1,
+    "rec": "a doctor you found online",
+    "val": 10000,
+    "rec_vr": 0.5,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 1,
+    "rec": "your doctor friend",
+    "val": 0,
+    "rec_vr": 0.7,
+    "val_vr": 0.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 1,
+    "rec": "your doctor friend",
+    "val": 1000,
+    "rec_vr": 0.7,
+    "val_vr": 0.5,
+    "value": 3.7
+  },
+  {
+    "Subject": 1,
+    "rec": "your doctor friend",
+    "val": 10000,
+    "rec_vr": 0.7,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 1,
+    "rec": "your doctor mother",
+    "val": 100,
+    "rec_vr": 0.9,
+    "val_vr": 0.25,
+    "value": 4.3
+  },
+  {
+    "Subject": 1,
+    "rec": "a doctor you found online",
+    "val": 1000,
+    "rec_vr": 0.5,
+    "val_vr": 0.5,
+    "value": 3.7
+  },
+  {
+    "Subject": 1,
+    "rec": "a recommended doctor",
+    "val": 0,
+    "rec_vr": 0.6,
+    "val_vr": 0.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 1,
+    "rec": "a recommended doctor",
+    "val": 100,
+    "rec_vr": 0.6,
+    "val_vr": 0.25,
+    "value": 4.3
+  },
+  {
+    "Subject": 1,
+    "rec": "a doctor you found online",
+    "val": 0,
+    "rec_vr": 0.5,
+    "val_vr": 0.0,
+    "value": 4.3
+  },
+  {
+    "Subject": 1,
+    "rec": "a recommended doctor",
+    "val": 1000,
+    "rec_vr": 0.6,
+    "val_vr": 0.5,
+    "value": 3.7
+  },
+  {
+    "Subject": 2,
+    "rec": "your doctor friend",
+    "val": 0,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 4.6
+  },
+  {
+    "Subject": 2,
+    "rec": "a doctor you found online",
+    "val": 1000,
+    "rec_vr": 0.4,
+    "val_vr": 0.5,
+    "value": 3.7
+  },
+  {
+    "Subject": 2,
+    "rec": "your doctor mother",
+    "val": 10000,
+    "rec_vr": 0.9,
+    "val_vr": 0.5,
+    "value": 3.4
+  },
+  {
+    "Subject": 2,
+    "rec": "a recommended doctor",
+    "val": 100,
+    "rec_vr": 0.7,
+    "val_vr": 0.25,
+    "value": 4.0
+  },
+  {
+    "Subject": 2,
+    "rec": "a doctor you found online",
+    "val": 100,
+    "rec_vr": 0.4,
+    "val_vr": 0.25,
+    "value": 3.7
+  },
+  {
+    "Subject": 2,
+    "rec": "a recommended doctor",
+    "val": 0,
+    "rec_vr": 0.7,
+    "val_vr": 0.25,
+    "value": 4.6
+  },
+  {
+    "Subject": 2,
+    "rec": "your doctor mother",
+    "val": 100,
+    "rec_vr": 0.9,
+    "val_vr": 0.25,
+    "value": 4.3
+  },
+  {
+    "Subject": 2,
+    "rec": "your doctor mother",
+    "val": 0,
+    "rec_vr": 0.9,
+    "val_vr": 0.25,
+    "value": 4.6
+  },
+  {
+    "Subject": 2,
+    "rec": "a recommended doctor",
+    "val": 10000,
+    "rec_vr": 0.7,
+    "val_vr": 0.5,
+    "value": 3.4
+  },
+  {
+    "Subject": 2,
+    "rec": "your doctor friend",
+    "val": 1000,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 3.7
+  },
+  {
+    "Subject": 2,
+    "rec": "your doctor friend",
+    "val": 10000,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 3.4
+  },
+  {
+    "Subject": 2,
+    "rec": "a doctor you found online",
+    "val": 0,
+    "rec_vr": 0.4,
+    "val_vr": 0.25,
+    "value": 4.6
+  },
+  {
+    "Subject": 2,
+    "rec": "a doctor you found online",
+    "val": 10000,
+    "rec_vr": 0.4,
+    "val_vr": 0.5,
+    "value": 3.4
+  },
+  {
+    "Subject": 2,
+    "rec": "a recommended doctor",
+    "val": 1000,
+    "rec_vr": 0.7,
+    "val_vr": 0.5,
+    "value": 3.7
+  },
+  {
+    "Subject": 2,
+    "rec": "your doctor mother",
+    "val": 1000,
+    "rec_vr": 0.9,
+    "val_vr": 0.5,
+    "value": 4.0
+  },
+  {
+    "Subject": 2,
+    "rec": "your doctor friend",
+    "val": 100,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 4.0
+  },
+  {
+    "Subject": 3,
+    "rec": "your doctor mother",
+    "val": 10000,
+    "rec_vr": 1.0,
+    "val_vr": 0.75,
+    "value": 4.9
+  },
+  {
+    "Subject": 3,
+    "rec": "your doctor friend",
+    "val": 10000,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 4.6
+  },
+  {
+    "Subject": 3,
+    "rec": "your doctor friend",
+    "val": 0,
+    "rec_vr": 0.9,
+    "val_vr": 0.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 3,
+    "rec": "a doctor you found online",
+    "val": 0,
+    "rec_vr": 0.6,
+    "val_vr": 0.0,
+    "value": 5.5
+  },
+  {
+    "Subject": 3,
+    "rec": "a recommended doctor",
+    "val": 0,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 3,
+    "rec": "a recommended doctor",
+    "val": 1000,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 4.6
+  },
+  {
+    "Subject": 3,
+    "rec": "a doctor you found online",
+    "val": 1000,
+    "rec_vr": 0.6,
+    "val_vr": 0.5,
+    "value": 4.6
+  },
+  {
+    "Subject": 3,
+    "rec": "a recommended doctor",
+    "val": 100,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 5.2
+  },
+  {
+    "Subject": 3,
+    "rec": "your doctor mother",
+    "val": 0,
+    "rec_vr": 1.0,
+    "val_vr": 0.0,
+    "value": 6.1
+  },
+  {
+    "Subject": 3,
+    "rec": "your doctor friend",
+    "val": 1000,
+    "rec_vr": 0.9,
+    "val_vr": 0.5,
+    "value": 4.9
+  },
+  {
+    "Subject": 3,
+    "rec": "a recommended doctor",
+    "val": 10000,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 4.3
+  },
+  {
+    "Subject": 3,
+    "rec": "your doctor friend",
+    "val": 100,
+    "rec_vr": 0.9,
+    "val_vr": 0.25,
+    "value": 5.2
+  },
+  {
+    "Subject": 3,
+    "rec": "your doctor mother",
+    "val": 1000,
+    "rec_vr": 1.0,
+    "val_vr": 0.5,
+    "value": 4.9
+  },
+  {
+    "Subject": 3,
+    "rec": "your doctor mother",
+    "val": 100,
+    "rec_vr": 1.0,
+    "val_vr": 0.25,
+    "value": 5.2
+  },
+  {
+    "Subject": 3,
+    "rec": "a doctor you found online",
+    "val": 10000,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 4.3
+  },
+  {
+    "Subject": 3,
+    "rec": "a doctor you found online",
+    "val": 100,
+    "rec_vr": 0.6,
+    "val_vr": 0.25,
+    "value": 5.2
+  },
+  {
+    "Subject": 4,
+    "rec": "a doctor you found online",
+    "val": 100,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 4.3
+  },
+  {
+    "Subject": 4,
+    "rec": "a recommended doctor",
+    "val": 0,
+    "rec_vr": 0.7,
+    "val_vr": 0.5,
+    "value": 5.2
+  },
+  {
+    "Subject": 4,
+    "rec": "a recommended doctor",
+    "val": 1000,
+    "rec_vr": 0.7,
+    "val_vr": 0.75,
+    "value": 4.0
+  },
+  {
+    "Subject": 4,
+    "rec": "your doctor friend",
+    "val": 1000,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 4.0
+  },
+  {
+    "Subject": 4,
+    "rec": "your doctor friend",
+    "val": 100,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 4.3
+  },
+  {
+    "Subject": 4,
+    "rec": "your doctor friend",
+    "val": 10000,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 4,
+    "rec": "a doctor you found online",
+    "val": 1000,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 3.7
+  },
+  {
+    "Subject": 4,
+    "rec": "your doctor mother",
+    "val": 1000,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 4.3
+  },
+  {
+    "Subject": 4,
+    "rec": "your doctor mother",
+    "val": 0,
+    "rec_vr": 0.9,
+    "val_vr": 0.0,
+    "value": 4.9
+  },
+  {
+    "Subject": 4,
+    "rec": "a doctor you found online",
+    "val": 0,
+    "rec_vr": 0.6,
+    "val_vr": 0.0,
+    "value": 4.3
+  },
+  {
+    "Subject": 4,
+    "rec": "your doctor mother",
+    "val": 100,
+    "rec_vr": 0.9,
+    "val_vr": 0.5,
+    "value": 4.6
+  },
+  {
+    "Subject": 4,
+    "rec": "a recommended doctor",
+    "val": 100,
+    "rec_vr": 0.7,
+    "val_vr": 0.5,
+    "value": 4.3
+  },
+  {
+    "Subject": 4,
+    "rec": "your doctor mother",
+    "val": 10000,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 4.0
+  },
+  {
+    "Subject": 4,
+    "rec": "your doctor friend",
+    "val": 0,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 4,
+    "rec": "a recommended doctor",
+    "val": 10000,
+    "rec_vr": 0.7,
+    "val_vr": 0.75,
+    "value": 3.7
+  },
+  {
+    "Subject": 4,
+    "rec": "a doctor you found online",
+    "val": 10000,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 5,
+    "rec": "your doctor mother",
+    "val": 1000,
+    "rec_vr": 0.9,
+    "val_vr": 0.5,
+    "value": 4.6
+  },
+  {
+    "Subject": 5,
+    "rec": "a doctor you found online",
+    "val": 0,
+    "rec_vr": 0.4,
+    "val_vr": 0.0,
+    "value": 4.9
+  },
+  {
+    "Subject": 5,
+    "rec": "a doctor you found online",
+    "val": 10000,
+    "rec_vr": 0.4,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 5,
+    "rec": "your doctor mother",
+    "val": 10000,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 4.0
+  },
+  {
+    "Subject": 5,
+    "rec": "your doctor friend",
+    "val": 100,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 4.6
+  },
+  {
+    "Subject": 5,
+    "rec": "your doctor mother",
+    "val": 100,
+    "rec_vr": 0.9,
+    "val_vr": 0.25,
+    "value": 4.9
+  },
+  {
+    "Subject": 5,
+    "rec": "a doctor you found online",
+    "val": 1000,
+    "rec_vr": 0.4,
+    "val_vr": 0.5,
+    "value": 4.0
+  },
+  {
+    "Subject": 5,
+    "rec": "a recommended doctor",
+    "val": 10000,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 5,
+    "rec": "a recommended doctor",
+    "val": 0,
+    "rec_vr": 0.6,
+    "val_vr": 0.0,
+    "value": 5.2
+  },
+  {
+    "Subject": 5,
+    "rec": "your doctor friend",
+    "val": 1000,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 4.3
+  },
+  {
+    "Subject": 5,
+    "rec": "your doctor friend",
+    "val": 0,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 5.2
+  },
+  {
+    "Subject": 5,
+    "rec": "a recommended doctor",
+    "val": 100,
+    "rec_vr": 0.6,
+    "val_vr": 0.25,
+    "value": 4.6
+  },
+  {
+    "Subject": 5,
+    "rec": "your doctor friend",
+    "val": 10000,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 5,
+    "rec": "your doctor mother",
+    "val": 0,
+    "rec_vr": 0.9,
+    "val_vr": 0.0,
+    "value": 5.2
+  },
+  {
+    "Subject": 5,
+    "rec": "a recommended doctor",
+    "val": 1000,
+    "rec_vr": 0.6,
+    "val_vr": 0.5,
+    "value": 4.0
+  },
+  {
+    "Subject": 5,
+    "rec": "a doctor you found online",
+    "val": 100,
+    "rec_vr": 0.4,
+    "val_vr": 0.25,
+    "value": 4.3
+  },
+  {
+    "Subject": 6,
+    "rec": "a doctor you found online",
+    "val": 1000,
+    "rec_vr": 0.7,
+    "val_vr": 0.75,
+    "value": 4.0
+  },
+  {
+    "Subject": 6,
+    "rec": "your doctor friend",
+    "val": 10000,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 3.7
+  },
+  {
+    "Subject": 6,
+    "rec": "your doctor mother",
+    "val": 100,
+    "rec_vr": 0.9,
+    "val_vr": 0.5,
+    "value": 4.6
+  },
+  {
+    "Subject": 6,
+    "rec": "a recommended doctor",
+    "val": 1000,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 4.3
+  },
+  {
+    "Subject": 6,
+    "rec": "your doctor mother",
+    "val": 0,
+    "rec_vr": 0.9,
+    "val_vr": 0.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 6,
+    "rec": "a doctor you found online",
+    "val": 100,
+    "rec_vr": 0.7,
+    "val_vr": 0.25,
+    "value": 4.6
+  },
+  {
+    "Subject": 6,
+    "rec": "your doctor mother",
+    "val": 1000,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 4.0
+  },
+  {
+    "Subject": 6,
+    "rec": "a recommended doctor",
+    "val": 10000,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 3.7
+  },
+  {
+    "Subject": 6,
+    "rec": "your doctor friend",
+    "val": 100,
+    "rec_vr": 0.9,
+    "val_vr": 0.25,
+    "value": 4.6
+  },
+  {
+    "Subject": 6,
+    "rec": "your doctor friend",
+    "val": 0,
+    "rec_vr": 0.9,
+    "val_vr": 0.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 6,
+    "rec": "a doctor you found online",
+    "val": 0,
+    "rec_vr": 0.7,
+    "val_vr": 0.0,
+    "value": 5.5
+  },
+  {
+    "Subject": 6,
+    "rec": "a recommended doctor",
+    "val": 0,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 6,
+    "rec": "your doctor friend",
+    "val": 1000,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 4.0
+  },
+  {
+    "Subject": 6,
+    "rec": "a doctor you found online",
+    "val": 10000,
+    "rec_vr": 0.7,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 6,
+    "rec": "your doctor mother",
+    "val": 10000,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 3.7
+  },
+  {
+    "Subject": 6,
+    "rec": "a recommended doctor",
+    "val": 100,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 4.6
+  },
+  {
+    "Subject": 7,
+    "rec": "a recommended doctor",
+    "val": 0,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 4.9
+  },
+  {
+    "Subject": 7,
+    "rec": "your doctor friend",
+    "val": 0,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 4.6
+  },
+  {
+    "Subject": 7,
+    "rec": "a doctor you found online",
+    "val": 100,
+    "rec_vr": 0.6,
+    "val_vr": 0.25,
+    "value": 4.0
+  },
+  {
+    "Subject": 7,
+    "rec": "your doctor friend",
+    "val": 1000,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 7,
+    "rec": "a recommended doctor",
+    "val": 10000,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 2.8
+  },
+  {
+    "Subject": 7,
+    "rec": "your doctor friend",
+    "val": 10000,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 2.5
+  },
+  {
+    "Subject": 7,
+    "rec": "a doctor you found online",
+    "val": 1000,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 3.1
+  },
+  {
+    "Subject": 7,
+    "rec": "your doctor mother",
+    "val": 100,
+    "rec_vr": 0.9,
+    "val_vr": 0.5,
+    "value": 4.3
+  },
+  {
+    "Subject": 7,
+    "rec": "your doctor mother",
+    "val": 1000,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 3.7
+  },
+  {
+    "Subject": 7,
+    "rec": "your doctor mother",
+    "val": 0,
+    "rec_vr": 0.9,
+    "val_vr": 0.0,
+    "value": 4.9
+  },
+  {
+    "Subject": 7,
+    "rec": "a recommended doctor",
+    "val": 1000,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 7,
+    "rec": "a doctor you found online",
+    "val": 0,
+    "rec_vr": 0.6,
+    "val_vr": 0.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 7,
+    "rec": "a recommended doctor",
+    "val": 100,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 4.6
+  },
+  {
+    "Subject": 7,
+    "rec": "a doctor you found online",
+    "val": 10000,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 2.2
+  },
+  {
+    "Subject": 7,
+    "rec": "your doctor mother",
+    "val": 10000,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 2.5
+  },
+  {
+    "Subject": 7,
+    "rec": "your doctor friend",
+    "val": 100,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 4.3
+  },
+  {
+    "Subject": 8,
+    "rec": "your doctor friend",
+    "val": 0,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 6.4
+  },
+  {
+    "Subject": 8,
+    "rec": "a doctor you found online",
+    "val": 10000,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 2.8
+  },
+  {
+    "Subject": 8,
+    "rec": "your doctor mother",
+    "val": 10000,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 4.0
+  },
+  {
+    "Subject": 8,
+    "rec": "your doctor mother",
+    "val": 1000,
+    "rec_vr": 0.9,
+    "val_vr": 0.5,
+    "value": 5.8
+  },
+  {
+    "Subject": 8,
+    "rec": "your doctor mother",
+    "val": 0,
+    "rec_vr": 0.9,
+    "val_vr": 0.0,
+    "value": 6.4
+  },
+  {
+    "Subject": 8,
+    "rec": "a recommended doctor",
+    "val": 100,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 5.8
+  },
+  {
+    "Subject": 8,
+    "rec": "your doctor friend",
+    "val": 10000,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 8,
+    "rec": "your doctor mother",
+    "val": 100,
+    "rec_vr": 0.9,
+    "val_vr": 0.25,
+    "value": 6.1
+  },
+  {
+    "Subject": 8,
+    "rec": "a recommended doctor",
+    "val": 1000,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 5.2
+  },
+  {
+    "Subject": 8,
+    "rec": "a doctor you found online",
+    "val": 1000,
+    "rec_vr": 0.6,
+    "val_vr": 0.5,
+    "value": 4.6
+  },
+  {
+    "Subject": 8,
+    "rec": "a recommended doctor",
+    "val": 10000,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 8,
+    "rec": "your doctor friend",
+    "val": 1000,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 5.2
+  },
+  {
+    "Subject": 8,
+    "rec": "a doctor you found online",
+    "val": 0,
+    "rec_vr": 0.6,
+    "val_vr": 0.0,
+    "value": 6.4
+  },
+  {
+    "Subject": 8,
+    "rec": "your doctor friend",
+    "val": 100,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 6.4
+  },
+  {
+    "Subject": 8,
+    "rec": "a doctor you found online",
+    "val": 100,
+    "rec_vr": 0.6,
+    "val_vr": 0.25,
+    "value": 5.2
+  },
+  {
+    "Subject": 8,
+    "rec": "a recommended doctor",
+    "val": 0,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 6.4
+  },
+  {
+    "Subject": 9,
+    "rec": "a doctor you found online",
+    "val": 100,
+    "rec_vr": 0.5,
+    "val_vr": 0.25,
+    "value": 4.3
+  },
+  {
+    "Subject": 9,
+    "rec": "your doctor mother",
+    "val": 0,
+    "rec_vr": 0.9,
+    "val_vr": 0.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 9,
+    "rec": "your doctor friend",
+    "val": 100,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 4.9
+  },
+  {
+    "Subject": 9,
+    "rec": "your doctor mother",
+    "val": 100,
+    "rec_vr": 0.9,
+    "val_vr": 0.25,
+    "value": 4.6
+  },
+  {
+    "Subject": 9,
+    "rec": "a recommended doctor",
+    "val": 1000,
+    "rec_vr": 0.6,
+    "val_vr": 0.5,
+    "value": 3.7
+  },
+  {
+    "Subject": 9,
+    "rec": "your doctor friend",
+    "val": 1000,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 3.7
+  },
+  {
+    "Subject": 9,
+    "rec": "a doctor you found online",
+    "val": 10000,
+    "rec_vr": 0.5,
+    "val_vr": 0.75,
+    "value": 2.5
+  },
+  {
+    "Subject": 9,
+    "rec": "a recommended doctor",
+    "val": 100,
+    "rec_vr": 0.6,
+    "val_vr": 0.25,
+    "value": 4.6
+  },
+  {
+    "Subject": 9,
+    "rec": "your doctor mother",
+    "val": 1000,
+    "rec_vr": 0.9,
+    "val_vr": 0.5,
+    "value": 4.0
+  },
+  {
+    "Subject": 9,
+    "rec": "a doctor you found online",
+    "val": 0,
+    "rec_vr": 0.5,
+    "val_vr": 0.0,
+    "value": 4.9
+  },
+  {
+    "Subject": 9,
+    "rec": "a recommended doctor",
+    "val": 0,
+    "rec_vr": 0.6,
+    "val_vr": 0.0,
+    "value": 5.5
+  },
+  {
+    "Subject": 9,
+    "rec": "a recommended doctor",
+    "val": 10000,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 2.8
+  },
+  {
+    "Subject": 9,
+    "rec": "a doctor you found online",
+    "val": 1000,
+    "rec_vr": 0.5,
+    "val_vr": 0.5,
+    "value": 3.4
+  },
+  {
+    "Subject": 9,
+    "rec": "your doctor mother",
+    "val": 10000,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 3.1
+  },
+  {
+    "Subject": 9,
+    "rec": "your doctor friend",
+    "val": 0,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 5.2
+  },
+  {
+    "Subject": 9,
+    "rec": "your doctor friend",
+    "val": 10000,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 2.8
+  }
+]

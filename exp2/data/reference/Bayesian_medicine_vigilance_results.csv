@@ -1,0 +1,107 @@
+headers_1,character,0,100,1000,10000
+"",,,,,
+a doctor you found online,,,,,
+a doctor you found online,,,,,
+a doctor you found online,,,,,
+a doctor you found online,,,,,
+your doctor friend,,,,,
+your doctor friend,,,,,
+your doctor friend,,,,,
+your doctor friend,,,,,
+a recommended doctor,,,,,
+a recommended doctor,,,,,
+a recommended doctor,,,,,
+a recommended doctor,,,,,
+your doctor mother,,,,,
+your doctor mother,,,,,
+your doctor mother,,,,,
+your doctor mother,,,,,
+my doctor friend,,,,,
+my doctor friend,,,,,
+my doctor friend,,,,,
+my doctor friend,,,,,
+my doctor mother,,,,,
+my doctor mother,,,,,
+my doctor mother,,,,,
+my doctor mother,,,,,
+a doctor I found online,,,,,
+a doctor I found online,,,,,
+a doctor I found online,,,,,
+a doctor I found online,,,,,
+Model,,,,,
+0,,,,,
+100,,,,,
+1000,,,,,
+10000,,,,,
+0,,,,,
+100,,,,,
+1000,,,,,
+10000,,,,,
+0,,,,,
+100,,,,,
+1000,,,,,
+10000,,,,,
+0,,,,,
+100,,,,,
+1000,,,,,
+10000,,,,,
+0,,,,,
+100,,,,,
+1000,,,,,
+10000,,,,,
+0,,,,,
+100,,,,,
+1000,,,,,
+10000,,,,,
+0,,,,,
+100,,,,,
+1000,,,,,
+10000,,,,,
+gpt4o First Cot,a doctor you found online,0.495,0.4467,0.3468,0.3074
+gpt4o First Cot,a recommended doctor,0.529,0.5002,0.4105,0.3672
+gpt4o First Cot,your doctor friend,0.5462,0.528,0.4591,0.4279
+gpt4o First Cot,your doctor mother,0.5633,0.5596,0.5323,0.5126
+gpt4o First Direct,a doctor you found online,0.4755,0.3766,0.3164,0.2874
+gpt4o First Direct,a recommended doctor,0.506,0.4242,0.3658,0.3346
+gpt4o First Direct,your doctor friend,0.5343,0.4689,0.4178,0.3875
+gpt4o First Direct,your doctor mother,0.5559,0.529,0.4946,0.4706
+gpt4o User Cot,a doctor I found online,0.4903,0.4365,0.3405,0.3038
+gpt4o User Cot,a recommended doctor,0.5173,0.4862,0.4003,0.3575
+gpt4o User Cot,my doctor friend,0.5444,0.52,0.4553,0.4215
+gpt4o User Cot,my doctor mother,0.5666,0.5617,0.5312,0.5121
+gpt4o User Direct,a doctor I found online,0.4658,0.3788,0.3174,0.2904
+gpt4o User Direct,a recommended doctor,0.5096,0.422,0.3681,0.3365
+gpt4o User Direct,my doctor friend,0.5277,0.464,0.4151,0.3868
+gpt4o User Direct,my doctor mother,0.5562,0.5253,0.4934,0.4734
+claude First Cot,a doctor you found online,0.4564,0.4041,0.3358,0.2994
+claude First Cot,a recommended doctor,0.5283,0.4989,0.4478,0.4033
+claude First Cot,your doctor friend,0.5536,0.5458,0.5078,0.4786
+claude First Cot,your doctor mother,0.5665,0.5665,0.5581,0.5468
+claude First Direct,a doctor you found online,0.4522,0.3547,0.3162,0.283
+claude First Direct,a recommended doctor,0.5317,0.4579,0.4163,0.3792
+claude First Direct,your doctor friend,0.5584,0.5206,0.489,0.4652
+claude First Direct,your doctor mother,0.5659,0.5533,0.539,0.518
+claude User Cot,a doctor I found online,0.4285,0.3816,0.3177,0.2751
+claude User Cot,a recommended doctor,0.5258,0.4972,0.4264,0.3672
+claude User Cot,my doctor friend,0.5509,0.5409,0.5025,0.467
+claude User Cot,my doctor mother,0.5688,0.5676,0.5567,0.5453
+claude User Direct,a doctor I found online,0.4619,0.348,0.3018,0.2764
+claude User Direct,a recommended doctor,0.5393,0.4521,0.4042,0.3766
+claude User Direct,my doctor friend,0.5576,0.5188,0.4982,0.4781
+claude User Direct,my doctor mother,0.5664,0.5547,0.5424,0.5314
+llama First Cot,a doctor you found online,0.5057,0.4742,0.3239,0.2754
+llama First Cot,a recommended doctor,0.5456,0.5426,0.4127,0.3431
+llama First Cot,your doctor friend,0.5562,0.5553,0.4708,0.4032
+llama First Cot,your doctor mother,0.5649,0.5683,0.5344,0.5107
+llama First Direct,a doctor you found online,0.4602,0.426,0.3209,0.2783
+llama First Direct,a recommended doctor,0.5255,0.4794,0.3782,0.3206
+llama First Direct,your doctor friend,0.5347,0.5089,0.4158,0.3737
+llama First Direct,your doctor mother,0.564,0.5568,0.5141,0.4848
+llama User Cot,a doctor I found online,0.4677,0.4523,0.3211,0.272
+llama User Cot,a recommended doctor,0.516,0.5406,0.4121,0.3409
+llama User Cot,my doctor friend,0.5486,0.5445,0.463,0.4174
+llama User Cot,my doctor mother,0.5668,0.5692,0.5519,0.5331
+llama User Direct,a doctor I found online,0.476,0.4212,0.3178,0.2652
+llama User Direct,a recommended doctor,0.5264,0.4909,0.3872,0.3267
+llama User Direct,my doctor friend,0.5443,0.4922,0.4197,0.374
+llama User Direct,my doctor mother,0.5683,0.5472,0.5086,0.4829

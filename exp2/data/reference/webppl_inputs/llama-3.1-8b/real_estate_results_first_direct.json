@@ -1,0 +1,5122 @@
+[
+  {
+    "Subject": 0,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.5,
+    "val_vr": 0.75,
+    "value": 5.2
+  },
+  {
+    "Subject": 0,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.5,
+    "val_vr": 0.25,
+    "value": 6.7
+  },
+  {
+    "Subject": 0,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 0,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 0,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 0,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.2,
+    "val_vr": 0.5,
+    "value": 4.9
+  },
+  {
+    "Subject": 0,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 0.0,
+    "value": 6.52
+  },
+  {
+    "Subject": 0,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 0,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 0,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.5,
+    "val_vr": 0.75,
+    "value": 4.0
+  },
+  {
+    "Subject": 0,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 5.8
+  },
+  {
+    "Subject": 0,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 4.6
+  },
+  {
+    "Subject": 0,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.2,
+    "val_vr": 0.0,
+    "value": 6.4
+  },
+  {
+    "Subject": 0,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 5.5
+  },
+  {
+    "Subject": 0,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 6.4
+  },
+  {
+    "Subject": 0,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.5,
+    "val_vr": 0.75,
+    "value": 4.3
+  },
+  {
+    "Subject": 1,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 5.2
+  },
+  {
+    "Subject": 1,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 6.7
+  },
+  {
+    "Subject": 1,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 1,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 2.8
+  },
+  {
+    "Subject": 1,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 4.0
+  },
+  {
+    "Subject": 1,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.0,
+    "value": 6.88
+  },
+  {
+    "Subject": 1,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.2,
+    "val_vr": 0.75,
+    "value": 5.8
+  },
+  {
+    "Subject": 1,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.2,
+    "val_vr": 0.25,
+    "value": 6.4
+  },
+  {
+    "Subject": 1,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 1.3
+  },
+  {
+    "Subject": 1,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 4.3
+  },
+  {
+    "Subject": 1,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 4.9
+  },
+  {
+    "Subject": 1,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.4,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 1,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.4,
+    "val_vr": 1.0,
+    "value": 1.6
+  },
+  {
+    "Subject": 1,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.4,
+    "val_vr": 0.25,
+    "value": 6.52
+  },
+  {
+    "Subject": 1,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 1,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.4,
+    "val_vr": 0.75,
+    "value": 4.6
+  },
+  {
+    "Subject": 2,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 5.2
+  },
+  {
+    "Subject": 2,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 1.6
+  },
+  {
+    "Subject": 2,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 2,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 6.94
+  },
+  {
+    "Subject": 2,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 2,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 6.52
+  },
+  {
+    "Subject": 2,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.3
+  },
+  {
+    "Subject": 2,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 2,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 6.1
+  },
+  {
+    "Subject": 2,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.2,
+    "val_vr": 0.0,
+    "value": 6.88
+  },
+  {
+    "Subject": 2,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 0.0,
+    "value": 6.4
+  },
+  {
+    "Subject": 2,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.0,
+    "value": 6.7
+  },
+  {
+    "Subject": 2,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 2,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 2,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 2,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 1.9
+  },
+  {
+    "Subject": 3,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 4.6
+  },
+  {
+    "Subject": 3,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 3,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 3,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 3,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.2,
+    "val_vr": 0.5,
+    "value": 2.8
+  },
+  {
+    "Subject": 3,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 3,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 3,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.2,
+    "val_vr": 0.5,
+    "value": 4.0
+  },
+  {
+    "Subject": 3,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.7,
+    "val_vr": 0.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 3,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.7,
+    "val_vr": 0.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 3,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 3,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 0.5,
+    "value": 3.4
+  },
+  {
+    "Subject": 3,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 3,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.7,
+    "val_vr": 0.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 3,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.2,
+    "val_vr": 0.25,
+    "value": 4.0
+  },
+  {
+    "Subject": 3,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.7,
+    "val_vr": 0.0,
+    "value": 6.4
+  },
+  {
+    "Subject": 4,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 7.0
+  },
+  {
+    "Subject": 4,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 4,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 6.4
+  },
+  {
+    "Subject": 4,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 4,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 4,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 4,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 4,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 0.5,
+    "value": 7.0
+  },
+  {
+    "Subject": 4,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.5,
+    "val_vr": 1.0,
+    "value": 6.7
+  },
+  {
+    "Subject": 4,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.5,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 4,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 4,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 4,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 2.8
+  },
+  {
+    "Subject": 4,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.5,
+    "val_vr": 1.0,
+    "value": 6.4
+  },
+  {
+    "Subject": 4,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.5,
+    "val_vr": 1.0,
+    "value": 5.2
+  },
+  {
+    "Subject": 4,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.2,
+    "val_vr": 0.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 5,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 0.5,
+    "value": 7.0
+  },
+  {
+    "Subject": 5,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 5,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 5,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 5.8
+  },
+  {
+    "Subject": 5,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 5,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 5,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 5.2
+  },
+  {
+    "Subject": 5,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.5,
+    "value": 7.0
+  },
+  {
+    "Subject": 5,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 5,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 5,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 5,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 5,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 5,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 7.0
+  },
+  {
+    "Subject": 5,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 5,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 6,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.7,
+    "val_vr": 0.75,
+    "value": 4.6
+  },
+  {
+    "Subject": 6,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 6,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 6.4
+  },
+  {
+    "Subject": 6,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 0.25,
+    "value": 7.0
+  },
+  {
+    "Subject": 6,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 6,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 6.7
+  },
+  {
+    "Subject": 6,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.7,
+    "val_vr": 1.0,
+    "value": 2.5
+  },
+  {
+    "Subject": 6,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.6
+  },
+  {
+    "Subject": 6,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.7,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 6,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 6,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 6.7
+  },
+  {
+    "Subject": 6,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 5.8
+  },
+  {
+    "Subject": 6,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 6,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.7,
+    "val_vr": 1.0,
+    "value": 6.1
+  },
+  {
+    "Subject": 6,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 6,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 7,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 6.4
+  },
+  {
+    "Subject": 7,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 7,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.4,
+    "val_vr": 0.75,
+    "value": 4.0
+  },
+  {
+    "Subject": 7,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.4,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 7,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 4.6
+  },
+  {
+    "Subject": 7,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 7,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.2,
+    "val_vr": 0.5,
+    "value": 2.2
+  },
+  {
+    "Subject": 7,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 6.88
+  },
+  {
+    "Subject": 7,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.4,
+    "val_vr": 1.0,
+    "value": 1.6
+  },
+  {
+    "Subject": 7,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.25,
+    "value": 6.94
+  },
+  {
+    "Subject": 7,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.2,
+    "val_vr": 0.0,
+    "value": 6.7
+  },
+  {
+    "Subject": 7,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.2,
+    "val_vr": 0.5,
+    "value": 5.2
+  },
+  {
+    "Subject": 7,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 5.8
+  },
+  {
+    "Subject": 7,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 6.7
+  },
+  {
+    "Subject": 7,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.4,
+    "val_vr": 0.25,
+    "value": 6.88
+  },
+  {
+    "Subject": 7,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 8,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 8,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 6.1
+  },
+  {
+    "Subject": 8,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 6.1
+  },
+  {
+    "Subject": 8,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 3.4
+  },
+  {
+    "Subject": 8,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 0.25,
+    "value": 2.8
+  },
+  {
+    "Subject": 8,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.0,
+    "value": 6.4
+  },
+  {
+    "Subject": 8,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 2.2
+  },
+  {
+    "Subject": 8,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 8,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 5.2
+  },
+  {
+    "Subject": 8,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 8,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 0.25,
+    "value": 5.8
+  },
+  {
+    "Subject": 8,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 6.7
+  },
+  {
+    "Subject": 8,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 6.52
+  },
+  {
+    "Subject": 8,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 8,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 8,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 5.8
+  },
+  {
+    "Subject": 9,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 6.4
+  },
+  {
+    "Subject": 9,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 0.25,
+    "value": 7.0
+  },
+  {
+    "Subject": 9,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 9,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 9,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 5.8
+  },
+  {
+    "Subject": 9,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 9,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 0.5,
+    "value": 7.0
+  },
+  {
+    "Subject": 9,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.2,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 9,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 9,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 1.6
+  },
+  {
+    "Subject": 9,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 2.2
+  },
+  {
+    "Subject": 9,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.25,
+    "value": 7.0
+  },
+  {
+    "Subject": 9,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.2,
+    "val_vr": 0.25,
+    "value": 7.0
+  },
+  {
+    "Subject": 9,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 9,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 0.5,
+    "value": 6.7
+  },
+  {
+    "Subject": 9,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.2,
+    "val_vr": 0.75,
+    "value": 4.0
+  },
+  {
+    "Subject": 10,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 0.5,
+    "value": 4.6
+  },
+  {
+    "Subject": 10,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 10,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 2.8
+  },
+  {
+    "Subject": 10,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 5.2
+  },
+  {
+    "Subject": 10,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 4.9
+  },
+  {
+    "Subject": 10,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 10,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.6
+  },
+  {
+    "Subject": 10,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 10,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 6.1
+  },
+  {
+    "Subject": 10,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 6.4
+  },
+  {
+    "Subject": 10,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 10,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 0.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 10,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 6.1
+  },
+  {
+    "Subject": 10,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 5.5
+  },
+  {
+    "Subject": 10,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 6.4
+  },
+  {
+    "Subject": 10,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 11,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 4.0
+  },
+  {
+    "Subject": 11,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 6.88
+  },
+  {
+    "Subject": 11,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 6.1
+  },
+  {
+    "Subject": 11,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 11,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 11,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 5.2
+  },
+  {
+    "Subject": 11,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 11,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.5,
+    "val_vr": 1.0,
+    "value": 6.4
+  },
+  {
+    "Subject": 11,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.5,
+    "val_vr": 0.25,
+    "value": 6.7
+  },
+  {
+    "Subject": 11,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 11,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 11,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.5,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 11,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.5,
+    "val_vr": 0.75,
+    "value": 6.52
+  },
+  {
+    "Subject": 11,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.2,
+    "val_vr": 0.5,
+    "value": 2.8
+  },
+  {
+    "Subject": 11,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 4.9
+  },
+  {
+    "Subject": 11,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.2,
+    "val_vr": 0.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 12,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 2.2
+  },
+  {
+    "Subject": 12,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 0.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 12,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.25,
+    "value": 4.6
+  },
+  {
+    "Subject": 12,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.2,
+    "val_vr": 0.5,
+    "value": 4.6
+  },
+  {
+    "Subject": 12,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 12,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 12,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 6.4
+  },
+  {
+    "Subject": 12,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 4.6
+  },
+  {
+    "Subject": 12,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 0.5,
+    "value": 5.8
+  },
+  {
+    "Subject": 12,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.6
+  },
+  {
+    "Subject": 12,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 4.0
+  },
+  {
+    "Subject": 12,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 0.5,
+    "value": 1.0
+  },
+  {
+    "Subject": 12,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.2,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 12,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 5.2
+  },
+  {
+    "Subject": 12,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 12,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 0.25,
+    "value": 6.4
+  },
+  {
+    "Subject": 13,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 1.0
+  },
+  {
+    "Subject": 13,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.2,
+    "val_vr": 0.25,
+    "value": 1.0
+  },
+  {
+    "Subject": 13,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.4,
+    "val_vr": 0.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 13,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.2,
+    "val_vr": 0.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 13,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 1.3
+  },
+  {
+    "Subject": 13,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.4,
+    "val_vr": 0.25,
+    "value": 4.0
+  },
+  {
+    "Subject": 13,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.0,
+    "value": 6.7
+  },
+  {
+    "Subject": 13,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 6.4
+  },
+  {
+    "Subject": 13,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 0.5,
+    "value": 4.0
+  },
+  {
+    "Subject": 13,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 4.6
+  },
+  {
+    "Subject": 13,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.2,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 13,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 4.0
+  },
+  {
+    "Subject": 13,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.4,
+    "val_vr": 0.5,
+    "value": 2.2
+  },
+  {
+    "Subject": 13,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 1.6
+  },
+  {
+    "Subject": 13,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.2,
+    "val_vr": 0.25,
+    "value": 2.8
+  },
+  {
+    "Subject": 13,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.4,
+    "val_vr": 0.75,
+    "value": 2.2
+  },
+  {
+    "Subject": 14,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.2,
+    "val_vr": 0.5,
+    "value": 6.4
+  },
+  {
+    "Subject": 14,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 6.88
+  },
+  {
+    "Subject": 14,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.7,
+    "val_vr": 1.0,
+    "value": 4.9
+  },
+  {
+    "Subject": 14,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 1.6
+  },
+  {
+    "Subject": 14,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 14,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 5.5
+  },
+  {
+    "Subject": 14,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 14,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.7,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 14,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.7,
+    "val_vr": 1.0,
+    "value": 6.1
+  },
+  {
+    "Subject": 14,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.5,
+    "value": 6.7
+  },
+  {
+    "Subject": 14,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 14,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.7,
+    "val_vr": 0.5,
+    "value": 6.52
+  },
+  {
+    "Subject": 14,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 14,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 5.2
+  },
+  {
+    "Subject": 14,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.9
+  },
+  {
+    "Subject": 14,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.2,
+    "val_vr": 0.5,
+    "value": 4.0
+  },
+  {
+    "Subject": 15,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 0.5,
+    "value": 3.4
+  },
+  {
+    "Subject": 15,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 15,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.4,
+    "val_vr": 1.0,
+    "value": 1.6
+  },
+  {
+    "Subject": 15,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 15,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 6.4
+  },
+  {
+    "Subject": 15,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 15,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 15,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.4,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 15,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 15,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 15,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 0.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 15,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.2,
+    "val_vr": 0.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 15,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 15,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.4,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 15,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 15,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.4,
+    "val_vr": 0.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 16,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.2,
+    "val_vr": 0.5,
+    "value": 6.4
+  },
+  {
+    "Subject": 16,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.1,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 16,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.2,
+    "val_vr": 0.75,
+    "value": 6.1
+  },
+  {
+    "Subject": 16,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 16,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 16,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.1,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 16,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.25,
+    "value": 6.7
+  },
+  {
+    "Subject": 16,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 1.3
+  },
+  {
+    "Subject": 16,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 5.2
+  },
+  {
+    "Subject": 16,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.1,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 16,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.2,
+    "val_vr": 0.75,
+    "value": 6.52
+  },
+  {
+    "Subject": 16,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 16,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.1,
+    "val_vr": 0.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 16,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 6.88
+  },
+  {
+    "Subject": 16,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 6.76
+  },
+  {
+    "Subject": 16,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 17,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 17,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.4,
+    "val_vr": 1.0,
+    "value": 1.06
+  },
+  {
+    "Subject": 17,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.2,
+    "val_vr": 0.25,
+    "value": 5.2
+  },
+  {
+    "Subject": 17,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.4,
+    "val_vr": 0.25,
+    "value": 4.6
+  },
+  {
+    "Subject": 17,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 2.8
+  },
+  {
+    "Subject": 17,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.2,
+    "val_vr": 0.75,
+    "value": 1.48
+  },
+  {
+    "Subject": 17,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 1.3
+  },
+  {
+    "Subject": 17,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.2,
+    "val_vr": 0.5,
+    "value": 1.9
+  },
+  {
+    "Subject": 17,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 3.1
+  },
+  {
+    "Subject": 17,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.4,
+    "val_vr": 1.0,
+    "value": 2.5
+  },
+  {
+    "Subject": 17,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 1.6
+  },
+  {
+    "Subject": 17,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 17,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.12
+  },
+  {
+    "Subject": 17,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.4,
+    "val_vr": 0.75,
+    "value": 3.7
+  },
+  {
+    "Subject": 17,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 17,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 4.0
+  },
+  {
+    "Subject": 18,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.7,
+    "val_vr": 0.75,
+    "value": 4.0
+  },
+  {
+    "Subject": 18,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.5,
+    "val_vr": 0.25,
+    "value": 4.6
+  },
+  {
+    "Subject": 18,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.3,
+    "val_vr": 0.5,
+    "value": 5.5
+  },
+  {
+    "Subject": 18,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.5,
+    "val_vr": 0.5,
+    "value": 4.9
+  },
+  {
+    "Subject": 18,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.7,
+    "val_vr": 0.75,
+    "value": 4.6
+  },
+  {
+    "Subject": 18,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 18,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 18,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 18,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.5,
+    "val_vr": 0.0,
+    "value": 6.4
+  },
+  {
+    "Subject": 18,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 5.2
+  },
+  {
+    "Subject": 18,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.7,
+    "val_vr": 0.25,
+    "value": 6.7
+  },
+  {
+    "Subject": 18,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.3,
+    "val_vr": 0.25,
+    "value": 6.1
+  },
+  {
+    "Subject": 18,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.3,
+    "val_vr": 0.5,
+    "value": 6.1
+  },
+  {
+    "Subject": 18,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.3,
+    "val_vr": 0.75,
+    "value": 1.6
+  },
+  {
+    "Subject": 18,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.7,
+    "val_vr": 0.75,
+    "value": 4.3
+  },
+  {
+    "Subject": 18,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.5,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 19,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 5.8
+  },
+  {
+    "Subject": 19,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 19,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 5.5
+  },
+  {
+    "Subject": 19,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 19,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 0.25,
+    "value": 6.7
+  },
+  {
+    "Subject": 19,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.9
+  },
+  {
+    "Subject": 19,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 5.5
+  },
+  {
+    "Subject": 19,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.3
+  },
+  {
+    "Subject": 19,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 2.5
+  },
+  {
+    "Subject": 19,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 0.5,
+    "value": 4.0
+  },
+  {
+    "Subject": 19,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 0.5,
+    "value": 3.52
+  },
+  {
+    "Subject": 19,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 19,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.2,
+    "val_vr": 0.0,
+    "value": 6.1
+  },
+  {
+    "Subject": 19,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 3.1
+  },
+  {
+    "Subject": 19,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.2,
+    "val_vr": 0.75,
+    "value": 3.7
+  },
+  {
+    "Subject": 19,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 5.8
+  },
+  {
+    "Subject": 20,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.2,
+    "val_vr": 0.75,
+    "value": 1.0
+  },
+  {
+    "Subject": 20,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 20,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.5,
+    "val_vr": 1.0,
+    "value": 4.3
+  },
+  {
+    "Subject": 20,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.5,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 20,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 1.6
+  },
+  {
+    "Subject": 20,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.2,
+    "val_vr": 0.5,
+    "value": 4.6
+  },
+  {
+    "Subject": 20,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.5,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 20,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 5.2
+  },
+  {
+    "Subject": 20,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.5,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 20,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 0.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 20,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 2.8
+  },
+  {
+    "Subject": 20,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.2,
+    "val_vr": 0.75,
+    "value": 5.5
+  },
+  {
+    "Subject": 20,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.2,
+    "val_vr": 0.25,
+    "value": 5.8
+  },
+  {
+    "Subject": 20,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 5.2
+  },
+  {
+    "Subject": 20,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 4.9
+  },
+  {
+    "Subject": 20,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 21,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 2.2
+  },
+  {
+    "Subject": 21,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 1.6
+  },
+  {
+    "Subject": 21,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.1,
+    "val_vr": 0.25,
+    "value": 6.1
+  },
+  {
+    "Subject": 21,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.1,
+    "val_vr": 0.0,
+    "value": 6.52
+  },
+  {
+    "Subject": 21,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 0.0,
+    "value": 6.7
+  },
+  {
+    "Subject": 21,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.25,
+    "value": 5.8
+  },
+  {
+    "Subject": 21,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 5.2
+  },
+  {
+    "Subject": 21,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 0.5,
+    "value": 5.8
+  },
+  {
+    "Subject": 21,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 4.6
+  },
+  {
+    "Subject": 21,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 21,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 4.0
+  },
+  {
+    "Subject": 21,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 6.4
+  },
+  {
+    "Subject": 21,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 21,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.1,
+    "val_vr": 0.5,
+    "value": 1.0
+  },
+  {
+    "Subject": 21,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 21,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.1,
+    "val_vr": 0.0,
+    "value": 6.7
+  },
+  {
+    "Subject": 22,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.5,
+    "val_vr": 0.75,
+    "value": 4.0
+  },
+  {
+    "Subject": 22,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 22,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.7,
+    "val_vr": 0.25,
+    "value": 4.6
+  },
+  {
+    "Subject": 22,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 22,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.5,
+    "val_vr": 0.0,
+    "value": 5.2
+  },
+  {
+    "Subject": 22,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.7,
+    "val_vr": 0.25,
+    "value": 5.8
+  },
+  {
+    "Subject": 22,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.7,
+    "val_vr": 0.75,
+    "value": 4.3
+  },
+  {
+    "Subject": 22,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.5,
+    "val_vr": 0.5,
+    "value": 3.4
+  },
+  {
+    "Subject": 22,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.7,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 22,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.5,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 22,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.3,
+    "val_vr": 0.75,
+    "value": 4.9
+  },
+  {
+    "Subject": 22,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.3,
+    "val_vr": 0.25,
+    "value": 6.4
+  },
+  {
+    "Subject": 22,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 6.1
+  },
+  {
+    "Subject": 22,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.3,
+    "val_vr": 0.5,
+    "value": 5.2
+  },
+  {
+    "Subject": 22,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.3,
+    "val_vr": 0.75,
+    "value": 1.6
+  },
+  {
+    "Subject": 22,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 6.7
+  },
+  {
+    "Subject": 23,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 1.3
+  },
+  {
+    "Subject": 23,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 6.4
+  },
+  {
+    "Subject": 23,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 6.7
+  },
+  {
+    "Subject": 23,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 23,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 1.0,
+    "val_vr": 1.0,
+    "value": 6.7
+  },
+  {
+    "Subject": 23,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 23,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 23,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 2.8
+  },
+  {
+    "Subject": 23,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 1.0,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 23,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 23,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.9
+  },
+  {
+    "Subject": 23,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 23,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 1.0,
+    "val_vr": 1.0,
+    "value": 3.1
+  },
+  {
+    "Subject": 23,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 1.6
+  },
+  {
+    "Subject": 23,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 5.2
+  },
+  {
+    "Subject": 23,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 1.0,
+    "val_vr": 1.0,
+    "value": 5.5
+  },
+  {
+    "Subject": 24,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 24,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 0.25,
+    "value": 6.4
+  },
+  {
+    "Subject": 24,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 5.8
+  },
+  {
+    "Subject": 24,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.5,
+    "value": 6.7
+  },
+  {
+    "Subject": 24,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.4,
+    "val_vr": 0.5,
+    "value": 6.7
+  },
+  {
+    "Subject": 24,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 24,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 24,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 24,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.4,
+    "val_vr": 0.75,
+    "value": 4.0
+  },
+  {
+    "Subject": 24,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 6.4
+  },
+  {
+    "Subject": 24,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.4,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 24,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 6.7
+  },
+  {
+    "Subject": 24,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 24,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 5.2
+  },
+  {
+    "Subject": 24,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 4.0
+  },
+  {
+    "Subject": 24,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.4,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 25,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 0.5,
+    "value": 4.6
+  },
+  {
+    "Subject": 25,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.0,
+    "val_vr": 1.0,
+    "value": 6.88
+  },
+  {
+    "Subject": 25,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.6
+  },
+  {
+    "Subject": 25,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 4.9
+  },
+  {
+    "Subject": 25,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 5.2
+  },
+  {
+    "Subject": 25,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 25,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 1.3
+  },
+  {
+    "Subject": 25,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.0,
+    "val_vr": 1.0,
+    "value": 6.52
+  },
+  {
+    "Subject": 25,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 25,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 6.1
+  },
+  {
+    "Subject": 25,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.0,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 25,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 6.4
+  },
+  {
+    "Subject": 25,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 0.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 25,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.0,
+    "val_vr": 1.0,
+    "value": 6.7
+  },
+  {
+    "Subject": 25,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 0.5,
+    "value": 3.4
+  },
+  {
+    "Subject": 25,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.0,
+    "value": 5.5
+  },
+  {
+    "Subject": 26,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.5,
+    "val_vr": 0.5,
+    "value": 5.2
+  },
+  {
+    "Subject": 26,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 26,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 1.0,
+    "val_vr": 0.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 26,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 2.5
+  },
+  {
+    "Subject": 26,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 4.0
+  },
+  {
+    "Subject": 26,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.5,
+    "val_vr": 0.0,
+    "value": 6.7
+  },
+  {
+    "Subject": 26,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 6.1
+  },
+  {
+    "Subject": 26,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.5,
+    "val_vr": 0.5,
+    "value": 4.3
+  },
+  {
+    "Subject": 26,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 5.8
+  },
+  {
+    "Subject": 26,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 26,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 4.9
+  },
+  {
+    "Subject": 26,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 1.0,
+    "val_vr": 0.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 26,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 1.0,
+    "val_vr": 0.0,
+    "value": 5.5
+  },
+  {
+    "Subject": 26,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.2,
+    "val_vr": 0.0,
+    "value": 6.4
+  },
+  {
+    "Subject": 26,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.5,
+    "val_vr": 1.0,
+    "value": 2.8
+  },
+  {
+    "Subject": 26,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 1.0,
+    "val_vr": 0.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 27,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 0.5,
+    "value": 5.2
+  },
+  {
+    "Subject": 27,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.4,
+    "val_vr": 0.25,
+    "value": 4.6
+  },
+  {
+    "Subject": 27,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 27,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 27,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.4,
+    "val_vr": 0.75,
+    "value": 2.2
+  },
+  {
+    "Subject": 27,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 27,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 6.4
+  },
+  {
+    "Subject": 27,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 27,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 27,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 27,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 27,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.25,
+    "value": 7.0
+  },
+  {
+    "Subject": 27,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 27,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 27,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.4,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 27,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.4,
+    "val_vr": 0.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 28,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 7.0
+  },
+  {
+    "Subject": 28,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 28,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.4,
+    "val_vr": 0.25,
+    "value": 4.6
+  },
+  {
+    "Subject": 28,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.7,
+    "val_vr": 1.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 28,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 28,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.4,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 28,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 28,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.7,
+    "val_vr": 1.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 28,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.4,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 28,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 28,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 7.0
+  },
+  {
+    "Subject": 28,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 28,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.7,
+    "val_vr": 1.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 28,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.7,
+    "val_vr": 0.25,
+    "value": 7.0
+  },
+  {
+    "Subject": 28,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 28,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.4,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 29,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 0.5,
+    "value": 6.7
+  },
+  {
+    "Subject": 29,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 29,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 6.1
+  },
+  {
+    "Subject": 29,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 6.4
+  },
+  {
+    "Subject": 29,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 6.88
+  },
+  {
+    "Subject": 29,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 1.6
+  },
+  {
+    "Subject": 29,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 0.25,
+    "value": 7.0
+  },
+  {
+    "Subject": 29,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 29,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 29,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.9
+  },
+  {
+    "Subject": 29,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 29,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.2,
+    "val_vr": 0.0,
+    "value": 5.5
+  },
+  {
+    "Subject": 29,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 29,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 29,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.2,
+    "val_vr": 0.25,
+    "value": 3.1
+  },
+  {
+    "Subject": 29,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 2.8
+  },
+  {
+    "Subject": 30,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 6.4
+  },
+  {
+    "Subject": 30,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 30,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 30,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 4.3
+  },
+  {
+    "Subject": 30,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 30,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 1.0,
+    "val_vr": 0.25,
+    "value": 5.2
+  },
+  {
+    "Subject": 30,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 1.0,
+    "val_vr": 0.5,
+    "value": 1.3
+  },
+  {
+    "Subject": 30,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 0.5,
+    "value": 5.5
+  },
+  {
+    "Subject": 30,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 4.0
+  },
+  {
+    "Subject": 30,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 0.25,
+    "value": 6.1
+  },
+  {
+    "Subject": 30,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.6
+  },
+  {
+    "Subject": 30,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 1.0,
+    "val_vr": 0.0,
+    "value": 6.7
+  },
+  {
+    "Subject": 30,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 4.9
+  },
+  {
+    "Subject": 30,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 1.0,
+    "val_vr": 0.5,
+    "value": 5.2
+  },
+  {
+    "Subject": 30,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.5,
+    "value": 5.8
+  },
+  {
+    "Subject": 30,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 31,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.5,
+    "val_vr": 0.5,
+    "value": 2.8
+  },
+  {
+    "Subject": 31,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.2,
+    "val_vr": 0.0,
+    "value": 6.1
+  },
+  {
+    "Subject": 31,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.2,
+    "val_vr": 0.75,
+    "value": 3.7
+  },
+  {
+    "Subject": 31,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 31,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 6.4
+  },
+  {
+    "Subject": 31,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 31,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 31,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 5.2
+  },
+  {
+    "Subject": 31,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 4.3
+  },
+  {
+    "Subject": 31,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.5,
+    "val_vr": 1.0,
+    "value": 1.6
+  },
+  {
+    "Subject": 31,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 6.1
+  },
+  {
+    "Subject": 31,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 31,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.2,
+    "val_vr": 0.75,
+    "value": 4.6
+  },
+  {
+    "Subject": 31,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.5,
+    "val_vr": 1.0,
+    "value": 4.9
+  },
+  {
+    "Subject": 31,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 31,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.5,
+    "val_vr": 0.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 32,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 6.4
+  },
+  {
+    "Subject": 32,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 5.32
+  },
+  {
+    "Subject": 32,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 4.3
+  },
+  {
+    "Subject": 32,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 5.2
+  },
+  {
+    "Subject": 32,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 32,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 6.1
+  },
+  {
+    "Subject": 32,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 0.25,
+    "value": 6.4
+  },
+  {
+    "Subject": 32,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 6.52
+  },
+  {
+    "Subject": 32,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 32,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 32,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 4.48
+  },
+  {
+    "Subject": 32,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 4.9
+  },
+  {
+    "Subject": 32,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 32,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.25,
+    "value": 6.7
+  },
+  {
+    "Subject": 32,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 32,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 5.8
+  },
+  {
+    "Subject": 33,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 3.1
+  },
+  {
+    "Subject": 33,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 2.2
+  },
+  {
+    "Subject": 33,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 5.2
+  },
+  {
+    "Subject": 33,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.25,
+    "value": 4.6
+  },
+  {
+    "Subject": 33,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 0.5,
+    "value": 1.9
+  },
+  {
+    "Subject": 33,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.1,
+    "val_vr": 0.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 33,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 0.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 33,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.1,
+    "val_vr": 0.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 33,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 3.7
+  },
+  {
+    "Subject": 33,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 2.5
+  },
+  {
+    "Subject": 33,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 2.8
+  },
+  {
+    "Subject": 33,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.1,
+    "val_vr": 0.0,
+    "value": 5.5
+  },
+  {
+    "Subject": 33,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.6
+  },
+  {
+    "Subject": 33,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 0.5,
+    "value": 5.68
+  },
+  {
+    "Subject": 33,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.1,
+    "val_vr": 0.0,
+    "value": 6.4
+  },
+  {
+    "Subject": 33,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 34,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 6.7
+  },
+  {
+    "Subject": 34,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 34,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 34,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 6.7
+  },
+  {
+    "Subject": 34,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 6.4
+  },
+  {
+    "Subject": 34,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 3.7
+  },
+  {
+    "Subject": 34,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 7.0
+  },
+  {
+    "Subject": 34,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 34,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 7.0
+  },
+  {
+    "Subject": 34,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 34,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 5.8
+  },
+  {
+    "Subject": 34,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 34,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 0.25,
+    "value": 7.0
+  },
+  {
+    "Subject": 34,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.6
+  },
+  {
+    "Subject": 34,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.25,
+    "value": 7.0
+  },
+  {
+    "Subject": 34,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 35,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 0.5,
+    "value": 3.7
+  },
+  {
+    "Subject": 35,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 4.6
+  },
+  {
+    "Subject": 35,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.25,
+    "value": 5.8
+  },
+  {
+    "Subject": 35,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 6.1
+  },
+  {
+    "Subject": 35,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 3.1
+  },
+  {
+    "Subject": 35,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 6.4
+  },
+  {
+    "Subject": 35,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 0.5,
+    "value": 4.9
+  },
+  {
+    "Subject": 35,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 6.7
+  },
+  {
+    "Subject": 35,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 0.5,
+    "value": 3.52
+  },
+  {
+    "Subject": 35,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 35,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 2.8
+  },
+  {
+    "Subject": 35,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 35,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 35,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 5.2
+  },
+  {
+    "Subject": 35,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 4.3
+  },
+  {
+    "Subject": 35,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 36,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 2.2
+  },
+  {
+    "Subject": 36,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.25,
+    "value": 4.6
+  },
+  {
+    "Subject": 36,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.7,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 36,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 0.5,
+    "value": 4.6
+  },
+  {
+    "Subject": 36,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.4,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 36,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 0.5,
+    "value": 3.4
+  },
+  {
+    "Subject": 36,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.7,
+    "val_vr": 0.25,
+    "value": 4.6
+  },
+  {
+    "Subject": 36,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 36,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.4,
+    "val_vr": 0.5,
+    "value": 4.6
+  },
+  {
+    "Subject": 36,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.4,
+    "val_vr": 0.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 36,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 36,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.7,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 36,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.25,
+    "value": 5.8
+  },
+  {
+    "Subject": 36,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.7,
+    "val_vr": 0.25,
+    "value": 5.8
+  },
+  {
+    "Subject": 36,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 36,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.4,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 37,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 1.0,
+    "val_vr": 0.5,
+    "value": 7.0
+  },
+  {
+    "Subject": 37,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 5.2
+  },
+  {
+    "Subject": 37,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 37,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 1.0,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 37,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 37,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 37,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 37,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 37,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 37,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 37,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 1.0,
+    "val_vr": 0.75,
+    "value": 4.6
+  },
+  {
+    "Subject": 37,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 37,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 37,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 1.0,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 37,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 37,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 38,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 0.5,
+    "value": 5.8
+  },
+  {
+    "Subject": 38,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.7,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 38,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 38,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 5.2
+  },
+  {
+    "Subject": 38,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.75,
+    "value": 6.4
+  },
+  {
+    "Subject": 38,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 38,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.7,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 38,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 38,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 38,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 38,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.7,
+    "val_vr": 1.0,
+    "value": 6.4
+  },
+  {
+    "Subject": 38,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 38,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 7.0
+  },
+  {
+    "Subject": 38,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 1.0
+  },
+  {
+    "Subject": 38,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 6.7
+  },
+  {
+    "Subject": 38,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.7,
+    "val_vr": 1.0,
+    "value": 4.0
+  },
+  {
+    "Subject": 39,
+    "rec": "your agent mother",
+    "val": 10,
+    "rec_vr": 0.9,
+    "val_vr": 0.5,
+    "value": 5.8
+  },
+  {
+    "Subject": 39,
+    "rec": "a recommended agent",
+    "val": 20,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 39,
+    "rec": "your agent mother",
+    "val": 1,
+    "rec_vr": 0.9,
+    "val_vr": 0.25,
+    "value": 5.8
+  },
+  {
+    "Subject": 39,
+    "rec": "your agent friend",
+    "val": 20,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 1.6
+  },
+  {
+    "Subject": 39,
+    "rec": "your agent friend",
+    "val": 10,
+    "rec_vr": 0.8,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 39,
+    "rec": "an agent you found online",
+    "val": 20,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 2.2
+  },
+  {
+    "Subject": 39,
+    "rec": "your agent mother",
+    "val": 5,
+    "rec_vr": 0.9,
+    "val_vr": 0.75,
+    "value": 6.4
+  },
+  {
+    "Subject": 39,
+    "rec": "your agent friend",
+    "val": 1,
+    "rec_vr": 0.8,
+    "val_vr": 0.0,
+    "value": 5.8
+  },
+  {
+    "Subject": 39,
+    "rec": "an agent you found online",
+    "val": 1,
+    "rec_vr": 0.2,
+    "val_vr": 0.0,
+    "value": 4.6
+  },
+  {
+    "Subject": 39,
+    "rec": "a recommended agent",
+    "val": 10,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 2.8
+  },
+  {
+    "Subject": 39,
+    "rec": "your agent mother",
+    "val": 20,
+    "rec_vr": 0.9,
+    "val_vr": 1.0,
+    "value": 7.0
+  },
+  {
+    "Subject": 39,
+    "rec": "an agent you found online",
+    "val": 10,
+    "rec_vr": 0.2,
+    "val_vr": 1.0,
+    "value": 3.4
+  },
+  {
+    "Subject": 39,
+    "rec": "your agent friend",
+    "val": 5,
+    "rec_vr": 0.8,
+    "val_vr": 0.75,
+    "value": 4.0
+  },
+  {
+    "Subject": 39,
+    "rec": "a recommended agent",
+    "val": 5,
+    "rec_vr": 0.6,
+    "val_vr": 1.0,
+    "value": 5.2
+  },
+  {
+    "Subject": 39,
+    "rec": "an agent you found online",
+    "val": 5,
+    "rec_vr": 0.2,
+    "val_vr": 0.75,
+    "value": 3.4
+  },
+  {
+    "Subject": 39,
+    "rec": "a recommended agent",
+    "val": 1,
+    "rec_vr": 0.6,
+    "val_vr": 0.0,
+    "value": 6.7
+  }
+]

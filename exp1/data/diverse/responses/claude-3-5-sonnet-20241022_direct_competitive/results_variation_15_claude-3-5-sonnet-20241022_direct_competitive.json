@@ -1,0 +1,102 @@
+[
+    {
+        "correct_answer": 1,
+        "player_1_guess": 0,
+        "player_1_advice": -2,
+        "player_1_advice_message": "-2",
+        "player_2_guess_before": 2,
+        "info_provided": "advice",
+        "player_2_guess_after": 2,
+        "player_2_update_message": "2"
+    },
+    {
+        "correct_answer": -2,
+        "player_1_guess": -1,
+        "player_1_advice": 2,
+        "player_1_advice_message": "2",
+        "player_2_guess_before": -2,
+        "info_provided": "advice",
+        "player_2_guess_after": -2,
+        "player_2_update_message": "-2"
+    },
+    {
+        "correct_answer": -4,
+        "player_1_guess": -3,
+        "player_1_advice": 1,
+        "player_1_advice_message": "1",
+        "player_2_guess_before": -5,
+        "info_provided": "advice",
+        "player_2_guess_after": -5,
+        "player_2_update_message": "-5"
+    },
+    {
+        "correct_answer": -2,
+        "player_1_guess": 0,
+        "player_1_advice": 3,
+        "player_1_advice_message": "3",
+        "player_2_guess_before": 1,
+        "info_provided": "advice",
+        "player_2_guess_after": 1,
+        "player_2_update_message": "1"
+    },
+    {
+        "correct_answer": 0,
+        "player_1_guess": -1,
+        "player_1_advice": 2,
+        "player_1_advice_message": "2",
+        "player_2_guess_before": 0,
+        "info_provided": "spied",
+        "player_2_guess_after": -1,
+        "player_2_update_message": "-1"
+    },
+    {
+        "correct_answer": 1,
+        "player_1_guess": 0,
+        "player_1_advice": -2,
+        "player_1_advice_message": "-2",
+        "player_2_guess_before": 1,
+        "info_provided": "spied",
+        "player_2_guess_after": 1,
+        "player_2_update_message": "1"
+    },
+    {
+        "correct_answer": 0,
+        "player_1_guess": 1,
+        "player_1_advice": -1,
+        "player_1_advice_message": "-1",
+        "player_2_guess_before": 1,
+        "info_provided": "spied",
+        "player_2_guess_after": 1,
+        "player_2_update_message": "1"
+    },
+    {
+        "correct_answer": 3,
+        "player_1_guess": 2,
+        "player_1_advice": -1,
+        "player_1_advice_message": "-1",
+        "player_2_guess_before": 3,
+        "info_provided": "spied",
+        "player_2_guess_after": 3,
+        "player_2_update_message": "3"
+    },
+    {
+        "correct_answer": 2,
+        "player_1_guess": 1,
+        "player_1_advice": -2,
+        "player_1_advice_message": "-2",
+        "player_2_guess_before": 3,
+        "info_provided": "spied",
+        "player_2_guess_after": 3,
+        "player_2_update_message": "3"
+    },
+    {
+        "correct_answer": 4,
+        "player_1_guess": 0,
+        "player_1_advice": 3,
+        "player_1_advice_message": "3",
+        "player_2_guess_before": 2,
+        "info_provided": "advice",
+        "player_2_guess_after": 2,
+        "player_2_update_message": "2"
+    }
+]

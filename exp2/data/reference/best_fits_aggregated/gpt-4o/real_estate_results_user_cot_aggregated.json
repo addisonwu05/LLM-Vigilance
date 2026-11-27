@@ -1,0 +1,146 @@
+[
+  {
+    "character": "an agent I found online",
+    "money": 20,
+    "value": 2.8675,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.2501,
+    "params.dist.X..a0..1..a1..0..prob": 0.4089
+  },
+  {
+    "character": "my agent friend",
+    "money": 5,
+    "value": 5.5788,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.2501,
+    "params.dist.X..a0..1..a1..0..prob": 0.5031
+  },
+  {
+    "character": "an agent I found online",
+    "money": 1,
+    "value": 5.3275,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.2501,
+    "params.dist.X..a0..1..a1..0..prob": 0.5016
+  },
+  {
+    "character": "an agent I found online",
+    "money": 10,
+    "value": 3.5537,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.2501,
+    "params.dist.X..a0..1..a1..0..prob": 0.41
+  },
+  {
+    "character": "my agent friend",
+    "money": 20,
+    "value": 4.2456,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.2501,
+    "params.dist.X..a0..1..a1..0..prob": 0.4879
+  },
+  {
+    "character": "my agent mother",
+    "money": 1,
+    "value": 6.5226,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.2501,
+    "params.dist.X..a0..1..a1..0..prob": 0.5585
+  },
+  {
+    "character": "my agent friend",
+    "money": 10,
+    "value": 4.96,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.2501,
+    "params.dist.X..a0..1..a1..0..prob": 0.4907
+  },
+  {
+    "character": "my agent mother",
+    "money": 5,
+    "value": 6.1889,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.2501,
+    "params.dist.X..a0..1..a1..0..prob": 0.5469
+  },
+  {
+    "character": "my agent friend",
+    "money": 1,
+    "value": 6.2912,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.2501,
+    "params.dist.X..a0..1..a1..0..prob": 0.5347
+  },
+  {
+    "character": "my agent mother",
+    "money": 20,
+    "value": 5.2769,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.2501,
+    "params.dist.X..a0..1..a1..0..prob": 0.5398
+  },
+  {
+    "character": "a recommended agent",
+    "money": 20,
+    "value": 3.7675,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.2501,
+    "params.dist.X..a0..1..a1..0..prob": 0.4551
+  },
+  {
+    "character": "a recommended agent",
+    "money": 5,
+    "value": 5.3463,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.2501,
+    "params.dist.X..a0..1..a1..0..prob": 0.4721
+  },
+  {
+    "character": "my agent mother",
+    "money": 10,
+    "value": 5.8101,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.2501,
+    "params.dist.X..a0..1..a1..0..prob": 0.5423
+  },
+  {
+    "character": "an agent I found online",
+    "money": 5,
+    "value": 4.3806,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.2501,
+    "params.dist.X..a0..1..a1..0..prob": 0.4282
+  },
+  {
+    "character": "a recommended agent",
+    "money": 10,
+    "value": 4.615,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.2501,
+    "params.dist.X..a0..1..a1..0..prob": 0.4557
+  },
+  {
+    "character": "a recommended agent",
+    "money": 1,
+    "value": 6.1007,
+    "alphaL0": 7,
+    "alphaS": 7,
+    "w": 0.2501,
+    "params.dist.X..a0..1..a1..0..prob": 0.5213
+  }
+]

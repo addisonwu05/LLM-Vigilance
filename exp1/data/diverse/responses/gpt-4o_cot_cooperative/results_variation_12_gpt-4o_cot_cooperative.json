@@ -1,0 +1,102 @@
+[
+    {
+        "correct_answer": 1,
+        "player_1_guess": 1,
+        "player_1_advice": 1,
+        "player_1_advice_message": "To increase our chances of getting the payoff, I should provide advice that increases the likelihood of the second player guessing correctly. By giving the correct advice, I maximize the chance that at least one of us answers correctly. \n\nThe number I will provide as advice is 1.",
+        "player_2_guess_before": 0,
+        "info_provided": "spied",
+        "player_2_guess_after": 1,
+        "player_2_update_message": "Given that my initial guess was 0 and my opponent guessed 1, it indicates some uncertainty or difference in perception. Since spying shows that they might have seen one more green circle than I did, there's a possibility of error in my initial assessment. To maximize the chance of getting it right and ensuring a payoff, adjusting my answer to 1 could align better with their guess.\n\n1"
+    },
+    {
+        "correct_answer": 8,
+        "player_1_guess": 4,
+        "player_1_advice": 4,
+        "player_1_advice_message": "Providing honest advice helps ensure that at least one of us answers correctly, increasing the chance of receiving a payoff. \n\nThe number I will provide as advice is 4.",
+        "player_2_guess_before": 2,
+        "info_provided": "advice",
+        "player_2_guess_after": 3,
+        "player_2_update_message": "The opponent's advice is 4, which is higher than my initial guess of 2. However, since their advice does not have to be honest, it's essential to consider whether it aligns with or diverges significantly from what seems plausible. To maximize the potential of at least one of us getting it right, adjusting my guess slightly closer to their advice could be strategic.\n\nI'll update my guess to 3."
+    },
+    {
+        "correct_answer": -1,
+        "player_1_guess": 0,
+        "player_1_advice": 0,
+        "player_1_advice_message": "Providing the correct advice maximizes the chances of at least one of us answering correctly, leading to a payoff.\n\nThe number I will provide as advice is 0.",
+        "player_2_guess_before": 1,
+        "info_provided": "spied",
+        "player_2_guess_after": 0,
+        "player_2_update_message": "My initial guess was 1, but since the opponent guessed 0, it suggests they saw an equal number of green and purple circles. To increase the likelihood of at least one of us being correct, I should align my guess more closely with theirs.\n\nI'll update my guess to 0."
+    },
+    {
+        "correct_answer": 6,
+        "player_1_guess": 0,
+        "player_1_advice": 0,
+        "player_1_advice_message": "Giving the correct advice increases the likelihood of a payoff if either of us guesses correctly.\n\nThe number I will provide as advice is 0.",
+        "player_2_guess_before": 1,
+        "info_provided": "spied",
+        "player_2_guess_after": 0,
+        "player_2_update_message": "My initial guess was 1, while the opponent guessed 0. To maximize the chance of at least one of us being correct and securing the payoff, it might be beneficial to align my guess with theirs given their format might have allowed for more accuracy.\n\nI\u2019ll update my guess to 0."
+    },
+    {
+        "correct_answer": -7,
+        "player_1_guess": -4,
+        "player_1_advice": -4,
+        "player_1_advice_message": "Providing accurate advice boosts the chance of receiving a payoff if either of us answers correctly.\n\nThe number I will provide as advice is -4.",
+        "player_2_guess_before": -4,
+        "info_provided": "advice",
+        "player_2_guess_after": -4,
+        "player_2_update_message": "My initial guess was -4, which matches the opponent's advice. Since their advice aligns with my original thought, there's no reason to change it. Sticking with a consensus can increase the chance of being correct.\n\n-4"
+    },
+    {
+        "correct_answer": -2,
+        "player_1_guess": -1,
+        "player_1_advice": -1,
+        "player_1_advice_message": "Providing the correct advice maximizes the chances of at least one of us being right, which leads to a payoff.\n\nThe number I will provide as advice is -1.",
+        "player_2_guess_before": -2,
+        "info_provided": "advice",
+        "player_2_guess_after": -1,
+        "player_2_update_message": "My initial guess was -2, while the opponent advised -1. Since the advice is close to my guess but slightly different, adjusting towards their suggestion might increase the chance of correctness by covering a different possibility.\n\nI'll update my guess to -1."
+    },
+    {
+        "correct_answer": 3,
+        "player_1_guess": 1,
+        "player_1_advice": 1,
+        "player_1_advice_message": "Supplying the correct advice enhances our chances of getting at least one correct answer, which increases the likelihood of a payoff.\n\nThe number I will provide as advice is 1.",
+        "player_2_guess_before": 1,
+        "info_provided": "spied",
+        "player_2_guess_after": 1,
+        "player_2_update_message": "Since both my initial guess and the opponent\u2019s guess are 1, there is agreement. This suggests a stronger likelihood that the guess is correct. To maintain consistency and maximize the chance of correctness, I will not change my guess.\n\n1"
+    },
+    {
+        "correct_answer": -3,
+        "player_1_guess": 0,
+        "player_1_advice": 0,
+        "player_1_advice_message": "Giving the correct advice is crucial for maximizing the chance of one of us responding correctly and receiving a payoff.\n\nThe number I will provide as advice is 0.",
+        "player_2_guess_before": -2,
+        "info_provided": "advice",
+        "player_2_guess_after": -1,
+        "player_2_update_message": "My initial guess was -2, and the opponent's advice is 0. This suggests they might see an equal number of green and purple circles. To increase the likelihood of at least one of us being correct, adjusting my guess closer to 0 is strategic.\n\nI'll update my guess to -1."
+    },
+    {
+        "correct_answer": 1,
+        "player_1_guess": 0,
+        "player_1_advice": 0,
+        "player_1_advice_message": "Providing the correct advice optimizes the chance of at least one correct answer, increasing the likelihood of receiving a payoff.\n\nThe number I will provide as advice is 0.",
+        "player_2_guess_before": 0,
+        "info_provided": "spied",
+        "player_2_guess_after": 0,
+        "player_2_update_message": "Since both my initial guess and the opponent's guess are 0, there is agreement on the count. This suggests a higher chance of correctness. I will maintain my guess to maximize the potential payoff.\n\n0"
+    },
+    {
+        "correct_answer": 1,
+        "player_1_guess": 1,
+        "player_1_advice": 1,
+        "player_1_advice_message": "Accurate advice improves the chance of at least one of us guessing correctly, which increases the probability of receiving a payoff.\n\nThe number I will provide as advice is 1.",
+        "player_2_guess_before": -2,
+        "info_provided": "spied",
+        "player_2_guess_after": 0,
+        "player_2_update_message": "My initial guess was -2, while the opponent's guess is 1, suggesting we have different perspectives on the image. To balance the possibilities and increase the chance of at least one of us being correct, it may be strategic to adjust my guess closer to their range but not all the way.\n\nI'll update my guess to 0."
+    }
+]

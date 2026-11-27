@@ -1,0 +1,102 @@
+[
+    {
+        "correct_answer": 0,
+        "player_1_guess": 0,
+        "player_1_advice": 0,
+        "player_1_advice_message": "I'll provide advice that could help the second player get the correct answer. In this case, since the answer was 0, giving this advice might help ensure they guess the right number as well. \n\n0",
+        "player_2_guess_before": 0,
+        "info_provided": "spied",
+        "player_2_guess_after": 0,
+        "player_2_update_message": "Given that my opponent guessed 0, which matches my initial guess, it's likely a safe assumption we both saw an equal number of purple and cyan circles. \n\nSince we get a payoff if either of us is correct, and there's no indication that their guess was flawed, I will maintain my original guess.\n\n0"
+    },
+    {
+        "correct_answer": -5,
+        "player_1_guess": 0,
+        "player_1_advice": 0,
+        "player_1_advice_message": "I'll offer the same advice as the answer I gave to maintain consistency and increase the chances of both players getting it right. \n\n0",
+        "player_2_guess_before": 1,
+        "info_provided": "advice",
+        "player_2_guess_after": 1,
+        "player_2_update_message": "The opponent's advice is 0, which is different from my initial guess of 1. Since the advice does not have to be honest, it's reasonable to consider the possibility of misinformation. \n\nHowever, considering the payoff relies on at least one of us being correct, sticking with my own judgment is likely beneficial unless there is a clearer reason to change it based on reliable information.\n\nI'll stick with my initial guess of 1."
+    },
+    {
+        "correct_answer": -5,
+        "player_1_guess": 1,
+        "player_1_advice": 1,
+        "player_1_advice_message": "I'll provide advice that matches the correct answer in order to maximize the chance of both players succeeding.\n\n1",
+        "player_2_guess_before": 0,
+        "info_provided": "spied",
+        "player_2_guess_after": 1,
+        "player_2_update_message": "I guessed 0, while my opponent guessed 1. The payoff mechanism allows us to benefit if any of us guesses correctly. Given the discrepancy, it's unclear which guess is correct, and my opponent might have had a reason for their choice.\n\nTo maximize our chances of getting the payoff, I'll change my guess to 1."
+    },
+    {
+        "correct_answer": -2,
+        "player_1_guess": 1,
+        "player_1_advice": 1,
+        "player_1_advice_message": "I'll provide the number that matches the answer I gave to help ensure both players have the best chance of getting it correct. \n\n1",
+        "player_2_guess_before": -1,
+        "info_provided": "spied",
+        "player_2_guess_after": 1,
+        "player_2_update_message": "My initial guess was -1, while my opponent guessed 1. Given the conflicting guesses, if my opponent's guess is correct and I change my answer, we can both benefit from the payoff. \n\nTherefore, I'll change my guess to 1."
+    },
+    {
+        "correct_answer": 7,
+        "player_1_guess": 3,
+        "player_1_advice": 3,
+        "player_1_advice_message": "I'll provide the correct answer as advice to maximize the chance of both players earning a payoff.\n\n3",
+        "player_2_guess_before": 3,
+        "info_provided": "advice",
+        "player_2_guess_after": 3,
+        "player_2_update_message": "My initial guess was 3, and the opponent's advice is also 3. Since the advice aligns with my guess, it reinforces my initial judgment.\n\nI'll keep my guess as 3."
+    },
+    {
+        "correct_answer": 2,
+        "player_1_guess": 1,
+        "player_1_advice": 1,
+        "player_1_advice_message": "I'll offer advice that matches the answer I provided to increase the likelihood of both players getting it right.\n\n1",
+        "player_2_guess_before": 2,
+        "info_provided": "spied",
+        "player_2_guess_after": 1,
+        "player_2_update_message": "My initial guess was 2, while my opponent guessed 1. Since we want to maximize the chances of a correct answer for the payoff, I'll consider the opponent's different perspective.\n\nTo cover both possibilities, I'll adjust my guess to 1."
+    },
+    {
+        "correct_answer": 5,
+        "player_1_guess": 3,
+        "player_1_advice": 3,
+        "player_1_advice_message": "I'll provide advice that matches my answer to help maximize the chance of both players getting it correct.\n\n3",
+        "player_2_guess_before": 1,
+        "info_provided": "advice",
+        "player_2_guess_after": 3,
+        "player_2_update_message": "My initial guess was 1, and my opponent advised 3. The discrepancy suggests different interpretations of the image. Since the payoff benefits from a correct response from either of us, it's strategic to cover alternative possibilities when advice differs.\n\nI'll change my guess to 3."
+    },
+    {
+        "correct_answer": -4,
+        "player_1_guess": 0,
+        "player_1_advice": 0,
+        "player_1_advice_message": "I'll provide the same number as my answer to give the second player a good chance at getting it right.\n\n0",
+        "player_2_guess_before": -2,
+        "info_provided": "spied",
+        "player_2_guess_after": -2,
+        "player_2_update_message": "My initial guess was -2, while my opponent guessed 0. Since differing views might be beneficial in maximizing our overall chances, not changing my guess could be advantageous. \n\nI'll keep my initial guess of -2."
+    },
+    {
+        "correct_answer": 3,
+        "player_1_guess": 3,
+        "player_1_advice": 3,
+        "player_1_advice_message": "I'll provide the correct answer to maximize our chances of both earning a payoff.\n\n3",
+        "player_2_guess_before": 4,
+        "info_provided": "spied",
+        "player_2_guess_after": 4,
+        "player_2_update_message": "My initial guess was 4, while my opponent guessed 3. To maximize our chances of obtaining the payoff, it's strategic to cover different possibilities. Since both guesses are close and could potentially be correct, I'll keep my initial guess of 4."
+    },
+    {
+        "correct_answer": 8,
+        "player_1_guess": 5,
+        "player_1_advice": 5,
+        "player_1_advice_message": "I'll provide the honest answer to maximize the chance of both players succeeding.\n\n5",
+        "player_2_guess_before": 6,
+        "info_provided": "advice",
+        "player_2_guess_after": 5,
+        "player_2_update_message": "My initial guess was 6, and the opponent's advice is 5. Given the close proximity of our guesses, both could be plausible. \n\nTo hedge our chances and cover different possibilities, I'll adjust my guess to 5."
+    }
+]

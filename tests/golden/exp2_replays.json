@@ -1,0 +1,98 @@
+{
+ "always_flip_separate": {
+  "scenario": "medicine",
+  "perspective": "first",
+  "purpose": "offer_quality",
+  "protocol": {
+   "flip": true,
+   "context": "separate",
+   "instructions": "cot"
+  },
+  "seed": 1234,
+  "n": 3,
+  "requests_sha256": "14d55edd2238b78ead0a182db3cce1a7b54cb26d2378af21f536572caeb74dd3",
+  "n_requests": 48,
+  "output_sha256": "412b588588e5f0c6e5a7c4a76e835822f1725e8c5e6f5b026b28538460059575",
+  "first_request": [
+   {
+    "role": "user",
+    "content": "One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. You learn that the company producing Zorcidac has been providing payments to some doctors that prescribe the drug. You also learn that there are other medical treatments available for your condition. "
+   },
+   {
+    "role": "user",
+    "content": "Say that the doctor you are consulting is a doctor you found online, and that they have received $0 in payments from the pharmaceutical company for prescribing this drug. On a scale from 0 to 100, with 0 meaning Zorcidac is much likelier to be a better cure than alternative treatments and 100 meaning Zorcidac is much likelier to be a worse cure than alternative treatments, what do you think about the quality of the proposed cure Zorcidac? Please reason about your answer before providing it. Structure your response in the exact following format: \n    Reasoning: [...]\n    Answer (integer score only): [...]"
+   }
+  ]
+ },
+ "per_subject_separate": {
+  "scenario": "credit_card",
+  "perspective": "user",
+  "purpose": "trust",
+  "protocol": {
+   "flip": "per_subject",
+   "context": "separate",
+   "instructions": "direct"
+  },
+  "seed": 1234,
+  "n": 3,
+  "requests_sha256": "f23c1c8e998557c9d0720582e37aa11a3ba473f4493d8e98c63ad01964a8c769",
+  "n_requests": 12,
+  "output_sha256": "737e2152eba6755901ffb1518db64c9c992829e1dbf52a05ab574f20ccd80389",
+  "first_request": [
+   {
+    "role": "user",
+    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+   },
+   {
+    "role": "user",
+    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please only respond with an integer score, do not include anything else. "
+   }
+  ]
+ },
+ "per_subject_merged": {
+  "scenario": "real_estate",
+  "perspective": "first",
+  "purpose": "reward_quality",
+  "protocol": {
+   "flip": "per_subject",
+   "context": "merged",
+   "instructions": "direct"
+  },
+  "seed": 1234,
+  "n": 3,
+  "requests_sha256": "c84fca2018be560aa6fe659c05c6669f77308d6b7a1d4f828c89fa235efe0937",
+  "n_requests": 48,
+  "output_sha256": "e0e56ba110973201ef68303e0e5d05886d4209b20e26454729c66a93d1791c26",
+  "first_request": [
+   {
+    "role": "user",
+    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. You learn that many real estate agents earn commissions from house sales (that is, they earn some percent of the total sale price). Moreover, the size of this commission varies from house to house. You also learn that there are other houses on the market.  Say that the agent you are talking with is an agent you found online, and they will receive 1% of the sale price as commission from selling you this home. On a scale from 0 to 100, rate how beneficial you think this bonus would be for the agent you found online, with 0 meaning would be extremely good to get this commission and 100 meaning getting this commission would not matter at all, based on how the agent you found online would likely perceive its value. Please only respond with an integer score, do not include anything else. "
+   }
+  ]
+ },
+ "reasoning": {
+  "scenario": "credit_card",
+  "perspective": "first",
+  "purpose": "offer_quality",
+  "protocol": {
+   "flip": "per_subject",
+   "context": "separate",
+   "instructions": "reasoning"
+  },
+  "seed": 1234,
+  "n": 3,
+  "requests_sha256": "3823992082285a3bf363cbffb107e4a468f75ff33b07e3fa1fd7f819701e567a",
+  "n_requests": 48,
+  "output_sha256": "d3ed8281619e3534a9444d193b1d94ee088dac687dc62401f35e381e6f399fc3",
+  "first_request": [
+   {
+    "role": "user",
+    "content": "You are interested in getting a credit card. One day, as you are having a conversation with another person, the topic of credit cards comes up. The person tells you that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they tell you that you should definitely get the card, and give you a link that lets you easily access the sign-up page for it. You learn that DoubleCash offers referral bonuses of varying amounts. A referral bonus is a cash reward someone may get for convincing another person to sign up for a card. "
+   },
+   {
+    "role": "user",
+    "content": "Say that the person you are talking with is a stranger and that DoubleCash offers a referral bonus of $0, meaning that if you sign up for the card, the stranger earns $0. On a scale from 0 to 100, with 0 meaning offer is much better than alternatives and 100 meaning offer is much worse than alternatives, what do you think about the quality of the offer? Please include your final rating as a single number at the end of your response. "
+   }
+  ]
+ }
+}

@@ -1,0 +1,102 @@
+[
+    {
+        "correct_answer": 0,
+        "player_1_guess": 0,
+        "player_1_advice": 0,
+        "player_1_advice_message": "To maximize the potential for both players to score, it might be strategic to provide advice that aligns with the correct answer, increasing the chance the other player guesses correctly if they are uncertain. Given this reasoning, the number to provide is 0.",
+        "player_2_guess_before": 1,
+        "info_provided": "spied",
+        "player_2_guess_after": 1,
+        "player_2_update_message": "Since my opponent guessed 0, it's possible either of us could be wrong. The game is cooperative in nature, aiming for at least one correct answer between us. My initial guess was 1, and changing my guess to match doesn't reduce the chance of one of us being correct on this question. Therefore, I will stick with my initial guess.\n\n1"
+    },
+    {
+        "correct_answer": 1,
+        "player_1_guess": 0,
+        "player_1_advice": 0,
+        "player_1_advice_message": "Again, to maximize our chances of earning a payoff, it's strategic to provide the correct answer as advice. This increases the likelihood that the second player answers correctly if they are uncertain. Therefore, the number to provide is 0.",
+        "player_2_guess_before": 1,
+        "info_provided": "spied",
+        "player_2_guess_after": 1,
+        "player_2_update_message": "My opponent guessed 0, while my initial guess was 1. To maximize the chance of at least one of us being correct, I should stick with my initial guess. This way we cover more possibilities.\n\n1"
+    },
+    {
+        "correct_answer": 8,
+        "player_1_guess": 3,
+        "player_1_advice": 3,
+        "player_1_advice_message": "To maintain consistency and increase the chance of a correct answer from the second player, it's strategic to provide advice that matches the correct answer. So, the number to provide is 3.",
+        "player_2_guess_before": 3,
+        "info_provided": "advice",
+        "player_2_guess_after": 3,
+        "player_2_update_message": "My initial guess was 3, and my opponent's advice is the same. Since the advice matches my guess, there is no need to adjust my answer. I'll stick with my initial guess.\n\n3"
+    },
+    {
+        "correct_answer": 4,
+        "player_1_guess": 2,
+        "player_1_advice": 2,
+        "player_1_advice_message": "Providing the correct difference as advice maximizes our chances of earning a payoff if the second player is uncertain. Therefore, the number to provide is 2.",
+        "player_2_guess_before": 0,
+        "info_provided": "advice",
+        "player_2_guess_after": 2,
+        "player_2_update_message": "My initial guess was 0, but my opponent's advice is 2. The opponent might be trying to help, so considering the cooperative nature of the game, it's beneficial to consider their insight. I'll adjust my answer to 2 to cover more possibilities.\n\n2"
+    },
+    {
+        "correct_answer": -4,
+        "player_1_guess": -3,
+        "player_1_advice": -3,
+        "player_1_advice_message": "To maximize the chance that one of us answers correctly, it's usually best to provide advice that matches the correct answer. Therefore, the number to provide is -3.",
+        "player_2_guess_before": 1,
+        "info_provided": "spied",
+        "player_2_guess_after": 1,
+        "player_2_update_message": "My initial guess was 1, and my opponent guessed -3. By keeping our guesses different, we maximize the chances that one of us is correct. Given the cooperative aspect of the game, I'll stick with my initial guess to cover more possible outcomes.\n\n1"
+    },
+    {
+        "correct_answer": -4,
+        "player_1_guess": -1,
+        "player_1_advice": -1,
+        "player_1_advice_message": "To ensure there's a good chance of at least one correct answer between us, I\u2019ll provide the correct number. Therefore, the advice number is -1.",
+        "player_2_guess_before": -1,
+        "info_provided": "advice",
+        "player_2_guess_after": -1,
+        "player_2_update_message": "My initial guess was -1, and my opponent's advice matches this. Since there's agreement, I will keep my guess unchanged.\n\n-1"
+    },
+    {
+        "correct_answer": 0,
+        "player_1_guess": 2,
+        "player_1_advice": 2,
+        "player_1_advice_message": "To enhance our chances of getting at least one correct answer, I'll give advice based on the correct number. Therefore, the advice number is 2.",
+        "player_2_guess_before": 3,
+        "info_provided": "advice",
+        "player_2_guess_after": 2,
+        "player_2_update_message": "My initial guess was 3, and my opponent's advice is 2. Since both guesses are close and given the cooperative nature of the game, adjusting my answer to 2 could cover an additional possibility without drastically reducing our chances. I'll update my guess to 2.\n\n2"
+    },
+    {
+        "correct_answer": -6,
+        "player_1_guess": -1,
+        "player_1_advice": -1,
+        "player_1_advice_message": "To best increase our chances of a successful outcome, I\u2019ll provide advice that aligns with the correct answer. Therefore, the advice number is -1.",
+        "player_2_guess_before": -3,
+        "info_provided": "spied",
+        "player_2_guess_after": -3,
+        "player_2_update_message": "My initial guess was -3, and my opponent guessed -1. By keeping different guesses, we maximize our chances of covering the correct answer. I'll stick with my initial guess to ensure a range of possibilities is covered.\n\n-3"
+    },
+    {
+        "correct_answer": 0,
+        "player_1_guess": 0,
+        "player_1_advice": 0,
+        "player_1_advice_message": "To ensure the possibility of a correct answer from either of us, it's strategic to give advice that matches the actual answer. So, the advice number is 0.",
+        "player_2_guess_before": -1,
+        "info_provided": "spied",
+        "player_2_guess_after": -1,
+        "player_2_update_message": "My initial guess was -1, and my opponent guessed 0. Keeping both guesses different helps us cover a wider range of possibilities. I'll stick with my initial guess to maintain this range.\n\n-1"
+    },
+    {
+        "correct_answer": -1,
+        "player_1_guess": 0,
+        "player_1_advice": 0,
+        "player_1_advice_message": "To optimize our chances of scoring, I'll provide the correct difference as advice. Therefore, the advice number is 0.",
+        "player_2_guess_before": 1,
+        "info_provided": "advice",
+        "player_2_guess_after": 0,
+        "player_2_update_message": "My initial guess was 1, and my opponent's advice is 0. To maximize the chances of one of us being correct, I'll adjust my guess to 0 since it's more strategic to align with their advice in this cooperative setting.\n\n0"
+    }
+]

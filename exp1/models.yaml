@@ -1,0 +1,6 @@
+# Models run in Experiment 1, and their settings (on top of common/models.yaml).
+# max_tokens: for image guesses / for advice and update turns; absent = no cap was sent
+defaults: {instructions: [cot, direct], max_tokens: {}}
+runs:
+  gpt-4o: {}
+  claude-3.5-sonnet: {max_tokens: {guess: 10, talk: 750}}

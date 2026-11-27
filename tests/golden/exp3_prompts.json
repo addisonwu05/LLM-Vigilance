@@ -1,0 +1,4325 @@
+{
+ "n_videos": 5,
+ "prompts": [
+  {
+   "steer": "none",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "7866b2af80de3cdedf46376e312924c1b367d70990ec350344ea17593ca9f01b"
+  },
+  {
+   "steer": "none",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "eb96dc49cca06952f52fbd248a217484f3dd866a97225d7b92a6f0e570b7f5da"
+  },
+  {
+   "steer": "none",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "e478d4435965f7d3851f57a632a7c0307a9764df2af86e63d97346dcbb94e87b"
+  },
+  {
+   "steer": "none",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "e1f8beff97768478f3d90891894664824e582c2e0c63f568063b647736aea7c2"
+  },
+  {
+   "steer": "none",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "bea804abdf37f776af04afb47046936c99a0ffb69d41db35d419b9276964af18"
+  },
+  {
+   "steer": "none",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "22c021be75363b423455aa0199f479ab6d5f664bd40512e5b6c76729128e017c"
+  },
+  {
+   "steer": "none",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "439dd5fde5eee1c3e20ad51703efaf0624a430b74bb8836d8b3474024ef1dcf7"
+  },
+  {
+   "steer": "none",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "f01cfd8068ce4e70b6d5f8c406a5f76b3e14f2ea2ec08a5948eec0a0e8c4f5cf"
+  },
+  {
+   "steer": "none",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "d291b4e8328f4eda1f3b177b309c53a6028f8b1fe30ac065d6d6d1924107ff11"
+  },
+  {
+   "steer": "none",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "eee242efb38b725ae3d57e8f9f412558d2844cae1f9516bea88c20208b2e249a"
+  },
+  {
+   "steer": "none",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "ad0a58bf156eeaa99c4ec5d83351d677cb61a97c3eb42baf2e37fee5c0ae7f05"
+  },
+  {
+   "steer": "none",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "7b5c6894f32ca4053d1c16836f8052fe9d8e043050b644c0445d38a43547e7de"
+  },
+  {
+   "steer": "none",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "7eb66c739ac589339cf5036692900f135a9fe8d91f4d47a9f092adc1634ba3a2"
+  },
+  {
+   "steer": "none",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "6ce4e22ca52c31d1b3c812480d5ddf3c18e55906249a61b87aca34d212ed6bd6"
+  },
+  {
+   "steer": "none",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "e9b8a33da7286781089e757fd5fd811aaa248e6ebc9bfb8841f91d7f1c65d056"
+  },
+  {
+   "steer": "none",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "28c0e5bed5c13559ef06e3c1cbedcb6947da979927f81ebb10f8265f0046239d"
+  },
+  {
+   "steer": "none",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "477776e0fec1bbf8bb1ebf50d6617b58989277cf0080387a3ba1ca1871e24e4a"
+  },
+  {
+   "steer": "none",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "a8e429c5fb59387c77320425191f0dd9fbdd5d74bb4e2edffbcb2f314f50fa23"
+  },
+  {
+   "steer": "none",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "72be0f982cf71c4d0b6d6532874a2b9f42efe9fdaa0bf2b331ff93d0424360d0"
+  },
+  {
+   "steer": "none",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "de70c140e303766fb5bf8286e5ca06ea27512fb6b02efefc5d80fd0f5a4c7245"
+  },
+  {
+   "steer": "none",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "4791feea0fc1ce087ac232096424108053a362510a6ec6b6339f6e0444732080"
+  },
+  {
+   "steer": "none",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "8de30ff267909806ea85a9bbee021efe753125297a4b54eee950a27245781896"
+  },
+  {
+   "steer": "none",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "9b8043a2f5781ca55d65d06f0eec3b3d05fd898998c979b639e3962f29e35a27"
+  },
+  {
+   "steer": "none",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "cecbfec8b6d113b6f5eed61434d9c31f0507ad7ea4c119dac562200f066d1e23"
+  },
+  {
+   "steer": "none",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "93bfa2f6d0bfe78e14adcf27557f4e29988bdf04a0b3da1e51272b14bcd28996"
+  },
+  {
+   "steer": "none",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "9d90906d2e1c2e6b64506d95e998c8ad5995cde777b07aa27a8fc45917ce9123"
+  },
+  {
+   "steer": "none",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "60f1df649bde7cc2b5178d7ce3c5c542842539cc0b34647800f3920124e69e19"
+  },
+  {
+   "steer": "none",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "3a6e0b3444d007003ee5b686f57009f5cffe6a635d2bd4ecb8712642c823321a"
+  },
+  {
+   "steer": "none",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "b8c3dcbf59fb94586d05a1405a1264366347e207a0900d8066564675fc4e88c9"
+  },
+  {
+   "steer": "none",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "5f5baa04d396a8c2126c3ba003fbdfad6484d4b6bb258073b6fa056b54b62298"
+  },
+  {
+   "steer": "none",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "3a5791f2048ece5b6aff354d1e8d98fa9b226821295f0ac5ce844921ad1313be"
+  },
+  {
+   "steer": "none",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "c2846638726965948739fe3a4d435945c7230a48cf3b6280702d830d19e7a870"
+  },
+  {
+   "steer": "none",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "140ad02816378a3702b375d414902237bc5bb2cf20726d38794465e918d82728"
+  },
+  {
+   "steer": "none",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "e7e52de329d5a860e748579b0fc651ece1f662679a957509ba48fe3373b9ab4c"
+  },
+  {
+   "steer": "none",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "6a571ef03a004603507aac55932485ace5c29474871bda9800e29f9fb8647a6f"
+  },
+  {
+   "steer": "none",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "62843d4913019e10dedff5ffcb79b3406541069c0365fbef4652d33edb6a349e"
+  },
+  {
+   "steer": "none",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "db9b9906d445a376451349c3a369e12a0afaf4e82fcb203fb508405d2f226c6a"
+  },
+  {
+   "steer": "none",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "9452922f323e509225d5cfdcb0887394d4ef9dba9a27278d44222d3d19d9e78e"
+  },
+  {
+   "steer": "none",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "c7c12fc1bf923c31a700b90735aac2d051011ea1e6183667059a3d3935b4bc4b"
+  },
+  {
+   "steer": "none",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "1cacdade07c21f8bce19aab50184bbc95b814a2754802622d2f5fe6b31fc111b"
+  },
+  {
+   "steer": "none",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "0c6b5a7deddfd73bcf8f8030e71f877ddeaf2d2f6e1587f6205a5d931a39fa5b"
+  },
+  {
+   "steer": "none",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "bffbbc3070aaf87eb4665f49c551009b6b88b7d8538c4f48e7de0896c71781d7"
+  },
+  {
+   "steer": "none",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "c54e1ba940c2cb11ba741656360e6461c2bd4b153ca5495ad4662aaa164dad6c"
+  },
+  {
+   "steer": "none",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "fb759b6e98ef4596480c42530b5a15b93105b4a1ad2908c1ceba3252f85f2d07"
+  },
+  {
+   "steer": "none",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "1a994e967d9c8944cb4a6b6b9fcbd1ff8a9c0d415916909af930248a0b9bf9d9"
+  },
+  {
+   "steer": "none",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "e35975005849f4a7255c1484d6b80ecbd126bc6e5f247d80b9356437311d2001"
+  },
+  {
+   "steer": "none",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "0078ad33d2fdbed3fbb8a2660af72d1842fec202f0125a036175c1dbdba91f71"
+  },
+  {
+   "steer": "none",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "a34de32c72d61f2341c0250cec44c924196f9c81930d1e474c79f5b34dbd6bfd"
+  },
+  {
+   "steer": "none",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "1713381ac8a06735de0a2be6a3c210ba9b458958dc6953161b3beeb4d225c8e4"
+  },
+  {
+   "steer": "none",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "667befc7f34e30c8829e6a84f830e5fda0750fb84db0cc3f64361c5c50efe0b6"
+  },
+  {
+   "steer": "none",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "07f55dfd83e308b27d3f9dce28287a6c84cdb75e1ed82a9ea5cbce2de6bfe2dd"
+  },
+  {
+   "steer": "none",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "ed540fca928d5f700fdf73d89457412526c4ae0a03134b6a36cb5c315838653b"
+  },
+  {
+   "steer": "none",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "ee98b7d0fcd85b9f5b0940320830ecd744919625201716f4ceec4e0510a12939"
+  },
+  {
+   "steer": "none",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "cc5ce400ad66b9ccb1259a1b97f06fc4224526f2cae38501d4661ac75eb0dc5a"
+  },
+  {
+   "steer": "none",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "9c7989ee438c06f9ce176900d7d19e4a330ff0f203c49cadc8b893e67e975cc3"
+  },
+  {
+   "steer": "none",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "f855ed0a62f6d2551970064e6e9de508e4723751b6266b0c2ed950b8d0c40830"
+  },
+  {
+   "steer": "none",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "b31e4bfc38b86dcb19fed9e6b0bd998b597e80b1d38d1c8f2db2f90ed8722423"
+  },
+  {
+   "steer": "none",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "03cc3fdb74f664425d1bae98c9dff35388bab873cf5e7e865fda388f2fb326d0"
+  },
+  {
+   "steer": "none",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "14f32dc6fb061aaa8fbe21fd8af6362507232b0e71351cde9b9b161e2bb723b2"
+  },
+  {
+   "steer": "none",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "6ed102c9d6c7dd79c3204184dfcf9306c7f49be488b6826d3f60a66108c81c21"
+  },
+  {
+   "steer": "none",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "53c70426bf106711106a233d96062b9707eaeea09efa17b1f63e2377d238cc27"
+  },
+  {
+   "steer": "none",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "37fc9d028ddcf8b967cc9e8aa9310c01159842b02107fc639be1938575f7695d"
+  },
+  {
+   "steer": "none",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "59283718376ce610c00b8b79426b5dc0a8312017a40ba5fa5b2f55f1afc4f6f7"
+  },
+  {
+   "steer": "none",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "a4245cacca18ff53d1a51a773b29e75a4d57666c11637912fde1023f91a6ac83"
+  },
+  {
+   "steer": "none",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "402c6889571247a5f743f92b02f60c3d0983980c080fc40a07e24d80847606a4"
+  },
+  {
+   "steer": "none",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "3f012a2c229fff186ba1fa7acdb263bd1ac95c5eb7d9620fe2f277647b440563"
+  },
+  {
+   "steer": "none",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "7b00f034dc7883a8daea9e7894fcc0b4a549cecfec353e5e27190fcf59dd732e"
+  },
+  {
+   "steer": "none",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "1c681ded0b6bec07a3951caea3b4b88ea251ed4e3c23134d5e9865d75a8b8f45"
+  },
+  {
+   "steer": "none",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "f489e610c4894a80ef1b389c6e5c06711129ca086d27862cb46b65529ad3e423"
+  },
+  {
+   "steer": "none",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "59503b05a1e590a1366a92e5f41edbf587268b24a9ea9a2937a9a1ea76966ec0"
+  },
+  {
+   "steer": "none",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "cd39fd178f48c118a5e7f75a57e0cc97eee45123e5ae78655c04adb4d9857062"
+  },
+  {
+   "steer": "none",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "cd96c1eaed5d9159af4c3b4d568762b975c63afc034d9975f0caf2f24e338315"
+  },
+  {
+   "steer": "none",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "80939f194f8bfd841e16ec8eb9c6eaabfe4e9695239da4ee155e9039a1441853"
+  },
+  {
+   "steer": "none",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "e1cc9b7c591ffe85a5c02a7a7651b28707922bc7dd315f2fdc4d14fcc7ec1d65"
+  },
+  {
+   "steer": "none",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "79b30138113891e00fb0a69073a7f6015dd7bd93f2907cb45f9b6da4e78b8cbd"
+  },
+  {
+   "steer": "none",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "a1efd34696bfc10193a94829a93038e6b3cf29c44556321bb004e90ee636a607"
+  },
+  {
+   "steer": "none",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "5295bc86a5ca5a732b9d8b6802142428fc1253d9402c877e82e3f970ecb8af33"
+  },
+  {
+   "steer": "none",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "0befbf037c45131892c70ea6c138fbdc6301b0a02c7d1644ce439dbcdf776ec6"
+  },
+  {
+   "steer": "none",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "3bd1d15d700054f7dd2847a5cbfbbc8cad992c7af6391128b4e9cd004233404d"
+  },
+  {
+   "steer": "none",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "537a20f5a75cd9b4a0edfd587420559e9180708709da9fb56bec07e3ff528d2b"
+  },
+  {
+   "steer": "none",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "5d6ea76c924f02b765b49281c1c963566fc9186b2c3f5a4e82db2657eb9f977a"
+  },
+  {
+   "steer": "none",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "34f6988deb1ad2e9fabca2268cce492da5550c116ef601a1b139c48b94819f8e"
+  },
+  {
+   "steer": "none",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "9dec80c985ea453c06c86a09931aeca6a8be91929c0b895664f4c6b42059fe70"
+  },
+  {
+   "steer": "none",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "a3a3628e46e7fdff2a07539787a3e376782494ce3a42faf5d9cf9c097adad105"
+  },
+  {
+   "steer": "none",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "ee84bd2e2ec70861e0537528dca7dbbbb138028d6c841fc8b32c5ba62c7634c3"
+  },
+  {
+   "steer": "none",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "42b7f40741d19c972a24edaeeba436446dab8cd6626ac8f5d77f7a383bbee1ad"
+  },
+  {
+   "steer": "none",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "9293c9853b44e4a3a7121106b02abbaea0e8ad7767b8cd470e2fdb8f96d1bad5"
+  },
+  {
+   "steer": "none",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "d0e4d9526afca4d638be150b0c059a16e7d4f220c367f88d49c4558d4beaca56"
+  },
+  {
+   "steer": "none",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "fddc883ddf539c45d9684470c66aa364f84a86013524e1dad635c7ce8a7ecd7f"
+  },
+  {
+   "steer": "none",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "1f250c7d7470a25b0ed411b9c65c74dd2407f2200c2e452da2bc7968b6dc46a1"
+  },
+  {
+   "steer": "none",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "078ad35a27a0fe9fb7e4d14f72ba4b52768f84294e332aab0a45f6735945ca36"
+  },
+  {
+   "steer": "none",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "a1df279c5faeeab3a174107f4f8de3544a47abe26a670f0c01dd8fd8ec74a4ec"
+  },
+  {
+   "steer": "none",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "eb30fd2146e9b2327d60ec593f7e2685eab18ed259e5fc0bdda2e6d10b32f752"
+  },
+  {
+   "steer": "none",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "b7387f9d5742cf4f75bc4570ad7d1367190a42a99020afe29cd3028fa9ffcd02"
+  },
+  {
+   "steer": "none",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "c113bb873d031248f6b830748f34404b2a76358721e3e55df82dc7dec899e6e4"
+  },
+  {
+   "steer": "none",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "9308b1afe6490b7ba80143ef363bb8d8857b24b4fd49ef77a363e512bff15e88"
+  },
+  {
+   "steer": "none",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "72f8eb78cbea36145121ee1248b501e8913d620ef1a3de32b114a1e457f9ebe0"
+  },
+  {
+   "steer": "none",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "9eba50c8b656f6077a2b4cd1133340f653a0a0bb3d8b1a0dfd3e2ce25c3d1243"
+  },
+  {
+   "steer": "none",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "53abe8f0b420533618bc183b2e2f586508605eb66fd35d79632a56f091f69a66"
+  },
+  {
+   "steer": "none",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "9f1d2b260387e696a7b18ca20af0ad8c38464b10dcf2ddae65a954fd707074b3"
+  },
+  {
+   "steer": "none",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "d03b158bcb46b9b2103a79cc90a84d0f7800d91278aa7cd2b6c2b51daaab4beb"
+  },
+  {
+   "steer": "none",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "ad16183fc76263162a59c6fe30d07f3289133ceefebf00792cdd3266f6cad348"
+  },
+  {
+   "steer": "none",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "34754a430a20b113dbac9a2311e8aea7bc783a2a324c607d8156c2432ff07270"
+  },
+  {
+   "steer": "none",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "c7b6ed0ffaecb8c7aeedbb20022a30593103308213150f60e16ee9fc55831343"
+  },
+  {
+   "steer": "none",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "36c8b77aca75b01d5c3e8e320359e69a262d878a6add86359d6fbcb0b093195c"
+  },
+  {
+   "steer": "none",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "57da4e96e90dcea119a67967d1008c3508e2af0b1e69c0f2df5fa29f44ab08e2"
+  },
+  {
+   "steer": "none",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "6d4045702d0ad1d3c62bcfd5d8c811b5b69dff14b7a1e3db3bc5976cd45e71fe"
+  },
+  {
+   "steer": "none",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "4ce1731c346a082c1d4dac27ed1e5caf2fea79cbac38c348427000c1593f987f"
+  },
+  {
+   "steer": "none",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "af59bb8af29f37d001c787b7b35408585bc545782628a21233761b8df896b668"
+  },
+  {
+   "steer": "none",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "2dd3055ba7ad2b06358f5eba4e779d7d2fe475f04b9b8e6b7db6336cda1935cf"
+  },
+  {
+   "steer": "none",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "0ed9c5f18063a2360f7a31f18f982283f0c130c0c255fcc935006e6fed30b5cb"
+  },
+  {
+   "steer": "none",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "00e8340ab44b686d84afb4095ef8653916bbb49a533a284f0a972bd6223cbd17"
+  },
+  {
+   "steer": "none",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "58ca5385a1b35522309f28c9675cfba02095846e22bf543b0fe73692bf76dde3"
+  },
+  {
+   "steer": "none",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "10f3942068da9b617f52479d0fb938860a52e96942d157003d85442d9fa2bbf3"
+  },
+  {
+   "steer": "none",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "5916cb7ce24ca6bb8200bed105a8ba1c3257e739412555e81b7195c81389aaa5"
+  },
+  {
+   "steer": "none",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "1f9df25d49323fe8ac3b614bad9bc3ad5e226faefd3b44a7ad0d2c33c7d3d322"
+  },
+  {
+   "steer": "none",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "37ace7d53efdd11d5d64d8ea689f5a183f1b68d0825608dbdfc3c59643d6e85d"
+  },
+  {
+   "steer": "none",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "55f6def47000664189ef8001506ade31bdd4c6478a33e007703fea1f86836acc"
+  },
+  {
+   "steer": "none",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "258194ccae94f8c29d7a2e1b0e868fa2b6b251d1bff80e922403073fb2c4b44c"
+  },
+  {
+   "steer": "none",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "b217bf4472b43fbcc81b304e5971bb2b391f2a1e183c58e3ddd261f9656e6c4d"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "f85b7e2e7b28dd3ebce888a59e259caca0ac1ebdc94a90ed6ef94aee2efb0ba8"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "dfbef27ea8f2158d086a799b4cf398106ba47573657fad7680317fe4f3fe3be2"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "ee7a63c6fc3cb4628ee25aacc4da47b5eccd11f18e566892985208c5ec6e8ea7"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "50f3d419d3707805d27dd7df67b7df3ca65e81e7d909518a98bbb402b90275b6"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "3fb73f3fd8dae515260312af687593f34ee390d713576837671c1ddb4132fc37"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "86f7f114645f26e9ea288ba910a8a65ea4ede2a982784c259c75dacd840264c9"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "2f21f04365b82a8405c0ee7ac29f5fc392b44642feba8803bb5fd79f1977501e"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "8b64e194581c02c26d70878a6c8bfb89d0d75bc4d7729dd80b69a5330391b489"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "dfd550176a602cebe11393e5b9615bbfdd313bdedc5030d27328e57e8d314bd0"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "bb2b1a2bbc7453ffbc238db2d1219bdc7ac63c70d21d06b621c6951c9a78ae8f"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "271a41f4e2d3c2fc3b91bdc934b7bc2806d797c2cd8ac1f75a3300dd1f4c9c3b"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "508219e2d3471500ca7327dd346c4496ddaa2cbd54588dfdec12d7198d99cc8e"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "da74d415117168adfb4ea4e17bec47599adadb33dea672635ae64d2bda9f7c6d"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "eb4f125f9f0467c2989104bc2e671fb29aa596d0e3de91d26f8dd95d3b703ee9"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "d528070af1f15a5d17f8b7ce484a772b25ce6675102776edb5c8cb5136cf523a"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "8ccfff121dbb90bf1a1233161996ae81b853bd0f5c128e83225dc74a45ceb885"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "7aa1ce1f3b6ef9c925c58d022b50d64077be8522178a292cbd755de8b1161357"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "aa6a8c79bc4f461427fe706a2a4d61c37252934328e5f70d685bdd6d227f9de9"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "9b2d77bd2698319bd38d5305c5596047c76abf94a851c2fe33794dbda87cae7d"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "a6fe3146ac8b528f72738eb0a757a32eb6655f84242658054ab82326861f4c3d"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "cf2c7bd544fde79b82aa2f6c2aa73b817480d811aca72979ac7e4a262b434ad7"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "6e64f2a66007c50710a3763d6f60ed8b4373e1c1f17a98262c0b770f1b900d0d"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "320da1a35d11e1208c7d0f382523200c8eba5a57626aee3c2b92c059bdebfe90"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "9ffa616003ca3b8688c9dac4d135cc9e8072dea39ebe2c72a51f7ee182c25353"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "d752bc1b4e1c2fce710c363107e7a27b430dfdc5beb6f1f27a88545b17160b6b"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "e477ae8610aa4bda165cd9084f7611b56152a307e9b33812776b0ff6f1cb665a"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "e38f1e687caecd57dc2956f0403c3cf719ee75da0bc18ed0c6d024f4a3a1b29f"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "6b2f3d6d401726fe7a36052408df3b18253d8390d4a237d1a8813f0ff4002c4e"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "1ef5281275f95ca97b989c14af5f6a26432496e99ae1bb42be9df3c96375029a"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "402a29ebf8acbf70c25ebec1ebc8e0db0a736f33c3270ff0f191635a5e317c57"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "92c922259bdb6078ba2d441b91a9878143d87211d72a23896c936ef9adda0d98"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "a74e009b56b1b4d6be0898ef611eea95d3e409b4e7726d232e2f90a03b408b4c"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "0a2bc87a25b7b0904e400b3558b1825b0c9db839c9c4721f28b49cad9ecc0e84"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "34f9f6ed3329850fb64d075147bd49777427401198492e2b7f158d8d25c881f3"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "390724fca2095b5d018f2a8688e65d598b8a14d677d037107375f6e00abff662"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "0898214219735f12f79d516a11e2f337850570b1e056efaf0598bb03b0e77a5f"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "6b716a65faae906aa1fe0d43a27db28bce91d66eec937d6c7a97d8865e0ec163"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "bb5cbb01e4e8fd4075e487dfdef9c5f56ff14f15552a0319996e61eb1c994f9e"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "4b0ec04b13ce9a6083aa2a0a6260d6d363d9ef23173606027a28ffd7f8edac85"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "e8390a411aa605b5dbe96b33115bf314f123d0909cb49c9e78edfb831a52b08f"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "69bac50d8e57411fb05e505161148cc7e4f9d3fac06b4e2fe70dd8f683583929"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "131b4cdd9f732193118ba1249a656c2b6c90845e1ba80402c956845ff20b8e4e"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "bd7f35f0841d740e3716384a193fffa6b231fa0fe510d1c7da9d327e9b9394f6"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "9e6fd3d4c8d78e379a3f67d56db145de9851d8e1720f3e9c9b64459ce41d12c8"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "76b544cb98e11b1970f043b8407d28aa0cd7835ffc6498bfe6d7ca2e2b2f3f46"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "1fc5a7b1a19889aea9034623efbcffd4d718ce20917fc8286734b9915e6e4899"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "774d5362e829c129726048b5e5ddc3011d613978f3908cfbe014d8607b55427e"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "72a3914159249f0127b40d2b039dac656436050fffea812071bee5e503b1bdf5"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "3b3accbbcf2c85a3a9456d8389bb1ffa30fdd6e33cb0c8a26c42cefd1da8cc77"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "6cbb55a2972535a89aaf47e698216a4376b048ba1c075395cbae89e10b26481e"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "16b65b2345ce08f645933dcf67750e9eaf8ed6cba86b741393c37de1ff917d77"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "3f2de11e0a98d062d1ef06b899e519e3df03955895eb0cc63179d0c8a9ea33e9"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "ecbeae9eda0e10722b08aab1c9ba1d7e20cb2ddbfc66369efa65c890efdaf227"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "0989e7d13003c9ef26a31d75423d0374e3761602ee806f93c4dfdad86dde1fd6"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "3bdfee9d3c56f0dec6bfda175ef908f5de286cffe7a397769e6c4451cd8fa4f6"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "8e48728aa433bcb44e3e80d4354fd44eb6294dc58b1c895898fa4eac50ec0822"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "a2f7b0821558e9cc0a6235f3693e86a121d6a94f33211d3089172527b9f4b2e4"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "67a76a8e620d7a405dc9abead732dd89a04d8843e6df788b7de3a2ee335d0381"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "73759e89b12bd83192ad131133f406e5184942f748aa02cc5e31b5ca7fa20146"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "dbce2d060341245af6efed6f25747f4528b5b7ad6a01997d9d04cc4ef92e9504"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "9b6b3b56b1429f309e120629b1dfde22722be2ad36e24cd68456804360fd6671"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "c6b0c523d440f6897cdb431c79dc0e5c349c0b899c49a6a03ec40b1d33985e29"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "5ac11610dd2cac34a73cd401bea7b712eb15deee5acd1d8be0c1e1466c682018"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "ebf4cb8dc0d551328db01e50abfc43d71eeee2212d8860f9d6eb47c23809dc39"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "95059fea6f568a2ccbc26e804afbb12cf07d98ea369f6ce96157708c3fe8a1cd"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "8a6191fcfbd5c5a0ad634fc6019b7cbe621cbd071d0f2d255a0e5207829450b7"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "0d38e55746ccedc31d4c505f7a635fece39a85acbb49cecc6026d4ac84b4d22e"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "a6d29485465deee7ee9f9be131a6ef9827a57ace9aba64313dceb3cfeb991436"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "1d900ea8f1659dd1b4573eef3d0e0de10c7a5d4befe8ec4c7d62b60eb2b8b418"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "fc5bc76a112c384c667f81c50fc996becea7e22b6369968ddd40cef50515b668"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "fc61de990fa993432abcfbd16ee267cc4b1ca27b23f3914875077ca95b80d9c0"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "5dcfbb39cfeae1b34050a76bdf3599ba5801d8a9c650ecdd615cfdf1cafe422e"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "b11d4c5a4d664e16ee4feab343d13d921ecaf2c6361be34d89d6339fc854897c"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "f7f874c96ec095c4d4175c1725ebc847acdc7239ecdf386e552419be6a3fb01e"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "e25688f30768630a5c6b918325d3b0ed525335994c11831a991993b1e11b0431"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "b7eabce2fdcfc0001925f9ef0cc6e66de344844a4b81f672f296b42b01c8972e"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "f3f8d18c720da09540f5ee47c354d8afb33eb7703a0a4cb5c546c0741a0e360e"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "af6253e4897ee0b04bc314e7642e02e99365e9122443169e191c95400a0a55f9"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "707f3c66541fc642ed2003b8ed93a5e09a6363b97ba26f571ebfc8f857675e8f"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "f6a92c7150cff784d8c05d5fdcb5fb7d2b98f26ac2c43f47bd448a458f3f986b"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "75618096df60f6f9306c59e1e34a35f2acde27ce9249e1f0df2f83d139709605"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "b0541d18069b82f07e743a979ccf9c4e78e9cb71f4f4fb0348f31170925d88a1"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "2e2474564dd4f84cb4b6263a6c9751bf72b2cb6b36866af76efd108a08d342f7"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "c8d4326cda51d75029d1e49bc5dc3a6aa80d8bda364a059ca5b83cde021db713"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "ad824afa3438b1c7022145150c872213dcf5f6165a7df4d3c45b729db0e115e8"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "2081712ddb4b488a1d8efb7803542f1de12b1d7f9b27f64545319df30668bb34"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "2180d3430e56dcc0cbeac878826cc5fd027b9836ba2106235236e241f2dc9ee5"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "166339c70e34ee4b44a13b8a9b0ff642992f6ef00b4f4c06d7bff6d1ecb10633"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "a3bb73d827a80141b113324c0b988268fcada48cd6fafd4a3c9e32ab9a19bd21"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "45e4b32a40eb899a099b92cb373ef3d0f63dea2dad78efb65a2c1ccd2ef81f1c"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "943aa960856a3370453f959710bda708d6e4f559868cd72189fd10666ac45c50"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "5b63bfd62360e9bc32af6572406ab6b7bd859e110d6376173813e72baea00a4d"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "a0d758aa0e673d4973ca2d06f92077912498c03938c7ecbfb378c12ddc9a3f8c"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "2e0f67072b3a00e090991366cd56b371e5b33cd50a068832cb3e021f4ee0a0c6"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "56beaf462c0586d3bf1b04a0b21d57e8b875041431cc51e7e99fbabf4a3f05e6"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "aadebefd0f8c0f44aaea08261f86937969fc69a387b530ce0a78ad00262cfaef"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "525c34978242c87161760f438836b128a525979d54dd89e094387d98a8acc8cb"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "ba82130c1110f18fe901c238c0ddfbdbf0526d580a02778e82265b6a6d8d571b"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "13b3fe8fa86fb429ab61315e106804c2cb2ff7c8fd8244be38b96c88568a5ad0"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "87b46224c121af9ac315e4bdf75077879cd11e3d33791c378147602731a6f75e"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "294b1819abfd0b70e54a667befc9132d4cdaf288f950371111315df53389bd17"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "b4c5074a5ec1854307ad1e69003f0671e2c383245cdd77d4a8cb20ddbda2cd50"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "4e2f3fa9934ebc9382939c478ba5e39f36837dd4f648cac380ac7ad23f1d4c06"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "5d204b70ff3fe4f5e5db8ad756f842f5bdca40db47728e4f27b3819ae44796a9"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "65a3f587486a33e4949618451b8be44dedadcdcdffbd3d4c0ce8255c115caa51"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "b70df6f7e2b4e12ae2139890f4206adbbaee21c10c5a3f39f9fa9ffdc7fdd3d8"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "0c3c3d919c21fa50ef929b35d7e3bcae0dd9d3b1c0d744f05c5b8c97bbf91410"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "d8c4dfc25d1eab6371458e06397f2cad1a52c4b37530aaa5228e7f12d8ba6d37"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "e91d1ed3fbe31c820bc5a5a80f2fe8bed344a6d593304749aeb7ed3d05671701"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "e30c387d71a15f1c5e5532f9626ebea644c5a79efde2d3dd8de167302162ddfc"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "70b11ea21afdd271c432ed68fe2322516f4fa0b4c5b9f3c2bf9f70241b3c2489"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "a53e028d6abcc1b7244b2631d46f5a8a6256f15027f1b41460216ef2c9c92d08"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "0433321e0ff54755012f13a48d2dc0baa633761ad238cabb072e01dc47d014de"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "9e4b45a84dc71bf561e86b2970ba5e7d1454e78cd4a5b8b51d8b972a290330af"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "629af0253c934715ad030494715433cb8da8f2af2467563db58284fa0d622dfb"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "624d847033206f999daa846533574621bc14b158abfb86337468db47c6fe2b86"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "737b641af3a7bfe0fd6d6feed81eb51ce744a183775331d3e2cb1d9f6aa37fe4"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "3c4a4e933579e4535484d24f62005afbbfeeba3878a953a5323fe30a889fb316"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "c33e0c31702974aafb710fbc3c25c0975b11fa85039aaab3ae871947a93305c1"
+  },
+  {
+   "steer": "incentives",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "42b79a39aaeabfe28c42d250eed63cf9be240fbfcc66902eac9796ac0d67e618"
+  },
+  {
+   "steer": "bias",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "b1da1d61e5b8f48cf659074d95484883dbf1cc88750e1c56e554c9ce29560be4"
+  },
+  {
+   "steer": "bias",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "8a8553b603ee388dc2edfd9223bab6695f1edb3e5d5058e7d18607500df4756c"
+  },
+  {
+   "steer": "bias",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "1e60d28431fc95e57e5e3a798b023dd14cc1d10e3db5a3a26cd4c5d98279b9cc"
+  },
+  {
+   "steer": "bias",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "d4dd95af2999514190053759baf959500df142bc3eac9a4d23d4dc3cfd8f6764"
+  },
+  {
+   "steer": "bias",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "99ef791e0c4dbb6df7b2d10d95bd57d9799a43486fdeaf00ea5c325293ddcbf2"
+  },
+  {
+   "steer": "bias",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "a4c44bdb43d9693b08da66185f5e19feab68c61270e1ceddd6bc4ac58cd6b4d9"
+  },
+  {
+   "steer": "bias",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "2455eae939a25c8f0b1ea47d43258de8989adcb01c1e2886a5869c71d89f220a"
+  },
+  {
+   "steer": "bias",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "f9dd4ed8f53efbb9c792937bddf08d24a29952e615162ae0194eb6fe698670f6"
+  },
+  {
+   "steer": "bias",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "8d5a906155e2f9ad29799d9b9a92a857212931e8c8446386fd78e9335523cb60"
+  },
+  {
+   "steer": "bias",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "56b1f8635ae5e0cfbc2f35109ee9623682665ede74fa7de3bbb78785f4109b71"
+  },
+  {
+   "steer": "bias",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "1ecfc6a51df058c4df3466262d9113e946594f0da5cb1b9d0c60c64375e4e3dc"
+  },
+  {
+   "steer": "bias",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "9fe4a05c1484b4546efd04a40a8854492d832c8403b0bf48a186f1a341f48d22"
+  },
+  {
+   "steer": "bias",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "249ed7eec087a67b65ac4a764054b1cfe869e43f0091d7068b16bc8aad24c6e6"
+  },
+  {
+   "steer": "bias",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "4de184e21b1ff5fa082dc054aef00b005d1deb5a4961c441f1622fdae1df4ff0"
+  },
+  {
+   "steer": "bias",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "e31ced3375f5e6f8df80faba2fb9ba4b3898b88e4507dadeb6f82ee2361bbe72"
+  },
+  {
+   "steer": "bias",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "45667b074ac46dbaa1cea2dbc20a63baaf3826d18242806e97f27e410c0bddff"
+  },
+  {
+   "steer": "bias",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "5a29c6a380aaeade993fe8d4720f9417fea519597f6cc3e586fefab1688fb661"
+  },
+  {
+   "steer": "bias",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "4aa0b2eb6b4feafd1cf38314b4c6445a8784fd9fc82eeaf2cdcbfb6abe55e846"
+  },
+  {
+   "steer": "bias",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "3022c823f4ab31542f06b122858c0ed5d2198cbf442d479254ea5f25442aaff3"
+  },
+  {
+   "steer": "bias",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "f456658415d716b2500570fbb6f539e13d3df74f48e51d97e4d966d1dc3ef121"
+  },
+  {
+   "steer": "bias",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "c9ba7352706c013c21e65069431101ac46ceb119cc35d37474ce42c78948caaa"
+  },
+  {
+   "steer": "bias",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "55c5a43aea56f6840fe0874f3da1454fbc872f13771bee58d1b6c19b0ad8ed5d"
+  },
+  {
+   "steer": "bias",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "c10b82276349478a46ce02820763186dc89a7f0f3473ebf2475e3f48ae5de835"
+  },
+  {
+   "steer": "bias",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "e76a111d218be4c76e8a8502d430059d90efa8ecff90a0c38556b922b28b3283"
+  },
+  {
+   "steer": "bias",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "7c3f88a181b9f25bc005c162dd0a8730aabb3a21d65ffbdcc051416c04cecce9"
+  },
+  {
+   "steer": "bias",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "0f5cb9347ab3ea48c1c79d746a0f575032d17a3256eda98a4a8a6dbf8205c52e"
+  },
+  {
+   "steer": "bias",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "4668aead5f46fc0432b8e608b153d8ae9d56377ef2a9e0ff94235ed707bf1a46"
+  },
+  {
+   "steer": "bias",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "150ce8278eaea1304e8576fa1b03ca3ccdbe32761158bc43f94aa40d75b46cfc"
+  },
+  {
+   "steer": "bias",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "29ed8636f598570bddd425b9cc4c23645d5fd8dbc3a3f4cb5696deecc667ed93"
+  },
+  {
+   "steer": "bias",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "2da9fed7c89d3ba50066c818205a525934cf8bae201ac70f44d8f0243c85581c"
+  },
+  {
+   "steer": "bias",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "c9ba8469e7fcb8497fab0f63f3e247ce39013e23558498705797b963d5326f8a"
+  },
+  {
+   "steer": "bias",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "28c80577cd0238664e5158f30f358260c39e70020191d85256c2bb77bb6e5199"
+  },
+  {
+   "steer": "bias",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "8c0b7fe6dea7ce3a79db35953a6b27ce1969406f6ed91c68068e3a6aab27fb19"
+  },
+  {
+   "steer": "bias",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "8e213599d237fefb288c24ce53ca75493c2fba7ee1e6d0c38b0da672101a30f9"
+  },
+  {
+   "steer": "bias",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "cfe6b6217dc8f9ead43b9eb4bcbe4bcbb0d68fa616878d49c76ff165e6dcd33f"
+  },
+  {
+   "steer": "bias",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "a95be7f2bedc6402f533fe48cc6b26e8094df0195a797de133980a602eef1189"
+  },
+  {
+   "steer": "bias",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "d472419d49b113fa6f4ff9ea2d80e5da77d09bef33ef68db5a2c0decdc2e18f0"
+  },
+  {
+   "steer": "bias",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "b62a7fbdb3cda116a5977ca215bf29b21400033dbac0af7cb6bf2070c9aed6d4"
+  },
+  {
+   "steer": "bias",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "a4d04e267ae1af413efb3d684813fe456e7f89e830865ca907e7e564792cdcc0"
+  },
+  {
+   "steer": "bias",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "46c55f5302649f888211d95eb94a18d90eb2bb0c81dad06ea77c6d6e2f8b450a"
+  },
+  {
+   "steer": "bias",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "a555ab5df427b5e60c0c36ef6eee5eee1d6cbee9fd7000c9fac00d6d3428ffc5"
+  },
+  {
+   "steer": "bias",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "7eeaa2bacf5b61698d23d1296a3dff42d13146463dba0ed89b5537d4f691e7ea"
+  },
+  {
+   "steer": "bias",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "5424c767520fe726552bc699a69e4cb9aa13b29f3e28a4b3b527399161df6894"
+  },
+  {
+   "steer": "bias",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "44c34a432c0669726184350ee49251d20b4e7344ba0bce8e2f560a34a7dee26f"
+  },
+  {
+   "steer": "bias",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "50e7a00327f2d1848c0e8e1ac8ffb95d4e92ca6683a2f11f658d9fe59b409437"
+  },
+  {
+   "steer": "bias",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "a8161765da0e9b0fe68a0fc66a2771c879dd7b082989d0a2e47b1d0bfa28a081"
+  },
+  {
+   "steer": "bias",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "f6c31db05065a30acfc2228eb1f211adadbe2c15789181dd2118e25c0656a78c"
+  },
+  {
+   "steer": "bias",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "5e93648360856f7e79109b65b2bf6e5360c8e52cf3b552e10dd46201fa647dd5"
+  },
+  {
+   "steer": "bias",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "56458615ca93da628d26bf4e2cdac4dcadbcf26e145b95b30daa85b9c5340b56"
+  },
+  {
+   "steer": "bias",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "c676e9a2c54381074fc1cab1ad03d0fa2829cba2c7d8a88ca95eeb7fcb79236c"
+  },
+  {
+   "steer": "bias",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "41704c66c9ae2f031105c4d5c737ab4ccbf5eecbd86adfec2ee2ca7d462b4e4b"
+  },
+  {
+   "steer": "bias",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "4ec5bd5e2ad1256768cc9a8fe58833cf505ffea744654e7f1c8716931410bcd9"
+  },
+  {
+   "steer": "bias",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "976b7f4a11d70a21ef6be54290dfe9874b5caf70cde0ba57cde0255ae0a19456"
+  },
+  {
+   "steer": "bias",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "a90599138c485d131f288609bd4d45d42842b50ce9d895d5e1c51387335628ab"
+  },
+  {
+   "steer": "bias",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "0d3183bfe2b1292364c7f748855692e2c65df93906eaa8c0af339c61308e1625"
+  },
+  {
+   "steer": "bias",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "1aa04ef9ea33d7923eb105817b0b51d425ca572e5015b93b10720b1f0d235e15"
+  },
+  {
+   "steer": "bias",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "c3cd2da1fd9ce72c5f0154839215f46447431eb8913628321e99fa83c5c9f956"
+  },
+  {
+   "steer": "bias",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "caa254df263d2559c4bd71cd7872ae0994ba9014b9e88330546ec7d7ce944b02"
+  },
+  {
+   "steer": "bias",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "ae8a02c13c898269c32877481c38c3b6dd7b858a1250737f6a26ca0cfca648a4"
+  },
+  {
+   "steer": "bias",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "7c28911ed233da5ec927a894de4085d05ef9bc81e41fa11e2ad230a257d91a98"
+  },
+  {
+   "steer": "bias",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "c81c7dc8db7b1c423a4fdfbf6589d2dac17f1a7ef756664386e6ae5ebeb47694"
+  },
+  {
+   "steer": "bias",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "b1fb2b6cddb433d80c64da9c191239f2fdea0cb4dad8d3ff55d882e9adc6c604"
+  },
+  {
+   "steer": "bias",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "2510865350420f034814e6d0a6b0920ee37105c614e8e3d6e0d2fbee0926ba4a"
+  },
+  {
+   "steer": "bias",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "da396b77f3bf19fb30a03a04290f5dad9a2ed8b876f189c07a4e5d4d287f95e8"
+  },
+  {
+   "steer": "bias",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "eded72924953f4c1ff9cba4a52036379b0233d4becd451825631443e38fd597f"
+  },
+  {
+   "steer": "bias",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "110c8127239fff3bcf9549297655eddae8978718dc58378b6e8a31ae97740ae0"
+  },
+  {
+   "steer": "bias",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "5d53b0b127290a6e4f53ffcafc7c3bc7ea5b07d5b384996933bbaac7295775ad"
+  },
+  {
+   "steer": "bias",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "428b9f699905de3d0c2f38863a15fba9c770c0def3b5d19ccd38dc3f2eedfa26"
+  },
+  {
+   "steer": "bias",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "07640485a2cd0dff250bc2b7862612b36b7e55054648d3bcd39b57361eabb594"
+  },
+  {
+   "steer": "bias",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "c27ecb14a5bc5ac295f6e652a485c41391c86c79c4e618b64840b7f60b99a7a3"
+  },
+  {
+   "steer": "bias",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "34e8af84df32bcdda584ae85aadee7db0131c22ab0f65c7d7621a02812d72cc1"
+  },
+  {
+   "steer": "bias",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "7abf42f0562fdf4a58d3a02d7fb48c3e2f50e84be55a79afe9ef9c980208ed45"
+  },
+  {
+   "steer": "bias",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "bfb2e2728e2ac98928c5025a4447db352767d811d0521ab650534f1139d7c0be"
+  },
+  {
+   "steer": "bias",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "230723f26ea46d6505b3aad55a018d151916b4bd32c3aeca3d55ae28a953896b"
+  },
+  {
+   "steer": "bias",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "594eb704b9da876bb1b7f1dc254f2e0454b2ddc0ecb54918faf4c63eb7d17f89"
+  },
+  {
+   "steer": "bias",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "adc0e247a7f657ea752ff98160f9851921b676daa084565c1acefeff050f479c"
+  },
+  {
+   "steer": "bias",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "0b6622416c9123dbf473c7c096242bc524dd1c038e22b3fa8cad5712a25391ff"
+  },
+  {
+   "steer": "bias",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "3e5aefd221afeb9b39092c5f40f9bd0194e5ee0c1beeabe553d412caa1105cd2"
+  },
+  {
+   "steer": "bias",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "d711fd9fe019c09e5fc88fa396ce640e401aa95349c3b7fada3e43303654fe8e"
+  },
+  {
+   "steer": "bias",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "2f39dad14c5ae95a2858c468f4adab702f88282dde8bcce5e65839937672afc2"
+  },
+  {
+   "steer": "bias",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "165dc2b533a46f34a3a7976b8d1c8e3fb20b479d5d6bea75f043ee075740aae8"
+  },
+  {
+   "steer": "bias",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "3b0c085fe35ad116633a3794d55c695ceb6bcc2ea779a0a6538f6a22aed96587"
+  },
+  {
+   "steer": "bias",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "1025713823039f08565517b7c3463b65aafe5e782770a0e71ac159db1d15ea68"
+  },
+  {
+   "steer": "bias",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "428a6911c12765c397369c2a18fa4183b0a1ba224b9bc6c89773004c8994ceed"
+  },
+  {
+   "steer": "bias",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "b00c3def82aa336467eb5244818b05d2b94b5c0892d70d2a3da9ff1331d0e0c2"
+  },
+  {
+   "steer": "bias",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "6b2a3276efd3e245b443f5a810bd1c3edfe63663919eae71b353c29b1a13db12"
+  },
+  {
+   "steer": "bias",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "1c85440eea92e5563c4061281ff2ac1da83ec0438bf2f1909b5c3e168ad14d10"
+  },
+  {
+   "steer": "bias",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "e4bae5d8dca4cdcecc425418fc664fa135c1cb39a2050d8ff387432892493ac4"
+  },
+  {
+   "steer": "bias",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "86076111dc7055010b9f84f52e7dcca038ac50a23fc33158e8ec699088e3ff43"
+  },
+  {
+   "steer": "bias",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "1fe991bd83b8b85f720d1269a73d4c29955d76b2f2edbad7011508c890127603"
+  },
+  {
+   "steer": "bias",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "b9920e37e6942aa13ad604e3901eae89df144e863bc4a01b37c7f27229bac593"
+  },
+  {
+   "steer": "bias",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "e5824932a469217b027f2c63002d3ecd70731632bb36743d4c3f9943758c48ed"
+  },
+  {
+   "steer": "bias",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "cfb11dc36ebbd395a3269fe3dbd50c44d5154f63e9d19c0e112527e0c303952b"
+  },
+  {
+   "steer": "bias",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "8bd64ce16b68172f3a2b3b4ebdbdf0b396299d0eeaeb516d14f857a90876cee4"
+  },
+  {
+   "steer": "bias",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "8fa655564212f32c2301b56b7277d8855f106a85287873926f8ff7e384e4661c"
+  },
+  {
+   "steer": "bias",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "11950313593c077ac25a197aa80cc1e78f3e3d6d434e7de86e55d1425ef5cbc7"
+  },
+  {
+   "steer": "bias",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "6f179c342522db20ee8f9fac240ed53419a7261ac1e0353f4e4bf166de22a73c"
+  },
+  {
+   "steer": "bias",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "6ef9a568ea38fa7fe2f720d1bd75c86df31d3d9aed0856114608eb0bf1cd078c"
+  },
+  {
+   "steer": "bias",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "63acda5803e4263d763b76aad793711085135cff5b655821ae59c6fcd658c720"
+  },
+  {
+   "steer": "bias",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "9ad964e8dccdfc7876e060a9ac79e9baac2c21bed772bdc5b28eb54dcf85a43d"
+  },
+  {
+   "steer": "bias",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "78fb3ba1182a38d020024e720bbfaaab4aef6fb8fbe89f25fd730c8e12c2781b"
+  },
+  {
+   "steer": "bias",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "caf040106aa326434f46032d6cbdad9881ac5790766d4e19bad7b68f26420291"
+  },
+  {
+   "steer": "bias",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "f86ec36dce9f3631d3ea56b9de495a40361ac727b343d619868a6290164f3430"
+  },
+  {
+   "steer": "bias",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "36ac25b900750232d2f1205384b1db9c0326eb4e0cfba7b8bda1d8d7b04c3bcc"
+  },
+  {
+   "steer": "bias",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "5c0f347e6fd554be8e277051f70f0c544f456fb8b8d9ca123f350925210f1598"
+  },
+  {
+   "steer": "bias",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "c2ffcdaed29e5b0d330265a87a870b51f4edbf3e735d99dbf6e4aa0ec3fdda2a"
+  },
+  {
+   "steer": "bias",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "61098e6ff8038429b18cc8ec11eb71fbe67d37bca709617fc6340aa13e8eb833"
+  },
+  {
+   "steer": "bias",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "aa038dfc960b6f219847a93751cc970bb6be29304301bcdca44dff5dd3600222"
+  },
+  {
+   "steer": "bias",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "0980aa325a31e342dc9285b691c9bfafd0f93c02e55605104e09bbe1b01c78d5"
+  },
+  {
+   "steer": "bias",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "8f99b2ba30e69b3359429070f3db3eda7d51fe35f30e7442ad20bbcc23c576fc"
+  },
+  {
+   "steer": "bias",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "a84c6a886270ab9b63ef496152e3de0629bea95ca6970400d0fcf6691a0f5b12"
+  },
+  {
+   "steer": "bias",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "c0b25dfe3b29ce0a480cd571141200ec22b20e04b6d4f7cdfae85bb142b4ca25"
+  },
+  {
+   "steer": "bias",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "cd35f9d1444b461db98ff79d2cfb564541f24346779a38bf99a3e288c854d62b"
+  },
+  {
+   "steer": "bias",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "c596a06693408e06390d88bde06c4c12b5d82c7396402a656a786465cbe648e6"
+  },
+  {
+   "steer": "bias",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "a3bd942bff7ad624d217f751a4ef3bc552280e8ab6bc610915fdccffe7c33c54"
+  },
+  {
+   "steer": "bias",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "6317cc38331892bbbd2d5eae8f1e1b53b02dd83a49c937b70e85279e9e2bea72"
+  },
+  {
+   "steer": "bias",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "7a62e5c9bc90c3d87294900e20ed73c50fae7d9f17358fed1d295d73c3205dd2"
+  },
+  {
+   "steer": "bias",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "bbfb6f2012210ab5842bf681a89044f885ef66b068fcc7455637e5641efa19f1"
+  },
+  {
+   "steer": "bias",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "435ef7b92df9a56667934b79551608e7923604f542ea62bb17629e13971e35fe"
+  },
+  {
+   "steer": "bias",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "db6e50a26edb0f14d3fed3797bdc357efed9a67722873bcaaefef63e05bd2d3a"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "7d051c6bd29d7063d795c852a4a51e4a60bbc86c59305acb77b88bb9d8d49b03"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "3abea4cf665e7bdae6aeae2a2552965160a918a3a7ff768c074bac7da8af3f2f"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "1a2e5b3f5bac762ee59f5ad0ebe09f9dc63e3be5dbb378079eea971998fda866"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "9e1d75902c38d1bbdebfd67800f4a1e29fc6835bdac4e0ecd245f15b58d1ce5c"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "a9f74d2a374dea4fd04c42f79a48662dea023b0e803328914c99e05e69492355"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "b12d34b0d53af15f39bff25ceeb9dd22a0070a933f1d1c20307429ae885155cc"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "cd81407a410209b06f4ef97126ce9a0ce4711def56cb0149cc6bcfc29e822be0"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "fd71bea4d26915c2725ca5e1910c95da2ffd417b67d3b52996d0d821ddae37c3"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "b72cb6973e870ae35df5ab50b6cde806aaa22a0aa455e07565fd1927b49a136c"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "37e7aa70be203fb64c88c49ae7132c9a8b7c5958b943874e77a69a5b438ce4a4"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "af49d50a235096800c469df1db984ede1597ec77398c752a018b764ae1e6be10"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 0,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "d7391a73c09dbd99afa4dd1b1104dbf56664f657d37424529424c847fe6580ff"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "3c26e9c41cc5d86f4904e6f6fae35ca32df90239581f6f13e0248e98d70d9287"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "4f033eba21e93750da28a4d7e82477e52605eb1c5396912f469b65929779cbdd"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "b56ef861f58728fdcfa5d7d1bf255a9304bf3d8f0d08265d5c8823ce256c4242"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "dd113ef42f865ad5b08406108364f8784154dffb34aa74e3a998468669257ba2"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "7e01d822aab8533b41b42c485d94bbd7cc1372e7b7506332e3394ae1dc766203"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "4142e315d8e22c3ddb5f9c59f1f336130601a88fd8bff82a168e20430d3243a5"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "05e18dd4a3e6c2ca53963617920af2d4d9744a51df2ef43e63bbb0425f71708e"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "4e69980149741fd193c581d4bece4ab037b175dc2b7ec79eca88dd81bc284e55"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "9138bb90a999c84a933edd952fc67c7f583f0cf3173facd11e6bc931c8f8762e"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "0743b866d77abe359a84cd6bf517e054fbd0bb4591c6c08b39a3da6d4dc2e809"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "8f0be371bc44a3eea328ce8f41b205e1545d37558b414c23f7c6b31bf897e882"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 0,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "17d2c5176bb0b413ad98ffabf4cfd97394f632274c72a30c21092ada29a17757"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "40aec7a4c3f9cf634814b943bbe2056dc3284615d1aa57d18ca7dc31a2e4260d"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "b6d19103ba4f65d370652c67604de153cf2f6f690b3ccd6d98b4718eec01f345"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "17e6d22738995a04a46eace3b86f283bdc79bc501443983170d7e86c449b4883"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "0cd0cee1084c73c1a802a000a07abb2d651c92f7b0b61efc65129e1edbd34783"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "ccb8d41e562e2e66034d5e712ac941dc730cc537810fc57d6d79d5362b1580d3"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "a4a9ecb239c405d1ce32fa1f1bcc398eceaf0fc7e0510cd17edbab6f3ccc1bcf"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "da362c721a8290415575c5df1a8037c30f36c039a5134d31c75df9de3d1d694e"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "eb781c10c685f78381affc3337bc21e0aea03e9f37905d4f7a64f32a783b5dcb"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "75a160df8c832b908471c058317b7b831b6c766fef03fef1fa033da6a874fd1b"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "b08277062088bbfd05ee2834aca706e85e1c60c5828888bb327a56d7c134bbcd"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "a68d005bc0750ec46ab4e72f1b478884d27b1d3c2ada035707825f7b81eb1d16"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 1,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "7ad542d4fb16a2841353b7295c8612d55fc4343bf9f6a6a5cdd34663ab475d7d"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "c0c613b6120ff44ff170d77d64b960561aa3c0d7815fcb2ed59a97c481cfb48f"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "d0a8e9a71a65c776d143ae176f6136b71734c3f84289a514483af9e30f743764"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "42bf11652cabfac4df111801afb012160aab8927098919567e3bd047de463708"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "e68b65c2a4db455f06880d27bbcb66283b7ef360862e449d82eeb9596619d27a"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "4965247440890fc3eeb800ee99e081331cfcfca35a1349f92054b14a20df769a"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "baa4e9635f8b3a5f4aafd002b455f2097b0edaca2c362406007279019784a5b3"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "53599eb3dc39381200b54c4555e9c50fc96fc5ee7155f91707cfb379ae23efc7"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "6d1e9c580eb4da89d708f1ce410db810d718dfb36e4c6ebeb03e34e67168c36e"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "b3f5cf6cef721708b7b685f662b2ec7d643ef3e9861c47e4a9e8c5c39857faf8"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "aea61887a75d2ca637c269e1fd2f328e8ac3cdd6ede09c1f5783f1bb5db3242c"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "89d1dec80300f8a44db83143a1d20cd71aaa6e6072e3aa32b2e07bfdbd15ec19"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 1,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "66b77c019958997e0de5ba693770a4409e0fcb7a76d374e9e3e56e7c5e8b41a8"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "1abe9346bcf7570fd1d5ce35baec14db899cbdf9f8ee071ccad72adbc6d53e6a"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "63551d73ad6d5584dcf4e209776eabf7616476a343534022515c1f7f453847f1"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "8f37a8a3431b3aa89808591e531c062ea0c645b20aab9064ccc728399b88a678"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "2ec64cfa614d4f61b6b78f2e8327394190f7095ea39eff70b1b3df0d0f71a202"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "8b98cff755ae054f8a4887ef713fc2e4b798a7c336ac78f99740a2af3b170f90"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "720ed17d339cb57af14d8c1fa515b5d410aed1dea25db763d8ac5b596a5b291f"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "c54bc6381c7191982ccdb6c1ce612ceb82424015fda920e82a14e0fb092a29d9"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "76c607f2bdcb2cb151fac589960ce74a652dd5a8fa74239acfdd22e94fc5ff2e"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "5c92f538ec0b4f2306506bbb98a7e22a6d06975a6760a6d230cfc82e7eb789dc"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "1a0a7075239c352c92d013e3f418a04cd2aab43108bf82adec3e9b785df20036"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "47896a6f4bbad6561ec9ce2ca812ce015e9d33c60b5f4baab1618633d063dab7"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 2,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "c7703d3515635c7f0ec8aba4cb1c769a389c5ddea9b2dcc01d5a66a3cf16d31b"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "180693f601da1dd626a7d1e2780fd63020c68d8e98f07adc60e539fc136932cf"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "bca2e7d45e617c9e7d06901ba5f34e5ae3baf5305d9508ede6acde7cf797e780"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "0cbe4b4e2db296c72534d4d8ca083f8e0e919ed1719b2dc87187a15afa8ee6dd"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "efe935a1bbeceb68403e1321f99d9e33aced1fd4f5c19b05c7e76f5208f1c788"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "39c3f46a9598e6dc5254f2d095f3a3f66eb950d1d141b3ec43401668b6f174f9"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "6f02e5a6e5672bd41435eb5dd9b51b28cbed356b6b19ee985e0d28a1639b63a0"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "405dbb7d37a325a0ffc1e755c5b04aaba712d3f91bc0a5fed04ddee11ba00c28"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "a3cf45bc44249de0e67a32008ea3fcf072ecdb4124a3247e7e1284a83317c497"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "bc5aa2705c712effe07a79e7b263e507b0ac3aecf4513cae226a0bfc9b9bede7"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "6ff0c19d0226b4e74a4e02717923cdc4e96c6847c9e6ba5f2b0284f4f69ee991"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "46bd081397495057ca30d5c9911ee4eb5eb3b15ed9d8b3f5150bb356017290d4"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 2,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "2a01db79a685c7b0d7be57147701cdae3f964a425a21a90ad2b60e40c5c8dc25"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "444941a806c99271bfc823092bb6f2760211d8f5b419bb808845cdd92b57907a"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "ea9aee49d6066ca6d2702adc44be794ffd4f9740ffe9c2bdf0d4f8fd8b88303b"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "86047160571c1b6c53ca25cc5b440ee25b71c54f0dc6b84b4f28c22a6791987f"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "bcdf8acaedddc0310ab4bbde12561821a502a1eb79f12dd2abc3129cbb7b3099"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "9b2233436fae32d288ef6b2f26de9070f8cd844d411e5500f3ee938cf5ad3015"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "78cf7fbd7b115bf2e3cc77803a33286624449bee0d96cef94c7c2755d8afb972"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "ba52c460ce23eb5a7419262e14774188344ab759f367417fdc2e71ec40daed53"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "85f36d61647707d54cdb581da9c6e732d54fcc9fc1e1041de9e211fe68ddeb28"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "3f05cd0eaaba46d8a9bfd2bea3965499c0cccf7b2550e70194bae40304394bd8"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "30770bcc0caeaa5a206b2aa54001fed795a3ee1d57177d7c08605a09e4f6270e"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "ef06b5e3402c8c264a2305329e58e4a8662ffcb91f6dc782e7c2bc513c9912dd"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 3,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "509f81eddec67d08f9c12fc3456bc73bd807e7b1e36242325d7e129a793c0597"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "e15294d91d9d6e9f5857126a1b6991542096978bc853ec2deeb0caa69ae19d4d"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "d279a0ab9360204a29c22d518566b9207faf3a0a8f283043fa30a8331928e7f3"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "2da95dc7f7a88a714f63c23c9115ab59d9b0f83bf59fc3db39c621773b3a63bc"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "d9be7d165b2120e45e8e1fc5320504adb2e036eeca337945c40cf1e608612109"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "4493b1a2ebd7c35198e3f325c862f840127e8dfe6598c49a87657b5eb9f31a43"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "42cabc14c0e78426735bf8942759ff5922bc7a0740883fc9bbb64b500fc0982c"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "76cba790707bd235b462882e56ffc7ff2729351b47188b77595500d421f0fbeb"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "325b1a14bd72333f281a1cb378f6732e891a5fc8e73d31c8d5716b586a5b88f6"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "856edc296b531552dc8844853a499cd2c56e9153dbffb78ba65bc2591199e38e"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "5405058d5e9ed75ab5a0bf3f0df1b82e5b09ef5fc3b7fa8431e33369f948a33e"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "2903665389275f894c7ba9cf93ca4ede352ff01939ee897c73d7ce4ddfd46202"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 3,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "1a3ed8e149b21584141f210469173e31f31a6e1d6be09c6f251ea89815d094eb"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "1bc496f3e5aa486df84458b510e1cdad23202e89dfe6b1bac34e4adcf3b3f6cd"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "5e814001f4304e8f289eb757ec859e6bbdb8240e05b397a2a7a17996e27967e4"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "271e470c5cf8262b9ab4e65e801ea6810a3ae406861181ac5c7fb4dfade0b1d6"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "5815d524ab707fae0a52b11833caabe61c6d2fc7a876750b8f6b1e99bfb9abb6"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "1ee156e2c912bb04ae370b4961d364d6051100c29669b496c885b80606249375"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "dda126cc52f337f7dcdc385d3697bfeac2fdddc8450ac203d1d53f7377403cc7"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "2ea336f05b1760c2ec562982b631dd4e0acf397113c5e7cb2a17f6981b2a06d9"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "6d72f03821acb4b482c8d3a56e42e050f8d3cbde66aa0f93920af1dd04090834"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "768008f81c85b92cac270310bef75b5cf3e30ad6acf20747c27fd0555d4798a4"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "87f57d5b3d6d5dcfb8006f0a01bd7cdff808859104ed8ff2403781ca9c04fedf"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "f75da29fe5432e6e32090c4be0c05c834b28549be2afd0f506f976fdcac710ce"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 4,
+   "perspective": "first",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "2b3666a4a313d595da8760df9fe6d0b3827f452d12f1f5dbdb1df95a1c590d6b"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "632d16e725935936ad9b0f4a1bedcad3ab6a35e77b1007d4b02721afcd154bcd"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "42988c4a4e2bb2aa9a99ff4fada2cc4ef2c26917059ed6c343af589ac9ae4594"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "01460388eb7aeb8674aa0ce88802e75d09034d1f226350275828759644b023c5"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "trust",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "fea4ab653be7cc83ac7f6cabd1d89491d70b784ea1a16d2070b1a782661e1d3f"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "707ea38da8a2a0ae666ecc9980fc1534977fc68a98e4364c57b9c973fc5723f9"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "5b5a73c5467b14570e9b51dacde14e3b187c69baae685a1b010caa7a543153d4"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "4ae899f7305bf0d2854fb4cbf59cf824a628f7414a033affdd0ff5356d0ab5d8"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "reward_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "152afee2690a355a35c583f26b452dd45090a59871cba2bd529af9ba21e763c0"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": false,
+   "sha256": "97ca715882c8adbcd74961bbcc4eb1d797094abbd47253afc912eb99e0b83a94"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "direct",
+   "flip": true,
+   "sha256": "c1bd93c87fd16ef287e21d8672fa862359adb6fef9d03214254f25e71f8c4339"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": false,
+   "sha256": "17a28c7c40c922785959e1ab2dfbf7d897cd233ea9b16643fd3f03cec315055f"
+  },
+  {
+   "steer": "gricean",
+   "video_index": 4,
+   "perspective": "user",
+   "purpose": "offer_quality",
+   "instructions": "cot",
+   "flip": true,
+   "sha256": "4c4725737a3266c2b36778c96ac82c3fbd4e0e13c947204a47d20519b16c1a7a"
+  }
+ ]
+}

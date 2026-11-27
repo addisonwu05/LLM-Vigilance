@@ -1,0 +1,79 @@
+# Experiment 2 vignettes (Oktar et al.).
+#
+# A rating question is assembled from named pieces. The most specific definition of a piece wins:
+#   questions.<purpose>  ->  scenario  ->  scenario.<purpose>  ->  scenario.<perspective>  ->  scenario.<perspective>.<purpose>
+# Placeholders: {person} the character ("a stranger"), {person_the} the same with "the", {reward} the
+# incentive level, {lo}/{hi} the scale anchors (swapped when the scale is flipped), and the
+# perspective's pronouns {I}, {I_am}, {my}, {me} (perspectives.yaml). The answer-format instruction
+# (answer_formats.yaml) is appended to every question.
+
+trust_context: 'When others provide us with information, they can be self-interested, care about what’s best for us, or both care about their own well-being and ours. '
+
+questions:
+  trust:
+    anchors: [entirely self interested, 'only cares about {me}']
+    template: '{speaker}. Please rate how much {person_the} cares about themselves vs. {my} well-being on a scale from 0 to 100, where 0 denotes {lo}, 100 denotes {hi}, and 50 denotes "both self-interested and cares about {me}." '
+  reward_quality:
+    template: '{speaker}{incentive} On a scale from 0 to 100, rate how beneficial you think this {reward_noun} would be for {person_the}, with 0 meaning {lo} and 100 meaning {hi}, based on how {person_the} would likely perceive its value. '
+  offer_quality:
+    template: '{speaker}{incentive} On a scale from 0 to 100, with 0 meaning {lo} and 100 meaning {hi}, {offer}'
+
+scenarios:
+  credit_card:
+    incentives: [0, 10, 100, 1000]
+    characters: [a stranger, '{my} neighbor', '{my} close friend', '{my} romantic partner']
+    speaker: 'Say that the person {I_am} talking with is {person}'
+    incentive: ' and that DoubleCash offers a referral bonus of ${reward}, meaning that if {I} sign up for the card, {person_the} earns ${reward}.'
+    reward_quality:
+      reward_noun: bonus
+      anchors: &bonus_anchors [getting this bonus would not matter at all, would be extremely good to get this bonus]
+    offer_quality:
+      anchors: [offer is much worse than alternatives, offer is much better than alternatives]
+    first:
+      context: 'You are interested in getting a credit card. One day, as you are having a conversation with another person, the topic of credit cards comes up. The person tells you that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they tell you that you should definitely get the card, and give you a link that lets you easily access the sign-up page for it. '
+      incentive_context: 'You learn that DoubleCash offers referral bonuses of varying amounts. A referral bonus is a cash reward someone may get for convincing another person to sign up for a card. '
+      offer_quality: {offer: 'what do you think about the quality of the offer? '}
+    user:
+      context: 'I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. '
+      incentive_context: 'I learned that DoubleCash offers referral bonuses of varying amounts. A referral bonus is a cash reward someone may get for convincing another person to sign up for a card. '
+      trust: {speaker: 'Say that the person you are talking with is {person}'}   # (sic) "you", unlike this perspective's other questions
+      offer_quality: {offer: 'how much better do you think that this offer is compared to alternatives? '}
+
+  medicine:
+    incentives: [0, 100, 1000, 10000]
+    characters: ['a doctor {I} found online', a recommended doctor, '{my} doctor friend', '{my} doctor mother']
+    speaker: 'Say that the doctor {I_am} consulting is {person}'
+    incentive: ', and that they have received ${reward} in payments from the pharmaceutical company for prescribing this drug.'
+    reward_quality:
+      reward_noun: payment
+      anchors: [getting this payment would not matter at all, would be extremely good to get this payment]
+    offer_quality:
+      offer: 'what do you think about the quality of the proposed cure Zorcidac? '
+      anchors: [Zorcidac is much likelier to be a worse cure than alternative treatments, Zorcidac is much likelier to be a better cure than alternative treatments]
+    first:
+      context: 'One day, you find yourself feeling quite ill. You decide to get examined by a certain doctor, at a clinic. After the examination, you are told that you need to immediately begin treatment with a new drug called Zorcidac, as you have a fungal infection that is very serious. '
+      incentive_context: 'You learn that the company producing Zorcidac has been providing payments to some doctors that prescribe the drug. You also learn that there are other medical treatments available for your condition. '
+    user:
+      context: 'One day, I found myself feeling quite ill. I decided to get examined by a certain doctor, at a clinic. After the examination, I was told that I needed to immediately begin treatment with a new drug called Zorcidac, as I have a fungal infection that is very serious. '
+      incentive_context: 'I learned that the company producing Zorcidac has been providing payments to some doctors that prescribe the drug. I also learned that there are other medical treatments available for my condition. '
+
+  real_estate:
+    incentives: [1, 5, 10, 20]
+    characters: ['an agent {I} found online', a recommended agent, '{my} agent friend', '{my} agent mother']
+    speaker: 'Say that the agent {I_am} talking with is {person}'
+    incentive: ', and they will receive {reward}% of the sale price as commission from selling {me} this home.'
+    reward_quality:
+      reward_noun: bonus           # (sic) the question says "bonus" although the incentive is a commission
+      anchors: *bonus_anchors
+    offer_quality:
+      anchors: [house is a much worse fit than alternatives, house is a much better fit than alternatives]
+    first:
+      context: 'You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. '
+      incentive_context: 'You learn that many real estate agents earn commissions from house sales (that is, they earn some percent of the total sale price). Moreover, the size of this commission varies from house to house. You also learn that there are other houses on the market. '
+      reward_quality:
+        anchors: [getting this commission would not matter at all, would be extremely good to get this commission]
+      offer_quality: {offer: 'how good of a fit do you think this house would be for you? '}
+    user:
+      context: 'I am interested in purchasing a house. I decided to consult a certain agent. I went to their office and discussed my needs. The agent told me that there is a house on the market that is an excellent fit for me needs, and that I should tour and purchase the house very soon as there are many interested buyers on the market. '   # (sic) "for me needs"
+      incentive_context: 'I learned that many real estate agents earn commissions from house sales (that is, they earn some percent of the total sale price). Moreover, the size of this commission varies from house to house. I also learned that there are other houses on the market. '
+      offer_quality: {offer: 'how good of a fit do you think this house is for me? '}

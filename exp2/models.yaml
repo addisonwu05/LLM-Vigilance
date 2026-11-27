@@ -1,0 +1,28 @@
+# Models run in Experiment 2, and their settings (on top of common/models.yaml).
+# samples:        simulated subjects per condition in the stored data
+# instructions:   answer formats run (cot / direct, or reasoning for reasoning models)
+# max_tokens:     per answer format; null = no cap was sent
+# flip:           rating-scale reversal. per_subject = one coin flip per dialogue;
+#                 a list = fixed flips for consecutive batches of subjects
+# context:        separate = scenario text is its own first user message;
+#                 merged   = prepended to the first question (Together endpoint quirk)
+# trust_rounding: formula that put trust ratings on the 0-1 benevolence grid when the paper's model
+#                 inputs were made: grid = round(round(x/100/0.1)*0.1, 2); nearest_tenth =
+#                 round(x/100, 1) (early converter). They differ only for ratings 5/45/65.
+defaults: {samples: 40, flip: per_subject, context: separate, instructions: [cot, direct], max_tokens: null, trust_rounding: grid}
+runs:
+  gpt-4o:
+    provider: azure_openai
+    samples: 160
+    flip: [{flip: false, n: 80}, {flip: true, n: 80}]   # counterbalanced: 80 unflipped, then 80 flipped
+    max_tokens: &caps {direct: 10, cot: 750}
+    trust_rounding: nearest_tenth
+  claude-3.5-sonnet: {max_tokens: *caps, trust_rounding: nearest_tenth}
+  gemini-2.0-flash:  {}
+  llama-3.3-70b:     {max_tokens: *caps, trust_rounding: nearest_tenth}
+  llama-3.1-8b:      {}                                  # token cap not recorded
+  llama-3.2-3b:      {}
+  gemma-3-4b:        {context: merged}
+  o1:                &reasoning_model {samples: 10, instructions: [reasoning]}
+  o3-mini:           *reasoning_model
+  deepseek-r1:       *reasoning_model

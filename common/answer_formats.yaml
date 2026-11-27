@@ -1,0 +1,5 @@
+# Answer-format instruction appended to every rating question in Experiments 2 and 3
+# (reasoning: for reasoning models, Experiment 2 only).
+direct: 'Please only respond with an integer score, do not include anything else. '
+cot: "Please reason about your answer before providing it. Structure your response in the exact following format: \n    Reasoning: [...]\n    Answer (integer score only): [...]"
+reasoning: 'Please include your final rating as a single number at the end of your response. '

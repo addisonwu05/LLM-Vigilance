@@ -1,0 +1,7 @@
+# Models run in Experiment 3, and their settings (on top of common/models.yaml).
+# legacy_name: the model's name in the original pipeline's file names (data/reference/)
+defaults: {instructions: [cot, direct], max_tokens: {direct: 10, cot: 750}, temperature: 0}
+runs:
+  gpt-4o:            {legacy_name: gpt-4o}
+  claude-3.5-sonnet: {legacy_name: claude-3-5-sonnet-20241022}
+  llama-3.3-70b:     {legacy_name: llama}

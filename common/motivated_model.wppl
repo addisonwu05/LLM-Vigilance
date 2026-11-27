@@ -1,0 +1,128 @@
+// Rational model of vigilance toward motivated communication (Oktar et al.):
+// motivatedmodel.v2_1c_freelambda, as used for every result in the paper.
+//
+// The listener's posterior that the recommended option is good, P(R_L = {a0:1, a1:0} | utterance),
+// depends only on the speaker's incentive (val_vr, rounded to quartiles), their benevolence
+// (rec_vr = lambda, rounded to deciles) and three free parameters (alphaL0, alphaS, w).
+// The original scripts recomputed it for every trial at every grid point. This file
+// computes each unique combination ONCE and writes a lookup table. The model functions below
+// are copied verbatim from the original, so the numbers are identical.
+//
+// Usage:  webppl webppl/motivated_model.wppl --require webppl-json -- --output posterior_table.json
+
+var speaker_values = [0,.25,.5,.75,1]
+var values = [0,1] //these are listener values
+var actions = ['a0','a1']
+
+var speaker_worlds = Infer({method: 'enumerate'}, function(){
+    var world = repeat(actions.length, function(){return uniformDraw(speaker_values)})
+    return _.zipObject(actions, world)
+})
+
+var listener_worlds = Infer({method: 'enumerate'}, function(){
+    var world = repeat(actions.length, function(){return uniformDraw(values)})
+    return _.zipObject(actions, world)
+})
+
+var all_utts = Infer({method: 'enumerate'}, function(){
+    return{
+    'action':uniformDraw(actions),
+    'value':uniformDraw(values)
+    }
+})
+
+var literal_listener = function(utt,prior,params){
+    var action = utt['action']
+    var value = utt['value']
+    var consistent_worlds = filter(function(x) {x[action] === value},prior.support())
+
+    var vals_by_act = map(function(act){
+      return map(function(world){
+        return world[act]
+      }, consistent_worlds)
+    }, actions)
+
+    var mean_act_vals = map(listMean, vals_by_act)
+    var softmax_all = reduce(function(x,acc){
+      return Math.exp(params.alphaL0 * x) + acc
+    },0, mean_act_vals)
+
+    var softmax_act_prob = Math.exp(params.alphaL0 * value) / softmax_all
+    return softmax_act_prob
+}
+
+var mean_transform = function(x, a) {
+    var x = (x === 0) ? x + .0001 : x;
+    var x = (x === 1) ? x - .0001 : x;
+    return Math.pow(x, a);
+  };
+
+var speaker = function(rs,rl, lambda, params) {
+    var exp_joint_utils = map(function(possible_utt) {
+      var adjlam = mean_transform(lambda, params.w);
+      var joint_util =  adjlam*rl[possible_utt['action']] + (1-adjlam)*rs[possible_utt['action']]
+      var listener_prob = literal_listener(possible_utt, listener_worlds, params)
+      var expected_joint_util = joint_util * listener_prob
+      return Math.exp(expected_joint_util*params.alphaS)},
+       all_utts.support())
+
+    var normalizing_constant = sum(exp_joint_utils)
+    var prob_utts = map(function(x) {return x / normalizing_constant}, exp_joint_utils)
+
+    return Categorical({ps: prob_utts, vs: all_utts.support()})
+}
+
+var vigilant_listener = function(utt, Rs, lambda, params){
+    return Infer({method: 'enumerate'}, function(){
+        var pr_lambda = uniformDraw([0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1])
+        condition(pr_lambda === lambda);
+
+        var listener_world = sample(listener_worlds);
+        var speaker_world = sample(speaker_worlds);
+        condition(_.isEqual(speaker_world, Rs));
+
+        var speakerUtt = sample(speaker(speaker_world, listener_world, pr_lambda, params));
+        condition(_.isEqual(speakerUtt, utt));
+
+        return listener_world
+    })
+}
+
+var gridSearchParameters = function() {
+    return Infer({method: 'enumerate'}, function(){
+        return {
+            'alphaL0': uniformDraw(_.range(1, 10, 3)),
+            'alphaS':  uniformDraw(_.range(1, 10, 3)),
+            'w': uniformDraw(_.range(0.0001, 1.1, .05)),
+        };
+    }).support();
+};
+
+var exp_utt = {'action':'a0', 'value' : 1}
+var lambdas = [0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1]
+var GOOD = '{"a0":1,"a1":0}'  // listener world "recommended option is good"; the original read params.dist[GOOD].prob
+
+var flatten_rows = function(arr) {
+    return reduce(function(a, b) { return a.concat(b); }, [], arr);
+}
+
+// One row per (grid point, val_vr, rec_vr). grid_index preserves the original grid order,
+// which decides ties when picking the best-fitting parameters.
+var table = flatten_rows(mapIndexed(function(grid_index, params) {
+    return flatten_rows(map(function(val_vr) {
+        return map(function(rec_vr) {
+            var post = vigilant_listener(exp_utt, {'a0': val_vr, 'a1': 0}, rec_vr, params)
+            return {
+                'grid_index': grid_index,
+                'alphaL0': params.alphaL0,
+                'alphaS': params.alphaS,
+                'w': params.w,
+                'val_vr': val_vr,
+                'rec_vr': rec_vr,
+                'prob': post.params.dist[GOOD] ? post.params.dist[GOOD].prob : null
+            }
+        }, lambdas)
+    }, speaker_values))
+}, gridSearchParameters()))
+
+json.write(argv.output, table)

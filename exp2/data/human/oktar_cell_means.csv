@@ -1,0 +1,49 @@
+scenario,character_index,character,incentive,human_mean
+credit_card,0,stranger,0,4.426294821
+credit_card,0,stranger,10,3.756972112
+credit_card,0,stranger,100,3.175298805
+credit_card,0,stranger,1000,2.80876494
+credit_card,1,neighbor,0,4.737051793
+credit_card,1,neighbor,10,4.282868526
+credit_card,1,neighbor,100,3.81673307
+credit_card,1,neighbor,1000,3.39043825
+credit_card,2,close friend,0,4.99601594
+credit_card,2,close friend,10,4.80478088
+credit_card,2,close friend,100,4.44223108
+credit_card,2,close friend,1000,3.98406375
+credit_card,3,romantic partner,0,5.16334661
+credit_card,3,romantic partner,10,5.10358566
+credit_card,3,romantic partner,100,5.02390438
+credit_card,3,romantic partner,1000,4.83665339
+medicine,0,doctor found online,0,5.04417671
+medicine,0,doctor found online,100,3.7188755
+medicine,0,doctor found online,1000,2.7751004
+medicine,0,doctor found online,10000,2.12048193
+medicine,1,recommended doctor,0,5.40562249
+medicine,1,recommended doctor,100,4.09638554
+medicine,1,recommended doctor,1000,3.10441767
+medicine,1,recommended doctor,10000,2.33333333
+medicine,2,doctor friend,0,5.59437751
+medicine,2,doctor friend,100,4.57028112
+medicine,2,doctor friend,1000,3.51807229
+medicine,2,doctor friend,10000,2.70281124
+medicine,3,doctor mother,0,5.93975904
+medicine,3,doctor mother,100,5.43373494
+medicine,3,doctor mother,1000,5
+medicine,3,doctor mother,10000,4.437751
+real_estate,0,agent found online,1,5.05952381
+real_estate,0,agent found online,5,4.345238095
+real_estate,0,agent found online,10,3.47410359
+real_estate,0,agent found online,20,2.75298805
+real_estate,1,recommended agent,1,5.37450199
+real_estate,1,recommended agent,5,4.71314741
+real_estate,1,recommended agent,10,3.79282869
+real_estate,1,recommended agent,20,3.02788845
+real_estate,2,agent friend,1,5.73809524
+real_estate,2,agent friend,5,5.38888889
+real_estate,2,agent friend,10,4.5952381
+real_estate,2,agent friend,20,3.97619048
+real_estate,3,agent mother,1,6.05555556
+real_estate,3,agent mother,5,5.91269841
+real_estate,3,agent mother,10,5.44047619
+real_estate,3,agent mother,20,5.03571429

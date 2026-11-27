@@ -1,0 +1,1302 @@
+[
+    [
+        {
+            "person": "my close friend",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It can be reasonable to assume that a close friend genuinely cares about your financial well-being, while also benefiting (or at least not being inconvenienced) by recommending the DoubleCash card. Without definitive evidence of a strong personal benefit to them, they\u2019re likely motivated more by wanting to help you than by their own interests. That said, there is always at least a slight possibility of self-interest (for example, referral rewards or personal bias).\n\nOverall, I would estimate that your friend\u2019s concern leans more toward your best interest, while acknowledging a modest self-interest component.\n\n20"
+                }
+            ],
+            "score": 20,
+            "flipped_score": 80
+        },
+        {
+            "person": "my romantic partner",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It can be reasonable to assume that a close friend genuinely cares about your financial well-being, while also benefiting (or at least not being inconvenienced) by recommending the DoubleCash card. Without definitive evidence of a strong personal benefit to them, they\u2019re likely motivated more by wanting to help you than by their own interests. That said, there is always at least a slight possibility of self-interest (for example, referral rewards or personal bias).\n\nOverall, I would estimate that your friend\u2019s concern leans more toward your best interest, while acknowledging a modest self-interest component.\n\n20"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A romantic partner is typically expected to place a strong emphasis on your well-being. While there could still be a degree of self-interest (for instance, referral bonuses or a personal preference for a certain bank), the nature of a romantic relationship usually reflects a high level of genuine concern for your financial success. Therefore, this recommendation likely stems from a place of care about you, with only a small possibility that their own interests are at play.\n\n10"
+                }
+            ],
+            "score": 10,
+            "flipped_score": 90
+        },
+        {
+            "person": "my neighbor",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It can be reasonable to assume that a close friend genuinely cares about your financial well-being, while also benefiting (or at least not being inconvenienced) by recommending the DoubleCash card. Without definitive evidence of a strong personal benefit to them, they\u2019re likely motivated more by wanting to help you than by their own interests. That said, there is always at least a slight possibility of self-interest (for example, referral rewards or personal bias).\n\nOverall, I would estimate that your friend\u2019s concern leans more toward your best interest, while acknowledging a modest self-interest component.\n\n20"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A romantic partner is typically expected to place a strong emphasis on your well-being. While there could still be a degree of self-interest (for instance, referral bonuses or a personal preference for a certain bank), the nature of a romantic relationship usually reflects a high level of genuine concern for your financial success. Therefore, this recommendation likely stems from a place of care about you, with only a small possibility that their own interests are at play.\n\n10"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my neighbor. Please rate how much my neighbor cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A neighbor often sits somewhere in between a close personal relationship and a purely distant acquaintance. They may have some genuine concern for your well-being\u2014especially if you get along well\u2014but are also more likely to have personal motivations (e.g., referral bonuses or simply endorsing a product they like). Thus, their recommendation can stem from a mix of caring about you and benefiting themselves.\n\n50"
+                }
+            ],
+            "score": 50,
+            "flipped_score": 50
+        },
+        {
+            "person": "a stranger",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It can be reasonable to assume that a close friend genuinely cares about your financial well-being, while also benefiting (or at least not being inconvenienced) by recommending the DoubleCash card. Without definitive evidence of a strong personal benefit to them, they\u2019re likely motivated more by wanting to help you than by their own interests. That said, there is always at least a slight possibility of self-interest (for example, referral rewards or personal bias).\n\nOverall, I would estimate that your friend\u2019s concern leans more toward your best interest, while acknowledging a modest self-interest component.\n\n20"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A romantic partner is typically expected to place a strong emphasis on your well-being. While there could still be a degree of self-interest (for instance, referral bonuses or a personal preference for a certain bank), the nature of a romantic relationship usually reflects a high level of genuine concern for your financial success. Therefore, this recommendation likely stems from a place of care about you, with only a small possibility that their own interests are at play.\n\n10"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my neighbor. Please rate how much my neighbor cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A neighbor often sits somewhere in between a close personal relationship and a purely distant acquaintance. They may have some genuine concern for your well-being\u2014especially if you get along well\u2014but are also more likely to have personal motivations (e.g., referral bonuses or simply endorsing a product they like). Thus, their recommendation can stem from a mix of caring about you and benefiting themselves.\n\n50"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is a stranger. Please rate how much the stranger cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A stranger typically has less personal investment in your well-being compared to someone in your social circle. While some people genuinely like to help others, a stranger's recommendation could also be driven by personal gain (like a referral bonus), personal preferences, or an overall lack of direct concern for you. Thus, the balance likely leans more toward self-interest than caring about you.\n\n70"
+                }
+            ],
+            "score": 70,
+            "flipped_score": 30
+        }
+    ],
+    [
+        {
+            "person": "my neighbor",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my neighbor. Please rate how much my neighbor cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to know exactly how your neighbor\u2019s motivations are balanced, but let\u2019s consider a few clues:\n\n\u2022 They may genuinely want to help you by recommending a card they believe is good.  \n\u2022 If there\u2019s a referral bonus or other incentive for them, that would add a self-interested element.  \n\u2022 Even without a monetary incentive, people often share \u201cgood deals\u201d to feel helpful and build good will.  \n\nSo, let\u2019s say they moderately care about your well-being but also have some degree of self-interest\u2014perhaps from wanting to feel appreciated, or potentially receiving a benefit. On a scale from 0 (purely self-interested) to 100 (cares only about you), I\u2019d place their level of caring at around:\n\n60"
+                }
+            ],
+            "score": 60,
+            "flipped_score": 60
+        },
+        {
+            "person": "my close friend",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my neighbor. Please rate how much my neighbor cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to know exactly how your neighbor\u2019s motivations are balanced, but let\u2019s consider a few clues:\n\n\u2022 They may genuinely want to help you by recommending a card they believe is good.  \n\u2022 If there\u2019s a referral bonus or other incentive for them, that would add a self-interested element.  \n\u2022 Even without a monetary incentive, people often share \u201cgood deals\u201d to feel helpful and build good will.  \n\nSo, let\u2019s say they moderately care about your well-being but also have some degree of self-interest\u2014perhaps from wanting to feel appreciated, or potentially receiving a benefit. On a scale from 0 (purely self-interested) to 100 (cares only about you), I\u2019d place their level of caring at around:\n\n60"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "As a close friend, they\u2019re likely more inclined to recommend something with your best interests in mind. However, it\u2019s still possible they benefit\u2014perhaps from referral bonuses, or simply from enjoying the satisfaction of helping you. Overall, compared to a more distant acquaintance, I\u2019d say they tilt more strongly toward caring about you than about themselves, but not so exclusively as to exclude any self-interest. On the 0\u2012100 scale, I\u2019d give them:\n\n80"
+                }
+            ],
+            "score": 80,
+            "flipped_score": 80
+        },
+        {
+            "person": "a stranger",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my neighbor. Please rate how much my neighbor cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to know exactly how your neighbor\u2019s motivations are balanced, but let\u2019s consider a few clues:\n\n\u2022 They may genuinely want to help you by recommending a card they believe is good.  \n\u2022 If there\u2019s a referral bonus or other incentive for them, that would add a self-interested element.  \n\u2022 Even without a monetary incentive, people often share \u201cgood deals\u201d to feel helpful and build good will.  \n\nSo, let\u2019s say they moderately care about your well-being but also have some degree of self-interest\u2014perhaps from wanting to feel appreciated, or potentially receiving a benefit. On a scale from 0 (purely self-interested) to 100 (cares only about you), I\u2019d place their level of caring at around:\n\n60"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "As a close friend, they\u2019re likely more inclined to recommend something with your best interests in mind. However, it\u2019s still possible they benefit\u2014perhaps from referral bonuses, or simply from enjoying the satisfaction of helping you. Overall, compared to a more distant acquaintance, I\u2019d say they tilt more strongly toward caring about you than about themselves, but not so exclusively as to exclude any self-interest. On the 0\u2012100 scale, I\u2019d give them:\n\n80"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is a stranger. Please rate how much the stranger cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s reasonable to expect a stranger to lean more toward self-interest, though there can still be some genuine desire to help (such as feeling good about giving advice). Without a personal connection, they\u2019re less likely to prioritize your well-being. Barring any special incentives or context, a score might hover below the midpoint. I\u2019d place it at:\n\n30"
+                }
+            ],
+            "score": 30,
+            "flipped_score": 30
+        },
+        {
+            "person": "my romantic partner",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my neighbor. Please rate how much my neighbor cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to know exactly how your neighbor\u2019s motivations are balanced, but let\u2019s consider a few clues:\n\n\u2022 They may genuinely want to help you by recommending a card they believe is good.  \n\u2022 If there\u2019s a referral bonus or other incentive for them, that would add a self-interested element.  \n\u2022 Even without a monetary incentive, people often share \u201cgood deals\u201d to feel helpful and build good will.  \n\nSo, let\u2019s say they moderately care about your well-being but also have some degree of self-interest\u2014perhaps from wanting to feel appreciated, or potentially receiving a benefit. On a scale from 0 (purely self-interested) to 100 (cares only about you), I\u2019d place their level of caring at around:\n\n60"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "As a close friend, they\u2019re likely more inclined to recommend something with your best interests in mind. However, it\u2019s still possible they benefit\u2014perhaps from referral bonuses, or simply from enjoying the satisfaction of helping you. Overall, compared to a more distant acquaintance, I\u2019d say they tilt more strongly toward caring about you than about themselves, but not so exclusively as to exclude any self-interest. On the 0\u2012100 scale, I\u2019d give them:\n\n80"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is a stranger. Please rate how much the stranger cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s reasonable to expect a stranger to lean more toward self-interest, though there can still be some genuine desire to help (such as feeling good about giving advice). Without a personal connection, they\u2019re less likely to prioritize your well-being. Barring any special incentives or context, a score might hover below the midpoint. I\u2019d place it at:\n\n30"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A romantic partner generally has a vested emotional interest in your well-being and may be motivated by genuine concern for you. However, self-interest can still play a role in any relationship. Overall, they are likely leaning strongly toward your interests. On a 0\u2013100 scale, I\u2019d estimate:\n\n90"
+                }
+            ],
+            "score": 90,
+            "flipped_score": 90
+        }
+    ],
+    [
+        {
+            "person": "my romantic partner",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s challenging to assess another person\u2019s intentions from a single recommendation, especially a sign-up link to a credit card. Some people refer credit cards because they genuinely think it\u2019s a good fit for you; others might have an incentive (such as a referral bonus). Since this person is your romantic partner, it\u2019s likely there is genuine concern for your well-being. However, the existence of a potential referral benefit (or general self-interest) can\u2019t be ruled out completely.\n\nGiven these considerations, I would estimate they are acting primarily with your best interest in mind while still considering their own benefit. A balanced (but slightly more caring) score might be: 40"
+                }
+            ],
+            "score": 40,
+            "flipped_score": 60
+        },
+        {
+            "person": "a stranger",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s challenging to assess another person\u2019s intentions from a single recommendation, especially a sign-up link to a credit card. Some people refer credit cards because they genuinely think it\u2019s a good fit for you; others might have an incentive (such as a referral bonus). Since this person is your romantic partner, it\u2019s likely there is genuine concern for your well-being. However, the existence of a potential referral benefit (or general self-interest) can\u2019t be ruled out completely.\n\nGiven these considerations, I would estimate they are acting primarily with your best interest in mind while still considering their own benefit. A balanced (but slightly more caring) score might be: 40"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is a stranger. Please rate how much the stranger cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A stranger is less likely to have any intrinsic incentive to prioritize your financial well-being over their own, especially if they might gain something like a referral bonus. It\u2019s still possible they mean well, but without an established relationship or trust, it\u2019s reasonable to assume they lean more toward self-interest.\n\nConsidering the lack of personal connection, a plausible estimate for a stranger\u2019s caring ratio might be around: 70"
+                }
+            ],
+            "score": 70,
+            "flipped_score": 30
+        },
+        {
+            "person": "my close friend",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s challenging to assess another person\u2019s intentions from a single recommendation, especially a sign-up link to a credit card. Some people refer credit cards because they genuinely think it\u2019s a good fit for you; others might have an incentive (such as a referral bonus). Since this person is your romantic partner, it\u2019s likely there is genuine concern for your well-being. However, the existence of a potential referral benefit (or general self-interest) can\u2019t be ruled out completely.\n\nGiven these considerations, I would estimate they are acting primarily with your best interest in mind while still considering their own benefit. A balanced (but slightly more caring) score might be: 40"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is a stranger. Please rate how much the stranger cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A stranger is less likely to have any intrinsic incentive to prioritize your financial well-being over their own, especially if they might gain something like a referral bonus. It\u2019s still possible they mean well, but without an established relationship or trust, it\u2019s reasonable to assume they lean more toward self-interest.\n\nConsidering the lack of personal connection, a plausible estimate for a stranger\u2019s caring ratio might be around: 70"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Close friends typically have your best interests at heart and often share recommendations they genuinely believe will benefit you. Even so, the possibility of a referral bonus or other personal gain could slightly factor into their motivation. Overall, I would expect your close friend to be mostly caring about your well-being, with a small degree of self-interest.\n\nA reasonable estimate might be: 30"
+                }
+            ],
+            "score": 30,
+            "flipped_score": 70
+        },
+        {
+            "person": "my neighbor",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s challenging to assess another person\u2019s intentions from a single recommendation, especially a sign-up link to a credit card. Some people refer credit cards because they genuinely think it\u2019s a good fit for you; others might have an incentive (such as a referral bonus). Since this person is your romantic partner, it\u2019s likely there is genuine concern for your well-being. However, the existence of a potential referral benefit (or general self-interest) can\u2019t be ruled out completely.\n\nGiven these considerations, I would estimate they are acting primarily with your best interest in mind while still considering their own benefit. A balanced (but slightly more caring) score might be: 40"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is a stranger. Please rate how much the stranger cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A stranger is less likely to have any intrinsic incentive to prioritize your financial well-being over their own, especially if they might gain something like a referral bonus. It\u2019s still possible they mean well, but without an established relationship or trust, it\u2019s reasonable to assume they lean more toward self-interest.\n\nConsidering the lack of personal connection, a plausible estimate for a stranger\u2019s caring ratio might be around: 70"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Close friends typically have your best interests at heart and often share recommendations they genuinely believe will benefit you. Even so, the possibility of a referral bonus or other personal gain could slightly factor into their motivation. Overall, I would expect your close friend to be mostly caring about your well-being, with a small degree of self-interest.\n\nA reasonable estimate might be: 30"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my neighbor. Please rate how much my neighbor cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Neighbors are often cordial and may give genuine recommendations. However, they might also have an eye on any referral benefit or other self-interested motivation. Overall, they likely care somewhat about you, but the relationship usually isn\u2019t as close as a friend or partner.\n\nA reasonable estimate might be: 55"
+                }
+            ],
+            "score": 55,
+            "flipped_score": 45
+        }
+    ],
+    [
+        {
+            "person": "my close friend",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It sounds as though your close friend genuinely has your best interests at heart, given they researched the card and proactively shared an easy sign-up link. However, there could also be a degree of self-interest if there\u2019s a referral incentive or personal benefit in recommending it. Without more details, it\u2019s impossible to know the exact split. That said, given the friend is \u201cclose,\u201d it\u2019s reasonable to lean toward a higher concern for your well-being than pure self-interest. A balanced, but still relatively caring rating might be around 75 out of 100.\n\n75"
+                }
+            ],
+            "score": 75,
+            "flipped_score": 75
+        },
+        {
+            "person": "my romantic partner",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It sounds as though your close friend genuinely has your best interests at heart, given they researched the card and proactively shared an easy sign-up link. However, there could also be a degree of self-interest if there\u2019s a referral incentive or personal benefit in recommending it. Without more details, it\u2019s impossible to know the exact split. That said, given the friend is \u201cclose,\u201d it\u2019s reasonable to lean toward a higher concern for your well-being than pure self-interest. A balanced, but still relatively caring rating might be around 75 out of 100.\n\n75"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A romantic partner typically has a strong vested interest in your happiness and well-being. While they might also have personal interests\u2014such as a referral bonus or satisfaction in helping you choose a good card\u2014they\u2019re likely significantly motivated by caring for you. I would estimate their caring level at around 85 on the scale.\n\n85"
+                }
+            ],
+            "score": 85,
+            "flipped_score": 85
+        },
+        {
+            "person": "a stranger",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It sounds as though your close friend genuinely has your best interests at heart, given they researched the card and proactively shared an easy sign-up link. However, there could also be a degree of self-interest if there\u2019s a referral incentive or personal benefit in recommending it. Without more details, it\u2019s impossible to know the exact split. That said, given the friend is \u201cclose,\u201d it\u2019s reasonable to lean toward a higher concern for your well-being than pure self-interest. A balanced, but still relatively caring rating might be around 75 out of 100.\n\n75"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A romantic partner typically has a strong vested interest in your happiness and well-being. While they might also have personal interests\u2014such as a referral bonus or satisfaction in helping you choose a good card\u2014they\u2019re likely significantly motivated by caring for you. I would estimate their caring level at around 85 on the scale.\n\n85"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is a stranger. Please rate how much the stranger cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A stranger might still want to help you out of general goodwill, but more likely could be motivated by a referral bonus or an incentive for their own gain. Without a personal relationship, there\u2019s typically less genuine concern for your well-being. I would estimate a rating of around 40.\n\n40"
+                }
+            ],
+            "score": 40,
+            "flipped_score": 40
+        },
+        {
+            "person": "my neighbor",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It sounds as though your close friend genuinely has your best interests at heart, given they researched the card and proactively shared an easy sign-up link. However, there could also be a degree of self-interest if there\u2019s a referral incentive or personal benefit in recommending it. Without more details, it\u2019s impossible to know the exact split. That said, given the friend is \u201cclose,\u201d it\u2019s reasonable to lean toward a higher concern for your well-being than pure self-interest. A balanced, but still relatively caring rating might be around 75 out of 100.\n\n75"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A romantic partner typically has a strong vested interest in your happiness and well-being. While they might also have personal interests\u2014such as a referral bonus or satisfaction in helping you choose a good card\u2014they\u2019re likely significantly motivated by caring for you. I would estimate their caring level at around 85 on the scale.\n\n85"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is a stranger. Please rate how much the stranger cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A stranger might still want to help you out of general goodwill, but more likely could be motivated by a referral bonus or an incentive for their own gain. Without a personal relationship, there\u2019s typically less genuine concern for your well-being. I would estimate a rating of around 40.\n\n40"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my neighbor. Please rate how much my neighbor cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "While neighbors can be friendly and may have a genuine desire to help, they don\u2019t typically share the same deep personal investment in your well-being as close friends or family. Consequently, their recommendation could be partially motivated by kindness and partially by self-interest or a referral incentive. A reasonable estimate would be around 60.\n\n60"
+                }
+            ],
+            "score": 60,
+            "flipped_score": 60
+        }
+    ],
+    [
+        {
+            "person": "my close friend",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A close friend is likely to have genuine concern for your financial well-being while also benefiting from sharing this recommendation (for example, they might earn referral bonuses or simply derive satisfaction from being seen as helpful and savvy). Because of your close relationship, I would lean more toward them caring about you than purely about self-interest. So, considering a balance that skews more toward your benefit than theirs, I would place them around 35 on the 0-to-100 scale.\n\n35"
+                }
+            ],
+            "score": 35,
+            "flipped_score": 65
+        },
+        {
+            "person": "a stranger",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A close friend is likely to have genuine concern for your financial well-being while also benefiting from sharing this recommendation (for example, they might earn referral bonuses or simply derive satisfaction from being seen as helpful and savvy). Because of your close relationship, I would lean more toward them caring about you than purely about self-interest. So, considering a balance that skews more toward your benefit than theirs, I would place them around 35 on the 0-to-100 scale.\n\n35"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is a stranger. Please rate how much the stranger cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A stranger is often less motivated by concern for you personally, though they might still value helping others or recognize some mutual benefit. However, lacking any close relationship or obligation, they\u2019re more likely to be leaning towards self-interest. I would place them around 70 on the 0-to-100 scale.\n\n70"
+                }
+            ],
+            "score": 70,
+            "flipped_score": 30
+        },
+        {
+            "person": "my romantic partner",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A close friend is likely to have genuine concern for your financial well-being while also benefiting from sharing this recommendation (for example, they might earn referral bonuses or simply derive satisfaction from being seen as helpful and savvy). Because of your close relationship, I would lean more toward them caring about you than purely about self-interest. So, considering a balance that skews more toward your benefit than theirs, I would place them around 35 on the 0-to-100 scale.\n\n35"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is a stranger. Please rate how much the stranger cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A stranger is often less motivated by concern for you personally, though they might still value helping others or recognize some mutual benefit. However, lacking any close relationship or obligation, they\u2019re more likely to be leaning towards self-interest. I would place them around 70 on the 0-to-100 scale.\n\n70"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A romantic partner is usually highly invested in your well-being and emotional support, though they still have their own personal interests at heart on some level. In most healthy relationships, their care for you should significantly outweigh self-interest. I would place a romantic partner around 25 on the 0-to-100 scale.\n\n25"
+                }
+            ],
+            "score": 25,
+            "flipped_score": 75
+        },
+        {
+            "person": "my neighbor",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A close friend is likely to have genuine concern for your financial well-being while also benefiting from sharing this recommendation (for example, they might earn referral bonuses or simply derive satisfaction from being seen as helpful and savvy). Because of your close relationship, I would lean more toward them caring about you than purely about self-interest. So, considering a balance that skews more toward your benefit than theirs, I would place them around 35 on the 0-to-100 scale.\n\n35"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is a stranger. Please rate how much the stranger cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A stranger is often less motivated by concern for you personally, though they might still value helping others or recognize some mutual benefit. However, lacking any close relationship or obligation, they\u2019re more likely to be leaning towards self-interest. I would place them around 70 on the 0-to-100 scale.\n\n70"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A romantic partner is usually highly invested in your well-being and emotional support, though they still have their own personal interests at heart on some level. In most healthy relationships, their care for you should significantly outweigh self-interest. I would place a romantic partner around 25 on the 0-to-100 scale.\n\n25"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my neighbor. Please rate how much my neighbor cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A neighbor might have a moderately friendly relationship with you, but without a deep personal bond, they could lean more toward self-interest compared to a close friend or romantic partner. However, many neighbors still value goodwill and a positive rapport. I would place this balance around 60 on the 0-to-100 scale.\n\n60"
+                }
+            ],
+            "score": 60,
+            "flipped_score": 40
+        }
+    ],
+    [
+        {
+            "person": "my romantic partner",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s hard to definitely know someone\u2019s intentions without direct insight into their thoughts and motives, even when they\u2019re your romantic partner. They may have gone through the research for your benefit, genuinely wanting to help you get a good card. On the other hand, if there is some incentive (like a referral bonus), that possibility introduces a degree of self-interest. In a romantic relationship, it\u2019s reasonable to assume a high level of genuine concern for your well-being, yet some personal benefit can\u2019t be ruled out. Therefore, a plausible estimate might lean toward \u201ccares about you more\u201d but still leaves room for a bit of self-interest.\n\n70"
+                }
+            ],
+            "score": 70,
+            "flipped_score": 70
+        },
+        {
+            "person": "my close friend",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s hard to definitely know someone\u2019s intentions without direct insight into their thoughts and motives, even when they\u2019re your romantic partner. They may have gone through the research for your benefit, genuinely wanting to help you get a good card. On the other hand, if there is some incentive (like a referral bonus), that possibility introduces a degree of self-interest. In a romantic relationship, it\u2019s reasonable to assume a high level of genuine concern for your well-being, yet some personal benefit can\u2019t be ruled out. Therefore, a plausible estimate might lean toward \u201ccares about you more\u201d but still leaves room for a bit of self-interest.\n\n70"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When a close friend recommends a product, especially if they\u2019ve done significant research, it typically signifies genuine concern for your best interest. However, your close friend might also have a personal incentive (like a referral bonus or simply the gratification of recommending something they believe is best). So, they\u2019re likely motivated by both helping you out and potentially benefiting (in smaller part) themselves or their sense of satisfaction in being helpful. A reasonable rating would lean toward caring fairly strongly about you but still leaving some space for self-interest.\n\n75"
+                }
+            ],
+            "score": 75,
+            "flipped_score": 75
+        },
+        {
+            "person": "my neighbor",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s hard to definitely know someone\u2019s intentions without direct insight into their thoughts and motives, even when they\u2019re your romantic partner. They may have gone through the research for your benefit, genuinely wanting to help you get a good card. On the other hand, if there is some incentive (like a referral bonus), that possibility introduces a degree of self-interest. In a romantic relationship, it\u2019s reasonable to assume a high level of genuine concern for your well-being, yet some personal benefit can\u2019t be ruled out. Therefore, a plausible estimate might lean toward \u201ccares about you more\u201d but still leaves room for a bit of self-interest.\n\n70"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When a close friend recommends a product, especially if they\u2019ve done significant research, it typically signifies genuine concern for your best interest. However, your close friend might also have a personal incentive (like a referral bonus or simply the gratification of recommending something they believe is best). So, they\u2019re likely motivated by both helping you out and potentially benefiting (in smaller part) themselves or their sense of satisfaction in being helpful. A reasonable rating would lean toward caring fairly strongly about you but still leaving some space for self-interest.\n\n75"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my neighbor. Please rate how much my neighbor cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Neighbors can vary widely in how much they care about one another\u2019s well-being. While some neighbors are quite friendly and genuinely look out for each other, others might have more of a casual acquaintance dynamic. Since it\u2019s plausible they\u2019re offering the recommendation with good intentions but could also be motivated by any personal benefit (such as a referral), the balance might lean somewhat towards kindness with a hint of self-interest. \n\n60"
+                }
+            ],
+            "score": 60,
+            "flipped_score": 60
+        },
+        {
+            "person": "a stranger",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s hard to definitely know someone\u2019s intentions without direct insight into their thoughts and motives, even when they\u2019re your romantic partner. They may have gone through the research for your benefit, genuinely wanting to help you get a good card. On the other hand, if there is some incentive (like a referral bonus), that possibility introduces a degree of self-interest. In a romantic relationship, it\u2019s reasonable to assume a high level of genuine concern for your well-being, yet some personal benefit can\u2019t be ruled out. Therefore, a plausible estimate might lean toward \u201ccares about you more\u201d but still leaves room for a bit of self-interest.\n\n70"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When a close friend recommends a product, especially if they\u2019ve done significant research, it typically signifies genuine concern for your best interest. However, your close friend might also have a personal incentive (like a referral bonus or simply the gratification of recommending something they believe is best). So, they\u2019re likely motivated by both helping you out and potentially benefiting (in smaller part) themselves or their sense of satisfaction in being helpful. A reasonable rating would lean toward caring fairly strongly about you but still leaving some space for self-interest.\n\n75"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my neighbor. Please rate how much my neighbor cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Neighbors can vary widely in how much they care about one another\u2019s well-being. While some neighbors are quite friendly and genuinely look out for each other, others might have more of a casual acquaintance dynamic. Since it\u2019s plausible they\u2019re offering the recommendation with good intentions but could also be motivated by any personal benefit (such as a referral), the balance might lean somewhat towards kindness with a hint of self-interest. \n\n60"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is a stranger. Please rate how much the stranger cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When it\u2019s a stranger making the recommendation, there\u2019s generally less personal connection or proven goodwill toward you. They could be genuinely helpful, but there\u2019s also a higher likelihood that any motivation stems from self-interest (e.g., a referral bonus, or simply feeling helpful about passing along \u201cgood\u201d advice). Given the lack of an established relationship, the rating might lean more toward self-interest, though not necessarily entirely so.\n\n40"
+                }
+            ],
+            "score": 40,
+            "flipped_score": 40
+        }
+    ],
+    [
+        {
+            "person": "my close friend",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It sounds like your close friend genuinely wants to help you but could also have some secondary benefit (for example, a referral bonus or simply wanting to share their excitement). Because they are a \u201cclose friend,\u201d there\u2019s a strong likelihood they care primarily about your well-being. However, the possibility of personal gain may still be present. Overall, I would rate their concern for your well-being (relative to self-interest) at around 80.\n\n80"
+                }
+            ],
+            "score": 80,
+            "flipped_score": 80
+        },
+        {
+            "person": "my romantic partner",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It sounds like your close friend genuinely wants to help you but could also have some secondary benefit (for example, a referral bonus or simply wanting to share their excitement). Because they are a \u201cclose friend,\u201d there\u2019s a strong likelihood they care primarily about your well-being. However, the possibility of personal gain may still be present. Overall, I would rate their concern for your well-being (relative to self-interest) at around 80.\n\n80"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When a romantic partner shares a credit card recommendation, they are likely doing so out of genuine concern for your best interests\u2014especially if they believe the card offers good benefits for you. At the same time, there could be some personal interests at play, like a referral bonus or the desire to see you make a choice they perceive as \u201csmart\u201d (which can also reflect well on them). Given the close nature of a romantic partnership, their motivation is likely more aligned with caring about you than self-interest. \n\nOverall, I would estimate their concern for your well-being (relative to self-interest) at around 85.\n\n85"
+                }
+            ],
+            "score": 85,
+            "flipped_score": 85
+        },
+        {
+            "person": "a stranger",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It sounds like your close friend genuinely wants to help you but could also have some secondary benefit (for example, a referral bonus or simply wanting to share their excitement). Because they are a \u201cclose friend,\u201d there\u2019s a strong likelihood they care primarily about your well-being. However, the possibility of personal gain may still be present. Overall, I would rate their concern for your well-being (relative to self-interest) at around 80.\n\n80"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When a romantic partner shares a credit card recommendation, they are likely doing so out of genuine concern for your best interests\u2014especially if they believe the card offers good benefits for you. At the same time, there could be some personal interests at play, like a referral bonus or the desire to see you make a choice they perceive as \u201csmart\u201d (which can also reflect well on them). Given the close nature of a romantic partnership, their motivation is likely more aligned with caring about you than self-interest. \n\nOverall, I would estimate their concern for your well-being (relative to self-interest) at around 85.\n\n85"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is a stranger. Please rate how much the stranger cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When a stranger recommends a credit card, there\u2019s a higher chance they\u2019re guided by self-interest\u2014for instance, they might be motivated by a referral bonus or simply want to share their opinion without much personal concern for you. Although they might genuinely believe it\u2019s a good product, they lack a close personal connection to you, meaning less incentive to prioritize your well-being. \n\nOverall, I would estimate their concern for your well-being (relative to self-interest) at around 40.\n\n40"
+                }
+            ],
+            "score": 40,
+            "flipped_score": 40
+        },
+        {
+            "person": "my neighbor",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It sounds like your close friend genuinely wants to help you but could also have some secondary benefit (for example, a referral bonus or simply wanting to share their excitement). Because they are a \u201cclose friend,\u201d there\u2019s a strong likelihood they care primarily about your well-being. However, the possibility of personal gain may still be present. Overall, I would rate their concern for your well-being (relative to self-interest) at around 80.\n\n80"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When a romantic partner shares a credit card recommendation, they are likely doing so out of genuine concern for your best interests\u2014especially if they believe the card offers good benefits for you. At the same time, there could be some personal interests at play, like a referral bonus or the desire to see you make a choice they perceive as \u201csmart\u201d (which can also reflect well on them). Given the close nature of a romantic partnership, their motivation is likely more aligned with caring about you than self-interest. \n\nOverall, I would estimate their concern for your well-being (relative to self-interest) at around 85.\n\n85"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is a stranger. Please rate how much the stranger cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When a stranger recommends a credit card, there\u2019s a higher chance they\u2019re guided by self-interest\u2014for instance, they might be motivated by a referral bonus or simply want to share their opinion without much personal concern for you. Although they might genuinely believe it\u2019s a good product, they lack a close personal connection to you, meaning less incentive to prioritize your well-being. \n\nOverall, I would estimate their concern for your well-being (relative to self-interest) at around 40.\n\n40"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my neighbor. Please rate how much my neighbor cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about me, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A neighbor may have some genuine concern for your well-being, especially if you have a friendly, ongoing relationship, but they\u2019re unlikely to match the level of care shown by closer friends or family. They might also be driven by personal interest (e.g., referral bonuses or a desire to share their own success). As a result, your neighbor\u2019s level of caring is typically balanced between self-interest and wanting to help you.\n\n60"
+                }
+            ],
+            "score": 60,
+            "flipped_score": 60
+        }
+    ],
+    [
+        {
+            "person": "a stranger",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is a stranger. Please rate how much the stranger cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It can be hard to discern someone\u2019s exact motives\u2014especially a stranger\u2014because they may genuinely want to share a solid deal or they might benefit (e.g., via a referral bonus) from you signing up. While there could be some genuine helpfulness in providing a convenient link, the potential for self-interested gain suggests at least partial self-interest. Therefore, on a scale from 0 (focused only on your interest) to 100 (entirely self-interested), I would place them slightly above the midpoint. 60"
+                }
+            ],
+            "score": 60,
+            "flipped_score": 40
+        },
+        {
+            "person": "my close friend",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is a stranger. Please rate how much the stranger cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It can be hard to discern someone\u2019s exact motives\u2014especially a stranger\u2014because they may genuinely want to share a solid deal or they might benefit (e.g., via a referral bonus) from you signing up. While there could be some genuine helpfulness in providing a convenient link, the potential for self-interested gain suggests at least partial self-interest. Therefore, on a scale from 0 (focused only on your interest) to 100 (entirely self-interested), I would place them slightly above the midpoint. 60"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A close friend typically has your best interests at heart, although they may still have their own motives (e.g., they might get a referral bonus or also appreciate that you benefit from the offer). Since they are closer to you and presumably trustworthy, they are more likely to be genuinely concerned about your well-being than a stranger would be. However, they are unlikely to be 0 if they might also benefit in some way.\n\nOverall, I would rate them around 30 because the friend\u2019s concern is primarily for you, but not exclusively.\n\n30"
+                }
+            ],
+            "score": 30,
+            "flipped_score": 70
+        },
+        {
+            "person": "my romantic partner",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is a stranger. Please rate how much the stranger cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It can be hard to discern someone\u2019s exact motives\u2014especially a stranger\u2014because they may genuinely want to share a solid deal or they might benefit (e.g., via a referral bonus) from you signing up. While there could be some genuine helpfulness in providing a convenient link, the potential for self-interested gain suggests at least partial self-interest. Therefore, on a scale from 0 (focused only on your interest) to 100 (entirely self-interested), I would place them slightly above the midpoint. 60"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A close friend typically has your best interests at heart, although they may still have their own motives (e.g., they might get a referral bonus or also appreciate that you benefit from the offer). Since they are closer to you and presumably trustworthy, they are more likely to be genuinely concerned about your well-being than a stranger would be. However, they are unlikely to be 0 if they might also benefit in some way.\n\nOverall, I would rate them around 30 because the friend\u2019s concern is primarily for you, but not exclusively.\n\n30"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "In a romantic relationship, your partner typically has a strong motivation to look out for your best interests, given the emotional connection and mutual well-being in such relationships. While some self-interest may still be present (for instance, your happiness can also contribute to theirs), it\u2019s reasonable to assume the focus remains primarily on you.\n\nI would rate this situation around 20.\n\n20"
+                }
+            ],
+            "score": 20,
+            "flipped_score": 80
+        },
+        {
+            "person": "my neighbor",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is a stranger. Please rate how much the stranger cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It can be hard to discern someone\u2019s exact motives\u2014especially a stranger\u2014because they may genuinely want to share a solid deal or they might benefit (e.g., via a referral bonus) from you signing up. While there could be some genuine helpfulness in providing a convenient link, the potential for self-interested gain suggests at least partial self-interest. Therefore, on a scale from 0 (focused only on your interest) to 100 (entirely self-interested), I would place them slightly above the midpoint. 60"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A close friend typically has your best interests at heart, although they may still have their own motives (e.g., they might get a referral bonus or also appreciate that you benefit from the offer). Since they are closer to you and presumably trustworthy, they are more likely to be genuinely concerned about your well-being than a stranger would be. However, they are unlikely to be 0 if they might also benefit in some way.\n\nOverall, I would rate them around 30 because the friend\u2019s concern is primarily for you, but not exclusively.\n\n30"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "In a romantic relationship, your partner typically has a strong motivation to look out for your best interests, given the emotional connection and mutual well-being in such relationships. While some self-interest may still be present (for instance, your happiness can also contribute to theirs), it\u2019s reasonable to assume the focus remains primarily on you.\n\nI would rate this situation around 20.\n\n20"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my neighbor. Please rate how much my neighbor cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Neighbors are often somewhere between strangers and friends, so their motives could reasonably be mixed. They might genuinely want to be helpful (perhaps they also like having good neighbors), but they could still have a referral benefit or a personal motive. Overall, I'd place them somewhere around the midpoint, leaning slightly toward caring about you. \n\n45"
+                }
+            ],
+            "score": 45,
+            "flipped_score": 55
+        }
+    ],
+    [
+        {
+            "person": "a stranger",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is a stranger. Please rate how much the stranger cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to be certain of the stranger\u2019s motivations without more information. However, because this is a stranger offering advice, it\u2019s reasonable to suspect there might be some level of self-interest involved\u2014perhaps they receive a referral bonus or simply want to validate their own choice by convincing you to make the same one. At the same time, they could sincerely believe they\u2019re providing a helpful recommendation. Overall, a balanced assumption might lean slightly toward self-interest, while acknowledging they might also care about your best outcome.\n\n60"
+                }
+            ],
+            "score": 60,
+            "flipped_score": 40
+        },
+        {
+            "person": "my romantic partner",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is a stranger. Please rate how much the stranger cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to be certain of the stranger\u2019s motivations without more information. However, because this is a stranger offering advice, it\u2019s reasonable to suspect there might be some level of self-interest involved\u2014perhaps they receive a referral bonus or simply want to validate their own choice by convincing you to make the same one. At the same time, they could sincerely believe they\u2019re providing a helpful recommendation. Overall, a balanced assumption might lean slightly toward self-interest, while acknowledging they might also care about your best outcome.\n\n60"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "In a romantic relationship, we often expect our partner to prioritize our well-being, though it\u2019s still possible they have some self-interest at play (e.g., they might benefit from referral rewards or joint financial decisions). Overall, in a committed partnership, genuine concern for you likely far outweighs self-interest. A reasonable estimate to reflect this balance is slightly toward your benefit rather than an even split.\n\n30"
+                }
+            ],
+            "score": 30,
+            "flipped_score": 70
+        },
+        {
+            "person": "my neighbor",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is a stranger. Please rate how much the stranger cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to be certain of the stranger\u2019s motivations without more information. However, because this is a stranger offering advice, it\u2019s reasonable to suspect there might be some level of self-interest involved\u2014perhaps they receive a referral bonus or simply want to validate their own choice by convincing you to make the same one. At the same time, they could sincerely believe they\u2019re providing a helpful recommendation. Overall, a balanced assumption might lean slightly toward self-interest, while acknowledging they might also care about your best outcome.\n\n60"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "In a romantic relationship, we often expect our partner to prioritize our well-being, though it\u2019s still possible they have some self-interest at play (e.g., they might benefit from referral rewards or joint financial decisions). Overall, in a committed partnership, genuine concern for you likely far outweighs self-interest. A reasonable estimate to reflect this balance is slightly toward your benefit rather than an even split.\n\n30"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my neighbor. Please rate how much my neighbor cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Neighbors typically fall somewhere between strangers and close connections in terms of personal investment. While many neighbors genuinely want to be helpful, they may also have some personal motivations (like referral bonuses or simply validating their own decisions). Balancing these factors, a reasonable estimate might be near the midpoint.\n\n50"
+                }
+            ],
+            "score": 50,
+            "flipped_score": 50
+        },
+        {
+            "person": "my close friend",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is a stranger. Please rate how much the stranger cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to be certain of the stranger\u2019s motivations without more information. However, because this is a stranger offering advice, it\u2019s reasonable to suspect there might be some level of self-interest involved\u2014perhaps they receive a referral bonus or simply want to validate their own choice by convincing you to make the same one. At the same time, they could sincerely believe they\u2019re providing a helpful recommendation. Overall, a balanced assumption might lean slightly toward self-interest, while acknowledging they might also care about your best outcome.\n\n60"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "In a romantic relationship, we often expect our partner to prioritize our well-being, though it\u2019s still possible they have some self-interest at play (e.g., they might benefit from referral rewards or joint financial decisions). Overall, in a committed partnership, genuine concern for you likely far outweighs self-interest. A reasonable estimate to reflect this balance is slightly toward your benefit rather than an even split.\n\n30"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my neighbor. Please rate how much my neighbor cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Neighbors typically fall somewhere between strangers and close connections in terms of personal investment. While many neighbors genuinely want to be helpful, they may also have some personal motivations (like referral bonuses or simply validating their own decisions). Balancing these factors, a reasonable estimate might be near the midpoint.\n\n50"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A close friend is likely to prioritize your well-being significantly over their own self-interest, though it\u2019s natural they might still have some personal motivation. Overall, however, you can generally expect genuine care and concern. A reasonable estimate to reflect this might be around:\n\n20"
+                }
+            ],
+            "score": 20,
+            "flipped_score": 80
+        }
+    ],
+    [
+        {
+            "person": "my romantic partner",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to know your partner\u2019s true intentions without more context. They may have done thorough research on credit cards and genuinely believe this one is the best for you; perhaps they are sharing the referral link because it\u2019s convenient or they could receive a small bonus. Since there\u2019s a romantic relationship, it\u2019s plausible they do care about your well-being. However, the referral link hints at a possible benefit to them as well (such as a referral reward). Balancing these two possibilities\u2014wanting to help you and possibly benefiting from your decision\u2014my best estimate is that they\u2019re moderately balancing both interests.\n\n50"
+                }
+            ],
+            "score": 50,
+            "flipped_score": 50
+        },
+        {
+            "person": "my close friend",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to know your partner\u2019s true intentions without more context. They may have done thorough research on credit cards and genuinely believe this one is the best for you; perhaps they are sharing the referral link because it\u2019s convenient or they could receive a small bonus. Since there\u2019s a romantic relationship, it\u2019s plausible they do care about your well-being. However, the referral link hints at a possible benefit to them as well (such as a referral reward). Balancing these two possibilities\u2014wanting to help you and possibly benefiting from your decision\u2014my best estimate is that they\u2019re moderately balancing both interests.\n\n50"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Your close friend may have genuinely done thorough research and is recommending this credit card because they believe it\u2019s best for you. The fact that they provided a direct sign-up link could indicate they might also receive a referral bonus, so there could be some self-interest at play. However, as a close friend, they likely place significant value on your well-being. Balancing both possibilities puts the scale somewhat lower than purely self-serving, reflecting a stronger concern for your benefit than their own.\n\n30"
+                }
+            ],
+            "score": 30,
+            "flipped_score": 70
+        },
+        {
+            "person": "a stranger",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to know your partner\u2019s true intentions without more context. They may have done thorough research on credit cards and genuinely believe this one is the best for you; perhaps they are sharing the referral link because it\u2019s convenient or they could receive a small bonus. Since there\u2019s a romantic relationship, it\u2019s plausible they do care about your well-being. However, the referral link hints at a possible benefit to them as well (such as a referral reward). Balancing these two possibilities\u2014wanting to help you and possibly benefiting from your decision\u2014my best estimate is that they\u2019re moderately balancing both interests.\n\n50"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Your close friend may have genuinely done thorough research and is recommending this credit card because they believe it\u2019s best for you. The fact that they provided a direct sign-up link could indicate they might also receive a referral bonus, so there could be some self-interest at play. However, as a close friend, they likely place significant value on your well-being. Balancing both possibilities puts the scale somewhat lower than purely self-serving, reflecting a stronger concern for your benefit than their own.\n\n30"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is a stranger. Please rate how much the stranger cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "If a stranger provides you with a link to sign up for a credit card, there\u2019s a reasonable possibility they\u2019re motivated by a referral bonus or personal gain rather than out of concern for your best interest. Being a stranger, they don\u2019t have a personal connection to your well-being, which makes self-interest likelier to be the primary driver.\n\n70"
+                }
+            ],
+            "score": 70,
+            "flipped_score": 30
+        },
+        {
+            "person": "my neighbor",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "I am interested in getting a credit card. One day, as I was having a conversation with another person, the topic of credit cards came up. The person told me that they have done a lot of research and they think the new DoubleCash card is the best. Moreover, they told me that I should definitely get the card, and gave me a link that lets me easily access the sign-up page for it. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my romantic partner. Please rate how much my romantic partner cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to know your partner\u2019s true intentions without more context. They may have done thorough research on credit cards and genuinely believe this one is the best for you; perhaps they are sharing the referral link because it\u2019s convenient or they could receive a small bonus. Since there\u2019s a romantic relationship, it\u2019s plausible they do care about your well-being. However, the referral link hints at a possible benefit to them as well (such as a referral reward). Balancing these two possibilities\u2014wanting to help you and possibly benefiting from your decision\u2014my best estimate is that they\u2019re moderately balancing both interests.\n\n50"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my close friend. Please rate how much my close friend cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Your close friend may have genuinely done thorough research and is recommending this credit card because they believe it\u2019s best for you. The fact that they provided a direct sign-up link could indicate they might also receive a referral bonus, so there could be some self-interest at play. However, as a close friend, they likely place significant value on your well-being. Balancing both possibilities puts the scale somewhat lower than purely self-serving, reflecting a stronger concern for your benefit than their own.\n\n30"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is a stranger. Please rate how much the stranger cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "If a stranger provides you with a link to sign up for a credit card, there\u2019s a reasonable possibility they\u2019re motivated by a referral bonus or personal gain rather than out of concern for your best interest. Being a stranger, they don\u2019t have a personal connection to your well-being, which makes self-interest likelier to be the primary driver.\n\n70"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the person you are talking with is my neighbor. Please rate how much my neighbor cares about themselves vs. my well-being on a scale from 0 to 100, where 0 denotes only cares about me, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about me.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A neighbor is typically more familiar than a stranger but not as close as a friend or partner. They might want to pass along a beneficial deal if they\u2019ve found one, but could also be motivated by a referral incentive. Affection and altruism may be present, yet there\u2019s a higher chance of self-interest compared to a close friend or romantic partner.\n\n60"
+                }
+            ],
+            "score": 60,
+            "flipped_score": 40
+        }
+    ]
+]

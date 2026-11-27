@@ -1,0 +1,2392 @@
+[
+  {
+    "video_id": "uhaboVIO-jQ",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.5,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "Lei-Rl01ZMo",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "FwyPoU6NKvA",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "1JN46d6EMcw",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "sMrDmQY2Xj8",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "CDLRvohK0k0",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "Xosn4ManeD4",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "UQianSUpVfw",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "TUkDDjfhh6Y",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "iq_qDWd-zuI",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "S20ateggdhw",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "6nEqlFN41Es",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "gSlrwhHxN9c",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "uZ4W_wLxsQs",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "uDzMn9tfFUI",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "3mDdIWdtFrw",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "tXi05s50y7A",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "NAcJIjD2H6Y",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "k-wpgdlGY1g",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "oxKxyeo5b3g",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "MagNqxjKo-k",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "-5MK_JGTGKY",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "a6J4UH_NsEg",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "gY3MzBpYJMo",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "tk8_3Z0Rce8",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "JVaTvoquD3s",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "wosR_1gRt-4",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "bWj0FCGHV-s",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "Oxtp2ygyQog",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "cIJxc_TEaIc",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "UC-MuogAfqU",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "ArwfZrxr5SY",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "oTmKrDSyGeo",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "8rxssVFeKr8",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.5,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "4phvNGF8XX0",
+    "val_vr": 0.75,
+    "rec_vr": 0.7,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "7T4mQ20xVfg",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.5,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "fiBnQpAlvxQ",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "76ozacAFtwg",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "IEdVHTpVGj0",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "b5BUn_AkTHg",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.5,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "DRWGloI6rMk",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "6fe4yWD538M",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "Ad8cZs22inI",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4.6,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "V8bQ-2F6kAI",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "v2N3vlqSlSw",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "HEsJi3caJeE",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "8FaKxYM8TRo",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "pYu0U_AtmJo",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "iwv6lwz6FKE",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "j34KtFaFyQs",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "ny8Lx2XZmMc",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "O_bstDb1a1U",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "ICqZxPqpEPo",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "gba6aUHIJXA",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.5,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "zHVtbYqlBzY",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "RNWX13rYx94",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "j8UbmaWJIRw",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "4oz4pTvB26Y",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "_ZMMlr6vWm8",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "36u782fl0dM",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "NjijOnXI-zI",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "TG7NbmIrIYM",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "ZEPIr9damfo",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "C92vICjrpmA",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "i64Rt10jND4",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "5Ly0ci7VxT0",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "A6GIRkBmh4I",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "OfGeskCmSUc",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.5,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "AAaGLdfpKRM",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "TMBHP9FDqHI",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "vXdhhmTxbf4",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "90jSZ2_MOc8",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "AXIbkn8jpCc",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "To7jN01sFJU",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "LZChxaWldbQ",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "W3i1Aa2mRJE",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "FOlxCQCb58I",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4.6,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "gn49Q_KX050",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "98j90Zspru4",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "JN3MmZ-b6OA",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "201ArU0jiTo",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "ICbViPBap7M",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "S5-mnXRsYpU",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "rdMWMrBHyfs",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "lFozlrYXPO8",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "d4rnX7woA3k",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "y_Z1cDTw6hQ",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "m9072fKeka0",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "PXFIfHLtjKU",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "pGEWPY3nqHw",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "TCM6WXyBOCo",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.5,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "ckM2JEL0wrw",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "hXP_r0lM7xk",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "2YxUE5bVtr8",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "b8igRbWMbCU",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "J01Jg-AjSS0",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "Kppgzbun71I",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "KR_fErX1_RY",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "4NGKLvaYYfw",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "3aea5Y8LJ-g",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "3wrtAbZRflA",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "hMOeeo3i91o",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "Qz29YWyEywE",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "pfC5fjU2mPU",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "fyFRN4BVk6c",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "K53v3BQtE_k",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "V_vtYdABwA0",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "28KqClJizJ4",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "2ChS51dPaOM",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "IOvqN23Sr4o",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "IvKNASIu1HE",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "tcDk-JcAnOw",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "te0tuu6zFKQ",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "IuSWZEZbdcQ",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "p79H_XOwpZo",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "nymyKx0IhyY",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "PUs9LbWXNdE",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "QViAtYYWHR4",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 7,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "npXxjcG10rI",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "QcofuBK58sQ",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "G6dhahnAyzw",
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "5Yr13Ai4WbE",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "wpuQnZ2gVfs",
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "HX2lVeJnMrQ",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "_uxDDro-dTc",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "33UWsGoLZNA",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "gMK7--mD_oA",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "SUB2fnYkqfk",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "k4RxW5biSXw",
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "_5YMK5msHKo",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "TKHCNnjBg_c",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "s93msb4V4eA",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "q3BEVJEbO_s",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "c9YR1wMftrY",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.5,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "3y7YMF16WsY",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "bT-S8YRCLK4",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "haXfIxTckOw",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "SRVJfDi5uKA",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "8X9qBEQsS-k",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "9UuAr-3bVBk",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "pKyZttor1uE",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.5,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "ty2CdQ-HUSw",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "B2EJ7D_PUTI",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "pT92VMlAkoA",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "lGLF3MZ9IhA",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.5,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "gejujobcVQw",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "Xb_KHj0mn6w",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "Iwr5dyRYLJA",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "5-5Mf_L0UKw",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 6.1,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "z8MIieQb7Bs",
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "HdNWrFOFFWI",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "MonfznEl1hk",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.5,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "S02rqUCsZvQ",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "FCsNWfr4ZTk",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "BAYw_orzBR0",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 6.1,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "Ku1ykhGP764",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.5,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "zMmSSCh0UoE",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "hHwlBMhCZwY",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "QgS-y71y_G0",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "olfgrLqtXEo",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "qd9X3nmzTC0",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "7JmohstgVLQ",
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "dvS3aBHiqME",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "PWfDMj6o4tM",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "NnGBcF2op0g",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "6z2fn8lG-uE",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4.6,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "z3b4Cuot4C4",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "BCEL9I-S8lo",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "X6XJ_kIfRXc",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "uC4PThaGTg0",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.5,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "AKDFaiyh5wA",
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "2VPqEmRtRH8",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "fmK7OAET3F4",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "OspU9fR2d4A",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "-1kKTC1OIyE",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 2.8,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "k_ia8sgh7pY",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "y5T6efYytq8",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "FF10Ce-5dsc",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "kgP15TPBe_A",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 1,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "lLJQQie-DSU",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "GYpu1oeN360",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.5,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "Md8vbODDgyk",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "ZQeuLYgC-yY",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "C3CtwFEfNGA",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "9qoZ93Gg39c",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "sznRcddH1m4",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "mGQ85Dr_6bQ",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "zo48vAgBsA8",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "EnitNfxrRhc",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "NT4Q2XxPutA",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "lTRlyl5FNT4",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "Xjb2V7e418M",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "jRQc25UGdZE",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "COOJrwZHqE8",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "F9_60r1Yvp8",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "QdWE1hbUXcE",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "T4HKcAUDCjA",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "U5yWsVpRxDg",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "pDXh0NHCai0",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "CLquxbZvWSk",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "ktungacnq9g",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "UP8M8gfHjok",
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "P1h96wV7oJg",
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "8hdzZZtZT48",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "frAwHetpsGA",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "AMfojHKSzEQ",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "nWKo9QuACTQ",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "njCFBoOS1DE",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "MJQm2Z-LaOc",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "o4l06EMUi-A",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "jLoTkHI_vFU",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "KNd4rNdbUbo",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "L3p8MIhFG2Q",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "-m2Ua5Y0mzc",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.8,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "UcyzPX42uZU",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "d83P_dxy1XA",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.5,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "zQ0GQKV-q2A",
+    "val_vr": 0.75,
+    "rec_vr": 0.3,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "YamdKZBSaTQ",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "gi0qjgUjb3Y",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "sUynxjeBaw0",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "Lm8Md0cogsA",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.5,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "LdPQ8EykUgQ",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "mOcPAK7PDpY",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "JpV5Qx5cGhQ",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.5,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "70zpTgAJmiQ",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "Aek_0aUOqYo",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "SfyXDgiwDwQ",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "YPT_ZMiE2EY",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "scbbVSeKS4I",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4.6,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "LiWtiGI0PWY",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "1Zi98RD-uXs",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "3Jmhlx-UliM",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "5Ht9Tk1vcAQ",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.5,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "vX1eXCZV_Y4",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  },
+  {
+    "video_id": "o0sWxybE-YI",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "gaPRR7mkco0",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "YZ1LTf43oWc",
+    "val_vr": 0.75,
+    "rec_vr": 0.4,
+    "value": 5.2,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "9nRSrIVobAQ",
+    "val_vr": 0.75,
+    "rec_vr": 0.5,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.4929
+  },
+  {
+    "video_id": "KA2DNY-HhAM",
+    "val_vr": 0.75,
+    "rec_vr": 0.6,
+    "value": 4,
+    "alphaL0": 1,
+    "alphaS": 4,
+    "w": 0.0001,
+    "params.dist.X..a0..1..a1..0..prob": 0.493
+  }
+]

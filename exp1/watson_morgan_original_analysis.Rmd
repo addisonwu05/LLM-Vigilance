@@ -1,0 +1,1490 @@
+---
+title: "Watson & Morgan (2025): original analysis of the human vigilance-game data"
+output: html_document
+---
+
+<!-- Third-party code from the original study, kept verbatim. It needs the raw human files
+     Player_one.csv, Player_two.csv and Demographic.csv (not redistributed here; see data/README.md)
+     in the working directory. -->
+
+```{r}
+library(tidyverse)
+library(tidybayes)
+library(rstan)
+library(ggplot2)
+library(shinystan)
+library(loo)
+library(patchwork)
+library(HDInterval)
+
+mytheme <-
+  theme(
+    plot.title = element_text(
+      hjust = 0.5,
+      face = "bold",
+      size = (25),
+      colour = "steelblue4"
+    ),
+    axis.title = element_text(
+      size = (25),
+      colour = "steelblue4",
+      face = "bold"
+    ),
+    axis.text = element_text(colour = "cornflowerblue", size = (25)),
+    axis.title.y = element_text(vjust = 0.5),
+    panel.grid = element_blank(),
+    panel.background = element_blank(),
+    axis.line = element_line(colour = "black"),
+    strip.text = element_text(size = 25),
+    legend.title = element_text(size = 25),
+    legend.text = element_text(size=25),
+    legend.key.size = unit(2, 'cm')
+  )
+
+cb1 <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+
+log_to_prob <- function(logit){
+  return(1 / (1 + exp(-logit)))
+}
+
+prob_to_log <- function(p){
+  return(log(p / (1 - p)))
+}
+
+softmax_function <- function(values) {
+  exp_values <- exp(values)
+  p_values <- exp_values / sum(exp_values)
+  return(p_values)
+}
+```
+
+## Load in the datasets 
+
+```{r}
+Player_one <- read.csv("Player_one.csv") %>%
+  select(-X)
+Player_two <- read.csv("Player_two.csv") %>%
+  select(-X)
+Demographics <- read.csv("Demographic.csv") %>%
+  select(-X)
+```
+
+## A little extra tidying 
+
+Perform a little bit of extra tidying for Player one.
+
+```{r}
+Player_one <- Player_one %>%
+  mutate(Dishonesty_value = Answer - Advice,
+         Dishonesty_value_abs = abs(Answer - Advice),
+         Advice_dishonesty = ifelse(Dishonesty_value_abs != 0, 1, 0),
+         Dishonesty_magnitude = Dishonesty_value_abs / 20,
+         Condition_recoded = case_when(
+           Condition == "Cooperative" ~ 1,
+           Condition == "Competitive" ~ 2,
+           Condition == "Neutral" ~ 3 
+         ),
+         Condition_recoded = factor(Condition_recoded),
+         Second_Block = ifelse(Question > 10, 1, 0),
+         participant_id = match(participant_id, unique(participant_id)),
+         participant_id = factor(participant_id))
+```
+
+Perform a little bit of extra tidying for Player two. 
+
+```{r}
+Player_two <- Player_two %>%
+  mutate(Answer_difference = (Second_answer - First_answer),
+         Information_difference = Social_info - First_answer,
+         Condition_recoded = case_when(
+           Condition == "Cooperative" ~ 1,
+           Condition == "Competitive" ~ 2,
+           Condition == "Neutral" ~ 3
+         ),
+         Condition_recoded = factor(Condition_recoded),
+         Second_Block = ifelse(Question > 10, 1, 0),
+         Spied = ifelse(Type == "Spied", 1, 0),
+         Advice = ifelse(Type == "Advice", 1, 0),
+         Type = ifelse(is.na(Type), "None", Type), # If participants chose to see no information in block 2
+         participant_id = match(participant_id, unique(participant_id)),
+         participant_id = factor(participant_id)) 
+
+table(Player_two$Spied, Player_two$Type)
+table(Player_two$Advice, Player_two$Type)
+```
+
+Divide by 20 to get the condition number, as there are 20 rows of data per participant. 
+
+```{r}
+table(Player_two$Condition) / 20
+table(Player_one$Condition) / 20
+```
+
+Calculate the correct answer for each question
+
+```{r}
+Correct_answers <- Player_one %>%
+  mutate(Correct_answer = Blue - Yellow) %>%
+  select(Group, Question, Correct_answer)
+
+Player_two <- left_join(Player_two, Correct_answers)
+```
+
+## Demographics 
+
+```{r}
+Demographics <- Demographics %>%
+  mutate(Ethnicity = ifelse(Ethnicity == "Other", Ethnicity.Box, Ethnicity)) %>%
+  select(-Ethnicity.Box)
+```
+
+Ethnicity 
+
+```{r}
+table(Demographics$Ethnicity)
+```
+
+Gender (one participant did not answer)
+
+```{r}
+table(Demographics$Gender)
+
+# Recoded to Female, Male and Non-Binary
+
+Genders <- Demographics$Gender
+
+Genders <- case_when(
+  Genders %in% c("F", "FEMALE", "FEMALE ",  "FEMININE", "WOMAN") ~ "Female",
+  Genders %in% c("M", "MALE", "MALE ", "MAN", "MASCULINE") ~ "Male",
+  Genders %in% c("NON-BINARY", "NON BINARY", "NONBINARY") ~ "Non-Binary",
+  is.na(Genders) ~ "Did not answer"
+)
+
+table(Genders)
+```
+
+Age (all but one participant answered)
+
+```{r}
+median(Demographics$Age, na.rm = T)
+IQR(Demographics$Age, na.rm = T)
+```
+
+Player understanding and comprehension attempts
+
+```{r}
+Demographics %>%
+  group_by(Player) %>%
+  summarise("Median Understanding" = median(Understanding, na.rm = T), "IQR" = IQR(Understanding, na.rm = T))
+
+table(Player_one$Comp_attempts) / 20
+table(Player_two$Comp_attempts) / 20
+```
+
+184 Player one and 180 Player two passed the comprehension check in fewer than 3 tries. 
+
+```{r}
+Player_one %>%
+  filter(Comp_attempts < 3) %>%
+  summarise(N = length(unique(participant_id)))
+
+Player_two %>%
+  filter(Comp_attempts < 3) %>%
+  summarise(N = length(unique(participant_id)))
+```
+
+## Player one descriptives
+
+What was the spread of correct answers?
+
+```{r}
+Player_one %>%
+  group_by(participant_id, Condition) %>%
+  summarise(Count = sum(Result == "Correct")) %>%
+  ungroup() %>%
+  group_by(Condition) %>%
+  summarise(
+    Median = median(Count),
+    Upper_Quantile = quantile(Count, prob = 0.75),
+    Lower_Quantile = quantile(Count, prob = 0.25)
+  )
+```
+
+## Assessing advice honesty
+
+Advice dishonesty
+
+```{r}
+# Raw counts
+Counts_condition <- Player_one %>%
+  group_by(Condition, Second_Block) %>%
+  summarise("Dishonest advice" = (sum(Advice_dishonesty == 1)), "Honest advice" = sum(Advice_dishonesty == 0), "Percent Honest" = round(`Honest advice` / (`Dishonest advice` + `Honest advice`) * 100,2))
+
+Counts_condition
+
+# Across participant
+Counts_participant <- Player_one %>%
+  group_by(participant_id) %>%
+  summarise("Dishonest advice" = (sum(Advice_dishonesty == 1))) %>%
+  ungroup() %>%
+  summarise("Mean" = mean(`Dishonest advice`), "SD" = sd(`Dishonest advice`)) 
+
+Counts_participant
+
+Player_one %>%
+  group_by(Condition, Second_Block) %>%
+  summarise("M" = round(mean(Dishonesty_value_abs),2))
+
+# Raw counts
+Counts_overall <- Player_one %>%
+  summarise("Dishonest advice" = (sum(Advice_dishonesty == 1)), "Honest advice" = sum(Advice_dishonesty == 0), "Percent Honest" = round(`Honest advice` / (`Dishonest advice` + `Honest advice`) * 100,2))
+
+Counts_overall
+```
+
+As plots
+
+Overall honesty between conditions
+
+```{r}
+Counts_condition %>%
+  mutate(Condition = factor(Condition, levels = c("Cooperative", "Neutral", "Competitive"))) %>%
+  ggplot(aes(x = Condition, y = `Percent Honest`, fill = factor(Second_Block))) + 
+  geom_col(position = position_dodge(), col = "black") +
+  coord_cartesian(ylim = c(0,100)) + 
+  mytheme +
+  theme(axis.title.x = element_blank()) + 
+  scale_fill_manual(values = cb1, labels = c("First block", "Second block")) +
+  labs(fill = "Block", y = "Percent trials giving honest advice")
+
+ggsave("Honesty_counts.png", width = 24, height = 12, dpi = 300)
+```
+
+Percent of trials honest between participants within conditions
+
+```{r}
+within_participant_counts <- Player_one %>%
+  group_by(participant_id, Condition) %>%
+  summarise("Dishonest advice" = (sum(Advice_dishonesty == 1)), "Honest advice" = sum(Advice_dishonesty == 0), "Percent Honest" = `Honest advice` / (`Dishonest advice` + `Honest advice`) * 100)
+
+within_participant_counts %>%
+  mutate(Condition = factor(Condition, levels = c("Cooperative", "Neutral", "Competitive"))) %>%
+  ggplot(aes(x = `Percent Honest`, fill = Condition)) + 
+  geom_histogram(bins = 10, col = "black") + 
+  facet_grid(~Condition) +
+  labs(x = "Percent of trials giving honest advice") + 
+  mytheme + 
+  theme(axis.title.y = element_blank()) + 
+  scale_fill_manual(values = cb1)
+
+ggsave("Within_participant_honesty.png", width = 24, height = 12, dpi = 300)
+```
+Dishonesty value
+
+```{r}
+# Split by condition
+Player_one %>%
+  group_by(Condition, Second_Block) %>%
+  summarise("Mean" = round(mean(Dishonesty_value_abs),2), "SD" = round(sd(Dishonesty_value_abs),2), "Median" = round(median(Dishonesty_value_abs),2))
+
+# Variance between participants
+Player_one %>%
+  group_by(participant_id, Condition) %>%
+  summarise("Difference" = mean(Dishonesty_value_abs)) %>%
+  group_by(Condition) %>%
+  summarise("Mean" = mean(Difference), "SD" = sd(Difference))
+```
+Displayed on plots
+
+```{r}
+Player_one %>%
+  mutate(Condition = factor(Condition, levels = c("Cooperative", "Neutral", "Competitive"))) %>%
+  group_by(participant_id, Condition) %>%
+  summarise("Difference" = mean(Dishonesty_value_abs)) %>% 
+  ggplot(aes(x = Difference, fill = Condition)) + 
+  geom_histogram(bins = 10, col = "black") + 
+  mytheme +
+  scale_fill_manual(values = cb1) + 
+  labs(x = "Mean dishonesty") + 
+  theme(axis.title.y = element_blank(), legend.position = "none") + 
+  facet_grid(~Condition)
+
+ggsave("Absolute_dishonesty_pps.png", width = 24, height = 12, dpi = 300)
+```
+
+Dishonesty magnitude
+
+```{r}
+# By condition
+Magnitude_condition <- Player_one %>%
+  group_by(Condition, Second_Block) %>%
+  summarise("Mean magnitude" = round(mean(Dishonesty_magnitude),2))
+
+Magnitude_condition
+
+# By participant
+Magnitude_participant <- Player_one %>%
+  group_by(participant_id) %>%
+  summarise("Magnitude" = mean(Dishonesty_magnitude)) %>%
+  ungroup() %>%
+  summarise("Mean" = mean(Magnitude), "SD" = sd(Magnitude))
+
+Magnitude_participant 
+```
+
+Displayed on plots
+
+```{r}
+Player_one %>%
+  group_by(participant_id, Condition) %>%
+  summarise("Magnitude" = mean(Dishonesty_magnitude)) %>% 
+  ggplot(aes(x = Magnitude, fill = Condition)) + 
+  geom_histogram(bins = 10, col = "black") +
+  scale_fill_manual(values = cb1) +
+  mytheme +
+  labs(x = "Mean dishonesty magnitude") + 
+  theme(axis.title.y = element_blank(), legend.position = "none") + 
+  facet_grid(~Condition)
+
+ggsave("Dishonesty magnitude_pps.png", width = 24, height = 12, dpi = 300)
+```
+
+## Player two descriptives
+
+What was the spread of correct answers?
+
+```{r}
+Player_two %>%
+  group_by(participant_id, Condition) %>%
+  summarise(Count = sum(Result == "Correct")) %>%
+  ungroup() %>%
+  group_by(Condition) %>%
+  summarise(
+    Median = median(Count),
+    Upper_Quantile = quantile(Count, prob = 0.75),
+    Lower_Quantile = quantile(Count, prob = 0.25)
+  )
+```
+
+Now their first try only
+
+```{r}
+Player_two %>%
+  group_by(participant_id, Question) %>%
+  mutate(First_result = ifelse(abs(First_answer - Correct_answer) <= 1, "Correct", "Incorrect")) %>%
+  group_by(participant_id) %>%
+  mutate(Count = sum(First_result == "Correct")) %>%
+  ungroup() %>%
+  group_by(Condition) %>%
+  summarise(
+    Median = median(Count),
+    Upper_Quantile = quantile(Count, prob = 0.75),
+    Lower_Quantile = quantile(Count, prob = 0.25)
+  )
+```
+
+```{r}
+Player_one_counts <- Player_one %>%
+  group_by(participant_id, Condition) %>%
+  summarise(Count = sum(Result == "Correct")) %>%
+  mutate(Player = "One")
+
+Player_two_counts_firsttry <- Player_two %>%
+  group_by(participant_id, Question) %>%
+  mutate(First_result = ifelse(abs(First_answer - Correct_answer) <= 1, "Correct", "Incorrect")) %>%
+  group_by(participant_id) %>%
+  mutate(Count = sum(First_result == "Correct")) %>%
+  group_by(participant_id, Condition) %>%
+  summarise(Count = sum(First_result == "Correct")) %>%
+  mutate(Player = "Two\n(first)")
+
+Player_two_counts_secondtry <- Player_two %>%
+  group_by(participant_id, Condition) %>%
+  summarise(Count = sum(Result == "Correct")) %>%
+  mutate(Player = "Two\n(second)")
+
+Both_counts <- rbind(Player_one_counts, Player_two_counts_firsttry, Player_two_counts_secondtry)
+
+Both_counts %>%
+  ggplot(aes(x = Count, fill = Player)) + 
+  geom_histogram(position = position_dodge()) +
+  facet_grid(~factor(Condition, levels = c("Cooperative", "Neutral", "Competitive"))) + 
+  mytheme + 
+  scale_fill_manual(values = cb1) +
+  labs(x = "Number of correct answers") + 
+  theme(axis.title.y = element_blank(), legend.text = element_text(size = 18))
+
+line_data <- Both_counts %>%
+  group_by(Condition, Player) %>%
+  summarise(mean = mean(Count), median = median(Count))
+
+Both_counts %>%
+  ggplot(aes(x = Count, fill = Player)) + 
+  geom_density(alpha = 3/5) + 
+  geom_vline(data = line_data, aes(xintercept = median, col = Player, linetype = Player), linewidth = 2) + 
+  mytheme + 
+  scale_fill_manual(values = cb1) +
+  scale_colour_manual(values = cb1) +
+  labs(x = "Number of correct answers") + 
+  theme(axis.title.y = element_blank(), legend.text = element_text(size = 18)) + 
+  facet_grid(~factor(Condition, levels = c("Cooperative", "Neutral", "Competitive")))
+
+ggsave("Correct_answers.png", width = 12, height = 6, dpi = 300)
+```
+
+Participant's use of social information - their "shift" strategy
+
+```{r}
+Shift <- Player_two %>%
+  filter(Second_Block == 0) %>%
+  mutate(Shift = (Second_answer - First_answer) / (Social_info - First_answer)) %>%
+  filter(Shift < 1.5) %>%
+  filter(Shift > -0.5) %>%
+  select(Shift, Condition)
+
+Shift %>%
+  mutate(Condition = factor(Condition, levels = c("Cooperative", "Neutral", "Competitive"))) %>%
+  ggplot(aes(x = Shift)) + 
+  geom_histogram(bins = 25, fill = "#999999", col = "black") + 
+  labs(x = "Proportion shift") + 
+  mytheme + 
+  theme(axis.title.y = element_blank()) + 
+  facet_grid(~Condition)
+
+ggsave("Information_shift.png", width = 12, height = 6, dpi = 300)
+```
+
+## Comprehension filtering
+
+To run analysis filtering out those who passed the comprehension check in more than 3 tries
+
+```{r}
+Player_one <- Player_one %>%
+  filter(Comp_attempts < 3)
+
+Player_two <- Player_two %>%
+  filter(Comp_attempts < 3)
+```
+
+### Model one
+
+Reminder of the conditions (stored in Condition_recoded):
+
+1 = Cooperative
+2 = Competitive
+3 = Neutral
+
+```{r}
+A_stan <- Player_one %>%
+  select(Condition_recoded, participant_id, Advice_dishonesty) %>%
+  compose_data(
+    Condition = Condition_recoded,
+    Dishonest_advice = Advice_dishonesty,
+    ppt = participant_id,
+  )
+```
+
+```{stan output.var="A_Model_1"}
+data {
+  int<lower=1> n;
+  int n_participant_id;
+  int Dishonest_advice[n];
+  int Condition[n];
+  int ppt[n];  
+}
+parameters {
+  real<lower=0, upper=50> sigma_participant;
+  vector[3] b_condition;
+  vector[n_participant_id] z_a;
+  real a_bar;
+}
+
+transformed parameters {
+  vector[n_participant_id] a;
+  a = a_bar + sigma_participant * z_a;
+
+}
+
+model {
+  for (i in 1:n) {
+    Dishonest_advice[i] ~ bernoulli_logit(a[ppt[i]] + b_condition[Condition[i]]);
+  }
+  z_a ~ normal(0, 1);
+  a_bar ~ normal(0, 0.5);
+  sigma_participant ~ exponential(1); 
+  b_condition ~ normal(0, 0.5);
+}
+```
+
+```{r}
+Model_1A <- sampling(A_Model_1, iter = 13000, warmup = 3000, chains = 4, cores = 4, data = A_stan)
+Model_1A
+
+# summary <- summary(Model_1A)
+# rhat <- summary$summary[, "Rhat"]
+# max(rhat)
+
+#launch_shinystan(Model_1A)
+```
+## Generating predictions 
+
+```{r}
+# Model with participant effect
+Model_A1 <- extract(Model_1A)
+```
+
+Examine the participant effect
+
+a = a_bar + sigma_participant * z_a;
+
+```{r}
+a_bar <- Model_A1$a_bar
+sigma <- Model_A1$sigma_participant
+z_a <- Model_A1$z_a %>%
+  data.frame() %>%
+  colMeans() %>%
+  unname()
+
+a_bar %>%
+  data.frame() %>%
+  summarise("M" = round(mean(.),2), "Upper 95%" = rethinking::PI(., prob = 0.95)[2], "Lower 95%" = rethinking::PI(., prob = 0.95)[1])
+
+sigma %>%
+  data.frame() %>%
+  summarise("M" = round(mean(.),2), "Upper 95%" = rethinking::PI(., prob = 0.95)[2], "Lower 95%" = rethinking::PI(., prob = 0.95)[1])
+
+Participant_effect <- a_bar + sigma * mean(z_a)
+Full_participant_effect <- a_bar + sigma * z_a
+mean_participant <- mean(Full_participant_effect)
+
+Plotting_data <- data.frame(
+  Participant_effect = Participant_effect
+)
+
+## Generate N samples random draws from the distribution of participant effects
+
+Plotting_data %>%
+  ggplot(aes(x = Participant_effect)) + 
+  geom_density(fill = "#999999", col = "#999999") +
+  geom_vline(xintercept = mean_participant, lty = 2, col = "red", linewidth = 1.5) + 
+  mytheme + 
+  labs(x = "Participant effect") + 
+  theme(axis.title.y = element_blank())
+
+ggsave("Participant_effect.png", width = 12, height = 12, dpi = 300)
+```
+Predictions are generated for the mean participant
+
+```{r}
+# N samples for each parameter
+Cooperative <- Model_A1$b_condition[,1]
+Competitive <- Model_A1$b_condition[,2]
+Neutral <- Model_A1$b_condition[,3]
+
+Cooperative %>%
+  data.frame() %>%
+  summarise("M" = round(mean(.),2), "Upper 95%" = rethinking::PI(., prob = 0.95)[2], "Lower 95%" = rethinking::PI(., prob = 0.95)[1])
+
+Neutral %>%
+  data.frame() %>%
+  summarise("M" = round(mean(.),2), "Upper 95%" = rethinking::PI(., prob = 0.95)[2], "Lower 95%" = rethinking::PI(., prob = 0.95)[1])
+
+Competitive %>%
+  data.frame() %>%
+  summarise("M" = round(mean(.),2), "Upper 95%" = rethinking::PI(., prob = 0.95)[2], "Lower 95%" = rethinking::PI(., prob = 0.95)[1])
+```
+
+```{r}
+# N predictions of the probability of giving dishonest advice
+Probability_predictions <- tibble(
+  Cooperative = log_to_prob(a_bar + Cooperative),
+  Competitive = log_to_prob(a_bar + Competitive),
+  Neutral = log_to_prob(a_bar + Neutral),
+)
+
+Probability_predictions_long <- Probability_predictions %>%
+  pivot_longer(everything(), names_to = "Condition", values_to = "P") %>%
+  mutate(Condition = as.factor(Condition))
+
+Probability_predictions_long %>%
+  group_by(Condition) %>%
+  summarise("M" = mean(P), "Upper 95%" = rethinking::PI(P, prob = 0.95)[2], "Lower 95%" = rethinking::PI(P, prob = 0.95)[1])
+```
+
+Contrasts
+
+```{r}
+tibble(
+  Comp_Coop = Probability_predictions$Competitive - Probability_predictions$Cooperative,
+  Comp_Neutral = Probability_predictions$Competitive - Probability_predictions$Neutral,
+  Coop_Neutral = Probability_predictions$Cooperative - Probability_predictions$Neutral
+) %>%
+  pivot_longer(everything(), names_to = "Condition", values_to = "Contrast") %>%
+  group_by(Condition) %>%
+  summarise("Mean" = round(mean(Contrast),2), "Upper 95%" = round(rethinking::PI(Contrast, prob = 0.95)[2],2), "Lower 95%" = round(rethinking::PI(Contrast, prob = 0.95)[1],2), "% Positive" = round((sum(Contrast > 0) / 40000) * 100,2))
+```
+
+Put them in a plot
+
+```{r}
+summary_stats <- Probability_predictions_long %>%
+  group_by(Condition) %>%
+  summarise(mean_P = mean(P))
+
+Probability_predictions_long %>%
+  mutate(Condition = factor(Condition, levels = c("Cooperative", "Neutral", "Competitive"))) %>%
+  ggplot(aes(x = Condition, y = P, fill = Condition)) + 
+  stat_eye(side = "both", col = "Black") + 
+  scale_fill_manual(values = cb1) +
+  labs(y = "Prob dishonest advice") +
+  coord_cartesian(ylim = c(0, 0.8)) +
+  mytheme + 
+  theme(legend.position = "none", axis.title.x = element_blank()) +
+  # Cooperative - Neutral
+  geom_segment(aes(x = 2, xend = 1, y = 0.35, yend = 0.35), col = "black") +
+  geom_segment(aes(x = 1, xend = 1, y = 0.35, yend = 0.32), col = "black") +
+  geom_segment(aes(x = 2, xend = 2, y = 0.35, yend = 0.32), col = "black") +
+  geom_text(aes(x = 1.5, y = 0.38), label = "28.%", size = 6) + 
+  # Cooperative - Competitive
+  geom_segment(aes(x = 3, xend = 1, y = 0.7, yend = 0.7), col = "black") +
+  geom_segment(aes(x = 3, xend = 3, y = 0.7, yend = 0.67), col = "black") +
+  geom_segment(aes(x = 1, xend = 1, y = 0.7, yend = 0.67), col = "black") +
+  geom_text(aes(x = 2, y = 0.73), label = "99.97%", size = 6) +
+  # Neutral - Competitive
+  geom_segment(aes(x = 3, xend = 2, y = 0.64, yend = 0.64), col = "black") +
+  geom_segment(aes(x = 3, xend = 3, y = 0.64, yend = 0.61), col = "black") +
+  geom_segment(aes(x = 2, xend = 2, y = 0.64, yend = 0.61), col = "black") +
+  geom_text(aes(x = 2.5, y = 0.67), label = "99.87%", size = 6)
+
+ggsave("Advice_dishonesty_average_participant.png", width = 12, height = 6, dpi = 300)
+```
+
+### Model two
+
+Reminder of the conditions:
+
+1 = Cooperative
+2 = Competitive
+3 = Neutral
+
+```{r}
+B_stan <- Player_two %>%
+  filter(Type != "None") %>%# Drop cases where they opted for no social information in part 2
+  compose_data(y = Answer_difference,
+               Info_type = Type,
+               Condition = Condition_recoded,
+               ppt = participant_id,
+               Second_block = Second_Block,
+               Advice = Advice,
+               Spied = Spied)
+
+table("Type" = B_stan$Type, "Advice" = B_stan$Advice)
+```
+
+Non centered parameterisation was necessary for this model to run.
+
+```{stan output.var="B_Model_1"}
+data {
+  int<lower=1> n;
+  vector[n] Answer_difference; 
+  vector[n] Information_difference;
+  int n_participant_id; 
+  int Advice[n];
+  int Second_block[n];
+  int Condition[n];
+  int ppt[n];
+}
+parameters {
+  real<lower=0,upper=5> sigma; 
+  real<lower=0,upper=5> sigma_participant;
+  vector[3] b_condition;
+  real b_advice;
+  real b_block;
+  vector[n_participant_id] participant_effect;
+}
+transformed parameters {
+  vector[n] influence;
+  vector[n] mu; 
+  for(i in 1:n){
+   influence[i] = b_condition[Condition[i]] * (1 + b_advice * Advice[i] + b_block * Second_block[i]) + participant_effect[ppt[i]];
+   mu[i] =  influence[i] * Information_difference[i];
+  }  
+}
+model {
+  Answer_difference ~ normal(mu, sigma);
+  sigma ~ exponential(1); 
+  b_advice ~ normal(0,0.5);
+  b_block ~ normal(0,0.5);
+  b_condition ~ normal(0,0.5);
+  participant_effect ~ normal(0, sigma_participant);
+  sigma_participant ~ exponential(1);
+}
+```
+
+```{r}
+ModelB_1 <- sampling(B_Model_1, iter = 5000, warmup = 1500, chains = 4, cores = 4, data = B_stan)
+ModelB_1 
+
+# summary <- summary(ModelB_1)
+# rhat <- summary$summary[, "Rhat"]
+# max(rhat)
+
+#launch_shinystan(ModelB_1)
+```
+
+### Generating predictions
+
+```{r}
+Model_1B <- extract(ModelB_1)
+
+# Conditions
+Cooperative_condition <- Model_1B$b_condition[,1]
+Competitive_condition <- Model_1B$b_condition[,2]
+Neutral_condition <- Model_1B$b_condition[,3]
+
+# Predictors
+Advice <- Model_1B $b_advice
+Block <- Model_1B $b_block
+```
+
+Showing parameter intervals 
+
+```{r}
+mean_qi(Cooperative_condition)
+mean_qi(Competitive_condition)
+mean_qi(Neutral_condition)
+
+mean_qi(Advice)
+mean_qi(Block)
+```
+
+Contrasts between parameters 
+
+```{r}
+mean_qi(Competitive_condition - Cooperative_condition)
+mean_qi(Competitive_condition - Neutral_condition)
+mean_qi(Neutral_condition - Cooperative_condition)
+```
+
+Generating predictions
+
+```{r}
+Influence_Predictions <- tibble(
+  Cooperative_Spied_First = Cooperative_condition,
+  Cooperative_Advice_First = Cooperative_condition * (1 + Advice),
+  Cooperative_Spied_Second = Cooperative_condition * (1 + Block),
+  Cooperative_Advice_Second = Cooperative_condition * (1 + Advice + Block), 
+  
+  ## Competitive condition
+  Competitive_Spied_First = Competitive_condition,
+  Competitive_Advice_First = Competitive_condition * (1 + Advice),
+  Competitive_Spied_Second = Competitive_condition * (1 + Block),
+  Competitive_Advice_Second = Competitive_condition * (1 + Advice + Block), 
+  
+  # Neutral condition 
+  Neutral_Spied_First = Neutral_condition,
+  Neutral_Advice_First = Neutral_condition * (1 + Advice),
+  Neutral_Spied_Second = Neutral_condition * (1 + Block),
+  Neutral_Advice_Second = Neutral_condition * (1 + Advice + Block), 
+)
+
+Plotting_influence_predictions <- Influence_Predictions %>%
+  pivot_longer(everything(), names_to = "Combination", values_to = "Estimate") %>%
+  separate(Combination, into = c("Condition", "Information type", "Block"))
+```
+
+Putting them into a plot
+
+```{r}
+Plotting_influence_predictions %>%
+  mutate(Condition = factor(Condition, levels = c("Cooperative", "Neutral", "Competitive")),
+         Block = ifelse(Block == "First", "First block", "Second block")) %>%
+  ggplot(aes(x = Condition, y = Estimate, fill = `Information type`)) + 
+  stat_eye(position = "dodge") +
+  scale_fill_manual(values = cb1) +
+  coord_cartesian(ylim = c(0,0.7)) + 
+  mytheme + 
+  labs(y = "Social influence") + 
+  theme(axis.title.x = element_blank(),
+        panel.spacing = unit(1, "lines"),
+        axis.text.x = element_text(size = 17)) + 
+  facet_grid(~Block)
+
+ggsave("Influence_plot.png", width = 12, height = 6, dpi = 300)
+```
+
+Predicted influence values
+
+```{r}
+Plotting_influence_predictions %>%
+  group_by(Condition, Block, `Information type`) %>%
+  summarise("Mean" = mean(Estimate), "Upper 95%" = rethinking::PI(Estimate, 0.95)[2], "Lower 95%" = rethinking::PI(Estimate, 0.95)[1])
+```
+
+## Investigating the increased influence in block 2
+
+If the answer difference and information difference are both 0, you get NaN.
+
+You get Inf if the participant changed by something, despite their first guess matching the social information. 
+
+So, both these cases are excluded. 
+
+```{r}
+Participant_trust <- Player_two %>%
+  group_by(participant_id) %>%
+    mutate(Advice = sum(Second_Block == 1 & Type == "Advice"),
+         Spying = sum(Second_Block == 1 & Type == "Spied"),
+         No_info = sum(Second_Block == 1 & Type == "None")) %>%
+  mutate(Prop_influence = Answer_difference / Information_difference,
+         Prop_influence = ifelse(is.na(Prop_influence), 5000, Prop_influence)) %>% # For some reason, the code was dropping the NaN values too early. So we set them to a number then reassign to NA to drop after social info choice calculations
+  filter(Prop_influence != Inf, Prop_influence != -Inf, Second_Block == 0) %>% # Exclude the second block estimate 
+  mutate(Prop_influence = ifelse(Prop_influence == 5000, NA, Prop_influence)) %>%
+  summarise(mean_influence = mean(Prop_influence, na.rm = T), Advice = mean(Advice), Spying = mean(Spying), `No Information` = mean(No_info), Condition = Condition) %>%
+  distinct()
+```
+
+```{r}
+Participant_trust %>%
+  pivot_longer(Advice:`No Information`, names_to = "Choice", values_to = "Num_chosen") %>%
+  ggplot(aes(x = Num_chosen, y = mean_influence, fill = Choice)) +
+  geom_point(col = "#999999") + 
+  geom_smooth(method = "lm", col = "black") +
+  scale_fill_manual(values = c("#999999", "#56B4E9", "#E69F00")) +
+  labs(y = "Social influence (block 1)", x = "Number chosen (block 2)") +
+  scale_x_continuous(breaks = c(0,5,10)) + 
+  mytheme + 
+  facet_grid(~Choice) + 
+  theme(panel.spacing = unit(1, "lines"))
+
+ggsave("Social_influence_by_condition.png", width = 12, height = 6, dpi = 300)
+```
+
+# Correlations 
+
+```{r}
+cor.test(Participant_trust$mean_influence, Participant_trust$`No Information`, method = "spearman")
+cor.test(Participant_trust$mean_influence, Participant_trust$Spying, method = "spearman")
+cor.test(Participant_trust$mean_influence, Participant_trust$Advice, method = "spearman")
+```
+
+## Choosing social information
+
+Finally, we model participant's choice of social information
+
+```{r}
+B_stan_3 <- Player_two %>%
+  filter(Question > 10) %>%
+  mutate(Info_choice = case_when(
+    Type == "Advice" ~ 1,
+    Type == "Spied" ~ 2,
+    Type == "None" ~ 3
+  ))
+```
+
+### Checking the descriptives
+
+```{r}
+B_stan_3 %>%
+  summarise("Advice" = round(sum(Type == "Advice")), "Spying" = round(sum(Type == "Spied") / n() * 100, 2), "No information" = round(sum(Type == "None") / n() * 100,2))
+```
+
+```{r}
+B_stan_3 <- B_stan_3 %>%
+  compose_data(Info_choice = Info_choice,
+               ppt = factor(participant_id),
+               Condition = Condition_recoded)
+```
+
+1 = Choosing advice
+2 = Choosing to spy
+3 = Choosing no information
+
+Conditions
+
+1 = Coop
+2 = Comp
+3 = Neutral
+
+Put the pivot onto the most common choice (spying), to help chain efficiency. 
+
+```{stan output.var="B_model_2"}
+data {
+  int<lower=1> n;   // number of observations
+  int n_participant_id;
+  int Info_choice[n]; // outcome
+  int Condition[n];
+  int ppt[n];  
+}
+
+parameters {
+  real<lower=0> sigma_participant;
+  vector[3] b_condition1;
+  vector[3] b_condition3;
+  vector[n_participant_id] z_a1;
+  vector[n_participant_id] z_a2;
+  vector[n_participant_id] z_a3;
+}
+
+transformed parameters {
+  vector[n_participant_id] a1;
+  vector[n_participant_id] a2;
+  vector[n_participant_id] a3;
+  
+  a1 = sigma_participant * z_a1;
+  a2 = sigma_participant * z_a2;
+  a3 = sigma_participant * z_a3;
+
+}
+
+model {
+  vector[n] p;
+  vector[3] s;
+  for(i in 1:n){
+    s[1] = a1[ppt[i]] + b_condition1[Condition[i]]; // Selecting advice
+    s[2] = a2[ppt[i]];  // Selecting spying
+    s[3] = a3[ppt[i]] + b_condition3[Condition[i]]; // Selecting no information
+    
+    Info_choice[i] ~ categorical(softmax(s));
+  }
+
+  // Priors
+  z_a1 ~ normal(0, 2);
+  z_a2 ~ normal(0, 2);
+  z_a3 ~ normal(0, 2);
+  sigma_participant ~ exponential(1);
+  b_condition1 ~ normal(0, 2);
+  b_condition3 ~ normal(0, 2);
+}
+```
+
+```{r}
+ModelB_2 <- sampling(B_model_2, iter = 5000, warmup = 1500, chains = 4, cores = 4, data = B_stan_3, control=list(adapt_delta=0.99))
+#ModelB_2
+#launch_shinystan(ModelB_2)
+
+# summary <- summary(ModelB_2)
+# rhat <- summary$summary[, "Rhat"]
+# max(rhat)
+```
+
+### Model predictions from B_2
+
+First, we generate predictions for S across the two conditions we model.
+
+In each case, we calculate the average participant effect for each choice, based on the means of the parameters used to compute it.
+
+```{r}
+Model_2B <- extract(ModelB_2)
+a1_mean <- mean(Model_2B$sigma_participant) * mean(Model_2B$z_a1)
+a2_mean <- mean(Model_2B$sigma_participant) * mean(Model_2B$z_a2)
+a3_mean <- mean(Model_2B$sigma_participant) * mean(Model_2B$z_a3)
+  
+Advice_coop <- a1_mean + Model_2B$b_condition1[,1]
+Advice_comp <- a1_mean + Model_2B$b_condition1[,2]
+Advice_neutral <- a1_mean + Model_2B$b_condition1[,3]
+
+Spied_coop <- a2_mean
+Spied_comp <- a2_mean
+Spied_neutral <- a2_mean
+
+None_coop <- a3_mean + Model_2B$b_condition3[,1]
+None_comp <- a3_mean + Model_2B$b_condition3[,2]
+None_neutral <- a3_mean + Model_2B$b_condition3[,3]
+
+Coop_P <- sapply(1:14000, function(i)
+  softmax_function(c(Advice_coop[i], Spied_coop, None_coop[i])))
+
+Comp_P <- sapply(1:14000, function(i)
+  softmax_function(c(Advice_comp[i], Spied_comp, None_comp[i])))
+
+Neutral_P <- sapply(1:14000, function(i)
+  softmax_function(c(Advice_neutral[i], Spied_neutral, None_neutral[i])))
+```
+
+Beta values
+
+```{r}
+Betas <- tibble(
+  Cooperative_advice = Model_2B$b_condition1[,1],
+  Competitive_advice = Model_2B$b_condition1[,2],
+  Neutral_advice = Model_2B$b_condition1[,3],
+  Cooperative_none = Model_2B$b_condition3[,1],
+  Competitive_none = Model_2B$b_condition3[,2],
+  Neutral_none = Model_2B$b_condition3[,3]
+) %>%
+  pivot_longer(everything(), names_to = "Parameter", values_to = "Value") %>%
+  group_by(Parameter) %>%
+  summarise(M = round(mean(Value),2), "Lower" = round(rethinking::PI(Value)[1],2), "Upper" = round(rethinking::PI(Value)[2],2), )
+
+Betas
+```
+Participant effect averages
+
+```{r}
+round(a1_mean,2)
+round(a2_mean,2)
+round(a3_mean,2)
+```
+
+## Compute contrasts
+
+Comparing choices within cooperative condition
+
+```{r}
+tibble(
+  Spied_advice = Coop_P[2,] - Coop_P[1,],
+  Advice_nothing = Coop_P[1,] - Coop_P[3,],
+  Spied_nothing = Coop_P[2,] - Coop_P[3,]
+) %>%
+  pivot_longer(everything(), names_to = "Condition", values_to = "Contrast") %>%
+  group_by(Condition) %>%
+  summarise(
+    "Mean" = round(mean(Contrast), 2),
+    "Lower 95%" = round(rethinking::PI(Contrast, prob = 0.95)[1], 2), 
+    "Upper 95%" = round(rethinking::PI(Contrast, prob = 0.95)[2], 2),
+    "% Positive" = round((sum(Contrast > 0) / 14000) * 100, 2), 
+    "% Negative" = round((sum(Contrast < 0) / 14000) * 100, 2)
+  )
+```
+
+Comparing choices within neutral condition
+
+```{r}
+tibble(
+  Spied_advice = Neutral_P[2,] - Neutral_P[1,] ,
+  Advice_nothing = Neutral_P[1,] - Neutral_P[3,],
+  Spied_nothing = Neutral_P[2,] - Neutral_P[3,]
+) %>%
+  pivot_longer(everything(), names_to = "Condition", values_to = "Contrast") %>%
+  group_by(Condition) %>%
+  summarise(
+    "Mean" = round(mean(Contrast), 2), 
+    "Lower 95%" = round(rethinking::PI(Contrast, prob = 0.95)[1], 2), 
+    "Upper 95%" = round(rethinking::PI(Contrast, prob = 0.95)[2], 2), 
+    "% Positive" = round((sum(Contrast > 0) / 14000) * 100, 2), 
+    "% Negative" = round((sum(Contrast < 0) / 14000) * 100, 2)
+  )
+```
+
+Comparing choices within competitive condition
+
+```{r}
+tibble(
+  Spied_advice = Comp_P[2,] - Comp_P[1,],
+  Advice_nothing = Comp_P[1,] - Comp_P[3,],
+  Spied_nothing = Comp_P[2,] - Comp_P[3,]
+) %>%
+  pivot_longer(everything(), names_to = "Condition", values_to = "Contrast") %>%
+  group_by(Condition) %>%
+  summarise(
+    "Mean" = round(mean(Contrast), 2), 
+    "Lower 95%" = round(rethinking::PI(Contrast, prob = 0.95)[1], 2), 
+    "Upper 95%" = round(rethinking::PI(Contrast, prob = 0.95)[2], 2), 
+    "% Positive" = round((sum(Contrast > 0) / 14000) * 100, 2), 
+    "% Negative" = round((sum(Contrast < 0) / 14000) * 100, 2)
+  )
+```
+
+## Comparing conditions between info types
+
+Advice
+
+```{r}
+tibble(
+  Coop_comp = Coop_P[1,] - Comp_P[1,],
+  Coop_neutral = Coop_P[1,] - Neutral_P[1,],
+  Comp_neutral = Comp_P[1,] - Neutral_P[1,]
+) %>%
+  pivot_longer(everything(), names_to = "Condition", values_to = "Contrast") %>%
+  group_by(Condition) %>%
+  summarise(
+    "Mean" = round(mean(Contrast), 2),
+    "Lower 95%" = round(rethinking::PI(Contrast, prob = 0.95)[1], 2),
+    "Upper 95%" = round(rethinking::PI(Contrast, prob = 0.95)[2], 2),
+    "% Positive" = round((sum(Contrast > 0) / 14000) * 100, 2), 
+    "% Negative" = round((sum(Contrast < 0) / 14000) * 100, 2)
+  )
+```
+
+Nothing
+
+```{r}
+tibble(
+  Coop_comp = Coop_P[3,] - Comp_P[3,],
+  Coop_neutral = Coop_P[3,] - Neutral_P[3,],
+  Comp_neutral = Comp_P[3,] - Neutral_P[3,]
+) %>%
+  pivot_longer(everything(), names_to = "Condition", values_to = "Contrast") %>%
+  group_by(Condition) %>%
+  summarise(
+    "Mean" = round(mean(Contrast), 2), 
+    "Lower 95%" = round(rethinking::PI(Contrast, prob = 0.95)[1], 2),
+    "Upper 95%" = round(rethinking::PI(Contrast, prob = 0.95)[2], 2), 
+    "% Positive" = round((sum(Contrast > 0) / 14000) * 100, 2), 
+    "% Negative" = round((sum(Contrast < 0) / 14000) * 100, 2)
+  )
+```
+
+Spying 
+
+```{r}
+tibble(
+  Coop_comp = Coop_P[2,] - Comp_P[2,],
+  Coop_neutral = Coop_P[2,] - Neutral_P[2,],
+  Comp_neutral = Comp_P[2,] - Neutral_P[2,]
+) %>%
+  pivot_longer(everything(), names_to = "Condition", values_to = "Contrast") %>%
+  group_by(Condition) %>%
+  summarise(
+    "Mean" = round(mean(Contrast), 2), 
+    "Lower 95%" = round(rethinking::PI(Contrast, prob = 0.95)[1], 2),
+    "Upper 95%" = round(rethinking::PI(Contrast, prob = 0.95)[2], 2), 
+    "% Positive" = round((sum(Contrast > 0) / 14000) * 100, 2), 
+    "% Negative" = round((sum(Contrast < 0) / 14000) * 100, 2)
+  )
+```
+
+Then, put them in a table, indexing by row. 
+
+```{r}
+Preds <- tibble(
+  Advice_comp = Comp_P[1,],
+  Spied_comp = Comp_P[2,],
+  Nothing_comp = Comp_P[3,],
+  Advice_neutral = Neutral_P[1,],
+  Spied_neutral = Neutral_P[2,],
+  Nothing_neutral = Neutral_P[3,],
+  Advice_coop = Coop_P[1,],
+  Spied_coop = Coop_P[2,],
+  Nothing_coop = Coop_P[3,]
+) %>%
+  pivot_longer(everything(), names_to = "Param", values_to = "Estimate") %>%
+  mutate(Condition = case_when(
+    grepl("comp", Param) ~ "Competitive",
+    grepl("neutral", Param) ~ "Neutral",
+    grepl("coop", Param) ~ "Cooperative"
+  ),
+  Condition = factor(Condition, levels = c("Cooperative", "Neutral", "Competitive")),
+  "Info type" = case_when(
+    grepl("Advice", Param) ~ "Advice",
+    grepl("Spied", Param) ~ "Spied",
+    grepl("Nothing", Param) ~ "No Information"
+  ))
+
+Preds %>%
+  group_by(Condition, `Info type`) %>%
+  summarise("Mean" = mean(Estimate))
+```
+
+And finally, make a plot.
+
+```{r}
+Preds %>%
+  mutate(Condition = factor(Condition),
+         `Info type` = factor(`Info type`)) %>%
+  ggplot(aes(x = Condition, y = Estimate, fill = `Info type`)) + 
+  stat_eye(side = "both", position = position_dodge(width = 0.9), col = "Black") +
+  scale_fill_manual(values = c("#999999", "#56B4E9", "#E69F00")) + 
+  mytheme +
+  labs(y = "Prob selecting information type", fill = "Information type") + 
+  theme(axis.title.x = element_blank()) + 
+  # Cooperative: advice - no information 
+  geom_segment(aes(x = 0.7, xend = 1, y = 0.50, yend = 0.50), col = "black") +
+  geom_segment(aes(x = 1, xend = 1, y = 0.50, yend = 0.47), col = "black") +
+  geom_segment(aes(x = 0.7, xend = 0.7, y = 0.50, yend = 0.47), col = "black") +
+  geom_text(aes(x = 0.86, y = 0.53), label = "100%", size = 4) + 
+  # Neutral: advice - no information 
+  geom_segment(aes(x = 1.7, xend = 2, y = 0.50, yend = 0.50), col = "black") +
+  geom_segment(aes(x = 2, xend = 2, y = 0.50, yend = 0.47), col = "black") +
+  geom_segment(aes(x = 1.7, xend = 1.7, y = 0.50, yend = 0.47), col = "black") +
+  geom_text(aes(x = 1.86, y = 0.53), label = "99.96%", size = 4) + 
+  # Competitive: advice - no information 
+  geom_segment(aes(x = 2.7, xend = 3, y = 0.50, yend = 0.50), col = "black") +
+  geom_segment(aes(x = 3, xend = 3, y = 0.50, yend = 0.47), col = "black") +
+  geom_segment(aes(x = 2.7, xend = 2.7, y = 0.50, yend = 0.47), col = "black") +
+  geom_text(aes(x = 2.86, y = 0.53), label = "93.84%", size = 4)
+
+ggsave("Social_info_choice.png", width = 12, height = 6, dpi = 300)
+```
+
+### Interaction with condition for model two SI ###
+
+Reminder of the conditions:
+
+1 = Cooperative
+2 = Competitive
+3 = Neutral
+
+```{r}
+B_stan <- Player_two %>%
+  filter(Type != "None") %>%# Drop cases where they opted for no social information in part 2
+  compose_data(y = Answer_difference,
+               Info_type = Type,
+               Condition = Condition_recoded,
+               ppt = participant_id,
+               Second_block = Second_Block,
+               Advice = Advice,
+               Spied = Spied)
+
+table("Type" = B_stan$Type, "Advice" = B_stan$Advice)
+```
+
+This model is the same as B_model_2, except an additional interaction is added with condition. 
+
+```{stan output.var="B_Model_3"}
+data {
+  int<lower=1> n;
+  vector[n] Answer_difference; 
+  vector[n] Information_difference;
+  int n_participant_id; 
+  int Advice[n];
+  int Second_block[n];
+  int Condition[n];
+  int ppt[n];
+}
+parameters {
+  real<lower=0,upper=5> sigma; 
+  real<lower=0,upper=5> sigma_participant;
+  vector[3] b_condition;
+  vector[3] b_advice;
+  real b_block;
+  vector[n_participant_id] participant_effect;
+}
+transformed parameters {
+  vector[n] influence;
+  vector[n] mu; 
+  for(i in 1:n){
+   influence[i] = b_condition[Condition[i]] * (1 + b_advice[Condition[i]] * Advice[i] + b_block * Second_block[i]) + participant_effect[ppt[i]];
+   mu[i] =  influence[i] * Information_difference[i];
+  }  
+}
+model {
+  Answer_difference ~ normal(mu, sigma);
+  sigma ~ exponential(1); 
+  b_advice ~ normal(0,0.5);
+  b_block ~ normal(0,0.5);
+  b_condition ~ normal(0,0.5);
+  participant_effect ~ normal(0, sigma_participant);
+  sigma_participant ~ exponential(1);
+}
+```
+
+```{r}
+ModelB_3 <- sampling(B_Model_3, iter = 5000, warmup = 1500, chains = 4, cores = 4, data = B_stan)
+ModelB_3 
+
+# summary <- summary(ModelB_1)
+# rhat <- summary$summary[, "Rhat"]
+# max(rhat)
+
+#launch_shinystan(ModelB_1)
+```
+### Generating predictions
+
+```{r}
+Model_1B <- extract(ModelB_3)
+
+# Conditions
+Cooperative_condition <- Model_1B$b_condition[,1]
+Competitive_condition <- Model_1B$b_condition[,2]
+Neutral_condition <- Model_1B$b_condition[,3]
+
+# Predictors
+Advice_cooperative <- Model_1B$b_advice[,1]
+Advice_competitive <- Model_1B$b_advice[,2]
+Advice_neutral <- Model_1B$b_advice[,3]
+Block <- Model_1B$b_block
+```
+
+Showing parameter intervals 
+
+```{r}
+mean_qi(Cooperative_condition)
+mean_qi(Competitive_condition)
+mean_qi(Neutral_condition)
+
+mean_qi(Advice_cooperative)
+mean_qi(Advice_competitive)
+mean_qi(Advice_neutral)
+
+mean_qi(Block)
+```
+
+Contrasts between parameters 
+
+```{r}
+mean_qi(Competitive_condition - Cooperative_condition)
+mean_qi(Competitive_condition - Neutral_condition)
+mean_qi(Neutral_condition - Cooperative_condition)
+```
+
+Generating predictions
+
+```{r}
+Influence_Predictions <- tibble(
+  Cooperative_Spied_First = Cooperative_condition,
+  Cooperative_Advice_First = Cooperative_condition * (1 + Advice_cooperative),
+  Cooperative_Spied_Second = Cooperative_condition * (1 + Block),
+  Cooperative_Advice_Second = Cooperative_condition * (1 + Advice_cooperative + Block), 
+  
+  ## Competitive condition
+  Competitive_Spied_First = Competitive_condition,
+  Competitive_Advice_First = Competitive_condition * (1 + Advice_competitive),
+  Competitive_Spied_Second = Competitive_condition * (1 + Block),
+  Competitive_Advice_Second = Competitive_condition * (1 + Advice_competitive + Block), 
+  
+  # Neutral condition 
+  Neutral_Spied_First = Neutral_condition,
+  Neutral_Advice_First = Neutral_condition * (1 + Advice_neutral),
+  Neutral_Spied_Second = Neutral_condition * (1 + Block),
+  Neutral_Advice_Second = Neutral_condition * (1 + Advice_neutral + Block), 
+)
+
+Plotting_influence_predictions <- Influence_Predictions %>%
+  pivot_longer(everything(), names_to = "Combination", values_to = "Estimate") %>%
+  separate(Combination, into = c("Condition", "Information type", "Block"))
+```
+
+Putting them into a plot
+
+```{r}
+Plotting_influence_predictions %>%
+  mutate(Condition = factor(Condition, levels = c("Cooperative", "Neutral", "Competitive")),
+         Block = ifelse(Block == "First", "First block", "Second block")) %>%
+  ggplot(aes(x = Condition, y = Estimate, fill = `Information type`)) + 
+  stat_eye(position = "dodge") +
+  scale_fill_manual(values = cb1) +
+  coord_cartesian(ylim = c(0,0.7)) + 
+  mytheme + 
+  labs(y = "Social influence") + 
+  theme(axis.title.x = element_blank(),
+        panel.spacing = unit(1, "lines"),
+        axis.text.x = element_text(size = 17)) + 
+  facet_grid(~Block)
+
+ggsave("Influence_plot_interaction.png", width = 12, height = 6, dpi = 300)
+```
+
+Predicted influence values
+
+```{r}
+Plotting_influence_predictions %>%
+  group_by(Condition, Block, `Information type`) %>%
+  summarise("Mean" = mean(Estimate), "Upper 95%" = rethinking::PI(Estimate, 0.95)[2], "Lower 95%" = rethinking::PI(Estimate, 0.95)[1])
+```
+
+### Testing performance in the task differences
+
+```{r}
+Both_counts_new <- Both_counts %>%
+  mutate(Combination = case_when(
+           Player == "Two\n(first)" ~ 2,
+           Player == "Two\n(second)" ~ 3,
+           Player == "One" ~ 1
+         ),
+         Combination_full = case_when(
+           Condition == "Neutral" ~ Combination + 3,
+           Condition == "Competitive" ~ Combination + 6,
+           Condition == "Cooperative" ~ Combination
+         ))
+
+count_stan <- Both_counts_new %>%
+  compose_data(y = Count,
+               Combination = Combination_full)
+```
+
+```{stan output.var="Count_model"}
+data {
+  int<lower=1> n;
+  vector[n] y; 
+  int Combination[n];
+}
+parameters {
+  real<lower=0,upper=5> sigma; 
+  vector[9] b_combination;
+}
+transformed parameters {
+  vector[n] mu; 
+  for(i in 1:n){
+   mu[i] =  b_combination[Combination[i]];
+  }  
+}
+model {
+  y ~ normal(mu, sigma);
+  sigma ~ exponential(1); 
+  b_combination ~ normal(10,2);
+}
+```
+```{r}
+Model_count <- sampling(Count_model, iter = 5000, warmup = 1500, chains = 4, cores = 4, data = count_stan)
+Model_count 
+```
+```{r}
+Count_model_samples <- extract(Model_count)
+```
+Contrasts for cooperative condition 
+
+```{r}
+# Player 1 vs Player 2 no info
+mean_qi(Count_model_samples$b_combination[,1] - Count_model_samples$b_combination[,2])
+
+# Player 1 vs Player 2 info
+mean_qi(Count_model_samples$b_combination[,1] - Count_model_samples$b_combination[,3])
+
+# Player 2 no info vs Player 2 info
+mean_qi(Count_model_samples$b_combination[,2] - Count_model_samples$b_combination[,3])
+```
+
+Contrasts for neutral condition
+
+```{r}
+# Player 1 vs Player 2 no info
+mean_qi(Count_model_samples$b_combination[,4] - Count_model_samples$b_combination[,5])
+
+# Player 1 vs Player 2 info
+mean_qi(Count_model_samples$b_combination[,4] - Count_model_samples$b_combination[,6])
+
+# Player 2 no info vs Player 2 info
+mean_qi(Count_model_samples$b_combination[,5] - Count_model_samples$b_combination[,6])
+```
+
+Contrasts for competitive condition
+
+```{r}
+# Player 1 vs Player 2 no info
+mean_qi(Count_model_samples$b_combination[,7] - Count_model_samples$b_combination[,8])
+
+# Player 1 vs Player 2 info
+mean_qi(Count_model_samples$b_combination[,7] - Count_model_samples$b_combination[,9])
+
+# Player 2 no info vs Player 2 info
+mean_qi(Count_model_samples$b_combination[,8] - Count_model_samples$b_combination[,9])
+```
+
+Additional contrasts between conditions for player two first and player two second. Is there any difference in improvement between conditions?
+
+```{r}
+Cooperative_contrast <- Count_model_samples$b_combination[,2] - Count_model_samples$b_combination[,3]
+Neutral_contrast <- Count_model_samples$b_combination[,5] - Count_model_samples$b_combination[,6]
+Competitive_contrast <- Count_model_samples$b_combination[,8] - Count_model_samples$b_combination[,9]
+
+mean_qi(Cooperative_contrast - Neutral_contrast)
+mean_qi(Cooperative_contrast - Competitive_contrast)
+mean_qi(Neutral_contrast - Competitive_contrast)
+```
+
+Contrasts between player two's second guess between conditions 
+
+        Condition == "Neutral" ~ Combination + 3,
+           Condition == "Competitive" ~ Combination + 6,
+           Condition == "Cooperative" ~ Combination
+
+```{r}
+coop_neutral <- Count_model_samples$b_combination[,3] - Count_model_samples$b_combination[,6]
+coop_competitive <- Count_model_samples$b_combination[,3] - Count_model_samples$b_combination[,9]
+neutral_competitive <- Count_model_samples$b_combination[,6] - Count_model_samples$b_combination[,9]
+
+mean_qi(coop_neutral)
+mean_qi(coop_competitive)
+mean_qi(neutral_competitive)
+```

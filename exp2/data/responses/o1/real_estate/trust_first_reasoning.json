@@ -1,0 +1,1302 @@
+[
+    [
+        {
+            "person": "your agent friend",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent friend. Please rate how much your agent friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s reasonable to assume that while your friend genuinely wants you to find a suitable home, they\u2019re also motivated by earning a commission or personal benefit. Because you have a friendly relationship, their care for you should be more than an impersonal agent who\u2019s solely self-interested, yet not entirely free of self-interest. Thus, on a scale from 0 (only cares about you) to 100 (entirely self-interested), 50 being the midpoint of equally caring about both, I would estimate your friend\u2019s motivation at around 40. \n\n40"
+                }
+            ],
+            "score": 40,
+            "flipped_score": 60
+        },
+        {
+            "person": "an agent you found online",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent friend. Please rate how much your agent friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s reasonable to assume that while your friend genuinely wants you to find a suitable home, they\u2019re also motivated by earning a commission or personal benefit. Because you have a friendly relationship, their care for you should be more than an impersonal agent who\u2019s solely self-interested, yet not entirely free of self-interest. Thus, on a scale from 0 (only cares about you) to 100 (entirely self-interested), 50 being the midpoint of equally caring about both, I would estimate your friend\u2019s motivation at around 40. \n\n40"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Given that this agent is someone you found online rather than a friend, it\u2019s likely they have less personal investment in ensuring your well-being. Their motivation is probably more weighted toward earning a commission or meeting their own sales targets. So, on a scale from 0 (only cares about you) to 100 (entirely self-interested), with 50 being equally caring about both, I would place them around 60.\n\n60"
+                }
+            ],
+            "score": 60,
+            "flipped_score": 40
+        },
+        {
+            "person": "your agent mother",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent friend. Please rate how much your agent friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s reasonable to assume that while your friend genuinely wants you to find a suitable home, they\u2019re also motivated by earning a commission or personal benefit. Because you have a friendly relationship, their care for you should be more than an impersonal agent who\u2019s solely self-interested, yet not entirely free of self-interest. Thus, on a scale from 0 (only cares about you) to 100 (entirely self-interested), 50 being the midpoint of equally caring about both, I would estimate your friend\u2019s motivation at around 40. \n\n40"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Given that this agent is someone you found online rather than a friend, it\u2019s likely they have less personal investment in ensuring your well-being. Their motivation is probably more weighted toward earning a commission or meeting their own sales targets. So, on a scale from 0 (only cares about you) to 100 (entirely self-interested), with 50 being equally caring about both, I would place them around 60.\n\n60"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "As your mother, she is likely to be strongly motivated by your best interests, considerably more so than someone without a familial bond. While she may still appreciate potential benefits for herself (a commission, professional reputation, etc.), her primary concern would almost certainly be your well-being. On this scale from 0 (only cares about you) to 100 (entirely self-interested), with 50 being equally caring about both, I would place her around 10.\n\n10"
+                }
+            ],
+            "score": 10,
+            "flipped_score": 90
+        },
+        {
+            "person": "a recommended agent",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent friend. Please rate how much your agent friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s reasonable to assume that while your friend genuinely wants you to find a suitable home, they\u2019re also motivated by earning a commission or personal benefit. Because you have a friendly relationship, their care for you should be more than an impersonal agent who\u2019s solely self-interested, yet not entirely free of self-interest. Thus, on a scale from 0 (only cares about you) to 100 (entirely self-interested), 50 being the midpoint of equally caring about both, I would estimate your friend\u2019s motivation at around 40. \n\n40"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Given that this agent is someone you found online rather than a friend, it\u2019s likely they have less personal investment in ensuring your well-being. Their motivation is probably more weighted toward earning a commission or meeting their own sales targets. So, on a scale from 0 (only cares about you) to 100 (entirely self-interested), with 50 being equally caring about both, I would place them around 60.\n\n60"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "As your mother, she is likely to be strongly motivated by your best interests, considerably more so than someone without a familial bond. While she may still appreciate potential benefits for herself (a commission, professional reputation, etc.), her primary concern would almost certainly be your well-being. On this scale from 0 (only cares about you) to 100 (entirely self-interested), with 50 being equally caring about both, I would place her around 10.\n\n10"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Since this agent comes recommended by someone you trust, they likely have a solid reputation and some motivation to look out for your interests. However, they are still a professional who earns a living through sales, so self-interest does play a part. On a scale where 0 denotes only cares about you, 100 denotes entirely self-interested, and 50 denotes equally caring about both, I would place a recommended agent around 45.\n\n45"
+                }
+            ],
+            "score": 45,
+            "flipped_score": 55
+        }
+    ],
+    [
+        {
+            "person": "a recommended agent",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because the agent is recommended, they likely have a reputation for reliable service and some degree of concern for your needs. However, real estate agents commonly work on commission and have a vested interest in a successful sale, which means they also look out for their own economic benefit. Taking both factors into account, I would give them a rating that leans toward caring for you but still acknowledges their self-interest: 70"
+                }
+            ],
+            "score": 70,
+            "flipped_score": 70
+        },
+        {
+            "person": "your agent mother",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because the agent is recommended, they likely have a reputation for reliable service and some degree of concern for your needs. However, real estate agents commonly work on commission and have a vested interest in a successful sale, which means they also look out for their own economic benefit. Taking both factors into account, I would give them a rating that leans toward caring for you but still acknowledges their self-interest: 70"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Since this person is your mother, her care for your well-being is likely extremely high, far beyond ordinary client-agent relationships. Still, as a real estate agent, she will have a degree of self-interest regarding her professional responsibilities and potential financial incentives. Nonetheless, maternal instincts and personal investment in your happiness would probably outweigh these interests. Therefore, a reasonable estimate might be around 90"
+                }
+            ],
+            "score": 90,
+            "flipped_score": 90
+        },
+        {
+            "person": "an agent you found online",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because the agent is recommended, they likely have a reputation for reliable service and some degree of concern for your needs. However, real estate agents commonly work on commission and have a vested interest in a successful sale, which means they also look out for their own economic benefit. Taking both factors into account, I would give them a rating that leans toward caring for you but still acknowledges their self-interest: 70"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Since this person is your mother, her care for your well-being is likely extremely high, far beyond ordinary client-agent relationships. Still, as a real estate agent, she will have a degree of self-interest regarding her professional responsibilities and potential financial incentives. Nonetheless, maternal instincts and personal investment in your happiness would probably outweigh these interests. Therefore, a reasonable estimate might be around 90"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "An agent found online doesn\u2019t have a personal relationship with you beyond a purely professional context, so while they depend on satisfied clients for future business and reputation, they are also motivated by the commission from the sale. This balance of incentives likely places them in the middle range, leaning a bit more toward self-interest. A reasonable estimate is 60"
+                }
+            ],
+            "score": 60,
+            "flipped_score": 60
+        },
+        {
+            "person": "your agent friend",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because the agent is recommended, they likely have a reputation for reliable service and some degree of concern for your needs. However, real estate agents commonly work on commission and have a vested interest in a successful sale, which means they also look out for their own economic benefit. Taking both factors into account, I would give them a rating that leans toward caring for you but still acknowledges their self-interest: 70"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Since this person is your mother, her care for your well-being is likely extremely high, far beyond ordinary client-agent relationships. Still, as a real estate agent, she will have a degree of self-interest regarding her professional responsibilities and potential financial incentives. Nonetheless, maternal instincts and personal investment in your happiness would probably outweigh these interests. Therefore, a reasonable estimate might be around 90"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "An agent found online doesn\u2019t have a personal relationship with you beyond a purely professional context, so while they depend on satisfied clients for future business and reputation, they are also motivated by the commission from the sale. This balance of incentives likely places them in the middle range, leaning a bit more toward self-interest. A reasonable estimate is 60"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent friend. Please rate how much your agent friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because they are your friend, they are likely highly invested in your overall well-being and satisfaction with the purchase. However, as a real estate agent, they also have a financial incentive to close deals. Balancing these factors, I would give them an approximate rating of 80."
+                }
+            ],
+            "score": 80,
+            "flipped_score": 80
+        }
+    ],
+    [
+        {
+            "person": "an agent you found online",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Real estate agents, including those found online, typically serve their own interests (e.g., commissions, meeting sales targets) while also working to satisfy client needs (because referrals, reviews, and client satisfaction are keys to their success). In many cases, they aim for a balance: earning revenue while helping you find a suitable property. Without direct knowledge of this specific agent\u2019s personal ethics or background, however, it\u2019s hard to gauge exactly where they land on the spectrum. That said, online agents\u2014often operating in a competitive marketplace\u2014may be somewhat more focused on ensuring a successful deal quickly.\n\nConsidering these general tendencies, a reasonable guess might be that they lean more toward self-interest but still value your satisfaction to some degree, since reputational concerns and reviews matter. Consequently, a plausible spot on the scale could be slightly above the midpoint.\n\n60"
+                }
+            ],
+            "score": 60,
+            "flipped_score": 60
+        },
+        {
+            "person": "a recommended agent",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Real estate agents, including those found online, typically serve their own interests (e.g., commissions, meeting sales targets) while also working to satisfy client needs (because referrals, reviews, and client satisfaction are keys to their success). In many cases, they aim for a balance: earning revenue while helping you find a suitable property. Without direct knowledge of this specific agent\u2019s personal ethics or background, however, it\u2019s hard to gauge exactly where they land on the spectrum. That said, online agents\u2014often operating in a competitive marketplace\u2014may be somewhat more focused on ensuring a successful deal quickly.\n\nConsidering these general tendencies, a reasonable guess might be that they lean more toward self-interest but still value your satisfaction to some degree, since reputational concerns and reviews matter. Consequently, a plausible spot on the scale could be slightly above the midpoint.\n\n60"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When agents come recommended\u2014particularly by someone you trust\u2014there is typically a stronger indication that they balance self-interest with genuine care for the client\u2019s needs. Their track record, reputation, and desire to maintain positive relationships with those who recommended them can motivate them to prioritize your well-being more than an unknown or purely transactional agent might. However, even recommended agents ultimately earn their living through commissions and closing deals, so they still have a personal incentive as well.\n\nIn light of these factors, a recommended agent may be somewhat more client-centric than average, leaning toward caring about your best interests while still remaining attentive to their own benefits and compensation. An approximate rating on the 0\u2013100 scale could be:\n\n70"
+                }
+            ],
+            "score": 70,
+            "flipped_score": 70
+        },
+        {
+            "person": "your agent mother",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Real estate agents, including those found online, typically serve their own interests (e.g., commissions, meeting sales targets) while also working to satisfy client needs (because referrals, reviews, and client satisfaction are keys to their success). In many cases, they aim for a balance: earning revenue while helping you find a suitable property. Without direct knowledge of this specific agent\u2019s personal ethics or background, however, it\u2019s hard to gauge exactly where they land on the spectrum. That said, online agents\u2014often operating in a competitive marketplace\u2014may be somewhat more focused on ensuring a successful deal quickly.\n\nConsidering these general tendencies, a reasonable guess might be that they lean more toward self-interest but still value your satisfaction to some degree, since reputational concerns and reviews matter. Consequently, a plausible spot on the scale could be slightly above the midpoint.\n\n60"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When agents come recommended\u2014particularly by someone you trust\u2014there is typically a stronger indication that they balance self-interest with genuine care for the client\u2019s needs. Their track record, reputation, and desire to maintain positive relationships with those who recommended them can motivate them to prioritize your well-being more than an unknown or purely transactional agent might. However, even recommended agents ultimately earn their living through commissions and closing deals, so they still have a personal incentive as well.\n\nIn light of these factors, a recommended agent may be somewhat more client-centric than average, leaning toward caring about your best interests while still remaining attentive to their own benefits and compensation. An approximate rating on the 0\u2013100 scale could be:\n\n70"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A parent generally places their child\u2019s welfare above most other considerations, especially when giving advice on something as important as buying a home. However, even a mother acting as a real estate agent will have some degree of self-interest, whether in achieving professional success, earning a commission, or maintaining her reputation. Still, the familial bond and deep concern for a child\u2019s well-being typically mean her focus on your best interests would be quite high.\n\nGiven these considerations, an approximate placement might be:\n90"
+                }
+            ],
+            "score": 90,
+            "flipped_score": 90
+        },
+        {
+            "person": "your agent friend",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Real estate agents, including those found online, typically serve their own interests (e.g., commissions, meeting sales targets) while also working to satisfy client needs (because referrals, reviews, and client satisfaction are keys to their success). In many cases, they aim for a balance: earning revenue while helping you find a suitable property. Without direct knowledge of this specific agent\u2019s personal ethics or background, however, it\u2019s hard to gauge exactly where they land on the spectrum. That said, online agents\u2014often operating in a competitive marketplace\u2014may be somewhat more focused on ensuring a successful deal quickly.\n\nConsidering these general tendencies, a reasonable guess might be that they lean more toward self-interest but still value your satisfaction to some degree, since reputational concerns and reviews matter. Consequently, a plausible spot on the scale could be slightly above the midpoint.\n\n60"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When agents come recommended\u2014particularly by someone you trust\u2014there is typically a stronger indication that they balance self-interest with genuine care for the client\u2019s needs. Their track record, reputation, and desire to maintain positive relationships with those who recommended them can motivate them to prioritize your well-being more than an unknown or purely transactional agent might. However, even recommended agents ultimately earn their living through commissions and closing deals, so they still have a personal incentive as well.\n\nIn light of these factors, a recommended agent may be somewhat more client-centric than average, leaning toward caring about your best interests while still remaining attentive to their own benefits and compensation. An approximate rating on the 0\u2013100 scale could be:\n\n70"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A parent generally places their child\u2019s welfare above most other considerations, especially when giving advice on something as important as buying a home. However, even a mother acting as a real estate agent will have some degree of self-interest, whether in achieving professional success, earning a commission, or maintaining her reputation. Still, the familial bond and deep concern for a child\u2019s well-being typically mean her focus on your best interests would be quite high.\n\nGiven these considerations, an approximate placement might be:\n90"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent friend. Please rate how much your agent friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A friend serving as your real estate agent typically balances professional interests with genuine concern for your well-being. They want to see you happy, since your satisfaction reinforces a positive personal relationship. Nevertheless, they do rely on commissions and sales performance. Still, compared to a purely transactional agent, a friend is likely to act with relatively more care for your interests.\n\nA reasonable estimate on the 0\u2013100 scale might be:\n80"
+                }
+            ],
+            "score": 80,
+            "flipped_score": 80
+        }
+    ],
+    [
+        {
+            "person": "your agent mother",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It is reasonable to assume that a mother acting as your agent would predominantly prioritize your well-being, given the strong parental bond and desire to help you succeed. However, as your agent, she might also have some personal or professional motivations\u2014perhaps wanting to demonstrate her abilities, secure a commission, or simply ensure that her advice is followed. In most cases, a mother in this role would still lean heavily toward caring about you, while allowing for a little self-interest. \n\n90"
+                }
+            ],
+            "score": 90,
+            "flipped_score": 90
+        },
+        {
+            "person": "an agent you found online",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It is reasonable to assume that a mother acting as your agent would predominantly prioritize your well-being, given the strong parental bond and desire to help you succeed. However, as your agent, she might also have some personal or professional motivations\u2014perhaps wanting to demonstrate her abilities, secure a commission, or simply ensure that her advice is followed. In most cases, a mother in this role would still lean heavily toward caring about you, while allowing for a little self-interest. \n\n90"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "An online agent may still be motivated to serve you well\u2014client satisfaction can result in referrals or good reviews\u2014yet they often have a strong interest in earning commissions and moving the transaction forward. While every situation is different, an online agent is likely to balance client interest with personal gain. They often want to close sales effectively (for their own benefit) but also must keep you reasonably satisfied for reputation management.  \n\n60"
+                }
+            ],
+            "score": 60,
+            "flipped_score": 60
+        },
+        {
+            "person": "a recommended agent",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It is reasonable to assume that a mother acting as your agent would predominantly prioritize your well-being, given the strong parental bond and desire to help you succeed. However, as your agent, she might also have some personal or professional motivations\u2014perhaps wanting to demonstrate her abilities, secure a commission, or simply ensure that her advice is followed. In most cases, a mother in this role would still lean heavily toward caring about you, while allowing for a little self-interest. \n\n90"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "An online agent may still be motivated to serve you well\u2014client satisfaction can result in referrals or good reviews\u2014yet they often have a strong interest in earning commissions and moving the transaction forward. While every situation is different, an online agent is likely to balance client interest with personal gain. They often want to close sales effectively (for their own benefit) but also must keep you reasonably satisfied for reputation management.  \n\n60"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A recommended agent likely comes with positive references or endorsements, suggesting a track record of good service. They are motivated both by maintaining the trust of whoever recommended them (so they have a reputation to uphold), and by their own professional and financial interests. They\u2019ll probably prioritize your success more than a randomly chosen agent would, but still have strong incentives to close deals for personal gain.\n\n70"
+                }
+            ],
+            "score": 70,
+            "flipped_score": 70
+        },
+        {
+            "person": "your agent friend",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It is reasonable to assume that a mother acting as your agent would predominantly prioritize your well-being, given the strong parental bond and desire to help you succeed. However, as your agent, she might also have some personal or professional motivations\u2014perhaps wanting to demonstrate her abilities, secure a commission, or simply ensure that her advice is followed. In most cases, a mother in this role would still lean heavily toward caring about you, while allowing for a little self-interest. \n\n90"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "An online agent may still be motivated to serve you well\u2014client satisfaction can result in referrals or good reviews\u2014yet they often have a strong interest in earning commissions and moving the transaction forward. While every situation is different, an online agent is likely to balance client interest with personal gain. They often want to close sales effectively (for their own benefit) but also must keep you reasonably satisfied for reputation management.  \n\n60"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A recommended agent likely comes with positive references or endorsements, suggesting a track record of good service. They are motivated both by maintaining the trust of whoever recommended them (so they have a reputation to uphold), and by their own professional and financial interests. They\u2019ll probably prioritize your success more than a randomly chosen agent would, but still have strong incentives to close deals for personal gain.\n\n70"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent friend. Please rate how much your agent friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A friend who also acts as your agent likely cares a great deal about your well-being, since they value their relationship with you. Nonetheless, they might still be aware of their own professional and financial goals. Your friend might strive harder to balance these factors, but their personal connection to you likely leads them to prioritize your interests quite highly.\n\n80"
+                }
+            ],
+            "score": 80,
+            "flipped_score": 80
+        }
+    ],
+    [
+        {
+            "person": "your agent mother",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because she is your mother and thus has a strong personal bond with you, she likely places a high value on your well-being and happiness. However, as a real estate agent, there may still be an element of self-interest\u2014either from earning a commission or from professional pride in making a successful sale.\n\nTherefore, she is leaning significantly toward caring about your well-being, but there remains a slight self-interested aspect. I would place her around 30 on the 0\u2013100 scale.\n\n30"
+                }
+            ],
+            "score": 30,
+            "flipped_score": 70
+        },
+        {
+            "person": "a recommended agent",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because she is your mother and thus has a strong personal bond with you, she likely places a high value on your well-being and happiness. However, as a real estate agent, there may still be an element of self-interest\u2014either from earning a commission or from professional pride in making a successful sale.\n\nTherefore, she is leaning significantly toward caring about your well-being, but there remains a slight self-interested aspect. I would place her around 30 on the 0\u2013100 scale.\n\n30"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because this recommended agent has a reputation to uphold, they are likely motivated to meet your needs and maintain positive client relationships. However, they also have a commission-driven interest in closing the deal. Hence, they likely balance caring about your best interests and their own. I would place them around 45 on the 0\u2013100 scale.\n\n45"
+                }
+            ],
+            "score": 45,
+            "flipped_score": 55
+        },
+        {
+            "person": "your agent friend",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because she is your mother and thus has a strong personal bond with you, she likely places a high value on your well-being and happiness. However, as a real estate agent, there may still be an element of self-interest\u2014either from earning a commission or from professional pride in making a successful sale.\n\nTherefore, she is leaning significantly toward caring about your well-being, but there remains a slight self-interested aspect. I would place her around 30 on the 0\u2013100 scale.\n\n30"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because this recommended agent has a reputation to uphold, they are likely motivated to meet your needs and maintain positive client relationships. However, they also have a commission-driven interest in closing the deal. Hence, they likely balance caring about your best interests and their own. I would place them around 45 on the 0\u2013100 scale.\n\n45"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent friend. Please rate how much your agent friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "As a friend, they likely value your happiness and want to see you make a good decision. However, there\u2019s still a professional motivation to close a deal and potentially earn a commission. Therefore, they\u2019re more inclined to care about your well-being than simply a business relationship would dictate, but some self-interest remains.\n\n25"
+                }
+            ],
+            "score": 25,
+            "flipped_score": 75
+        },
+        {
+            "person": "an agent you found online",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because she is your mother and thus has a strong personal bond with you, she likely places a high value on your well-being and happiness. However, as a real estate agent, there may still be an element of self-interest\u2014either from earning a commission or from professional pride in making a successful sale.\n\nTherefore, she is leaning significantly toward caring about your well-being, but there remains a slight self-interested aspect. I would place her around 30 on the 0\u2013100 scale.\n\n30"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because this recommended agent has a reputation to uphold, they are likely motivated to meet your needs and maintain positive client relationships. However, they also have a commission-driven interest in closing the deal. Hence, they likely balance caring about your best interests and their own. I would place them around 45 on the 0\u2013100 scale.\n\n45"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent friend. Please rate how much your agent friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "As a friend, they likely value your happiness and want to see you make a good decision. However, there\u2019s still a professional motivation to close a deal and potentially earn a commission. Therefore, they\u2019re more inclined to care about your well-being than simply a business relationship would dictate, but some self-interest remains.\n\n25"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Since this agent was found online, there may not be a personal connection or strong incentive to place your well-being above their own interests. While they likely still want satisfied customers to maintain a good reputation, the drive to secure a commission could be higher than the desire to look out strictly for your interests. Overall, I would rate them around 60 on the 0\u2013100 scale.\n\n60"
+                }
+            ],
+            "score": 60,
+            "flipped_score": 40
+        }
+    ],
+    [
+        {
+            "person": "an agent you found online",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When you find an agent online, they have a natural incentive to make a sale and earn their commission. At the same time, most professional agents also recognize that building a positive reputation through satisfied clients can be beneficial in the long term. Because these dual motives often exist side by side, an online agent typically leans somewhat toward self-interest but still cares about client satisfaction. Balancing these considerations, I would rate this agent as a 60."
+                }
+            ],
+            "score": 60,
+            "flipped_score": 60
+        },
+        {
+            "person": "a recommended agent",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When you find an agent online, they have a natural incentive to make a sale and earn their commission. At the same time, most professional agents also recognize that building a positive reputation through satisfied clients can be beneficial in the long term. Because these dual motives often exist side by side, an online agent typically leans somewhat toward self-interest but still cares about client satisfaction. Balancing these considerations, I would rate this agent as a 60."
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because the agent comes recommended, you can have more confidence that they are motivated not only by their own financial interests but also by genuine concern for your satisfaction. Their reputation rests on the recommendation being trustworthy, so they\u2019re likely balancing self-interest with looking out for you. Therefore, I would rate the recommended agent as a 70."
+                }
+            ],
+            "score": 70,
+            "flipped_score": 70
+        },
+        {
+            "person": "your agent mother",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When you find an agent online, they have a natural incentive to make a sale and earn their commission. At the same time, most professional agents also recognize that building a positive reputation through satisfied clients can be beneficial in the long term. Because these dual motives often exist side by side, an online agent typically leans somewhat toward self-interest but still cares about client satisfaction. Balancing these considerations, I would rate this agent as a 60."
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because the agent comes recommended, you can have more confidence that they are motivated not only by their own financial interests but also by genuine concern for your satisfaction. Their reputation rests on the recommendation being trustworthy, so they\u2019re likely balancing self-interest with looking out for you. Therefore, I would rate the recommended agent as a 70."
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because this agent is your mother, she is naturally inclined to prioritize your best interests and well-being more strongly than purely financial considerations. While she may still have some self-interest (such as earning a commission or maintaining her professional reputation), her care for you\u2014her child\u2014would likely be foremost in her mind. Hence, I would rate your agent mother\u2019s concern for you at 95."
+                }
+            ],
+            "score": 95,
+            "flipped_score": 95
+        },
+        {
+            "person": "your agent friend",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When you find an agent online, they have a natural incentive to make a sale and earn their commission. At the same time, most professional agents also recognize that building a positive reputation through satisfied clients can be beneficial in the long term. Because these dual motives often exist side by side, an online agent typically leans somewhat toward self-interest but still cares about client satisfaction. Balancing these considerations, I would rate this agent as a 60."
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because the agent comes recommended, you can have more confidence that they are motivated not only by their own financial interests but also by genuine concern for your satisfaction. Their reputation rests on the recommendation being trustworthy, so they\u2019re likely balancing self-interest with looking out for you. Therefore, I would rate the recommended agent as a 70."
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Because this agent is your mother, she is naturally inclined to prioritize your best interests and well-being more strongly than purely financial considerations. While she may still have some self-interest (such as earning a commission or maintaining her professional reputation), her care for you\u2014her child\u2014would likely be foremost in her mind. Hence, I would rate your agent mother\u2019s concern for you at 95."
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent friend. Please rate how much your agent friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When the agent is a friend, they have a personal bond with you and thus likely prioritize your best interests to a considerable degree. However, they may still have some self-interested motivations in their role as a professional. Striking a balance, I would rate this friend-agent at 80."
+                }
+            ],
+            "score": 80,
+            "flipped_score": 80
+        }
+    ],
+    [
+        {
+            "person": "a recommended agent",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A recommended agent is likely to be somewhat invested in your well-being since they have a reputation to maintain and were suggested by a trusted source. However, they still have an inherent interest in making a sale and earning a commission. Balancing both factors, I would rate their level of self-interest versus caring for you as around 45."
+                }
+            ],
+            "score": 45,
+            "flipped_score": 55
+        },
+        {
+            "person": "an agent you found online",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A recommended agent is likely to be somewhat invested in your well-being since they have a reputation to maintain and were suggested by a trusted source. However, they still have an inherent interest in making a sale and earning a commission. Balancing both factors, I would rate their level of self-interest versus caring for you as around 45."
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "An online agent usually has less of a personal connection or established reputation compared to a recommended agent, which can result in slightly more self-interest. They often focus on making a sale, but might still value client satisfaction for reviews and referrals. Balancing these factors, I would rate them at around 60."
+                }
+            ],
+            "score": 60,
+            "flipped_score": 40
+        },
+        {
+            "person": "your agent friend",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A recommended agent is likely to be somewhat invested in your well-being since they have a reputation to maintain and were suggested by a trusted source. However, they still have an inherent interest in making a sale and earning a commission. Balancing both factors, I would rate their level of self-interest versus caring for you as around 45."
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "An online agent usually has less of a personal connection or established reputation compared to a recommended agent, which can result in slightly more self-interest. They often focus on making a sale, but might still value client satisfaction for reviews and referrals. Balancing these factors, I would rate them at around 60."
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent friend. Please rate how much your agent friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A friend who is your agent is likely to place your best interests above their own, given the personal relationship and the desire to maintain trust and friendship. However, they may still be somewhat driven by a commission. Overall, I would rate them at around 30."
+                }
+            ],
+            "score": 30,
+            "flipped_score": 70
+        },
+        {
+            "person": "your agent mother",
+            "flip": true,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A recommended agent is likely to be somewhat invested in your well-being since they have a reputation to maintain and were suggested by a trusted source. However, they still have an inherent interest in making a sale and earning a commission. Balancing both factors, I would rate their level of self-interest versus caring for you as around 45."
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "An online agent usually has less of a personal connection or established reputation compared to a recommended agent, which can result in slightly more self-interest. They often focus on making a sale, but might still value client satisfaction for reviews and referrals. Balancing these factors, I would rate them at around 60."
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent friend. Please rate how much your agent friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A friend who is your agent is likely to place your best interests above their own, given the personal relationship and the desire to maintain trust and friendship. However, they may still be somewhat driven by a commission. Overall, I would rate them at around 30."
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes only cares about you, 100 denotes entirely self interested, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A mother acting as your agent is likely to place your best interests well above her own financial gain, given the strength of maternal care and the shared family bond. While there may still be some self-interested motivation (like earning a commission), it would generally be much lower than for other agents. Thus, I would rate her at around 10."
+                }
+            ],
+            "score": 10,
+            "flipped_score": 90
+        }
+    ],
+    [
+        {
+            "person": "an agent you found online",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to determine an exact level of altruism or self-interest without direct insight into their intentions. However, many real estate agents\u2014especially those found through general online platforms\u2014often balance making a sale (self-interest) with meeting a client\u2019s needs (customer satisfaction). This balance can vary widely, but if we think in broad terms, they\u2019re typically motivated significantly by the commission (self-interest), while also hoping to maintain a positive reputation by helping you find a suitable home.\n\nBased on this generalization, I would estimate their care for their own well-being is somewhat stronger than their care for yours, yet they still need you to be satisfied enough to finalize a purchase. With that in mind, I might rate it close to, but somewhat below, the midpoint.\n\nFinal rating: 40"
+                }
+            ],
+            "score": 40,
+            "flipped_score": 40
+        },
+        {
+            "person": "your agent mother",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to determine an exact level of altruism or self-interest without direct insight into their intentions. However, many real estate agents\u2014especially those found through general online platforms\u2014often balance making a sale (self-interest) with meeting a client\u2019s needs (customer satisfaction). This balance can vary widely, but if we think in broad terms, they\u2019re typically motivated significantly by the commission (self-interest), while also hoping to maintain a positive reputation by helping you find a suitable home.\n\nBased on this generalization, I would estimate their care for their own well-being is somewhat stronger than their care for yours, yet they still need you to be satisfied enough to finalize a purchase. With that in mind, I might rate it close to, but somewhat below, the midpoint.\n\nFinal rating: 40"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "In general, one\u2019s mother is likely to have a high level of care for her child\u2019s well-being, even if she\u2019s also acting as a real estate agent. While there can be a degree of self-interest (for instance, earning a commission or ensuring her professional reputation remains strong), the natural parental desire to see you happy and secure in a good home would likely outweigh these concerns. Consequently, it\u2019s reasonable to assume her motivations lean strongly toward caring about you.\n\nFinal rating: 85"
+                }
+            ],
+            "score": 85,
+            "flipped_score": 85
+        },
+        {
+            "person": "a recommended agent",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to determine an exact level of altruism or self-interest without direct insight into their intentions. However, many real estate agents\u2014especially those found through general online platforms\u2014often balance making a sale (self-interest) with meeting a client\u2019s needs (customer satisfaction). This balance can vary widely, but if we think in broad terms, they\u2019re typically motivated significantly by the commission (self-interest), while also hoping to maintain a positive reputation by helping you find a suitable home.\n\nBased on this generalization, I would estimate their care for their own well-being is somewhat stronger than their care for yours, yet they still need you to be satisfied enough to finalize a purchase. With that in mind, I might rate it close to, but somewhat below, the midpoint.\n\nFinal rating: 40"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "In general, one\u2019s mother is likely to have a high level of care for her child\u2019s well-being, even if she\u2019s also acting as a real estate agent. While there can be a degree of self-interest (for instance, earning a commission or ensuring her professional reputation remains strong), the natural parental desire to see you happy and secure in a good home would likely outweigh these concerns. Consequently, it\u2019s reasonable to assume her motivations lean strongly toward caring about you.\n\nFinal rating: 85"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A recommended agent typically cares about maintaining their reputation, as someone you trust has endorsed them. This means they generally want to ensure you have a positive experience and find the right home. However, they\u2019re still working for a commission, so there is a self-interested aspect to consider. Overall, they likely lean more toward caring about your well-being than an agent who isn\u2019t recommended, yet still balance that with their own personal gain.\n\nFinal rating: 65"
+                }
+            ],
+            "score": 65,
+            "flipped_score": 65
+        },
+        {
+            "person": "your agent friend",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s difficult to determine an exact level of altruism or self-interest without direct insight into their intentions. However, many real estate agents\u2014especially those found through general online platforms\u2014often balance making a sale (self-interest) with meeting a client\u2019s needs (customer satisfaction). This balance can vary widely, but if we think in broad terms, they\u2019re typically motivated significantly by the commission (self-interest), while also hoping to maintain a positive reputation by helping you find a suitable home.\n\nBased on this generalization, I would estimate their care for their own well-being is somewhat stronger than their care for yours, yet they still need you to be satisfied enough to finalize a purchase. With that in mind, I might rate it close to, but somewhat below, the midpoint.\n\nFinal rating: 40"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "In general, one\u2019s mother is likely to have a high level of care for her child\u2019s well-being, even if she\u2019s also acting as a real estate agent. While there can be a degree of self-interest (for instance, earning a commission or ensuring her professional reputation remains strong), the natural parental desire to see you happy and secure in a good home would likely outweigh these concerns. Consequently, it\u2019s reasonable to assume her motivations lean strongly toward caring about you.\n\nFinal rating: 85"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A recommended agent typically cares about maintaining their reputation, as someone you trust has endorsed them. This means they generally want to ensure you have a positive experience and find the right home. However, they\u2019re still working for a commission, so there is a self-interested aspect to consider. Overall, they likely lean more toward caring about your well-being than an agent who isn\u2019t recommended, yet still balance that with their own personal gain.\n\nFinal rating: 65"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent friend. Please rate how much your agent friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "An agent who is also a friend may still have some degree of self-interest in earning a commission, but the friendship likely increases their desire to see you happy in the right home. Compared to a purely business relationship, a friend would generally be more attuned to your personal needs.\n\nFinal rating: 75"
+                }
+            ],
+            "score": 75,
+            "flipped_score": 75
+        }
+    ],
+    [
+        {
+            "person": "a recommended agent",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Since the agent is recommended, it\u2019s likely they care about maintaining a good reputation and ensuring a positive outcome for you. At the same time, as a professional, the agent also wants to secure a sale and earn a commission. These combined motivations suggest they care about both themselves and your needs, leaning somewhat towards your well-being yet still benefiting from the transaction. \n\n65"
+                }
+            ],
+            "score": 65,
+            "flipped_score": 65
+        },
+        {
+            "person": "your agent friend",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Since the agent is recommended, it\u2019s likely they care about maintaining a good reputation and ensuring a positive outcome for you. At the same time, as a professional, the agent also wants to secure a sale and earn a commission. These combined motivations suggest they care about both themselves and your needs, leaning somewhat towards your well-being yet still benefiting from the transaction. \n\n65"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent friend. Please rate how much your agent friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Being both your friend and agent, they likely put a stronger emphasis on your well-being and aim to find a house that truly fits your needs, yet they also benefit from making a sale. Overall, their balance of caring leans more towards you.\n\n80"
+                }
+            ],
+            "score": 80,
+            "flipped_score": 80
+        },
+        {
+            "person": "your agent mother",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Since the agent is recommended, it\u2019s likely they care about maintaining a good reputation and ensuring a positive outcome for you. At the same time, as a professional, the agent also wants to secure a sale and earn a commission. These combined motivations suggest they care about both themselves and your needs, leaning somewhat towards your well-being yet still benefiting from the transaction. \n\n65"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent friend. Please rate how much your agent friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Being both your friend and agent, they likely put a stronger emphasis on your well-being and aim to find a house that truly fits your needs, yet they also benefit from making a sale. Overall, their balance of caring leans more towards you.\n\n80"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "As your mother, she is deeply invested in your happiness and overall well-being. While her professional role may carry some self-interest (e.g., earning a commission), her maternal bond with you greatly increases her focus on your best interests.\n\n90"
+                }
+            ],
+            "score": 90,
+            "flipped_score": 90
+        },
+        {
+            "person": "an agent you found online",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Since the agent is recommended, it\u2019s likely they care about maintaining a good reputation and ensuring a positive outcome for you. At the same time, as a professional, the agent also wants to secure a sale and earn a commission. These combined motivations suggest they care about both themselves and your needs, leaning somewhat towards your well-being yet still benefiting from the transaction. \n\n65"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent friend. Please rate how much your agent friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "Being both your friend and agent, they likely put a stronger emphasis on your well-being and aim to find a house that truly fits your needs, yet they also benefit from making a sale. Overall, their balance of caring leans more towards you.\n\n80"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "As your mother, she is deeply invested in your happiness and overall well-being. While her professional role may carry some self-interest (e.g., earning a commission), her maternal bond with you greatly increases her focus on your best interests.\n\n90"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "An agent you find online is often motivated by securing a sale and commission, while also hoping to establish a positive reputation and possibly earn client reviews. With no personal or recommendation-based relationship, the balance of care between self-interest and your well-being is fairly even.\n\n50"
+                }
+            ],
+            "score": 50,
+            "flipped_score": 50
+        }
+    ],
+    [
+        {
+            "person": "your agent mother",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s reasonable to expect that a mother would have a strong desire to see you succeed, make you happy, and protect your interests. However, because she\u2019s also an agent who benefits from a successful sale (e.g., through commission or professional reputation), there is a degree of self-interest involved. Still, a mother\u2019s inclination to prioritize her child\u2019s well-being is typically quite high. Therefore, on a 0 to 100 scale (0 = entirely self-interested, 100 = entirely caring about your well-being), I would place an agent mother\u2019s concern for you above the midpoint, reflecting a blend of natural parental care with practical, professional incentives.\n\nFinal rating: 85"
+                }
+            ],
+            "score": 85,
+            "flipped_score": 85
+        },
+        {
+            "person": "a recommended agent",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s reasonable to expect that a mother would have a strong desire to see you succeed, make you happy, and protect your interests. However, because she\u2019s also an agent who benefits from a successful sale (e.g., through commission or professional reputation), there is a degree of self-interest involved. Still, a mother\u2019s inclination to prioritize her child\u2019s well-being is typically quite high. Therefore, on a 0 to 100 scale (0 = entirely self-interested, 100 = entirely caring about your well-being), I would place an agent mother\u2019s concern for you above the midpoint, reflecting a blend of natural parental care with practical, professional incentives.\n\nFinal rating: 85"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A recommended agent often has a reputation to uphold, since they were referred by someone you trust or by a credible source. This typically incentivizes them to provide good service and maintain client satisfaction. However, they also stand to earn a commission from the sale, which contributes to self-serving motives. Consequently, you might expect this agent to balance both professional self-interest and a genuine desire to meet your needs more than most purely self-interested agents.\n\nFinal rating: 65"
+                }
+            ],
+            "score": 65,
+            "flipped_score": 65
+        },
+        {
+            "person": "an agent you found online",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s reasonable to expect that a mother would have a strong desire to see you succeed, make you happy, and protect your interests. However, because she\u2019s also an agent who benefits from a successful sale (e.g., through commission or professional reputation), there is a degree of self-interest involved. Still, a mother\u2019s inclination to prioritize her child\u2019s well-being is typically quite high. Therefore, on a 0 to 100 scale (0 = entirely self-interested, 100 = entirely caring about your well-being), I would place an agent mother\u2019s concern for you above the midpoint, reflecting a blend of natural parental care with practical, professional incentives.\n\nFinal rating: 85"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A recommended agent often has a reputation to uphold, since they were referred by someone you trust or by a credible source. This typically incentivizes them to provide good service and maintain client satisfaction. However, they also stand to earn a commission from the sale, which contributes to self-serving motives. Consequently, you might expect this agent to balance both professional self-interest and a genuine desire to meet your needs more than most purely self-interested agents.\n\nFinal rating: 65"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "An online agent with whom you have no prior relationship or mutual contacts will primarily be motivated by securing a sale and earning a commission. Nonetheless, most professionals also care about maintaining a good reputation and earning positive reviews or referrals. This means there can be some balance between self-interest and consideration for your needs, albeit not as strong as someone with a personal or recommended connection. \n\nFinal rating: 55"
+                }
+            ],
+            "score": 55,
+            "flipped_score": 55
+        },
+        {
+            "person": "your agent friend",
+            "flip": false,
+            "messages": [
+                {
+                    "role": "user",
+                    "content": "You are interested in purchasing a house. You decide to consult a certain agent. You go to their office and discuss your needs. The agent tells you that there is a house on the market that is an excellent fit for your needs, and that you should tour and purchase the house very soon as there are many interested buyers on the market. When others provide us with information, they can be self-interested, care about what\u2019s best for us, or both care about their own well-being and ours. "
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent mother. Please rate how much your agent mother cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "It\u2019s reasonable to expect that a mother would have a strong desire to see you succeed, make you happy, and protect your interests. However, because she\u2019s also an agent who benefits from a successful sale (e.g., through commission or professional reputation), there is a degree of self-interest involved. Still, a mother\u2019s inclination to prioritize her child\u2019s well-being is typically quite high. Therefore, on a 0 to 100 scale (0 = entirely self-interested, 100 = entirely caring about your well-being), I would place an agent mother\u2019s concern for you above the midpoint, reflecting a blend of natural parental care with practical, professional incentives.\n\nFinal rating: 85"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is a recommended agent. Please rate how much the recommended agent cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "A recommended agent often has a reputation to uphold, since they were referred by someone you trust or by a credible source. This typically incentivizes them to provide good service and maintain client satisfaction. However, they also stand to earn a commission from the sale, which contributes to self-serving motives. Consequently, you might expect this agent to balance both professional self-interest and a genuine desire to meet your needs more than most purely self-interested agents.\n\nFinal rating: 65"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is an agent you found online. Please rate how much the agent you found online cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "An online agent with whom you have no prior relationship or mutual contacts will primarily be motivated by securing a sale and earning a commission. Nonetheless, most professionals also care about maintaining a good reputation and earning positive reviews or referrals. This means there can be some balance between self-interest and consideration for your needs, albeit not as strong as someone with a personal or recommended connection. \n\nFinal rating: 55"
+                },
+                {
+                    "role": "user",
+                    "content": "Say that the agent you are talking with is your agent friend. Please rate how much your agent friend cares about themselves vs. your well-being on a scale from 0 to 100, where 0 denotes entirely self interested, 100 denotes only cares about you, and 50 denotes \"both self-interested and cares about you.\" Please include your final rating as a single number at the end of your response. "
+                },
+                {
+                    "role": "assistant",
+                    "content": "When working with an agent who is also a friend, they typically have an additional incentive to maintain and protect the personal relationship. This relationship factor should significantly influence their decisions and recommendations in your favor. At the same time, as a professional, they also stand to earn from a successful sale, which adds a degree of self-interest. Compared to a purely professional relationship, you can generally expect a greater emphasis on your well-being.\n\nFinal rating: 75"
+                }
+            ],
+            "score": 75,
+            "flipped_score": 75
+        }
+    ]
+]

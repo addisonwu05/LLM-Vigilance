@@ -1,0 +1,4 @@
+# Pronouns for the two perspectives of Experiments 2 and 3. Shared prompt text is written from the
+# user's side ("I", "my", "me"); in the first-person perspective the model itself is the listener.
+first: {I: you, I_am: you are, I_Am: You are, my: your, me: you}
+user:  {I: I,   I_am: I am,   I_Am: I am,    my: my,   me: me}
